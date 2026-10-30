@@ -1,0 +1,33 @@
+{
+ "version": "v2",
+ "name": "ensemble--classifier+basal+judge--stack-C0.01",
+ "members": [
+  "classifier",
+  "basal",
+  "judge"
+ ],
+ "combiner": "stack C=0.01",
+ "C": 0.01,
+ "scale": "weighted mean",
+ "weights": {
+  "classifier": 0.9716315287095013,
+  "basal": 0.8140409187227917,
+  "judge": 0.6333195634974967
+ },
+ "intercept": -1.5091884526689303,
+ "cuts": {
+  "cut": 0.5414900958017352,
+  "f1_cut": 0.5382586673517024
+ },
+ "test_sources": {
+  "classifier": {
+   "train_dev_table": "inputs/train-dev/classifier.csv"
+  },
+  "basal": {
+   "train_dev_table": "inputs/train-dev/basal.csv"
+  },
+  "judge": {
+   "train_dev_table": "inputs/train-dev/judge.csv"
+  }
+ }
+}

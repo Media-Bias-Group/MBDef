@@ -1,0 +1,10 @@
+# Hooks for `prek install` (or pre-commit): no broken link in the docs.
+repos:
+  - repo: local
+    hooks:
+      - id: check-links
+        name: link check of the docs
+        entry: uv run --frozen python -m mbdef repo check-links
+        language: system
+        pass_filenames: false
+        always_run: true

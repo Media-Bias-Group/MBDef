@@ -1,0 +1,65 @@
+{
+  "created_by": "scripts/test_eval_20260924_qwen_inputs.py",
+  "definition_count": 365,
+  "discipline": "No TEST score, recall, precision or match count was computed or viewed to build these files.",
+  "files_sha256": {
+    "teis/0010dd712f5c427c5d33771b52ea3bd1fd0213a028d0e2ca77db6b24d3b24fdc.tei.xml": "4f4118b16bc86c94aa3520d823fc1d60ac1a505c617fa1ac113a2d7bf5757dd0",
+    "teis/0a59b6bb7acdedc150a2d891343c3b5a4e4e5bc98b847a793adcfde0a899938b.tei.xml": "22a4b235debffb0f9a195aa9fa5d331031b183601733ab5a58a0e4866ac869b8",
+    "teis/12b32d8f6fb92030af15b2f0e4241bc5782a5017a5771fe2a144e06e1cd04aba.tei.xml": "5bd656166540fda1fe511976e1ee0c15af18172c9fff73ad07dcc30f7aac1841",
+    "teis/13d83a4c314661515dd53682c054858db17f04943d1a93431861e1618b9d234a.tei.xml": "72dbc12cfec04a9af3c0406777fcf98a564bcee94ea36d78cb5ceed649d26caa",
+    "teis/152b00b1a465f87b65502fc9fe40bac709b3d819076327d392690177b9f5e2b2.tei.xml": "6b733baee1503709f11616501533356326ba9cbec5ca7bbb07fd7979884dedec",
+    "teis/156bf3bf7986cedcd53091e7cb01f3938daf26c60a21ee15d501cbc4d103894d.tei.xml": "cd321b5be237c7c29f0ae2eaba75a84e676ad7ba54dcc1161229183f1cadec40",
+    "teis/1c7eed40192c5329a94f6ebce56ada0e60efcc202eca99ad902d10ce851f07df.tei.xml": "7e0a0c14e3b8a1c3e4ee8341793f23bae84c1f25fda3ae61f8e948554b7cea87",
+    "teis/2bf24122b9cd9ebbbefe0ca5b87a3ad756545066003d94b34e3b1bdf9c36650e.tei.xml": "dccb2fafaf8cfa9b2b69e82a8b8c620b9f2381b1b6633a8e54011537fe85a0b2",
+    "teis/2de1408748c2e81747d83621c782a5aece51f6c49f4b98b5cdbc2dad2eacd670.tei.xml": "4b2c9fa9feef8eced2a702e7e193b14ac37cb5ae6377f389a1648b2a730f82d7",
+    "teis/313b455c55404390514a07e1543c2d310b2dffb7ee1ffa3fb3be160d95ce1d82.tei.xml": "69dd2fb0a079472884e7d468096589d38464823b04d5f73fca29b597120e4a3c",
+    "teis/357883ab6740f070786ad231e290e663ee92c7882e307c177ecae63407ce0427.tei.xml": "c154cb19a2be3ff5edb5c43933f8c94c1173cdbb6ba3075dc4c907372ef83464",
+    "teis/3b609a5128a10b6cceabff1bddf737eab580425e1f14b1265ec071727ccb2f1f.tei.xml": "8b0954093832c06142fdf7c4cc88fd86a178a1419d2a08d2f1f517a4e799510d",
+    "teis/4e9dd0d8f3f87a09968c20dd1added7588272057e7f87b9237c3950fb278cd05.tei.xml": "f8d9ae27c8def273da1095328d61e8d4c838c9560ca337ae2cf3de4bf6c1094a",
+    "teis/600c66d8f7ede3477aafd4cc2ea98b6038ee5e92c049b1a7049bf66085358c8a.tei.xml": "07323cb3c0ab58960a5f98a933529ed71cda22217067828b658c2efbbb4cdb53",
+    "teis/6011f672a5a881bcda1d456daf8e20895ac483d69edc99db982596c9f9105073.tei.xml": "eaebfcdf6445882e77d95c6b55945bfa4cd2a1b42bca7d4d84f456e408d039fe",
+    "teis/687e474110c3873607411fe2153e28cf70b78183e9588c7925afd1268c31cdb2.tei.xml": "2d3dbc9f402b13feedd58bf886e4ab7b4d1fb12f3703b03b46a13af1a7722724",
+    "teis/6f4b4a2a5330e93935f14090c7f74c88df9435cdf186a745013f03f953c9c48a.tei.xml": "ef6fb2471a733c93d01078e1fb3bb469ab33c02f1ae0c827c27908c5916ba0fd",
+    "teis/793bb4ed17d149a3fcb06170e9487a0cbfe4e179d292874d03e488354885dc7f.tei.xml": "1be61ebd0ad63ed0635210ab9940d226f5f40def604db758729568b67c648f63",
+    "teis/7c4a4ec97ed43983a5f12db9c4d8b633e95ea320319ded6ff7b648c79a71037a.tei.xml": "1f8e6e310e523e8e12ef5846284db5cdd875717dfb4073dd31c9e7f319a7af30",
+    "teis/7c51abc87d3a45b1b8ff7a22aec19e1f978c49922218aef52aee30052b0faa82.tei.xml": "9f7a594a56851d93e2b2b74f030267b9990a6549b2e41f2d235c4e40588af556",
+    "teis/9d0f3e39c6460498f8ffc409befefa62d4d75325545ff3cfeec0efa801df9823.tei.xml": "fb8b734beaca72d0db8a2cd19fb36ecc231a8382a2bfa82200b49eefbef6c1ae",
+    "teis/b689ca36f3d043359df636a9dcefdf9855eb2d7e967a4a306b7450ca3701d88f.tei.xml": "8146f3b1839b8b647805e9d5b26f43995b091a9c5ecb6e8fa7255003af52b445",
+    "teis/c346a882993c57db1168a478d045679ce9ba7ed4a5b0c798ee8aacfd1422f101.tei.xml": "1922a83ef1f44fb79fa70a07ec879e80ae8c169b7f89e5356526ec96af6bf13e",
+    "teis/c61f483838ede3c52666847113429562b48f4b74398747cbd5addca444bcff53.tei.xml": "3aebe6901cd683cc8b59c10aa5dd0384bbf2ff988948f6ff985ddf9f5248c547",
+    "teis/da7f3d8363c4beb3535f107e9906595f24e571d7b268e17a9e9749f896132ceb.tei.xml": "b972815aafc27ccdc7a254e03c88506fa296777d631d7388a7faf02d1bce6704",
+    "teis/dd81b4a66d7eace732dacd757e1ebeb80fc17dad61e82dea839ff47ab4115ceb.tei.xml": "9551a444437628a3fef0d6ec8a4034ac8abe3231d6832841ebcb08d49d24bcf7",
+    "teis/deba6734c30fa13f93db6e3b3b46a434a3868f291f0e725a7439a4b7c96952b2.tei.xml": "a45c6954a321ae9d6fdf51e9d12302788a90d21b5f7f5142a90a7820e049c2e1",
+    "teis/f40232965848d5ee9e9bdd5ea961e14e90d0ae325f3ed87849d8f682563ff1e0.tei.xml": "a732f1c92152665a95f94112cd505d8545e521720febc729fa429056a21b7c80",
+    "teis/f650e2cf84cf441e69efedc03b4bca63fcef963d67a1efac3cd276abd7e31ea2.tei.xml": "4a00422e5f1b1c841c42dd73aedb69fbdf21b0d4e66b2818840de3e3611b051b",
+    "test-input-verification.json": "f84b753f0b78785d2d8d9d2bc76c6d3ef0ce9e61f6c082e7d48168ddc03e233c",
+    "test-inputs-local.json": "43a5bc527b326fce49d168193ea5262945be2a10a7c4da3ead72c6a0ddafc477",
+    "test-inputs.json": "8dbf4fe8f82d8a39e121be678be25e58d1ab9784e11f1ee564834ce8ea831935",
+    "test-reference.json": "1d99ec81f04a95206e08a9704d316e9452d2e808fef0645184effd1d1ca519de"
+  },
+  "local_root": "results/test-eval-20260924/inputs",
+  "manifests": {
+    "test-input-verification.json": "TEI provenance, title agreement, per-window hashes for 8k/1k, 16k/2k, 32k/4k chars",
+    "test-inputs-local.json": "identical rows with this checkout's absolute tei_path",
+    "test-inputs.json": "ZIB tei_path; same row shape as DEV inputs.json (run_selected_corpus.validate_manifest)",
+    "test-reference.json": "TEST gold for the separate scoring job only"
+  },
+  "paper_count": 29,
+  "plan_sha256": "7cb89ade3465b54a6ffcb9ad4981483fbff105102fed3741bed61d186bbb552f",
+  "row_output_contract": {
+    "paper_file": "rows/<ROW>/papers/<quote(paper_id, safe='')>.json = {paper_id,row,stage:'final',definition_records}",
+    "status_file": "rows/<ROW>/status.json = {row,complete,papers,failed_windows,total_windows,failed_batches,total_batches,missing_verdicts,requests,cost_usd,notes}"
+  },
+  "schema": "test-eval-20260924-inputs-ready/1",
+  "split_counts": {
+    "new_test": 15,
+    "original_test": 14
+  },
+  "status": "ready",
+  "window_totals": {
+    "16000/2000": 183,
+    "32000/4000": 93,
+    "8000/1000": 366
+  },
+  "zib_root": "/home/nimtsspi/taxonomy/test-eval-20260924/inputs"
+}

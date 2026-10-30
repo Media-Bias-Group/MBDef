@@ -1,0 +1,45 @@
+{
+ "decisions": {
+  "sha256": "341b17b35e24f0ad0ea00dc6fb5fb7cf4c44887591dfe10716ceaa75f10225ea"
+ },
+ "label_groups": {
+  "rule": {
+   "name": "Label Match",
+   "version": "C-20261021"
+  },
+  "groups_sha256": "b9bbaa6397d2a37835ce8f692c3d4553b979ae7ba72e821793e2d868d52a49ee",
+  "labels_sha256": "ba15d90840396e3fd478c00475319c31daa94020bd412af04c787640091d67bd"
+ },
+ "before": {
+  "terms": 163,
+  "groups": 29,
+  "definitions": 328
+ },
+ "kept": {
+  "terms": 102,
+  "definitions": 206,
+  "papers": 52
+ },
+ "after": {
+  "concepts": 28,
+  "single_term_concepts": 2
+ },
+ "merge_flags": {
+  "a bracket or acronym dropped": 2,
+  "joined by spacing (compound written apart or together)": 2,
+  "joined through another label": 1,
+  "plural with two possible singulars": 1,
+  "British spelling": 1
+ },
+ "split_groups": 23,
+ "majority": {
+  "keeps_group": 16,
+  "drops_group": 4,
+  "tie": 3,
+  "instances_that_would_change": 37
+ },
+ "check_rule_c_on_kept_only": {
+  "groups": 29,
+  "kept_instances_in_a_different_grouping": 2
+ }
+}

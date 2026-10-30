@@ -1,0 +1,23 @@
+{
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan-amendment-3.json": "24182d648469bddc14dda1b20c47df58d3f6a476755ea00071e1cb9ca517ac0b",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "created_utc": "2026-09-25T06:09:36.036783+00:00",
+ "new_factor": {
+  "reasoning": {
+   "default-on": "chat_template_kwargs enable_thinking=true; server started with the model's own vLLM reasoning parser (qwen3 / gemma4) so the reasoning is separated from the answer; sampling = the model's shipped generation_config (the request omits temperature/top_p/top_k; Qwen and Gemma both ship temperature 1.0, top_p 0.95, top_k 20 / 64); request seed 9; extraction max_tokens 32,768 including reasoning",
+   "off": "existing cohorts: chat_template_kwargs enable_thinking=false, temperature 0"
+  }
+ },
+ "pick_rule": "unchanged (DEV only; fewest LLM calls among >=80% DEV recall and >=15% precision; ties within 10% go to higher DEV precision); Opus TEST acceptance unchanged (>= 290 matches). Reasoning on/off configs compete on equal terms; compute is reported, not used to choose.",
+ "quality_gate_extension": "Audit must also verify for default-on cohorts: reasoning actually produced (reasoning tokens > 0 in the large majority of responses), no reasoning text leaked into the parsed answer, finish_reason=length counted as failure, prompt + 32,768 within the 65,536 server context.",
+ "reason": "Owner in chat 2026-09-25: models should use their default reasoning ('medium/high' on the OpenAI/Claude scale), not have thinking switched off. Disclosure: in every earlier run the paid models (Opus, Kimi, Sol) used high reasoning, while Qwen, Gemma and SOOFI ran with thinking disabled (inherited from the original Qwen recipe), so earlier open-vs-paid comparisons were confounded by reasoning.",
+ "reporting": "For every config also report extraction output tokens (answer + reasoning), reasoning tokens and generation wall time, so the compute cost of thinking is visible next to the call count.",
+ "schema": "controlled-model-grid-amendment-v4",
+ "scope": "both models x arms A, B, C x formats chat-default and json-default x DEV and TEST (24 new cohorts). Cross-arm and format pools are built for them as for the existing formats.",
+ "status_at_amendment": "No DEV or TEST score of any grid cohort has been computed; the scorer has not been submitted.",
+ "verifier": "unchanged for every cohort (common strict Qwen verifier, thinking off, temperature 0) so that only the extraction step differs; Gemma self-verification also unchanged (thinking off)."
+}

@@ -1,0 +1,235 @@
+{
+  "chunk_extractor.extract_v3.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "paper_text": "n the care of black patients (123). Providers' implicit bias is also associated with poorer quality of patient-provider communication, including the provider's nonverbal behavior (26).\n\nStereotype threat is a third pathway. This term refers to the anxieties and expectations that can be activated in stigmatized groups when negative stereotypes about their group are made salient. These anxieties can adversely affect academic performance and psychological functioning (114). Some limited evidence indicates that stereotype threat can lead to increased anxiety, reduced selfregulation, and impaired decision making, which can lead to unhealthy behaviors, poor patientprovider communication, lower levels of adherence to medical advice, increased blood pressure, and weight gain among stigmatized groups (6,114,141). Relatedly, a study documented that exposure of American Indian students to Native American mascots leads to declines in self-esteem, community worth, and achievement aspirations (36).\n\nFourth, as noted, some members of stigmatized racial populations respond to the pervasive negative racial stereotypes in the culture by accepting them to be true. This endorsement of the dominant society's beliefs about their inferiority is called internalized racism or self-stereotyping. Research indicates that it is associated with lower psychological well-being and higher levels of alcohol consumption, depressive symptoms, and obesity (139).\n\nRecommendations for Research on Cultural Racism\n\nFuture research should aim to understand how and why cultural racism, measured as elevated levels of racial prejudice at the community level, is associated with poorer health for racial minorities and sometimes for all persons who live in that community. Recent studies have found that residing in communities with high levels of racial prejudice is positively associated with overall mortality (21), heart disease mortality (67), and low birthweight (22). Community-level prejudice against immigrants has also been associated with increased mortality among US-born immigrant adults (89). However, these studies are ecological in nature and lack adjustment for individual-level factors.\n\nIn addition, we need to better understand how internalized racism can affect health. There is limited understanding of the conditions under which internalized racism has adverse consequences for health, of the groups that are most vulnerable, and of the range of health and health-related outcomes that may be affected (140). The optimal measurement of internalized racism is also a challenge. Studies have used scales of internalized racism, minority group endorsement of negative stereotypes, and African Americans' scores on antiblack bias on the implicit association test. It is currently unclear how these measures correlate with each other and the extent to which they may capture different aspects of internalized racism. Future work should also examine internalized racism in a more collective form, beyond the individual, that could facilitate understanding of the cultural and structural pervasiveness of racism at the societal level (105). Research should also assess if and how racist ideologies and oppression become internalized among immigrants in the United States and how these are associated with health outcomes.\n\nDISCRIMINATION\n\nDiscrimination is the most frequently studied domain of racism in the health literature. It exists in two forms: (a) where individuals and larger institutions, deliberately or without intent, treat racial groups differently, resulting in inequitable access to opportunities and resources (e.g., employment, education, and medical care) by race/ethnicity; and (b) self-reported discrimination, a subset of these experiences that individuals are aware of. These latter incidents are a type of stressful life experience that can adversely affect health, similar to other kinds of psychosocial stressors. Considerable scientific evidence supports the first pathway, much of it captured through audit studies (those in which researchers use individuals who are equally qualified in every respect but differ only in race or ethnicity) that document the persistence of discrimination in many contexts, including employment, education, housing, credit, and criminal justice systems (93). This discrimination in social institutions contributes to the differential access to resources and opportunities and results in SES and other material disadvantages.\n\nSelf-Reported Discrimination and Health\n\nA large proportion of the discrimination literature focuses on the second pathway; the evidence indicates that stigmatized racial and ethnic populations and other socially marginalized groups around the world report experiences of discrimination that are inversely related to good health (69,109,139). Researchers refer to these experiences as self-reported discrimination, perceived discrimination, and racial discrimination, and we use these terms interchangeably. Self-reports of discrimination can adversely affect health by triggering negative emotional reactions that can lead to altered physiological reactions and changes in health behaviors, which can increase the risk of poor health (41). We highlight key patterns and trends in this research on discrimination and health.\n\nA 2015 meta-analysis assessed the scientific evidence for the association between self-reported racial discrimination and health from more than 300 articles published between 1983 and 2013 (95). Eighty-one percent of studies were from the United States followed by those from the United Kingdom, Australia, Canada, the Netherlands, and 15 other countries. The analyses found that the association between discrimination and mental health was stronger than that between discrimination and physical health. This finding was inconsistent with a prior review that found similar effect sizes for physical and mental health (96). Ethnicity moderated the effect of self-reported racial discrimination on health; the association between perceived racial discrimination and mental health was stronger for Asian Americans and Latino Americans compared with blacks and the association with physical health was stronger for Latinos than for blacks.\n\nAlthough the review by Paradies and colleagues (95) is the most comprehensive published to date, it excluded many studies that are included in other reviews. Because of its focus on experiences of \"racism,\" it excluded studies using measures of discrimination, bias, and unfair treatment where race or ethnicity were not explicitly noted as the reason for discrimination. This exclusion included many studies using the Everyday Discrimination Scale and the Major Experiences of Discrimination Scale (137,143), which use a two-stage approach wherein respondents are first asked about generic experiences of bias and then a follow-up question ascertains the main reason. Many studies that have used these measures have not asked or analyzed the follow-up question. Relatedly, studies were also excluded that used a version of these two instruments that were utilized in the national Midlife in the United States (MIDUS) study (58). It explicitly asked respondents to report only instances where they had been \"discriminated against\" because of their race or other specific social characteristics (58). It appears that the use of \"discrimination\" does not affect the reports of bias by blacks but depresses reports by whites (8). Multiple reviews have concluded that the deleterious health effects of discrimination are generally evident with the generic perception of bias or unfair treatment, irrespective of which social status category to which the experience is attributed (69,96,139).",
+        "title": "Racism and Health: Evidence and Needed Research",
+        "reasoning": "The provided text contains several key scholarly terms related to the social and psychological dimensions of racism and its health impacts. I have extracted definitions for \"Stereotype threat,\" \"internalized racism,\" \"cultural racism,\" \"Discrimination,\" \"self-reported discrimination,\" and \"audit studies.\" Each record captures the exact phrasing from the text, distinguishing between primary definitions, descriptions of consequences or characteristics, synonyms, and subtypes where applicable.",
+        "definition_records": [
+          {
+            "term": "Stereotype threat",
+            "definitions": [
+              {
+                "text": "This term refers to the anxieties and expectations that can be activated in stigmatized groups when negative stereotypes about their group are made salient.",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [
+              {
+                "text": "These anxieties can adversely affect academic performance and psychological functioning",
+                "citation": [
+                  "114"
+                ]
+              },
+              {
+                "text": "Some limited evidence indicates that stereotype threat can lead to increased anxiety, reduced selfregulation, and impaired decision making, which can lead to unhealthy behaviors, poor patientprovider communication, lower levels of adherence to medical advice, increased blood pressure, and weight gain among stigmatized groups",
+                "citation": [
+                  "6",
+                  "114",
+                  "141"
+                ]
+              }
+            ],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": [
+              {
+                "text": "exposure of American Indian students to Native American mascots leads to declines in self-esteem, community worth, and achievement aspirations",
+                "citation": [
+                  "36"
+                ]
+              }
+            ]
+          },
+          {
+            "term": "internalized racism",
+            "definitions": [
+              {
+                "text": "This endorsement of the dominant society's beliefs about their inferiority is called internalized racism or self-stereotyping.",
+                "citation": []
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "self-stereotyping",
+                "citation": []
+              }
+            ],
+            "description": [
+              {
+                "text": "Research indicates that it is associated with lower psychological well-being and higher levels of alcohol consumption, depressive symptoms, and obesity",
+                "citation": [
+                  "139"
+                ]
+              }
+            ],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "cultural racism",
+            "definitions": [
+              {
+                "text": "cultural racism, measured as elevated levels of racial prejudice at the community level",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [
+              {
+                "text": "associated with poorer health for racial minorities and sometimes for all persons who live in that community.",
+                "citation": []
+              },
+              {
+                "text": "Recent studies have found that residing in communities with high levels of racial prejudice is positively associated with overall mortality (21), heart disease mortality (67), and low birthweight (22).",
+                "citation": [
+                  "21",
+                  "67",
+                  "22"
+                ]
+              }
+            ],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Discrimination",
+            "definitions": [
+              {
+                "text": "where individuals and larger institutions, deliberately or without intent, treat racial groups differently, resulting in inequitable access to opportunities and resources (e.g., employment, education, and medical care) by race/ethnicity",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [
+              {
+                "text": "Discrimination is the most frequently studied domain of racism in the health literature.",
+                "citation": []
+              }
+            ],
+            "related_terms": [
+              {
+                "text": "self-reported discrimination",
+                "citation": []
+              },
+              {
+                "text": "perceived discrimination",
+                "citation": []
+              },
+              {
+                "text": "racial discrimination",
+                "citation": []
+              }
+            ],
+            "subtypes": [
+              {
+                "text": "self-reported discrimination, a subset of these experiences that individuals are aware of",
+                "citation": []
+              }
+            ],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "self-reported discrimination",
+            "definitions": [
+              {
+                "text": "self-reported discrimination, a subset of these experiences that individuals are aware of",
+                "citation": []
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "perceived discrimination",
+                "citation": []
+              },
+              {
+                "text": "racial discrimination",
+                "citation": []
+              }
+            ],
+            "description": [
+              {
+                "text": "Self-reports of discrimination can adversely affect health by triggering negative emotional reactions that can lead to altered physiological reactions and changes in health behaviors, which can increase the risk of poor health",
+                "citation": [
+                  "41"
+                ]
+              }
+            ],
+            "related_terms": [
+              {
+                "text": "perceived discrimination",
+                "citation": []
+              },
+              {
+                "text": "racial discrimination",
+                "citation": []
+              }
+            ],
+            "subtypes": [],
+            "supertypes": [
+              {
+                "text": "Discrimination",
+                "citation": []
+              }
+            ],
+            "examples": []
+          },
+          {
+            "term": "audit studies",
+            "definitions": [
+              {
+                "text": "those in which researchers use individuals who are equally qualified in every respect but differ only in race or ethnicity",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "signature": {
+      "instructions": "Extract source-grounded definition records from one paper window.\n\nExtract reusable scholarly terms, not paper-local names, datasets, experiment\ngroups, variables, or system components. Copy every string exactly and\ncontiguously from the supplied text. Never paraphrase or use outside knowledge.\nPrefer the complete definitional sentence, including its subject, over a short\nclause when the complete sentence is present. Do not invent a missing subject.\n\nA definition states what a term means. Put explanation or qualification in\ndescription, equivalent terms in synonyms, associated terms in related_terms,\nnarrower terms in subtypes, broader terms in supertypes, and concrete cases,\ntextual illustrations, or manifestations in examples. Copy attached citation\nmarkers into citation. Leave unsupported fields empty.\n\nA window may contribute evidence to a term defined elsewhere in the same paper,\nso a partial record may have no definition. Paper-level aggregation discards any\nterm that has no definition anywhere in the paper.\nFocus on concepts relevant to media bias, including news framing, misinformation, audience and cognitive biases, and bias or fairness in algorithms and data. Omit unrelated definitions.",
+      "fields": [
+        {
+          "prefix": "Title:",
+          "description": "Paper title."
+        },
+        {
+          "prefix": "Paper Text:",
+          "description": "One exact window from the GROBID paper."
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Definition Records:",
+          "description": "${definition_records}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.3.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

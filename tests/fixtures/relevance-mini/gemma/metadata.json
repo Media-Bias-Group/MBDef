@@ -1,0 +1,8 @@
+{
+  "model": "gemma_4_12b_it",
+  "templates": [
+    "templates/relevance/zero_shot.j2"
+  ],
+  "max_tokens": 2048,
+  "temperature": null
+}

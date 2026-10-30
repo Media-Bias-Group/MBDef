@@ -1,0 +1,688 @@
+{
+ "history": [
+  {
+   "by": "/home/nimtsspi/taxonomy/grid-20260925/score/runs/20260926T020812Z-reselect/results.json",
+   "replaced": "/home/nimtsspi/taxonomy/grid-20260925/score/runs/20260925T190230Z/results.json",
+   "utc": "20260926T023253Z"
+  },
+  {
+   "added_output": "P>=28-single-model",
+   "amendment_sha256": "5dccd3f99cfe18e52ab8c1474d0f4f7c003f651c34de49d168e201c423eae628",
+   "config": "test/gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/filtered-ordinary-noverify",
+   "utc": "20260926T130348Z"
+  }
+ ],
+ "picks": {
+  "P>=20": {
+   "config": "gemma12b/TR-bootstrap-8k+16k32k/chat-default-think+json-default-think/filtered-ordinary-noverify",
+   "dev": {
+    "eligible": true,
+    "f1": 0.24067388688327315,
+    "full_record": 0.1886074032813151,
+    "matches": 100,
+    "model_calls": 726,
+    "passes_audit": true,
+    "precision": 0.13966480446927373,
+    "predicted": 716,
+    "recall": 0.8695652173913043,
+    "records_sha256": "82f48b46868eedb3656e40c497d76b8d1e4b726749689c64bceb0cf0d16d23a0",
+    "state": "scored"
+   },
+   "model": "gemma12b",
+   "parts": [
+    {
+     "arm": "TR-bootstrap-8k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-8k",
+     "family": "trained",
+     "format": "json-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-16k32k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-16k32k",
+     "family": "trained",
+     "format": "json-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    }
+   ],
+   "pick": "test/gemma12b/TR-bootstrap-8k+16k32k/chat-default-think+json-default-think/filtered-ordinary-noverify",
+   "pool": {
+    "arms": [
+     "TR-bootstrap-8k",
+     "TR-bootstrap-16k32k"
+    ],
+    "formats": [
+     "chat-default-think",
+     "json-default-think"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 4
+   },
+   "provisional": false,
+   "stage": "filtered-ordinary-noverify",
+   "stage_recipe": {
+    "filter": "ordinary",
+    "filter_spec": {
+     "classifier": "semantic-relevance-v1",
+     "cutoff": 0.3087965279332379,
+     "filter_row": "R6e24b3d"
+    },
+    "noverify": true,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-ordinary-noverify",
+    "verifier": null,
+    "verifier_model": null,
+    "verifier_policy": null
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.33107049608355094,
+    "full_record": 0.20543654145660672,
+    "matches": 317,
+    "model_calls": 1286,
+    "passes_audit": true,
+    "precision": 0.20451612903225808,
+    "predicted": 1550,
+    "recall": 0.8684931506849315,
+    "records_sha256": "1d61747a54f2b5692ea06c90ffbe7def10655fecb7ff2290a413dde0be6c2234"
+   },
+   "valid": true
+  },
+  "P>=24": {
+   "config": "gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/verified-self",
+   "dev": {
+    "eligible": true,
+    "f1": 0.2857142857142857,
+    "full_record": 0.17915543665017833,
+    "matches": 101,
+    "model_calls": 606,
+    "passes_audit": true,
+    "precision": 0.17060810810810811,
+    "predicted": 592,
+    "recall": 0.8782608695652174,
+    "records_sha256": "ecd1cabdf816a9075f1efa8670d4af174c27f67e04cf38bfd26bffc2666bce32",
+    "state": "scored"
+   },
+   "model": "gemma12b",
+   "parts": [
+    {
+     "arm": "TR-bootstrap-8k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-16k32k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    }
+   ],
+   "pick": "test/gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/verified-self",
+   "pool": {
+    "arms": [
+     "TR-bootstrap-8k",
+     "TR-bootstrap-16k32k"
+    ],
+    "formats": [
+     "chat-default-think"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 2
+   },
+   "provisional": false,
+   "stage": "verified-self",
+   "stage_recipe": {
+    "filter": null,
+    "filter_spec": null,
+    "noverify": false,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "verified-self",
+    "verifier": "self",
+    "verifier_model": "google/gemma-4-12B-it-qat-w4a16-ct@1d2c2d7f2466070e69d6fb3fd5ce9a7d75f2f6ee",
+    "verifier_policy": "definitions-strict (common strict verifier, thinking off, temperature 0)"
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.3961661341853035,
+    "full_record": 0.21950549558738816,
+    "matches": 310,
+    "model_calls": 1087,
+    "passes_audit": true,
+    "precision": 0.25833333333333336,
+    "predicted": 1200,
+    "recall": 0.8493150684931506,
+    "records_sha256": "59cd92bd2bdc3d41637dd8e8feaee85df7f7d4472e401aa130ebe946712b9e59"
+   },
+   "valid": true
+  },
+  "P>=28": {
+   "config": "gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/filtered-ordinary-qv",
+   "dev": {
+    "eligible": true,
+    "f1": 0.3448275862068966,
+    "full_record": 0.19869579741851967,
+    "matches": 95,
+    "model_calls": 606,
+    "passes_audit": true,
+    "precision": 0.21788990825688073,
+    "predicted": 436,
+    "recall": 0.8260869565217391,
+    "records_sha256": "9581fb024ea8648649906be5a3dc09ba816027d4d2577559ab981979dc1702e2",
+    "state": "scored"
+   },
+   "model": "gemma12b",
+   "parts": [
+    {
+     "arm": "TR-bootstrap-8k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-16k32k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    }
+   ],
+   "pick": "test/gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/filtered-ordinary-qv",
+   "pool": {
+    "arms": [
+     "TR-bootstrap-8k",
+     "TR-bootstrap-16k32k"
+    ],
+    "formats": [
+     "chat-default-think"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 2
+   },
+   "provisional": false,
+   "stage": "filtered-ordinary-qv",
+   "stage_recipe": {
+    "filter": "ordinary",
+    "filter_spec": {
+     "classifier": "semantic-relevance-v1",
+     "cutoff": 0.3087965279332379,
+     "filter_row": "R6e24b3d"
+    },
+    "noverify": false,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-ordinary-qv",
+    "verifier": "qwen",
+    "verifier_model": "Qwen/Qwen3.6-35B-A3B@995ad96eacd98c81ed38be0c5b274b04031597b0",
+    "verifier_policy": "definitions-strict (common strict verifier, thinking off, temperature 0)"
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.44343891402714936,
+    "full_record": 0.22003108424313095,
+    "matches": 294,
+    "model_calls": 1087,
+    "passes_audit": true,
+    "precision": 0.3059313215400624,
+    "predicted": 961,
+    "recall": 0.8054794520547945,
+    "records_sha256": "14876eccf25cf250ae4cf70296f46ccfa083f1dad05432d4f8472ab55a4dba34"
+   },
+   "valid": true
+  },
+  "P>=28-single-model": {
+   "additional_output": true,
+   "amendment": "results/grid-20260925/plan-amendment-9.json",
+   "amendment_sha256": "5dccd3f99cfe18e52ab8c1474d0f4f7c003f651c34de49d168e201c423eae628",
+   "config": "gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/filtered-ordinary-noverify",
+   "dev": {
+    "eligible": true,
+    "f1": 0.3259005145797598,
+    "full_record": 0.18924686616621958,
+    "matches": 95,
+    "model_calls": 364,
+    "passes_audit": true,
+    "precision": 0.202991452991453,
+    "predicted": 468,
+    "recall": 0.8260869565217391,
+    "records_sha256": "1940ed442f7f84953c251187b8fc74edcde6515003f7593dde1f575042981cb0",
+    "state": "scored"
+   },
+   "label": "ADDITIONAL OUTPUT (plan-amendment-9): single-model Gemma variant of P>=28; not a precision-floor pick",
+   "model": "gemma12b",
+   "parts": [
+    {
+     "arm": "TR-bootstrap-8k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "TR-bootstrap-16k32k",
+     "family": "trained",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    }
+   ],
+   "pick": "test/gemma12b/TR-bootstrap-8k+16k32k/chat-default-think/filtered-ordinary-noverify",
+   "pool": {
+    "arms": [
+     "TR-bootstrap-8k",
+     "TR-bootstrap-16k32k"
+    ],
+    "formats": [
+     "chat-default-think"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 2
+   },
+   "provisional": false,
+   "stage": "filtered-ordinary-noverify",
+   "stage_recipe": {
+    "filter": "ordinary",
+    "filter_spec": {
+     "classifier": "semantic-relevance-v1",
+     "cutoff": 0.3087965279332379,
+     "filter_row": "R6e24b3d"
+    },
+    "noverify": true,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-ordinary-noverify",
+    "verifier": null,
+    "verifier_model": null,
+    "verifier_policy": null
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.4197002141327623,
+    "full_record": 0.21177219617958093,
+    "matches": 294,
+    "model_calls": 644,
+    "passes_audit": true,
+    "precision": 0.28378378378378377,
+    "predicted": 1036,
+    "recall": 0.8054794520547945,
+    "records_sha256": "8bdde83f549f875fb745d5f2e7df2d88f7d7c168945ef8fd4c0bcf5452ae2ee3"
+   },
+   "valid": true
+  }
+ },
+ "reference_picks": {
+  "P>=20": {
+   "config": "qwen/ABC-all/chat-default/filtered-title",
+   "dev": {
+    "eligible": true,
+    "f1": 0.22293676312968919,
+    "full_record": 0.1234183337885918,
+    "matches": 104,
+    "model_calls": 973,
+    "passes_audit": true,
+    "precision": 0.1271393643031785,
+    "predicted": 818,
+    "recall": 0.9043478260869565,
+    "records_sha256": "b4e98c52aa2e3bed03af6fa6548bd394d4bb246562adcafa6888d2967cc7f25f",
+    "state": "scored"
+   },
+   "model": "qwen",
+   "parts": [
+    {
+     "arm": "A-minimal-8k",
+     "family": "amend1",
+     "format": "chat-default",
+     "model": "qwen",
+     "profile": "qwen-plain"
+    },
+    {
+     "arm": "B-minimal-16k32k",
+     "family": "amend1",
+     "format": "chat-default",
+     "model": "qwen",
+     "profile": "qwen-plain"
+    },
+    {
+     "arm": "C-gepa-16k32k",
+     "family": "amend1",
+     "format": "chat-default",
+     "model": "qwen",
+     "profile": "qwen-plain"
+    }
+   ],
+   "pick": "test/qwen/ABC-all/chat-default/filtered-title",
+   "pool": {
+    "arms": [
+     "A-minimal-8k",
+     "B-minimal-16k32k",
+     "C-gepa-16k32k"
+    ],
+    "formats": [
+     "chat-default"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 3
+   },
+   "provisional": false,
+   "stage": "filtered-title",
+   "stage_recipe": {
+    "filter": "title",
+    "filter_spec": {
+     "classifier": "semantic-title-relevance-v2",
+     "cutoff": 0.2371840437933272,
+     "filter_row": "R0bea6bc"
+    },
+    "noverify": false,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-title",
+    "verifier": "self",
+    "verifier_model": "Qwen/Qwen3.6-35B-A3B@995ad96eacd98c81ed38be0c5b274b04031597b0",
+    "verifier_policy": "definitions-strict (common strict verifier, thinking off, temperature 0)"
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.3283272915587778,
+    "full_record": 0.15953215325981307,
+    "matches": 317,
+    "model_calls": 1686,
+    "passes_audit": true,
+    "precision": 0.20242656449553,
+    "predicted": 1566,
+    "recall": 0.8684931506849315,
+    "records_sha256": "19c8a49a6cefe5530d12e59d19f6f742d40ac5d4f55728b8d34d0d9b10c6ab9a"
+   },
+   "valid": true
+  },
+  "P>=24": {
+   "config": "gemma12b/ABC-all/chat-default-think/filtered-ordinary-qv",
+   "dev": {
+    "eligible": true,
+    "f1": 0.27167630057803466,
+    "full_record": 0.1715037198508661,
+    "matches": 94,
+    "model_calls": 874,
+    "passes_audit": true,
+    "precision": 0.16291161178509533,
+    "predicted": 577,
+    "recall": 0.8173913043478261,
+    "records_sha256": "9db612ee49f124a1995def51334cfd83833e5cb1e9f6e4cc02927c77dc32fa52",
+    "state": "scored"
+   },
+   "model": "gemma12b",
+   "parts": [
+    {
+     "arm": "A-minimal-8k",
+     "family": "think",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "B-minimal-16k32k",
+     "family": "think",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    },
+    {
+     "arm": "C-gepa-16k32k",
+     "family": "think",
+     "format": "chat-default-think",
+     "model": "gemma12b",
+     "profile": "gemma12b-think"
+    }
+   ],
+   "pick": "test/gemma12b/ABC-all/chat-default-think/filtered-ordinary-qv",
+   "pool": {
+    "arms": [
+     "A-minimal-8k",
+     "B-minimal-16k32k",
+     "C-gepa-16k32k"
+    ],
+    "formats": [
+     "chat-default-think"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 3
+   },
+   "provisional": false,
+   "stage": "filtered-ordinary-qv",
+   "stage_recipe": {
+    "filter": "ordinary",
+    "filter_spec": {
+     "classifier": "semantic-relevance-v1",
+     "cutoff": 0.3087965279332379,
+     "filter_row": "R6e24b3d"
+    },
+    "noverify": false,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-ordinary-qv",
+    "verifier": "qwen",
+    "verifier_model": "Qwen/Qwen3.6-35B-A3B@995ad96eacd98c81ed38be0c5b274b04031597b0",
+    "verifier_policy": "definitions-strict (common strict verifier, thinking off, temperature 0)"
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.3908629441624365,
+    "full_record": 0.2062593101437027,
+    "matches": 308,
+    "model_calls": 1613,
+    "passes_audit": true,
+    "precision": 0.2543352601156069,
+    "predicted": 1211,
+    "recall": 0.8438356164383561,
+    "records_sha256": "297d33cedc424d586359a79a905e5e4e5e0ad4d137928e9aa869e987a0ca1836"
+   },
+   "valid": true
+  },
+  "P>=28": {
+   "config": "qwen/AC-minimal8k-gepa16k32k/schema8192/filtered-ordinary",
+   "dev": {
+    "eligible": true,
+    "f1": 0.3023622047244095,
+    "full_record": 0.16983678298655785,
+    "matches": 96,
+    "model_calls": 644,
+    "passes_audit": true,
+    "precision": 0.18461538461538463,
+    "predicted": 520,
+    "recall": 0.8347826086956521,
+    "records_sha256": "b3c09ebbb9babcf6706dba04b33e702592e816f5af2cc3c1eae5b949b9bfadda",
+    "state": "scored"
+   },
+   "model": "qwen",
+   "parts": [
+    {
+     "arm": "A-minimal-8k",
+     "family": "grid",
+     "format": "schema8192",
+     "model": "qwen",
+     "profile": "qwen-plain"
+    },
+    {
+     "arm": "C-gepa-16k32k",
+     "family": "grid",
+     "format": "schema8192",
+     "model": "qwen",
+     "profile": "qwen-plain"
+    }
+   ],
+   "pick": "test/qwen/AC-minimal8k-gepa16k32k/schema8192/filtered-ordinary",
+   "pool": {
+    "arms": [
+     "A-minimal-8k",
+     "C-gepa-16k32k"
+    ],
+    "formats": [
+     "schema8192"
+    ],
+    "kind": "cross-arm pool",
+    "merge": "per paper: concatenate the parts' stage records in the listed order, then src.extractor.merge",
+    "n_parts": 2
+   },
+   "provisional": false,
+   "stage": "filtered-ordinary",
+   "stage_recipe": {
+    "filter": "ordinary",
+    "filter_spec": {
+     "classifier": "semantic-relevance-v1",
+     "cutoff": 0.3087965279332379,
+     "filter_row": "R6e24b3d"
+    },
+    "noverify": false,
+    "order": "extraction -> verifier (if any) -> relevance filter (if any), per part, then pool",
+    "stage": "filtered-ordinary",
+    "verifier": "self",
+    "verifier_model": "Qwen/Qwen3.6-35B-A3B@995ad96eacd98c81ed38be0c5b274b04031597b0",
+    "verifier_policy": "definitions-strict (common strict verifier, thinking off, temperature 0)"
+   },
+   "test": {
+    "eligible": true,
+    "f1": 0.4168451106352606,
+    "full_record": 0.19648163670765884,
+    "matches": 292,
+    "model_calls": 1130,
+    "passes_audit": true,
+    "precision": 0.28185328185328185,
+    "predicted": 1036,
+    "recall": 0.8,
+    "records_sha256": "8565721052d8a1582b44eb7c7788467fdbe40c577a9195027137e1a1c45f3ed3"
+   },
+   "valid": true
+  }
+ },
+ "reference_source": {
+  "source": "/home/nimtsspi/taxonomy/grid-20260925/score/runs/20260925T190230Z/results.json",
+  "source_sha256": "570245b8b45ee4021c25f12190c3b73391dc98401a696215a0c70acdf3df8372"
+ },
+ "reference_union_parts": [
+  {
+   "arm": "A-minimal-8k",
+   "family": "think",
+   "format": "chat-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": true
+  },
+  {
+   "arm": "B-minimal-16k32k",
+   "family": "think",
+   "format": "chat-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": true
+  },
+  {
+   "arm": "C-gepa-16k32k",
+   "family": "think",
+   "format": "chat-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": true
+  },
+  {
+   "arm": "A-minimal-8k",
+   "family": "amend1",
+   "format": "chat-default",
+   "model": "qwen",
+   "profile": "qwen-plain",
+   "verify_qwen": false
+  },
+  {
+   "arm": "A-minimal-8k",
+   "family": "grid",
+   "format": "schema8192",
+   "model": "qwen",
+   "profile": "qwen-plain",
+   "verify_qwen": false
+  },
+  {
+   "arm": "B-minimal-16k32k",
+   "family": "amend1",
+   "format": "chat-default",
+   "model": "qwen",
+   "profile": "qwen-plain",
+   "verify_qwen": false
+  },
+  {
+   "arm": "C-gepa-16k32k",
+   "family": "amend1",
+   "format": "chat-default",
+   "model": "qwen",
+   "profile": "qwen-plain",
+   "verify_qwen": false
+  },
+  {
+   "arm": "C-gepa-16k32k",
+   "family": "grid",
+   "format": "schema8192",
+   "model": "qwen",
+   "profile": "qwen-plain",
+   "verify_qwen": false
+  }
+ ],
+ "resolved_utc": "2026-09-26T02:32:56Z",
+ "schema": "production-20260925-picks/1",
+ "score_job": "9518898",
+ "source": "/home/nimtsspi/taxonomy/grid-20260925/score/runs/20260926T020812Z-reselect/results.json",
+ "source_sha256": "b9ec1d3e05894e81ca0721d0eba68f5fcd5a00651909d58db774d5f4176fbfb9",
+ "trained_arms": [
+  "TR-bootstrap-16k32k",
+  "TR-bootstrap-8k"
+ ],
+ "union_parts": [
+  {
+   "arm": "TR-bootstrap-16k32k",
+   "family": "trained",
+   "format": "chat-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": true
+  },
+  {
+   "arm": "TR-bootstrap-16k32k",
+   "family": "trained",
+   "format": "json-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": false
+  },
+  {
+   "arm": "TR-bootstrap-8k",
+   "family": "trained",
+   "format": "chat-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": true
+  },
+  {
+   "arm": "TR-bootstrap-8k",
+   "family": "trained",
+   "format": "json-default-think",
+   "model": "gemma12b",
+   "profile": "gemma12b-think",
+   "verify_qwen": false
+  }
+ ]
+}

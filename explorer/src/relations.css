@@ -1,0 +1,146 @@
+/* relations tab: one colour per field (--f-sp …) in the expanders; on the stage, a diverging palette for what a pair's
+   statements say (blue: the first is a kind of the second, light: the same, orange: the reverse, dim: related) */
+#v-relations .re-ttl { display: flex; flex-direction: column; gap: 4px; }
+#v-relations .re-ttl h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); letter-spacing: -.01em; }
+#v-relations > #re-head .sec-head > div { max-width: 86ch; }
+.re-fbar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 1px; margin: 5px 0 4px; }
+.re-fbar i { display: block; min-width: 2px; }
+.re-moreh { margin: 6px 0 -12px; color: var(--muted); }
+
+/* the stage: the page's tokens point at the stage's, so the shared components read on the dark band in both themes */
+.re-stage {
+  --surface: var(--stage-2); --surface-2: var(--stage-3); --ink: var(--stage-ink); --ink-2: color-mix(in srgb, var(--stage-ink) 78%, var(--stage-muted));
+  --muted: var(--stage-muted); --rule: var(--stage-rule); --grid: var(--stage-rule); --accent: var(--stage-accent); --accent-wash: color-mix(in srgb, var(--stage-accent) 16%, transparent);
+  --f-sp: var(--stage-strict); --f-sb: var(--stage-kept); --f-sy: #e58a5c; --f-rt: #79aef0; --f-de: #a3abb3; --f-ex: #e0b84a;
+  --re-a: var(--stage-accent); --re-b: #f0a271; --re-s: color-mix(in srgb, var(--stage-ink) 70%, var(--stage)); --re-r: color-mix(in srgb, var(--stage-muted) 45%, var(--stage));
+  color: var(--ink); border: 1px solid var(--stage-rule); padding: 20px clamp(14px, 2.4vw, 26px) 16px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.re-sh { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 10px 16px; }
+.re-sh > div { display: flex; flex-direction: column; gap: 4px; min-width: 0; max-width: 80ch; }
+.re-sh h3 { font-size: clamp(1.35rem, 2.4vw, 1.75rem); }
+.re-sh p { color: var(--ink-2); font-size: 14px; }
+.re-sh input[type="search"] { width: min(100%, 300px); }
+/* the sets: tiles you can press (the first, "Sides agree", is also a poster card) */
+.re-sets { grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 8px; }
+.re-sets .tile { text-align: left; font: inherit; color: var(--ink); cursor: pointer; background: var(--surface); border: 1px solid var(--rule); padding: 10px 13px; }
+.re-sets .tile:hover { border-color: var(--accent); }
+.re-sets .tile[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
+.re-sets .tile .tl { color: var(--ink-2); font-weight: 600; }
+.re-sets .tile[aria-pressed="true"] .tv { color: var(--accent); }
+@media (max-width: 640px) {
+  .re-sets { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .re-sets .tile .tb { display: none; }
+  .re-sets .tile .tv { font-size: 1.35rem; }
+  .re-sets .tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+/* the list of pairs and the lens */
+.re-cp { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); gap: 16px 22px; align-items: start; }
+@media (max-width: 900px) { .re-cp { grid-template-columns: minmax(0, 1fr); } }
+.re-lkbox { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.re-setline { color: var(--ink-2); margin-bottom: 4px; }
+.re-lkh, .re-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) 44px; gap: 4px 12px; align-items: center; }
+.re-lkh { font-size: 11px; color: var(--muted); padding: 0 8px 4px; border-bottom: 1px solid var(--rule); }
+.re-tk { display: flex; justify-content: space-between; gap: 6px; }
+.re-tk span { min-width: 0; } .re-tk span:last-child { text-align: right; }
+.re-kxy { color: var(--re-a); } .re-ksy { color: var(--re-s); text-align: center; } .re-kyx { color: var(--re-b); }
+.re-hnum { text-align: right; }
+.re-lklist { display: flex; flex-direction: column; min-height: 120px; }
+.re-row { width: 100%; text-align: left; font: inherit; color: var(--ink); background: none; border: 0; border-bottom: 1px solid var(--rule); padding: 7px 8px; cursor: pointer; border-radius: 6px; }
+.re-row:hover { background: var(--surface); }
+.re-row[aria-pressed="true"] { background: var(--accent-wash); box-shadow: inset 3px 0 0 var(--accent); }
+.re-rn { font-size: 13.5px; line-height: 1.3; overflow-wrap: anywhere; min-width: 0; }
+.re-rn b { font-weight: 600; } .re-2 { color: var(--ink-2); } .re-dot { color: var(--muted); }
+.re-n { font: 12px var(--f-mono); text-align: right; color: var(--ink-2); }
+.re-none { padding: 14px 8px; }
+.re-lkfoot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 12px; padding: 6px 8px 0; }
+.re-lkfoot .btn { padding: 3px 11px; }
+@media (max-width: 640px) {
+  .re-lkh, .re-row { grid-template-columns: minmax(0, 1fr) 36px; }
+  .re-rn { grid-column: 1 / -1; }
+  .re-lkh .re-hn { display: none; }
+  .re-tk { font-size: 10.5px; }
+}
+/* a diverging bar: centre line at 50%; each half holds all the direction statements of a pair */
+.re-tr { position: relative; display: block; height: 14px; border-radius: 3px; background: color-mix(in srgb, var(--stage-ink) 5%, transparent); min-width: 0; }
+.re-tr > i { position: absolute; top: 0; bottom: 0; }
+.re-tr > i:not(.re-c0) { border-radius: 2px; }
+.re-tr .re-c0 { left: 50%; width: 1px; top: -3px; bottom: -3px; background: var(--muted); opacity: .55; }
+.re-tr.re-big { height: 22px; border-radius: 4px; }
+.re-only { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--muted); }
+.re-xy { background: var(--re-a); } .re-sy { background: var(--re-s); } .re-yx { background: var(--re-b); } .re-rl { background: var(--re-r); }
+.re-lens { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.re-lt { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 10px; }
+.re-badge { color: var(--ink-2); }
+.re-badge .g { color: inherit; }
+.re-lh { margin: 0; font: 600 1.35rem/1.2 var(--f-display); overflow-wrap: anywhere; }
+.re-lh .linkbtn { color: var(--ink); text-decoration-color: color-mix(in srgb, var(--ink) 35%, transparent); }
+.re-lh .linkbtn:hover { color: var(--accent); }
+.re-verdict { font: 500 1.02rem/1.35 var(--f-display); color: var(--ink); }
+.re-rd { display: grid; grid-template-columns: minmax(0, 1fr) minmax(50px, 34%) auto; gap: 2px 10px; align-items: center; font-size: 13px; }
+.re-rdt { display: flex; align-items: baseline; gap: 7px; min-width: 0; overflow-wrap: anywhere; }
+.re-rdt i { width: 10px; height: 10px; border-radius: 2px; flex: none; display: inline-block; }
+.re-rdb { height: 9px; border-radius: 3px; background: color-mix(in srgb, var(--stage-ink) 5%, transparent); overflow: hidden; }
+.re-rdb i { display: block; height: 100%; border-radius: 3px; }
+.re-rd b { font: 600 1rem var(--f-display); text-align: right; }
+.re-rds { grid-column: 1 / -1; font-size: 11.5px; color: var(--muted); margin: -1px 0 5px 17px; overflow-wrap: anywhere; }
+.re-pp { color: var(--ink-2); }
+.re-lens .ctl .btn { font-size: 12.5px; }
+
+/* the expanders: the six fields */
+.re-h4 { font: 600 1rem var(--f-display); margin: 6px 0 0; }
+.re-ex { border-left: 3px solid var(--accent-wash); padding-left: 10px; overflow-wrap: anywhere; }
+.re-chip { font-size: 11.5px; padding: 0 7px; white-space: nowrap; }
+.re-link { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; overflow-wrap: anywhere; }
+.re-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 4px; font-size: 12px; color: var(--muted); }
+.re-sm { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 10px; }
+.re-f { border: 1px solid var(--rule); border-top: 3px solid var(--fc); border-radius: 10px; padding: 9px 11px; display: flex; flex-direction: column; gap: 4px; min-width: 0; background: var(--surface); }
+.re-f h4 { margin: 0; font: 600 1rem var(--f-display); display: flex; align-items: center; gap: 7px; }
+.re-fn { margin-left: auto; font: 600 1.15rem var(--f-display); }
+.re-sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--fc); flex: none; }
+.re-ink { color: var(--ink); }
+.re-lbar, .re-rbar { display: flex; height: 8px; border-radius: 3px; overflow: hidden; gap: 1px; background: var(--surface-2); }
+.re-lbar i, .re-rbar i { display: block; min-width: 2px; }
+.re-fex { border-left: 3px solid color-mix(in srgb, var(--fc) 50%, transparent); padding-left: 8px; overflow-wrap: anywhere; color: var(--ink-2); }
+/* roles against roles */
+.re-mxwrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: start; }
+.re-mx { display: grid; grid-template-columns: minmax(58px, auto) repeat(4, minmax(0, 1fr)); gap: 4px; max-width: 460px; }
+.re-mxc { display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 8px; min-width: 0; }
+.re-mxh { font: 600 12px var(--f-body); padding: 2px; text-align: center; overflow-wrap: anywhere; }
+.re-mxr { align-items: flex-start; text-align: left; }
+.re-mxh .re-s { display: none; }
+@media (max-width: 520px) { .re-mxh .re-l { display: none; } .re-mxh .re-s { display: inline; } }
+.re-mxb { min-height: 50px; border: 1px solid var(--rule); color: var(--ink); cursor: pointer; font: inherit; padding: 4px 2px; }
+.re-mxb b { font: 600 1.05rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+.re-mxb span { font-size: 11px; color: var(--ink-2); }
+.re-mxb.diag { border-style: dashed; }
+.re-mxb:hover { border-color: var(--accent); }
+.re-mxb[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: 1px; }
+.re-mxd { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.re-mxkey { margin-top: 6px; }
+.re-exlist { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 9px; font-size: 13.5px; }
+.re-exlist li { cursor: pointer; overflow-wrap: anywhere; }
+.re-exlist .re-rbar { margin: 4px 0 2px; max-width: 380px; }
+/* how these links are made */
+.re-how { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 10px; }
+.re-how li { border: 1px solid var(--rule); border-top: 3px solid var(--sc); border-radius: 10px; padding: 9px 11px; display: flex; flex-direction: column; gap: 6px; background: var(--surface); min-width: 0; }
+.re-how h4 { margin: 0; font: 600 1rem var(--f-display); display: flex; gap: 8px; align-items: baseline; }
+.re-stn { font: 500 11px var(--f-mono); color: var(--sc); }
+.re-how p { color: var(--ink-2); }
+.re-samp { font-size: 12.5px; background: var(--surface-2); border-radius: 8px; padding: 8px 10px; overflow-wrap: anywhere; display: flex; flex-direction: column; gap: 4px; margin-top: auto; }
+.re-sk { font: 500 10.5px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.re-samp .re-tr { background: var(--surface); --re-a: var(--accent); --re-b: var(--f-sy); --re-s: var(--muted); }
+/* close in meaning */
+.re-heat rect.c { cursor: pointer; }
+.re-heat rect.c:hover, .re-heat rect.sel { stroke: var(--ink); stroke-width: 1.5; }
+.re-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--ink-2); }
+.re-legend > span { display: inline-flex; align-items: center; gap: 5px; }
+.re-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.re-bands { display: flex; flex-direction: column; gap: 8px; }
+.re-band { display: grid; grid-template-columns: 84px minmax(0, 1fr) 52px; gap: 8px; align-items: center; font-size: 12.5px; }
+.re-band .re-bbar { display: flex; height: 18px; border-radius: 4px; overflow: hidden; gap: 1px; }
+.re-band .re-bbar i { display: block; min-width: 2px; }
+.re-band .num { text-align: right; color: var(--ink-2); }
+.re-c-contain { background: var(--accent); }
+.re-c-alike { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
+.re-c-differ { background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--rule); }
+.re-opp { color: var(--f-sy); }
+#v-relations th { white-space: normal; }

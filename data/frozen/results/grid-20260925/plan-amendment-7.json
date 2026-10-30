@@ -1,0 +1,10 @@
+{
+ "created_utc": "2026-09-25T06:34:32.367405+00:00",
+ "effect": "Formats chat-default-think-t0 and json-default-think-t0 are removed from scope, pools, audit and pick candidates. Everything else unchanged.",
+ "owner_decision": "Owner in chat 2026-09-25: do not run thinking at temperature 0. Thinking cohorts use each model's shipped sampling only (plan-amendment-4).",
+ "schema": "controlled-model-grid-amendment-v7",
+ "status": "No temperature-0 thinking cohort was built or submitted; no score exists.",
+ "withdraws": {
+  "plan-amendment-6.json": "b87d791869ccf53b0d16f23e287ad943b59858db520623ef1fa797a76c0db6ad"
+ }
+}

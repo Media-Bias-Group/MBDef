@@ -1,0 +1,55 @@
+# Publishes the MBDef Explorer (docs/dataset/explorer.md) as a GitHub Pages site.
+# It runs only by hand (Actions -> pages -> Run workflow), never on a push or a pull request.
+#
+# Before the first run:
+# - Pages must be enabled for the repository: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+# - On GitHub's free plan, Pages works only for a public repository (a private one needs a paid plan).
+# - Publishing shows every definition text of the dataset, word for word, to anyone: the site is public.
+# - While the MBDef dataset on Hugging Face is private, the repository secret HF_TOKEN must hold a token that can read it (Settings -> Secrets and variables -> Actions); a public dataset needs no secret.
+#
+# The job downloads the MBDef dataset with `data fetch`, which names its Hugging Face repository.
+# It builds the page and its data with `explorer build`, which checks the page data against the dataset's tables.
+# It checks the data against its SHA256SUMS and deploys the page and the data, nothing else.
+name: pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# One deployment at a time; a second run waits instead of cancelling the first.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      DATA_ROOT: ${{ runner.temp }}/data-root
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.3.2
+      - name: Install the package
+        run: uv sync --locked --no-dev
+      - name: Download the MBDef dataset from Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}  # empty, and unused, when the secret is not set
+        run: uv run --no-sync mbdef data fetch MBDef/
+      - name: Build the page and its data
+        run: uv run --no-sync mbdef explorer build
+      - name: The data files are the ones explorer/data/SHA256SUMS lists
+        working-directory: explorer/data
+        run: sha256sum --check --strict --quiet SHA256SUMS
+      - name: Put the site together (the page and its data only)
+        run: |
+          mkdir site
+          cp -r explorer/index.html explorer/data site/
+      - uses: actions/configure-pages@v6.0.0
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: site/
+      - id: deployment
+        uses: actions/deploy-pages@v5.0.1

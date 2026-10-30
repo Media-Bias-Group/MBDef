@@ -1,0 +1,23 @@
+{
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan-amendment-3.json": "24182d648469bddc14dda1b20c47df58d3f6a476755ea00071e1cb9ca517ac0b",
+  "plan-amendment-4.json": "a4eb5480444c0c238b0a18b18d4933bdcf55d0bd508ab2b00ff695995bd11004",
+  "plan-amendment-5.json": "61ea57369b117a0ebec1eb33b55501b50e60e24d60bda399b285fccfa3ebb1af",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "context": "Qwen's model card advises against greedy decoding in thinking mode (risk of repetition until the length limit); length failures are counted by the audit and failure policy as usual.",
+ "created_utc": "2026-09-25T06:33:02.055290+00:00",
+ "new_formats": {
+  "chat-default-think-t0": "as chat-default-think but the request sends temperature 0 (greedy; top_p/top_k then inactive)",
+  "json-default-think-t0": "as json-default-think but temperature 0"
+ },
+ "owner_request": "Owner in chat 2026-09-25: with thinking on, also try temperature 0 instead of the models' shipped temperature 1.0.",
+ "pick_rule": "unchanged (plan-amendment-5); t0 configs are ordinary candidates",
+ "pools": "t0 formats pool only with each other (chat-default-think-t0 + json-default-think-t0) and across arms as for other formats; never mixed with temperature-1.0 or non-thinking formats",
+ "scheduling": "runs on ZIB when GPUs free up after the current thinking cohorts; the trained-prompt runs are not duplicated at temperature 0",
+ "schema": "controlled-model-grid-amendment-v6",
+ "scope": "both models x arms A, B, C x DEV and TEST (24 cohorts), same servers, parsers, seed 9, max_tokens 32,768, verifier and filters as plan-amendment-4",
+ "status": "No DEV or TEST score of any grid cohort has been computed."
+}

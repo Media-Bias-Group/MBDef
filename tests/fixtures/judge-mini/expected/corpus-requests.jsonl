@@ -1,0 +1,4 @@
+{"request": 0, "shard": "shard2", "paper_id": "c1", "candidates": ["m04-0"]}
+{"request": 1, "shard": "shard0", "paper_id": "s1", "candidates": ["m01-0", "m01-1", "m02-0", "m02-1"]}
+{"request": 2, "shard": "shard0", "paper_id": "s1", "candidates": ["m02-2"]}
+{"request": 3, "shard": "shard1", "paper_id": "s2", "candidates": ["m03-0", "m06-0"]}

@@ -1,0 +1,1656 @@
+{
+  "dataset": "data/ground_truth/v3.json",
+  "summary": {
+    "papers": 150,
+    "distinct_normalized_titles": 150,
+    "splits": {
+      "train": 95,
+      "dev": 23,
+      "original_test": 15,
+      "new_test": 17
+    },
+    "field_items": {
+      "definitions": 2865,
+      "synonyms": 414,
+      "description": 1718,
+      "related_terms": 2697,
+      "subtypes": 704,
+      "supertypes": 906,
+      "examples": 810
+    },
+    "citation_markers": 2255,
+    "near_duplicate_title_pairs_at_0_82": [],
+    "publications_with_source_doi": 145,
+    "duplicate_source_dois": 0,
+    "duplicate_normalized_full_texts": 0,
+    "metadata": {
+      "titles": 150,
+      "papers_with_authors": 150,
+      "author_names": 588,
+      "publication_years": 150,
+      "dois": 145,
+      "venues": 111
+    },
+    "grobid_metadata_benchmark": {
+      "paper_count": 150,
+      "coverage": {
+        "expected": {
+          "title": 150,
+          "authors": 150,
+          "publication_year": 150,
+          "doi": 145,
+          "venue": 111
+        },
+        "grobid": {
+          "title": 147,
+          "authors": 146,
+          "publication_year": 93,
+          "doi": 91,
+          "venue": 64
+        }
+      },
+      "exact_or_normalized_matches_out_of_150": {
+        "title_normalized": 131,
+        "title_similarity_at_least_0_92": 138,
+        "authors_ordered_normalized": 37,
+        "authors_ordered_initial_compatible": 112,
+        "author_count": 122,
+        "publication_year": 64,
+        "doi_normalized": 87,
+        "venue_normalized": 66
+      },
+      "matches_when_expected_available": {
+        "title": 131,
+        "authors": 37,
+        "publication_year": 64,
+        "doi": 82,
+        "venue": 39
+      },
+      "papers_with_any_mismatch": 138,
+      "mismatches": [
+        {
+          "paper_id": "016f7a076ac272db106fbcea056752c7307f676a",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "0209e602acaeab882fee84e244caf574cf345ef9",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "033b21cf1c6d3bdae587e673452b994443bf3546",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "044031c8bf57c9155572d26b0627af5ca80677f6",
+          "fields": [
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "057bd5a3a6b652dfd1419128aae578478f5891b0",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "05b3fc81364c2ad10c3b58b3cefcf191f6feb120",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "05bfced33d92944b7a0672490c371342d28ee076",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "09116cf5a3160f310b7c82ec1dc8b86e3850829c",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "09c660d438e8b372f3e77504c069255b85c00256",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "0f7eda998bbce003745ff2fdbcaa1d9a8119368b",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "14bf8b0a9961f5c95b62861c9b7f3d5fcf778dcf",
+          "fields": [
+            "title"
+          ]
+        },
+        {
+          "paper_id": "17734113f254a64b3bae312713edba3b1e34fb56",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "1acbc58041a408e33ba33e2f0af5808f2bc56ff1",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "1ccc69b50a7495af1547833415f89536619c93e9",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "22170e94588cf3b970ff8855c946a130aaa065c2",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "22cb049f711570de72ea60a5f6b49fdf4459d589",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "235c4f33d5bfc81bfa09a2458fcc0e42ef4454dc",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "23eb7b57f821ec3b579605540b494d7c079a8467",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "24589ef86242ff182e7bae495b94e7c11931f20c",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "261a5f3b2fe61904107a2e80d4a9426532cd4b06",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "262153e94c3632ccf213dac45a93d8ff3cc3ff98",
+          "fields": [
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "264c3ad2d861782583e41130677fb6d7856f9dc3",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "26af8e81a7ca5b137912acb81d8c19f38fce0200",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "2d1201d181da2166ccbf1e922634b8b74a58f141",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "304b9778edf07175e6964dfa3f37cacec6006197",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "32e71a5d430dafa32b3ac8df7d2b5554b55c3f29",
+          "fields": [
+            "title",
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "35266513e601aed2e2707e9263b2ccd466644b60",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "35ed340b12c10a5a66504cb2396800486fa5aa26",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "3a03068318afdaa75a9dbdcbf960d63bf8035f0e",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "3b50e1808471dd5a8d19a50ef227b03774b80cae",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "4232b05abe413bf3294a560082b0b6bb72dc5a27",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "4243aa9bacd51bc02d4240378e7528912962b53e",
+          "fields": [
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "4b33419863b96c270d5875af9bd5af3ce5dbb1e2",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "4d65bab6f9b1fd61885fe187e6014a89592df187",
+          "fields": [
+            "title",
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "4eb5a9745dfc892cb42ed427a5f08e6abf8df7e3",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "502c9122dda395eb30bd0707a85bc235d4e6e3ba",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "73bfad11b96a69cb882028ead115751adb55252d",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "885c3154386e3dd1ff6a12e566152846186f9569",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "8dd6a2c9c88c9b3465484228c93f4dcc11cfeab9",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "a7b52fa3ff2606013a6ab9ba294743d7de637e6a",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "bff1326ea0f792e3557fc8ad0731733ba7f8b091",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "c1e92f1be2387d14dcfaa5e1640a9939724a312a",
+          "fields": [
+            "title",
+            "authors",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "c84a169e6df175c4662012d3ba7dbf8fa1b5abc9",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "eb29476dd81aefedf2896db42f039f003a0ec5bf",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "95560085f16dfe9b556d0eea424ef4f7977fb647",
+          "fields": [
+            "title",
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "167f1d5e64b874bea86acdef6d5476da904fec6a",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "doi:10.1145/3677092",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "dx.doi.org/https://doi.org/10.1016/j.ipm.2021.102505",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "https://aclanthology.org/2024.lrec-main.952",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "https://arxiv.org/abs/2312.16148",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "https://link.springer.com/article/10.1007/s00799-018-0261-y",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "https://media-bias-research.org/wp-content/uploads/2024/07/Preprint_ICWSM_25_NewsUnfold",
+          "fields": [
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "https://aclanthology.org/2021.findings-emnlp.101",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "1901.00596v4",
+          "fields": [
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "2025.acl-long.1513",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "2106.04554v2",
+          "fields": [
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "2106.16117v1",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "2303.14725v2",
+          "fields": [
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "3457607",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "How_to_define_ecology_on_the_basis_of_its_current_understanding",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "Rosen_gjcpi_2018_3",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "daw084",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "frai-06-1225093",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "s10462-022-10338-7",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "s10816-016-9274-2",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "04fce15680b781fd81dc2062b1583cc9ecd55bc0",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "0c68d7d153bb56e4637d6aee051d87580e05fd5b",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "0dcf170200969c29476284619dcc438070abe488",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "118e1a32747f15bf92ddfd88abe5f00f893e4255",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "1292dfb275a4d68cf877b3fdb37d142cae85b885",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "1fc22db1adfbc21daef99f3199de1e5c8f05be09",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "2166f29bba0223ed5358a4324cfbabcec856bc5b",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "21e5b0bc1511e0892ad361689bd686d6bc53821e",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "2eaa6fd3f2662aa0fbf5db886f6dbc4a21855695",
+          "fields": [
+            "title",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "334b86c9a3c4bda5f1a127dfe72be72796f2364d",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "33c79ac6167b5fa10758f3d4e21d8e1719e298b7",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "3dffde1e26f12b0f30abe8b5a046932fa6004ae0",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "3fbb00b939c3e84989ed922a6366608d1155aeb3",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "4089-8457-1-PB",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "4181f571f985a2e8ed2dcf716e265675218ad68e",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "44b1f4501cef2f9ec85d46e837da6737ebbb98c7",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "5529d09545f03ad4fc611579cd8bae3d09aaa4b2",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "5710917bcf01f63c64bc8980cbaa60e7348f5ab8",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "574071efbb372d219ad5adfd5c55e1ffbf8bf71d",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "591de36f141029eb8de754ff4f59a5c8be9f268d",
+          "fields": [
+            "title",
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "5fb808edfaae574ee7f4553ad7090ca1fed9b585",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "641b12df54a3d853bad273bf5fed2c0965936f83",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "6924de9691e8f1bb5477da3907e2f5372ad0e565",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "6b7fb77e515e432fc12cf7779c796aa98e18c68d",
+          "fields": [
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "6ce27e8ceb8e7aa4e40d99312b6c98ac3f5260fb",
+          "fields": [
+            "title",
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "707ea8cab9147bf5c56762a97cbf425b1d6b1a94",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "70c93e5e38a8176590f69c0491fd63ab2a9e67c4",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "71b7769129e41a3341bb4c6523b0cd99cfcd3388",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "79ddbeff892277592aa387045692e0a738ef9edf",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "7a6823d16a1dc680c9bdfe03dc4caccbe2e944b6",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "855a0e4669165e10caeaf7f1f3f58452610bd82a",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "86abcc06c0270620b79bf68c1081926b56c10fa9",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "8ff4cb3c4da8965b96c5d40f52298730ee097bae",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "906e2f13fafbb3105cfc39444af00e004e86221a",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "90d898ff33b4c6c3fc7bfa74fb8126c6cf0828b9",
+          "fields": [
+            "title",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "91c1a302b1ba3d78f18d769090d5c285c36d9567",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "92427eb200269686224441fd9877de58a0a3c506",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "92b4c8deecee703569b9e909dfb88aa70e691219",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "9a7ae269358c6366cc46dc924d63b47ba405d082",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "E105.D_2021EDR0003",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "a0f390307705585eae44a74d28eb6d3819979e6d",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "a0f3d2bc4aeed2a2508486ba86fc46688eea8574",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "ac445a30aad717c7fba9a412ba8ca195a1d1603f",
+          "fields": [
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "bc5facfd49ec7b635f2fe75a817def81cb9a1a24",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "c30d44f0b42f0ea441fd215b54c340d996f790e7",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "c4407243496b7e9da554a56550ff51da626de0d8",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "c466bae6fedff252335dd70f5128a4c8882c476f",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "cff9b9a8ec487511f4e5736aa9e4b9ab1e55969f",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "d53723df40b36633ab301ff680df4687b6eb4c82",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "d6baa6a163549cd7175f181483be827d43c83dbe",
+          "fields": [
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "d6d82c77c2b4241b25fe3ce5758568c69942aadc",
+          "fields": [
+            "title",
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "d7701e78e0bfc92b03a89582e80cfb751ac03f26",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "d85a5081709d4218d233b0f7c6b830bcf31907e0",
+          "fields": [
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "da9cb56b9c7c2c2b191dd658b1830774d741fc62",
+          "fields": [
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "dc776ddcc62c0992e2ef4893e0dfb7c9b918148c",
+          "fields": [
+            "title",
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "digital-05-00014-v3",
+          "fields": [
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "doi_10.1016_j.procs.2024.10.214",
+          "fields": [
+            "authors",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "doi_10.12957_publicum.2019.47199",
+          "fields": [
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "doi_10.4108_eetsis.3894",
+          "fields": [
+            "authors",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "doi_10.48009_4_iis_2025_126",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "e049ae6d7d3e07536d096ebcd4ddf82e7c54a0ec",
+          "fields": [
+            "authors",
+            "publication_year",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "e14a6a3e9647b577751d3915f09301b1ce674d24",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "e4634a7c9aee3dce3d8d71f96a17c82ed95fd413",
+          "fields": [
+            "authors",
+            "publication_year",
+            "doi"
+          ]
+        },
+        {
+          "paper_id": "e546418c674b9c82d3f03da674d2c614541b9e15",
+          "fields": [
+            "authors",
+            "publication_year"
+          ]
+        },
+        {
+          "paper_id": "e804f4ea00a0656719cd0426f100a4c70075600b",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "f5c282326822c5c1cca05a49940024480948e09c",
+          "fields": [
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "fa30ffaca501fbd391419a92b0cfb25881727700",
+          "fields": [
+            "authors"
+          ]
+        },
+        {
+          "paper_id": "hash_4105881299835d6b",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        },
+        {
+          "paper_id": "hash_32ab4976acec6dfb",
+          "fields": [
+            "publication_year",
+            "doi",
+            "venue"
+          ]
+        }
+      ]
+    },
+    "cohorts": {
+      "original_unique": {
+        "papers": 73,
+        "definitions": 1768,
+        "definition_records": 1522
+      },
+      "new_77": {
+        "papers": 77,
+        "definitions": 1097,
+        "definition_records": 966
+      }
+    },
+    "definition_review": {
+      "review_date": "2026-07-29",
+      "reviewer": "Codex direct source-context review; pending research-group validation",
+      "fingerprint_sha256": "561826418bed52dc74c9b81b2cd0644ee7b7172ee29d3a0a93c874b77bfaff27",
+      "accepted_warning_count": 64,
+      "unresolved_warning_count": 0
+    },
+    "definition_records": 2488
+  },
+  "severity_counts": {
+    "review": 64
+  },
+  "issues": [
+    {
+      "severity": "review",
+      "paper_id": "0209e602acaeab882fee84e244caf574cf345ef9",
+      "problem": "possibly_naming_only_definition",
+      "term": "fuzzy-processing preference",
+      "text": "As people gain experience making certain judgments or decisions, they tend to rely more on gist rather than verbatim representations, known as a fuzzy-processing preference",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "0209e602acaeab882fee84e244caf574cf345ef9",
+      "problem": "possibly_naming_only_definition",
+      "term": "numeracy",
+      "text": "The specific aspect of literacy that involves solving problems requiring understanding and use of quantitative information is sometimes called numeracy.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "09c660d438e8b372f3e77504c069255b85c00256",
+      "problem": "possibly_naming_only_definition",
+      "term": "projections",
+      "text": "generalizations, often called projections, from ourselves to new people who become associated with us.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "118e1a32747f15bf92ddfd88abe5f00f893e4255",
+      "problem": "very_short_definition",
+      "term": "ideological level",
+      "text": "system-level influences",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "118e1a32747f15bf92ddfd88abe5f00f893e4255",
+      "problem": "very_short_definition",
+      "term": "media routines",
+      "text": "journalistic practices",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "118e1a32747f15bf92ddfd88abe5f00f893e4255",
+      "problem": "very_short_definition",
+      "term": "media routines level",
+      "text": "journalistic practices",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "334b86c9a3c4bda5f1a127dfe72be72796f2364d",
+      "problem": "very_short_definition",
+      "term": "social bots",
+      "text": "software-controlled profiles",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "34ec13e4a17aff92546ab99472e3ce95524d9add",
+      "problem": "definition_starts_as_fragment",
+      "term": "daily me",
+      "text": "This kind of newspaper is printed in an edition of one.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "possibly_naming_only_definition",
+      "term": "Distributed Hash Table (DHT)",
+      "text": "a data structure called a Distributed Hash Table (DHT) for storing shared secret data chunks",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "possibly_naming_only_definition",
+      "term": "Internet of Things (IoT)",
+      "text": "a ubiquitous internet work of intelligent physical objects, called \"Things,\" and people",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "definition_starts_as_fragment",
+      "term": "security tokens",
+      "text": "These tokens derive their value from an external, tradable asset and thus are regulated by federal securities.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "possibly_naming_only_definition",
+      "term": "sidechain",
+      "text": "an alternate BC that is linked to another chain, usually called parent BC, using a two-way peg",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "definition_starts_as_fragment",
+      "term": "smart properties",
+      "text": "This solution to digitally manage the ownership of real goods takes the name of \"smart properties.\"",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "383057f972b11b99cbc8c0d3e6c47170e9d95c1c",
+      "problem": "definition_starts_as_fragment",
+      "term": "UTXO",
+      "text": "It is a value locked to a specific owner.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "4089-8457-1-PB",
+      "problem": "definition_starts_as_fragment",
+      "term": "Support Vector Machines",
+      "text": "this classifier is creating a hyperplane or set of hyperplanes in a multidimensional or infinite-dimensional space.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "4d65bab6f9b1fd61885fe187e6014a89592df187",
+      "problem": "definition_starts_as_fragment",
+      "term": "file drawer problem",
+      "text": "this problem of results that are missing from a body of research evidence",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "56c569beddfd96bc0729bbb9d6f2629065b11419",
+      "problem": "definition_starts_as_fragment",
+      "term": "macroprudential regulation",
+      "text": "the latter considers the system as a whole",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "56c569beddfd96bc0729bbb9d6f2629065b11419",
+      "problem": "definition_starts_as_fragment",
+      "term": "microprudential regulation",
+      "text": "The former is focused on prudential controls at the firm level",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "591de36f141029eb8de754ff4f59a5c8be9f268d",
+      "problem": "definition_starts_as_fragment",
+      "term": "Pygmalion effect",
+      "text": "this boost in achievement driven by teachers' beliefs",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "641b12df54a3d853bad273bf5fed2c0965936f83",
+      "problem": "possibly_naming_only_definition",
+      "term": "audit methodology",
+      "text": "involves the use of matched teams of job applicants-called testers-who apply to real job openings and record responses from employers",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "707ea8cab9147bf5c56762a97cbf425b1d6b1a94",
+      "problem": "definition_starts_as_fragment",
+      "term": "event history calendar",
+      "text": "It is a procedure that has been developed by cognitive psychologists that capitalizes on current scientific understanding of the nature of autobiographical memory to assess experiences over the life course (Belli 1998).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "70c93e5e38a8176590f69c0491fd63ab2a9e67c4",
+      "problem": "definition_starts_as_fragment",
+      "term": "conversion error",
+      "text": "they falsely perceive ifP then Q to be equivalent to ifQ then P",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "70c93e5e38a8176590f69c0491fd63ab2a9e67c4",
+      "problem": "possibly_naming_only_definition",
+      "term": "matching bias",
+      "text": "whereby people tend to focus on (and select) cards explicitly named in the statement of the rule to be tested",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "71b7769129e41a3341bb4c6523b0cd99cfcd3388",
+      "problem": "very_short_definition",
+      "term": "situation tests",
+      "text": "personal approaches",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "86abcc06c0270620b79bf68c1081926b56c10fa9",
+      "problem": "definition_starts_as_fragment",
+      "term": "mainstream news sources",
+      "text": "those sourcessuch as the BBC and the New York Timesthat have a print (magazines or newspapers) or broadcasting (television or radio) legacy.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "906e2f13fafbb3105cfc39444af00e004e86221a",
+      "problem": "possibly_naming_only_definition",
+      "term": "Racism",
+      "text": "a set of beliefs whereby we irrationally attach significance to something called race",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "91c1a302b1ba3d78f18d769090d5c285c36d9567",
+      "problem": "definition_starts_as_fragment",
+      "term": "externally regulated behaviors",
+      "text": "those performed to comply with externally administered reward and punishment contingencies",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Dichotomous appearance",
+      "text": "it represents the presence or absence of a token. Therefore, it is computed as 0 if the term does not appear, and 1 if the term appears.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Dictionaries",
+      "text": "they are pre-established lists of lexicons (words or sentences) used for filtering or grouping the preprocessed tokens.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "extremist discourse",
+      "text": "This type of discourse is characterized by the use of specific narratives, an aggressive and polarized linguistic style and several techniques oriented to justify a feeling of superiority or inferiority towards another group.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "FastText",
+      "text": "it operates similarly to Word2Vec skip-gram, but overcoming two limitations of this model: it incorporates subwords in the embedding process, thereby permitting to include words that were not contained in the original lexicon (Schmitt et al. 2018).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Latent Dirichlet allocation (LDA)",
+      "text": "it is one of the most popular NLP techniques for topic detection. It extracts topics from a corpus of text based on word probabilities: for each latent topic, it extracts the probability distribution of a combination of words, which helps identify the main topics.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Log-likelihood (Dunning 1993)",
+      "text": "it is used to compute the significance of the co-occurrence of two variables (for example, two tokens or a token with the group used for classification). Therefore, this technique does not account for the frequency of a single token, but for the frequency of two conditions appearing together, which may include one or two tokens.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "LSF",
+      "text": "it allows capturing the dependence inside a sentence or a text between two terms",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "natural language processing (NLP)",
+      "text": "This artificial intelligence area uses a set of computational methods for making human language accessible to computers, and more specifically for giving the computers the ability to understand and generate human language",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "NER",
+      "text": "it deals with the identification of entities (e.g. names, organizations or locations) in the text, tagging them as relevant subjects",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Non-negative matrix factorization (NMF)",
+      "text": "it is a topic modeling technique which relies on the use of linear algebra algorithms in a TF-IDF document matrix to define topics",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "parse trees",
+      "text": "it constructs a representation of how the concepts can be used recursively in a sentence. Parse trees include all the tokens and their relationships, along with a set of rules that allows substituting the token while maintaining the syntactic rules.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Part-of-speech (POS)",
+      "text": "it allows tagging every word with its grammatical category (e.g. nouns, verbs or adjectives) depending on the structure of the text where it is found (Cutting et al. 1992).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "semantic tagging",
+      "text": "it implies the process of automatically extracting concepts, entities or topics from the tokens in a text, which can be realized by assorted algorithmic means",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Sentiment scoring (SS)",
+      "text": "it provides a score for every text",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Use of punctuation",
+      "text": "this approach involves the analysis of the use of punctuation signs as part of the syntactic distribution of the sentence (Sikos et al. 2014;Yang et al. 2011).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "A_survey_on_extremism_analysis_using_natural_langu",
+      "problem": "definition_starts_as_fragment",
+      "term": "Word2Vec",
+      "text": "it allows predicting words depending on the context, maintaining the semantic meaning of the sentence.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "a0f3d2bc4aeed2a2508486ba86fc46688eea8574",
+      "problem": "possibly_naming_only_definition",
+      "term": "relative call-back ratios",
+      "text": "compare how often a majority applicant is called back for an interview (control) to how often a minority applicant is called back for an interview (treatment).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d",
+      "problem": "definition_starts_as_fragment",
+      "term": "aversive racists",
+      "text": "those who explicitly reject racist ideas, but who are found to have implicit race bias when they take a race IAT",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d",
+      "problem": "definition_starts_as_fragment",
+      "term": "the assumption method",
+      "text": "It involves measuring differences across participants in response to clinical vignettes, identical except for one feature, such as the race, of the character in the vignette.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea",
+      "problem": "definition_starts_as_fragment",
+      "term": "A legacy of historical discrimination",
+      "text": "This first conceptualization of structural discrimination stands furthest from conventional definitions of discrimination as an active and ongoing form of racial bias. By focusing on the legacies of past discrimination, this emphasis remains agnostic about the relevance of contemporary forms of discrimination that may further heighten or exacerbate existing inequalities.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea",
+      "problem": "definition_starts_as_fragment",
+      "term": "Contemporary state policies and practices",
+      "text": "This second conceptualization of structural discrimination accords more with conventional understandings of the term, placing its emphasis on those contemporary policies and practices that systematically disadvantage certain groups.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea",
+      "problem": "definition_starts_as_fragment",
+      "term": "Accumulation of disadvantage",
+      "text": "This third category of structural discrimination draws our attention to how the effects of discrimination in one domain or at one point in time may have consequences for a broader range of outcomes.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "d6d82c77c2b4241b25fe3ce5758568c69942aadc",
+      "problem": "definition_starts_as_fragment",
+      "term": "wise",
+      "text": "They used it to designate heterosexuals who understood their full humanity despite the stigma attached to their sexual orientation: family and friends, usually, who knew the person beneath the stigma.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "d7701e78e0bfc92b03a89582e80cfb751ac03f26",
+      "problem": "definition_starts_as_fragment",
+      "term": "explanation-producing networks",
+      "text": "These networks are specifically built to explain themselves, and they are designed to simplify the interpretation of an opaque subsystem.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "d85a5081709d4218d233b0f7c6b830bcf31907e0",
+      "problem": "definition_starts_as_fragment",
+      "term": "response error",
+      "text": "This kind of error arises from an observational gap between the true score of a respondent and the actual answer provided (Marquis et al. 1981, pp. 2-8).",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "doi_10.4108_eetsis.3894",
+      "problem": "definition_starts_as_fragment",
+      "term": "Machine Learning (ML)",
+      "text": "It is a process of solving a specific problem by algorithmically building a statistical model based on a set of data",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "doi_10.4108_eetsis.3894",
+      "problem": "definition_starts_as_fragment",
+      "term": "Social engineering attacks",
+      "text": "this technique is used to be able to steal private information from a telephone or face-to-face medium",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "e546418c674b9c82d3f03da674d2c614541b9e15",
+      "problem": "very_short_definition",
+      "term": "fake news",
+      "text": "propaganda entertainment",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "e546418c674b9c82d3f03da674d2c614541b9e15",
+      "problem": "possibly_naming_only_definition",
+      "term": "ad networks",
+      "text": "entities called 'ad networks' (namely, businesses that sit between web publishers and organisations wishing to advertise)",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "e546418c674b9c82d3f03da674d2c614541b9e15",
+      "problem": "definition_starts_as_fragment",
+      "term": "behavioural targeting",
+      "text": "This is the practice of tracking people's online behaviour and serving them advertisements on the basis of what they do online.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "f5c282326822c5c1cca05a49940024480948e09c",
+      "problem": "possibly_naming_only_definition",
+      "term": "Racism",
+      "text": "an organized social system in which the dominant racial group, based on an ideology of inferiority, categorizes and ranks people into social groups called \"races\" and uses its power to devalue, disempower, and differentially allocate valued societal resources and opportunities to groups defined as inferior",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "fa30ffaca501fbd391419a92b0cfb25881727700",
+      "problem": "near_duplicate_definitions",
+      "term": "Health literacy",
+      "similarity": 0.8820224719101124,
+      "left": "The cognitive and social skills which determine the motivation and ability of individuals to gain access to understand and use information in ways which promote and maintain good health",
+      "right": "The personal, cognitive and social skills which determine the ability of individuals to gain access to, understand, and use information to promote and maintain good health",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "hash_32ab4976acec6dfb",
+      "problem": "definition_starts_as_fragment",
+      "term": "epistemic coverage",
+      "text": "those features of an epistemic agent's epistemic environment that underwrite \"the believer's reliance on a source to be both reliably apprised of the facts in a certain domain, and reliably disposed to report on the obtaining of facts in that domain\"",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "s10462-022-10338-7",
+      "problem": "possibly_naming_only_definition",
+      "term": "discourse relations",
+      "text": "relations of meaning between the different parts, be they clauses, sentences, or paragraphs. These relations are discourse relations (DRels)-also known as rhetorical relations or coherence relationsand are crucial to explain how discourse is organized.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "s10462-022-10338-7",
+      "problem": "possibly_naming_only_definition",
+      "term": "narrative",
+      "text": "structures consisting of two parts: (1) a story, the content or chain of events (actions, happenings), plus what may be called the existents (characters, items of setting); and (2) a discourse, that is, the expression, how the content is communicated, for instance, by word (verbal language: oral and written), image (visual language), representation (theatrical language), etc.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "s10462-022-10338-7",
+      "problem": "definition_starts_as_fragment",
+      "term": "relation extraction",
+      "text": "it attempts to determine a semantic link between two named entities in a sentence.",
+      "review_status": "accepted_after_source_context_review"
+    },
+    {
+      "severity": "review",
+      "paper_id": "s10462-022-10338-7",
+      "problem": "possibly_naming_only_definition",
+      "term": "relation extraction",
+      "text": "it attempts to determine a semantic link between two named entities in a sentence.",
+      "review_status": "accepted_after_source_context_review"
+    }
+  ]
+}

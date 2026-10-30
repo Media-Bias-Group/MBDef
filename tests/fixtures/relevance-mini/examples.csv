@@ -1,0 +1,3 @@
+paperid,title,abstract,manual_label,strategy,rank,cluster
+ex1,Bias in election coverage,A content analysis of election news.,relevant,diverse,1,1
+ex2,Protein folding at speed,A simulation method for proteins.,not relevant,diverse,2,2

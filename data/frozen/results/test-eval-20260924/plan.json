@@ -1,0 +1,114 @@
+{
+ "authorization": "Decided on 24 Sep 2026: evaluate the frozen finalists once on the 29 TEST papers (14 original_test + 15 new_test), with a hard cap of USD 80 on the API bill, and pick the next day by the frozen rule.",
+ "budget": {
+  "estimate_usd": "~52 (Opus ~40, Kimi ~3, Sol ~6) scaled from DEV bills; stop dispatch before the cap",
+  "openrouter_hard_cap_usd": 80
+ },
+ "caveats": [
+  "All DEV numbers for these rows are best-of-many DEV selections and are optimistic; TEST is the first held-out estimate.",
+  "Each row is one generation; single-run spread on DEV was about +/-3 matches for Qwen, so differences under ~5 matches are not meaningful."
+ ],
+ "cohort": {
+  "papers": 29,
+  "recall_denominator": "all TEST gold definitions, counted at preparation",
+  "source": "data/validated_gt.json",
+  "splits": [
+   "original_test",
+   "new_test"
+  ]
+ },
+ "created_utc": "2026-09-24T13:06:05.935380+00:00",
+ "eligibility": "A row is eligible for the pick only if every paper produced output and at most 5% of its extraction windows / verifier batches failed. Failed windows or batches contribute no records and are counted and reported; missing verifier verdicts reject that candidate. No model-output retries beyond each recipe's historical documented policy.",
+ "excluded": [
+  {
+   "reason": "Saved configuration records 'Saved signature and demonstrations unavailable' and 'Full historical runtime settings unavailable'; cannot be rerun faithfully.",
+   "row": "R58946ba (GLM, and every GLM recipe)"
+  }
+ ],
+ "frozen_before_any_test_result": true,
+ "matcher": "frozen M3 one-to-one definition matcher, cutoff 0.50 (src.metric_audit.compare full_only; scripts.score_selected_rerun conventions)",
+ "pick_rule": "Among eligible rows with TEST recall >= 80%, pick the highest precision, but prefer a self-hosted Qwen row if its recall is within 2 matches of the leader. If no row reaches 80%, pick the highest recall among rows with precision >= 15%. Report every row either way.",
+ "rows": [
+  {
+   "cost": "self-hosted",
+   "family": "Qwen",
+   "row": "R0bea6bc",
+   "shares_generation_with": [
+    "R6e24b3d",
+    "Ra1da1ae"
+   ],
+   "what": "two GEPA prompts (16k/2k, 32k/4k chars), chat format 8192 out, strict Qwen verifier, title-aware relevance cutoff 0.2371840437933272"
+  },
+  {
+   "cost": "self-hosted",
+   "family": "Qwen",
+   "row": "R6e24b3d",
+   "what": "same extraction+verifier as R0bea6bc, relevance without title features"
+  },
+  {
+   "cost": "self-hosted",
+   "family": "Qwen",
+   "row": "Ra1da1ae",
+   "what": "same extraction+verifier as R0bea6bc, separate-title relevance"
+  },
+  {
+   "cost": "self-hosted",
+   "family": "Qwen",
+   "row": "QWEN-POOL3",
+   "what": "NEW recipe declared 2026-09-24 from the DEV pooling audit: three passes on one BF16 server (chat 8192, JSON-schema 8192, JSON-schema 16384), each with the strict verifier and title-aware relevance; final records merged with src.extractor.merge"
+  },
+  {
+   "cost": "OpenRouter",
+   "family": "Opus",
+   "row": "Rdb54680",
+   "shares_generation_with": [
+    "R80dd4ae"
+   ],
+   "what": "Opus native Bootstrap program (8k/1k chars, high reasoning, 8192 out) + common Qwen strict verifier"
+  },
+  {
+   "cost": "OpenRouter",
+   "family": "Opus",
+   "row": "R80dd4ae",
+   "what": "same Opus extraction + Qwen strict verifier + frozen TRAIN relevance"
+  },
+  {
+   "cost": "OpenRouter",
+   "family": "Opus",
+   "row": "R9ec8007",
+   "what": "Opus with transferred Qwen F1 GEPA prompt (32k/4k, high reasoning, 16384 out) + Qwen strict verifier + frozen TRAIN relevance"
+  },
+  {
+   "cost": "OpenRouter",
+   "family": "Kimi",
+   "row": "R13f6cd1",
+   "what": "Kimi K3 with transferred Gemma recall prompt (32k/4k, high reasoning, 16384 out), source cleanup and exact merge"
+  },
+  {
+   "cost": "OpenRouter",
+   "family": "Sol",
+   "row": "Rde76462",
+   "what": "GPT-5.6 Sol with transferred Gemma F1 (MIPRO heavy) prompt (32k/4k, high reasoning, 16384 out), source cleanup and exact merge"
+  },
+  {
+   "cost": "free academic endpoint",
+   "family": "SOOFI",
+   "row": "R906aabe",
+   "what": "SOOFI native Bootstrap program (8k/1k, temperature 0.6, 32768 out) via Passau academic endpoint"
+  },
+  {
+   "cost": "self-hosted",
+   "family": "Gemma 12B",
+   "row": "R8ce2900",
+   "what": "Gemma 4 12B QAT native Bootstrap program (8k/1k, temperature 0.6, 32768 out), self-hosted"
+  },
+  {
+   "cost": "self-hosted",
+   "family": "Gemma 12B",
+   "row": "R74933e3",
+   "what": "Gemma 4 12B MIPRO heavy program (32k/4k, temperature 0, 8192 out) + Qwen strict verifier + frozen TRAIN relevance, self-hosted"
+  }
+ ],
+ "schema": "test-eval-plan-v1",
+ "single_use": "TEST results are generated once per row. No reruns after any TEST score is seen, except an operational failure that produced zero model output, which must be recorded."
+}

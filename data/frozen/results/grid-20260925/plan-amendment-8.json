@@ -1,0 +1,24 @@
+{
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan-amendment-3.json": "24182d648469bddc14dda1b20c47df58d3f6a476755ea00071e1cb9ca517ac0b",
+  "plan-amendment-4.json": "a4eb5480444c0c238b0a18b18d4933bdcf55d0bd508ab2b00ff695995bd11004",
+  "plan-amendment-5.json": "61ea57369b117a0ebec1eb33b55501b50e60e24d60bda399b285fccfa3ebb1af",
+  "plan-amendment-6.json": "b87d791869ccf53b0d16f23e287ad943b59858db520623ef1fa797a76c0db6ad",
+  "plan-amendment-7.json": "3836d574db6f78f88b234a9781480bf01a3cf68668ef65cd5a92aba8cd34b8ed",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "created_utc": "2026-09-25T11:23:14.995786+00:00",
+ "fallback": "If no config meets a floor, that floor's pick is reported as none.",
+ "final_picks": {
+  "P>=20": "Among eligible, audit-passing configs with TEST matches >= 292 of 365 (>= 80% recall) and TEST precision >= 20%: the highest TEST recall; configs within 2 matches of the highest are tied and the tie goes to higher TEST precision, then to fewer LLM calls.",
+  "P>=24": "Among eligible, audit-passing configs with TEST matches >= 292 of 365 (>= 80% recall) and TEST precision >= 24%: the highest TEST recall; configs within 2 matches of the highest are tied and the tie goes to higher TEST precision, then to fewer LLM calls.",
+  "P>=28": "Among eligible, audit-passing configs with TEST matches >= 292 of 365 (>= 80% recall) and TEST precision >= 28%: the highest TEST recall; configs within 2 matches of the highest are tied and the tie goes to higher TEST precision, then to fewer LLM calls."
+ },
+ "owner_decision": "Owner in chat 2026-09-25: instead of a single pick, carry three picks to the full corpus, one per precision floor, generated together on shared servers, and choose among the final outputs by comparing them.",
+ "production": "The union of cohort parts (model x arm x format) needed by the three picks is generated once on the full corpus; each pick's output is then derived from those generations with its own stages and pools. Picks are compared on the corpus (agreement/disagreement, per-paper counts) before the owner chooses.",
+ "schema": "controlled-model-grid-amendment-v8",
+ "status": "Final scoring (job 9518898) has not run. A provisional scoring (9518757, before trained prompts, with an audit that still had two false-positive defect classes) was seen by the owner and lead; this amendment is therefore informed by provisional TEST results, as the owner accepted in amendment 5.",
+ "superseded": "The fewest-calls TEST rule of plan-amendment-5 is superseded; its result is still reported."
+}

@@ -1,0 +1,1470 @@
+[
+  {
+    "def_id": "o00000",
+    "mention_id": "m0000",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper01",
+    "term": "fake news",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00008",
+    "mention_id": "m0001",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper13",
+    "term": "fake news",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00014",
+    "mention_id": "m0002",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper18",
+    "term": "fake news",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00015",
+    "mention_id": "m0002",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper18",
+    "term": "fake news",
+    "text": "Fake news is the way that social media platforms present the facts of minority groups and of scientific findings in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00016",
+    "mention_id": "m0002",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper18",
+    "term": "fake news",
+    "text": "Fake news is the way that social media platforms present the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00021",
+    "mention_id": "m0003",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper26",
+    "term": "fake news",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00028",
+    "mention_id": "m0004",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper26",
+    "term": "Fake News",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00029",
+    "mention_id": "m0004",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper26",
+    "term": "Fake News",
+    "text": "Fake News is the way that readers distort the facts of political events and of political events in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00030",
+    "mention_id": "m0004",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper26",
+    "term": "Fake News",
+    "text": "Fake News is the way that social media platforms repeat the facts of election campaigns and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00036",
+    "mention_id": "m0005",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper34",
+    "term": "Fake News",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00045",
+    "mention_id": "m0006",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper36",
+    "term": "Fake News",
+    "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00046",
+    "mention_id": "m0006",
+    "concept_id": "gf8d45d620d38",
+    "paper_id": "paper36",
+    "term": "Fake News",
+    "text": "Fake News is the way that social media platforms emphasise the facts of minority groups and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00064",
+    "mention_id": "m0008",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper25",
+    "term": "media bias",
+    "text": "Media bias is the way that readers emphasise the facts of minority groups and of public issues in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00065",
+    "mention_id": "m0008",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper25",
+    "term": "media bias",
+    "text": "Media bias is the way that social media platforms repeat the facts of election campaigns and of election campaigns in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00066",
+    "mention_id": "m0008",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper25",
+    "term": "media bias",
+    "text": "Media bias is the way that editors present the facts of scientific findings and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00072",
+    "mention_id": "m0009",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper36",
+    "term": "media bias",
+    "text": "Media bias is the way that political actors distort the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00073",
+    "mention_id": "m0009",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper36",
+    "term": "media bias",
+    "text": "Media bias is the way that journalists select the facts of scientific findings and of minority groups in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00074",
+    "mention_id": "m0009",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper36",
+    "term": "media bias",
+    "text": "Media bias is the way that social media platforms present the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00087",
+    "mention_id": "m0011",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper29",
+    "term": "bias in the media",
+    "text": "Bias in the media is the way that readers select the facts of public issues and of election campaigns in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00097",
+    "mention_id": "m0013",
+    "concept_id": "g1b8640b47938",
+    "paper_id": "paper05",
+    "term": "Media Biases",
+    "text": "Media Biases is the way that political actors repeat the facts of political events and of election campaigns in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00109",
+    "mention_id": "m0015",
+    "concept_id": "ga67b95a680c9",
+    "paper_id": "paper08",
+    "term": "framing",
+    "text": "Framing is the way that social media platforms omit the facts of election campaigns and of political events in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00122",
+    "mention_id": "m0017",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper03",
+    "term": "frames",
+    "text": "Frames is the way that social media platforms distort the facts of political events and of political events in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00123",
+    "mention_id": "m0017",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper03",
+    "term": "frames",
+    "text": "Frames is the way that readers emphasise the facts of political events and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00140",
+    "mention_id": "m0019",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper20",
+    "term": "frames",
+    "text": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00141",
+    "mention_id": "m0019",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper20",
+    "term": "frames",
+    "text": "Frames is the way that readers emphasise the facts of minority groups and of scientific findings in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00142",
+    "mention_id": "m0019",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper20",
+    "term": "frames",
+    "text": "Frames is the way that political actors emphasise the facts of minority groups and of public issues in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00149",
+    "mention_id": "m0020",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper30",
+    "term": "frames",
+    "text": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00151",
+    "mention_id": "m0020",
+    "concept_id": "ge7d679448a72",
+    "paper_id": "paper30",
+    "term": "frames",
+    "text": "Frames is the way that journalists repeat the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00157",
+    "mention_id": "m0021",
+    "concept_id": "g3edc682a1ecb",
+    "paper_id": "paper20",
+    "term": "click-bait",
+    "text": "Click-bait is the way that political actors distort the facts of election campaigns and of minority groups in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00158",
+    "mention_id": "m0021",
+    "concept_id": "g3edc682a1ecb",
+    "paper_id": "paper20",
+    "term": "click-bait",
+    "text": "Click-bait is the way that editors select the facts of political events and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00159",
+    "mention_id": "m0021",
+    "concept_id": "g3edc682a1ecb",
+    "paper_id": "paper20",
+    "term": "click-bait",
+    "text": "Click-bait is the way that political actors distort the facts of scientific findings and of public issues in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00164",
+    "mention_id": "m0022",
+    "concept_id": "g3edc682a1ecb",
+    "paper_id": "paper29",
+    "term": "click-bait",
+    "text": "Click-bait is the way that editors emphasise the facts of minority groups and of election campaigns in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00165",
+    "mention_id": "m0022",
+    "concept_id": "g3edc682a1ecb",
+    "paper_id": "paper29",
+    "term": "click-bait",
+    "text": "Click-bait is the way that editors omit the facts of scientific findings and of minority groups in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00188",
+    "mention_id": "m0025",
+    "concept_id": "g4b0149fcebb5",
+    "paper_id": "paper09",
+    "term": "misinformation",
+    "text": "Misinformation is the way that journalists emphasise the facts of election campaigns and of political events in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00194",
+    "mention_id": "m0026",
+    "concept_id": "g4b0149fcebb5",
+    "paper_id": "paper35",
+    "term": "misinformation",
+    "text": "Misinformation is the way that journalists distort the facts of political events and of minority groups in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00201",
+    "mention_id": "m0027",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper10",
+    "term": "disinformation",
+    "text": "Disinformation is the way that political actors select the facts of election campaigns and of election campaigns in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00206",
+    "mention_id": "m0028",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper15",
+    "term": "disinformation",
+    "text": "Disinformation is the way that journalists distort the facts of scientific findings and of minority groups in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00207",
+    "mention_id": "m0028",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper15",
+    "term": "disinformation",
+    "text": "Disinformation is the way that journalists omit the facts of public issues and of scientific findings in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00210",
+    "mention_id": "m0029",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper23",
+    "term": "disinformation",
+    "text": "Disinformation is the way that journalists present the facts of election campaigns and of minority groups in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00217",
+    "mention_id": "m0030",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper29",
+    "term": "disinformation",
+    "text": "Disinformation is the way that editors select the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00218",
+    "mention_id": "m0030",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper29",
+    "term": "disinformation",
+    "text": "Disinformation is the way that social media platforms omit the facts of political events and of minority groups in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00223",
+    "mention_id": "m0031",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper35",
+    "term": "disinformation",
+    "text": "Disinformation is the way that social media platforms emphasise the facts of election campaigns and of public issues in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00224",
+    "mention_id": "m0031",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper35",
+    "term": "disinformation",
+    "text": "Disinformation is the way that readers emphasise the facts of political events and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00225",
+    "mention_id": "m0031",
+    "concept_id": "g7f2fbf4abd1a",
+    "paper_id": "paper35",
+    "term": "disinformation",
+    "text": "Disinformation is the way that journalists emphasise the facts of election campaigns and of election campaigns in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00240",
+    "mention_id": "m0034",
+    "concept_id": "ga7a418dbd54b",
+    "paper_id": "paper07",
+    "term": "agenda setting",
+    "text": "Agenda setting is the way that political actors present the facts of political events and of public issues in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00241",
+    "mention_id": "m0034",
+    "concept_id": "ga7a418dbd54b",
+    "paper_id": "paper07",
+    "term": "agenda setting",
+    "text": "Agenda setting is the way that journalists omit the facts of minority groups and of minority groups in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00255",
+    "mention_id": "m0036",
+    "concept_id": "ga7a418dbd54b",
+    "paper_id": "paper31",
+    "term": "agenda setting",
+    "text": "Agenda setting is the way that journalists select the facts of scientific findings and of public issues in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00256",
+    "mention_id": "m0036",
+    "concept_id": "ga7a418dbd54b",
+    "paper_id": "paper31",
+    "term": "agenda setting",
+    "text": "Agenda setting is the way that journalists repeat the facts of political events and of public issues in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00264",
+    "mention_id": "m0038",
+    "concept_id": "ga7a418dbd54b",
+    "paper_id": "paper36",
+    "term": "agenda-setting",
+    "text": "Agenda-setting is the way that political actors emphasise the facts of scientific findings and of public issues in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00283",
+    "mention_id": "m0040",
+    "concept_id": "gaf53a0db3d3e",
+    "paper_id": "paper28",
+    "term": "gatekeeping",
+    "text": "Gatekeeping is the way that readers select the facts of scientific findings and of scientific findings in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00284",
+    "mention_id": "m0040",
+    "concept_id": "gaf53a0db3d3e",
+    "paper_id": "paper28",
+    "term": "gatekeeping",
+    "text": "Gatekeeping is the way that news outlets emphasise the facts of minority groups and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00299",
+    "mention_id": "m0043",
+    "concept_id": "gaf53a0db3d3e",
+    "paper_id": "paper39",
+    "term": "gate keeping",
+    "text": "Gate keeping is the way that social media platforms omit the facts of public issues and of election campaigns in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00300",
+    "mention_id": "m0043",
+    "concept_id": "gaf53a0db3d3e",
+    "paper_id": "paper39",
+    "term": "gate keeping",
+    "text": "Gate keeping is the way that editors present the facts of scientific findings and of election campaigns in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00301",
+    "mention_id": "m0043",
+    "concept_id": "gaf53a0db3d3e",
+    "paper_id": "paper39",
+    "term": "gate keeping",
+    "text": "Gate keeping is the way that journalists distort the facts of scientific findings and of political events in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00321",
+    "mention_id": "m0046",
+    "concept_id": "g9f907a13ae69",
+    "paper_id": "paper32",
+    "term": "polarisation",
+    "text": "Polarisation is the way that editors omit the facts of scientific findings and of election campaigns in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00322",
+    "mention_id": "m0046",
+    "concept_id": "g9f907a13ae69",
+    "paper_id": "paper32",
+    "term": "polarisation",
+    "text": "Polarisation is the way that political actors repeat the facts of public issues and of election campaigns in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00338",
+    "mention_id": "m0048",
+    "concept_id": "g9f907a13ae69",
+    "paper_id": "paper11",
+    "term": "polarization",
+    "text": "Polarization is the way that news outlets omit the facts of scientific findings and of public issues in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00339",
+    "mention_id": "m0048",
+    "concept_id": "g9f907a13ae69",
+    "paper_id": "paper11",
+    "term": "polarization",
+    "text": "Polarization is the way that readers repeat the facts of scientific findings and of minority groups in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00355",
+    "mention_id": "m0050",
+    "concept_id": "g9f907a13ae69",
+    "paper_id": "paper20",
+    "term": "polarization",
+    "text": "Polarization is the way that political actors present the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00362",
+    "mention_id": "m0051",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper39",
+    "term": "refugees",
+    "text": "Refugees is the way that readers select the facts of political events and of election campaigns in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00363",
+    "mention_id": "m0051",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper39",
+    "term": "refugees",
+    "text": "Refugees is the way that journalists emphasise the facts of political events and of minority groups in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00372",
+    "mention_id": "m0052",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper16",
+    "term": "refugee",
+    "text": "Refugee is the way that social media platforms repeat the facts of scientific findings and of minority groups in their reports.",
+    "citations": [
+      "[12]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00373",
+    "mention_id": "m0052",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper16",
+    "term": "refugee",
+    "text": "Refugee is the way that news outlets select the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00380",
+    "mention_id": "m0053",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper31",
+    "term": "refugee",
+    "text": "Refugee is the way that news outlets omit the facts of political events and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00387",
+    "mention_id": "m0054",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper37",
+    "term": "refugee",
+    "text": "Refugee is the way that news outlets omit the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00388",
+    "mention_id": "m0054",
+    "concept_id": "g250d8c26ae4a",
+    "paper_id": "paper37",
+    "term": "refugee",
+    "text": "Refugee is the way that journalists omit the facts of political events and of election campaigns in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00403",
+    "mention_id": "m0056",
+    "concept_id": "g99fa4b83eaa0",
+    "paper_id": "paper25",
+    "term": "news values",
+    "text": "News values is the way that editors present the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00404",
+    "mention_id": "m0056",
+    "concept_id": "g99fa4b83eaa0",
+    "paper_id": "paper25",
+    "term": "news values",
+    "text": "News values is the way that social media platforms distort the facts of public issues and of minority groups in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00413",
+    "mention_id": "m0057",
+    "concept_id": "g99fa4b83eaa0",
+    "paper_id": "paper35",
+    "term": "news values",
+    "text": "News values is the way that journalists omit the facts of election campaigns and of election campaigns in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00414",
+    "mention_id": "m0057",
+    "concept_id": "g99fa4b83eaa0",
+    "paper_id": "paper35",
+    "term": "news values",
+    "text": "News values is the way that news outlets omit the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00415",
+    "mention_id": "m0057",
+    "concept_id": "g99fa4b83eaa0",
+    "paper_id": "paper35",
+    "term": "news values",
+    "text": "News values is the way that journalists repeat the facts of scientific findings and of election campaigns in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00442",
+    "mention_id": "m0061",
+    "concept_id": "gb68cd4c008d2",
+    "paper_id": "paper25",
+    "term": "selection bias",
+    "text": "Selection bias is the way that political actors emphasise the facts of minority groups and of public issues in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00443",
+    "mention_id": "m0061",
+    "concept_id": "gb68cd4c008d2",
+    "paper_id": "paper25",
+    "term": "selection bias",
+    "text": "Selection bias is the way that political actors distort the facts of political events and of minority groups in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00444",
+    "mention_id": "m0061",
+    "concept_id": "gb68cd4c008d2",
+    "paper_id": "paper25",
+    "term": "selection bias",
+    "text": "Selection bias is the way that political actors emphasise the facts of election campaigns and of political events in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00462",
+    "mention_id": "m0064",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper10",
+    "term": "detection bias",
+    "text": "Detection bias is the way that readers repeat the facts of minority groups and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00463",
+    "mention_id": "m0064",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper10",
+    "term": "detection bias",
+    "text": "Detection bias is the way that journalists repeat the facts of public issues and of scientific findings in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00464",
+    "mention_id": "m0064",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper10",
+    "term": "detection bias",
+    "text": "Detection bias is the way that journalists distort the facts of election campaigns and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00469",
+    "mention_id": "m0065",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper24",
+    "term": "detection bias",
+    "text": "Detection bias is the way that political actors repeat the facts of public issues and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00470",
+    "mention_id": "m0065",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper24",
+    "term": "detection bias",
+    "text": "Detection bias is the way that journalists present the facts of scientific findings and of political events in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00471",
+    "mention_id": "m0065",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper24",
+    "term": "detection bias",
+    "text": "Detection bias is the way that social media platforms distort the facts of election campaigns and of political events in their reports",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00473",
+    "mention_id": "m0066",
+    "concept_id": "gdf00962407a0",
+    "paper_id": "paper30",
+    "term": "detection bias",
+    "text": "Detection bias is the way that social media platforms present the facts of minority groups and of election campaigns in their reports.",
+    "citations": [
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00486",
+    "mention_id": "m0068",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper08",
+    "term": "deep learning",
+    "text": "Deep learning is the way that journalists distort the facts of public issues and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00487",
+    "mention_id": "m0068",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper08",
+    "term": "deep learning",
+    "text": "Deep learning is the way that editors emphasise the facts of election campaigns and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00502",
+    "mention_id": "m0070",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper10",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that journalists select the facts of political events and of scientific findings in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00503",
+    "mention_id": "m0070",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper10",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that readers omit the facts of minority groups and of election campaigns in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00511",
+    "mention_id": "m0072",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper26",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that editors present the facts of political events and of scientific findings in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00512",
+    "mention_id": "m0072",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper26",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that readers emphasise the facts of election campaigns and of minority groups in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00525",
+    "mention_id": "m0074",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper35",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that social media platforms present the facts of election campaigns and of election campaigns in their reports.",
+    "citations": [
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00526",
+    "mention_id": "m0074",
+    "concept_id": "g871183362fa6",
+    "paper_id": "paper35",
+    "term": "Deep Learning",
+    "text": "Deep Learning is the way that journalists distort the facts of public issues and of political events in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00530",
+    "mention_id": "m0075",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper11",
+    "term": "sentiment analysis",
+    "text": "Sentiment analysis is the way that editors select the facts of scientific findings and of public issues in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00531",
+    "mention_id": "m0075",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper11",
+    "term": "sentiment analysis",
+    "text": "Sentiment analysis is the way that news outlets omit the facts of election campaigns and of public issues in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00537",
+    "mention_id": "m0076",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper01",
+    "term": "Sentiment Analysis (SA)",
+    "text": "Sentiment Analysis (SA) is the way that editors select the facts of political events and of scientific findings in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00544",
+    "mention_id": "m0077",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper21",
+    "term": "Sentiment Analysis (SA)",
+    "text": "Sentiment Analysis (SA) is the way that political actors distort the facts of public issues and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00550",
+    "mention_id": "m0078",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper30",
+    "term": "Sentiment Analysis (SA)",
+    "text": "Sentiment Analysis (SA) is the way that news outlets distort the facts of public issues and of political events in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00551",
+    "mention_id": "m0078",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper30",
+    "term": "Sentiment Analysis (SA)",
+    "text": "Sentiment Analysis (SA) is the way that political actors select the facts of political events and of political events in their reports",
+    "citations": [
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00552",
+    "mention_id": "m0078",
+    "concept_id": "g3c624a736736",
+    "paper_id": "paper30",
+    "term": "Sentiment Analysis (SA)",
+    "text": "Sentiment Analysis (SA) is the way that journalists repeat the facts of public issues and of minority groups in their reports",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00576",
+    "mention_id": "m0081",
+    "concept_id": "g4d48fd163227",
+    "paper_id": "paper09",
+    "term": "judgement",
+    "text": "Judgement is the way that political actors emphasise the facts of election campaigns and of public issues in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00580",
+    "mention_id": "m0082",
+    "concept_id": "g4d48fd163227",
+    "paper_id": "paper34",
+    "term": "judgement",
+    "text": "Judgement is the way that readers distort the facts of public issues and of scientific findings in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00582",
+    "mention_id": "m0082",
+    "concept_id": "g4d48fd163227",
+    "paper_id": "paper34",
+    "term": "judgement",
+    "text": "Judgement is the way that social media platforms emphasise the facts of political events and of political events in their reports.",
+    "citations": [
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00590",
+    "mention_id": "m0083",
+    "concept_id": "g4d48fd163227",
+    "paper_id": "paper39",
+    "term": "judgement",
+    "text": "Judgement is the way that social media platforms repeat the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "Entman, 1993",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00591",
+    "mention_id": "m0083",
+    "concept_id": "g4d48fd163227",
+    "paper_id": "paper39",
+    "term": "judgement",
+    "text": "Judgement is the way that readers emphasise the facts of scientific findings and of political events in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00602",
+    "mention_id": "m0085",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper07",
+    "term": "crises",
+    "text": "Crises is the way that journalists present the facts of political events and of election campaigns in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00603",
+    "mention_id": "m0085",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper07",
+    "term": "crises",
+    "text": "Crises is the way that journalists distort the facts of scientific findings and of political events in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00610",
+    "mention_id": "m0086",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper12",
+    "term": "crises",
+    "text": "Crises is the way that news outlets repeat the facts of scientific findings and of scientific findings in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00611",
+    "mention_id": "m0086",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper12",
+    "term": "crises",
+    "text": "Crises is the way that social media platforms select the facts of scientific findings and of public issues in their reports.",
+    "citations": [
+      "[12]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00612",
+    "mention_id": "m0086",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper12",
+    "term": "crises",
+    "text": "Crises is the way that news outlets present the facts of public issues and of election campaigns in their reports.",
+    "citations": [
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00621",
+    "mention_id": "m0087",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper16",
+    "term": "crises",
+    "text": "Crises is the way that readers omit the facts of minority groups and of election campaigns in their reports.",
+    "citations": [
+      "[12]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00622",
+    "mention_id": "m0087",
+    "concept_id": "g58076e4127e6",
+    "paper_id": "paper16",
+    "term": "crises",
+    "text": "Crises is the way that political actors repeat the facts of political events and of minority groups in their reports",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00674",
+    "mention_id": "m0094",
+    "concept_id": "g8441e3f7413a",
+    "paper_id": "paper03",
+    "term": "slant",
+    "text": "Slant is the way that news outlets distort the facts of public issues and of election campaigns in their reports.",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00679",
+    "mention_id": "m0095",
+    "concept_id": "g8441e3f7413a",
+    "paper_id": "paper16",
+    "term": "slant",
+    "text": "Slant is the way that social media platforms distort the facts of scientific findings and of election campaigns in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00680",
+    "mention_id": "m0095",
+    "concept_id": "g8441e3f7413a",
+    "paper_id": "paper16",
+    "term": "slant",
+    "text": "Slant is the way that political actors distort the facts of political events and of scientific findings in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00700",
+    "mention_id": "m0098",
+    "concept_id": "g5acd2a8f2727",
+    "paper_id": "paper11",
+    "term": "coverage bias",
+    "text": "Coverage bias is the way that social media platforms present the facts of scientific findings and of public issues in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00722",
+    "mention_id": "m0101",
+    "concept_id": "g5acd2a8f2727",
+    "paper_id": "paper35",
+    "term": "coverage bias",
+    "text": "Coverage bias is the way that news outlets select the facts of scientific findings and of minority groups in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00723",
+    "mention_id": "m0101",
+    "concept_id": "g5acd2a8f2727",
+    "paper_id": "paper35",
+    "term": "coverage bias",
+    "text": "Coverage bias is the way that news outlets distort the facts of election campaigns and of public issues in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00724",
+    "mention_id": "m0101",
+    "concept_id": "g5acd2a8f2727",
+    "paper_id": "paper35",
+    "term": "coverage bias",
+    "text": "Coverage bias is the way that journalists present the facts of minority groups and of election campaigns in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00729",
+    "mention_id": "m0102",
+    "concept_id": "g4429f68570da",
+    "paper_id": "paper07",
+    "term": "tone",
+    "text": "Tone is the way that journalists emphasise the facts of political events and of public issues in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00764",
+    "mention_id": "m0107",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper06",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that social media platforms present the facts of scientific findings and of public issues in their reports",
+    "citations": [
+      "McCombs and Shaw, 1972",
+      "[3]"
+    ]
+  },
+  {
+    "def_id": "o00765",
+    "mention_id": "m0107",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper06",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that news outlets present the facts of public issues and of scientific findings in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00781",
+    "mention_id": "m0109",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper28",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that journalists repeat the facts of minority groups and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00782",
+    "mention_id": "m0109",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper28",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that social media platforms distort the facts of political events and of minority groups in their reports.",
+    "citations": [
+      "[12]",
+      "[99]"
+    ]
+  },
+  {
+    "def_id": "o00787",
+    "mention_id": "m0110",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper38",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that journalists present the facts of minority groups and of minority groups in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00788",
+    "mention_id": "m0110",
+    "concept_id": "g11b80efb2595",
+    "paper_id": "paper38",
+    "term": "hostile media effect",
+    "text": "Hostile media effect is the way that journalists present the facts of minority groups and of political events in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00799",
+    "mention_id": "m0112",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper25",
+    "term": "election campaign",
+    "text": "Election campaign is the way that news outlets emphasise the facts of scientific findings and of political events in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00800",
+    "mention_id": "m0112",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper25",
+    "term": "election campaign",
+    "text": "Election campaign is the way that journalists select the facts of public issues and of public issues in their reports.",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00801",
+    "mention_id": "m0112",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper25",
+    "term": "election campaign",
+    "text": "Election campaign is the way that political actors select the facts of election campaigns and of minority groups in their reports",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00809",
+    "mention_id": "m0113",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper36",
+    "term": "election campaign",
+    "text": "Election campaign is the way that social media platforms emphasise the facts of political events and of political events in their reports.",
+    "citations": []
+  },
+  {
+    "def_id": "o00810",
+    "mention_id": "m0113",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper36",
+    "term": "election campaign",
+    "text": "Election campaign is the way that readers select the facts of election campaigns and of scientific findings in their reports",
+    "citations": []
+  },
+  {
+    "def_id": "o00811",
+    "mention_id": "m0113",
+    "concept_id": "g744d749f645a",
+    "paper_id": "paper36",
+    "term": "election campaign",
+    "text": "Election campaign is the way that social media platforms distort the facts of election campaigns and of minority groups in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00818",
+    "mention_id": "m0115",
+    "concept_id": "g814af3172d4c",
+    "paper_id": "paper17",
+    "term": "rumor",
+    "text": "Rumor is the way that news outlets select the facts of election campaigns and of public issues in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00825",
+    "mention_id": "m0116",
+    "concept_id": "g814af3172d4c",
+    "paper_id": "paper38",
+    "term": "rumor",
+    "text": "Rumor is the way that social media platforms emphasise the facts of minority groups and of election campaigns in their reports",
+    "citations": [
+      "Allcott and Gentzkow, 2017"
+    ]
+  },
+  {
+    "def_id": "o00826",
+    "mention_id": "m0116",
+    "concept_id": "g814af3172d4c",
+    "paper_id": "paper38",
+    "term": "rumor",
+    "text": "Rumor is the way that social media platforms repeat the facts of scientific findings and of election campaigns in their reports.",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00827",
+    "mention_id": "m0116",
+    "concept_id": "g814af3172d4c",
+    "paper_id": "paper38",
+    "term": "rumor",
+    "text": "Rumor is the way that editors repeat the facts of public issues and of scientific findings in their reports",
+    "citations": [
+      "Entman, 1993"
+    ]
+  },
+  {
+    "def_id": "o00848",
+    "mention_id": "m0119",
+    "concept_id": "g5f910decd4d6",
+    "paper_id": "paper01",
+    "term": "hoax",
+    "text": "Hoax is the way that journalists repeat the facts of scientific findings and of election campaigns in their reports",
+    "citations": [
+      "[12]"
+    ]
+  },
+  {
+    "def_id": "o00849",
+    "mention_id": "m0119",
+    "concept_id": "g5f910decd4d6",
+    "paper_id": "paper01",
+    "term": "hoax",
+    "text": "Hoax is the way that political actors omit the facts of political events and of scientific findings in their reports.",
+    "citations": [
+      "Entman, 1993"
+    ]
+  }
+]

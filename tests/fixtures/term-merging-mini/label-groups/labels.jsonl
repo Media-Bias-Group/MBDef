@@ -1,0 +1,50 @@
+{"group_id": "g141a92417f71", "terms": 5, "label": "AI", "words": ["ai"], "word_set_key": "ai", "spacing_key": "ai", "steps": ["case-folded"]}
+{"group_id": "g1b8640b47938", "terms": 6, "label": "Media Biases", "words": ["media", "bias"], "word_set_key": "bias media", "spacing_key": "mediabias", "steps": ["case-folded", "plural 'biases' -> 'bias' (-es)"]}
+{"group_id": "g1b8640b47938", "terms": 4, "label": "MediaBias", "words": ["mediabias"], "word_set_key": "mediabias", "spacing_key": "mediabias", "steps": ["case-folded"]}
+{"group_id": "g1b8640b47938", "terms": 6, "label": "bias in the media", "words": ["bias", "in", "the", "media"], "word_set_key": "bias media", "spacing_key": "biasinthemedia", "steps": ["stop words left out of the word-set key: 'in', 'the'"]}
+{"group_id": "g1b8640b47938", "terms": 5, "label": "media bias", "words": ["media", "bias"], "word_set_key": "bias media", "spacing_key": "mediabias", "steps": []}
+{"group_id": "g250d8c26ae4a", "terms": 1, "label": "refugee", "words": ["refugee"], "word_set_key": "refugee", "spacing_key": "refugee", "steps": []}
+{"group_id": "g250d8c26ae4a", "terms": 4, "label": "refugees", "words": ["refugee"], "word_set_key": "refugee", "spacing_key": "refugee", "steps": ["plural 'refugees' -> 'refugee' (-s, ends 1 labels and occurs in 1, against 1 and 1 for 'refuge')"]}
+{"group_id": "g33fae92b0643", "terms": 3, "label": "a priori", "words": ["a", "priori"], "word_set_key": "a priori", "spacing_key": "apriori", "steps": []}
+{"group_id": "g3c624a736736", "terms": 5, "label": "Sentiment Analysis (SA)", "words": ["sentiment", "analysis"], "word_set_key": "analysis sentiment", "spacing_key": "sentimentanalysis", "steps": ["bracket '(SA)' dropped: an acronym of 'Sentiment Analysis'", "case-folded"]}
+{"group_id": "g3c624a736736", "terms": 5, "label": "sentiment analysis", "words": ["sentiment", "analysis"], "word_set_key": "analysis sentiment", "spacing_key": "sentimentanalysis", "steps": []}
+{"group_id": "g3edc682a1ecb", "terms": 1, "label": "click bait", "words": ["click", "bait"], "word_set_key": "bait click", "spacing_key": "clickbait", "steps": []}
+{"group_id": "g3edc682a1ecb", "terms": 3, "label": "click-bait", "words": ["click", "bait"], "word_set_key": "bait click", "spacing_key": "clickbait", "steps": ["hyphen, slash, dash or underscore: the parts are one compound, joined in the spacing key"]}
+{"group_id": "g3edc682a1ecb", "terms": 2, "label": "clickbait", "words": ["clickbait"], "word_set_key": "clickbait", "spacing_key": "clickbait", "steps": []}
+{"group_id": "g4429f68570da", "terms": 5, "label": "tone", "words": ["tone"], "word_set_key": "tone", "spacing_key": "tone", "steps": []}
+{"group_id": "g4b0149fcebb5", "terms": 4, "label": "(mis)information", "words": ["misinformation"], "word_set_key": "misinformation", "spacing_key": "misinformation", "steps": ["prefix in brackets opened: '(mis)'"]}
+{"group_id": "g4b0149fcebb5", "terms": 2, "label": "misinformation", "words": ["misinformation"], "word_set_key": "misinformation", "spacing_key": "misinformation", "steps": []}
+{"group_id": "g4d48fd163227", "terms": 1, "label": "judgement", "words": ["judgment"], "word_set_key": "judgment", "spacing_key": "judgment", "steps": ["British spelling 'judgement' -> 'judgment'"]}
+{"group_id": "g4d48fd163227", "terms": 2, "label": "judgment", "words": ["judgment"], "word_set_key": "judgment", "spacing_key": "judgment", "steps": []}
+{"group_id": "g58076e4127e6", "terms": 5, "label": "crises", "words": ["crisis"], "word_set_key": "crisis", "spacing_key": "crisis", "steps": ["plural 'crises' -> 'crisis' (-ses -> -sis)"]}
+{"group_id": "g58076e4127e6", "terms": 1, "label": "crisis", "words": ["crisis"], "word_set_key": "crisis", "spacing_key": "crisis", "steps": []}
+{"group_id": "g5acd2a8f2727", "terms": 5, "label": "coverage bias", "words": ["coverage", "bias"], "word_set_key": "bias coverage", "spacing_key": "coveragebias", "steps": []}
+{"group_id": "g5c1b9018b1a3", "terms": 2, "label": "affect", "words": ["affect"], "word_set_key": "affect", "spacing_key": "affect", "steps": []}
+{"group_id": "g667a33b94a1a", "terms": 5, "label": "slanted coverage", "words": ["slanted", "coverage"], "word_set_key": "coverage slanted", "spacing_key": "slantedcoverage", "steps": []}
+{"group_id": "g8441e3f7413a", "terms": 5, "label": "slant", "words": ["slant"], "word_set_key": "slant", "spacing_key": "slant", "steps": []}
+{"group_id": "g871183362fa6", "terms": 3, "label": "Deep Learning", "words": ["deep", "learning"], "word_set_key": "deep learning", "spacing_key": "deeplearning", "steps": ["case-folded"]}
+{"group_id": "g871183362fa6", "terms": 2, "label": "deep learning", "words": ["deep", "learning"], "word_set_key": "deep learning", "spacing_key": "deeplearning", "steps": []}
+{"group_id": "g9f907a13ae69", "terms": 2, "label": "polarisation", "words": ["polarization"], "word_set_key": "polarization", "spacing_key": "polarization", "steps": ["British spelling 'polarisation' -> 'polarization'"]}
+{"group_id": "g9f907a13ae69", "terms": 3, "label": "polarization", "words": ["polarization"], "word_set_key": "polarization", "spacing_key": "polarization", "steps": []}
+{"group_id": "ga67b95a680c9", "terms": 1, "label": "Framing", "words": ["framing"], "word_set_key": "framing", "spacing_key": "framing", "steps": ["case-folded"]}
+{"group_id": "ga67b95a680c9", "terms": 2, "label": "framing", "words": ["framing"], "word_set_key": "framing", "spacing_key": "framing", "steps": []}
+{"group_id": "ga7a418dbd54b", "terms": 5, "label": "agenda setting", "words": ["agenda", "setting"], "word_set_key": "agenda setting", "spacing_key": "agendasetting", "steps": []}
+{"group_id": "ga7a418dbd54b", "terms": 2, "label": "agenda-setting", "words": ["agenda", "setting"], "word_set_key": "agenda setting", "spacing_key": "agendasetting", "steps": ["hyphen, slash, dash or underscore: the parts are one compound, joined in the spacing key"]}
+{"group_id": "ga801301ec2b8", "terms": 5, "label": "spin", "words": ["spin"], "word_set_key": "spin", "spacing_key": "spin", "steps": []}
+{"group_id": "gaf53a0db3d3e", "terms": 2, "label": "gate keeping", "words": ["gate", "keeping"], "word_set_key": "gate keeping", "spacing_key": "gatekeeping", "steps": []}
+{"group_id": "gaf53a0db3d3e", "terms": 3, "label": "gatekeeping", "words": ["gatekeeping"], "word_set_key": "gatekeeping", "spacing_key": "gatekeeping", "steps": []}
+{"group_id": "gb68cd4c008d2", "terms": 2, "label": "bias by selection", "words": ["bias", "by", "selection"], "word_set_key": "bias selection", "spacing_key": "biasbyselection", "steps": ["stop words left out of the word-set key: 'by'"]}
+{"group_id": "gb68cd4c008d2", "terms": 1, "label": "selection bias", "words": ["selection", "bias"], "word_set_key": "bias selection", "spacing_key": "selectionbias", "steps": []}
+{"group_id": "gcbebe37f3362", "terms": 6, "label": "news values", "words": ["news", "value"], "word_set_key": "news value", "spacing_key": "newsvalue", "steps": ["plural 'values' -> 'value' (-s)"]}
+{"group_id": "gcbebe37f3362", "terms": 1, "label": "the news value", "words": ["news", "value"], "word_set_key": "news value", "spacing_key": "newsvalue", "steps": ["leading article 'the' dropped"]}
+{"group_id": "gcdc93d65384e", "terms": 3, "label": "refuge", "words": ["refuge"], "word_set_key": "refuge", "spacing_key": "refuge", "steps": []}
+{"group_id": "gd49500ff814e", "terms": 1, "label": "neural network", "words": ["neural", "network"], "word_set_key": "network neural", "spacing_key": "neuralnetwork", "steps": []}
+{"group_id": "gd49500ff814e", "terms": 1, "label": "neural networks", "words": ["neural", "network"], "word_set_key": "network neural", "spacing_key": "neuralnetwork", "steps": ["plural 'networks' -> 'network' (-s)"]}
+{"group_id": "gdc151a5a2b81", "terms": 6, "label": "theme", "words": ["theme"], "word_set_key": "theme", "spacing_key": "theme", "steps": []}
+{"group_id": "gdc151a5a2b81", "terms": 6, "label": "themes", "words": ["theme"], "word_set_key": "theme", "spacing_key": "theme", "steps": ["plural 'themes' -> 'theme' (-s)"]}
+{"group_id": "ge7d679448a72", "terms": 2, "label": "frames", "words": ["frames"], "word_set_key": "frames", "spacing_key": "frames", "steps": []}
+{"group_id": "ge93d4e41f1ef", "terms": 6, "label": "objectivity", "words": ["objectivity"], "word_set_key": "objectivity", "spacing_key": "objectivity", "steps": []}
+{"group_id": "gef2ce0717b4c", "terms": 2, "label": "Affect (negative)", "words": ["affect", "negative"], "word_set_key": "affect negative", "spacing_key": "affectnegative", "steps": ["bracket '(negative)' kept as a qualifier", "case-folded"]}
+{"group_id": "gf8d45d620d38", "terms": 3, "label": "FN (fake news)", "words": ["fake", "news"], "word_set_key": "fake news", "spacing_key": "fakenews", "steps": ["'FN' dropped: an acronym of its bracket '(fake news)', which is kept as the label"]}
+{"group_id": "gf8d45d620d38", "terms": 3, "label": "Fake News", "words": ["fake", "news"], "word_set_key": "fake news", "spacing_key": "fakenews", "steps": ["case-folded"]}
+{"group_id": "gf8d45d620d38", "terms": 3, "label": "fake news", "words": ["fake", "news"], "word_set_key": "fake news", "spacing_key": "fakenews", "steps": []}

@@ -1,0 +1,82 @@
+{
+ "rule": "Label Match (C-20261021)",
+ "view_papers": 64,
+ "papers_with_definitions": 56,
+ "terms": 163,
+ "definitions": 328,
+ "distinct_labels": 50,
+ "groups": 29,
+ "groups_saved_over_distinct_labels": 21,
+ "single_term_groups": 0,
+ "terms_in_multi_term_groups": 163,
+ "groups_with_2plus_definitions": 29,
+ "step_savings": [
+  {
+   "step": "case",
+   "name": "case-folding",
+   "groups_without": 35,
+   "saved": 6
+  },
+  {
+   "step": "plural",
+   "name": "plural → singular",
+   "groups_without": 35,
+   "saved": 6
+  },
+  {
+   "step": "join",
+   "name": "hyphens, slashes and spacing (spacing key)",
+   "groups_without": 32,
+   "saved": 3
+  },
+  {
+   "step": "brackets",
+   "name": "brackets (acronyms, tags, alternative names)",
+   "groups_without": 31,
+   "saved": 2
+  },
+  {
+   "step": "stop",
+   "name": "stop words",
+   "groups_without": 31,
+   "saved": 2
+  },
+  {
+   "step": "order",
+   "name": "word order",
+   "groups_without": 31,
+   "saved": 2
+  },
+  {
+   "step": "spelling",
+   "name": "British → American spelling",
+   "groups_without": 31,
+   "saved": 2
+  },
+  {
+   "step": "article",
+   "name": "leading article",
+   "groups_without": 30,
+   "saved": 1
+  },
+  {
+   "step": "quotes",
+   "name": "quotes and apostrophes",
+   "groups_without": 29,
+   "saved": 0
+  }
+ ],
+ "nli_pairs_all_ordered": 5084,
+ "nli_pairs_unique_texts_ordered": 5084,
+ "group_size_terms_histogram": {
+  "2": 4,
+  "3": 5,
+  "5": 10,
+  "6": 4,
+  "7": 2,
+  "9": 1,
+  "10": 1,
+  "12": 1,
+  "21": 1
+ }
+}

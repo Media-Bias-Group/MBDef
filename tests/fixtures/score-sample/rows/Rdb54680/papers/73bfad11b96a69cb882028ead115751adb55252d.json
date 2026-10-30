@@ -1,0 +1,329 @@
+{
+  "paper_id": "73bfad11b96a69cb882028ead115751adb55252d",
+  "row": "Rdb54680",
+  "stage": "final",
+  "definition_records": [
+    {
+      "term": "fake news",
+      "definitions": [
+        {
+          "text": "We define fake news to be fabricated information that mimics the output of the news media in form, but not in organizational process or intent.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Most notably, fake news outlets lack the news media's editorial norms and processes for ensuring the accuracy and credibility of information.",
+          "citation": []
+        },
+        {
+          "text": "It is particularly pernicious in that it undermines the credibility of standard news outlets.",
+          "citation": []
+        },
+        {
+          "text": "In evaluating prevalence of fake news, we advocate focusing on publishers rather than individual stories, because we view the defining element of fake news to be the intent and processes of the publisher.",
+          "citation": []
+        },
+        {
+          "text": "We have retained it both because of its value as a distinct scientific construct, and because its political salience helps draw attention to an important subject.",
+          "citation": []
+        },
+        {
+          "text": "Internet platforms have become the most important enablers and primary conduits of fake news.",
+          "citation": []
+        },
+        {
+          "text": "Social media are far more important than mainstream media as conduits for fake news sites (6).",
+          "citation": [
+            "6"
+          ]
+        },
+        {
+          "text": "The Internet not only provides a platform for publishing (mis)information, but is a networked medium that actively promotes its dissemination.",
+          "citation": []
+        },
+        {
+          "text": "even if fake news does not alter most people's beliefs, it may nonetheless reinforce existing false beliefs, increase their salience, or shape the news agenda, with potentially harmful effects for society",
+          "citation": []
+        },
+        {
+          "text": "There exists little research focused specifically on fake news and no comprehensive data collection system to provide a dynamic understanding of how these pervasive systems are evolving.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "fact checking: the direct identification of content that is factually incorrect",
+          "citation": []
+        },
+        {
+          "text": "We identify two categories of interventions: (1) those aimed at empowering individuals to evaluate the fake news they encounter (in particular, fact checking and education); and (2) structural changes aimed at preventing exposure of individuals to fake news in the first instance (i.e., changes in the policies of the platforms).",
+          "citation": []
+        },
+        {
+          "text": "Doing so will require new, multidisciplinary science on fake news and misinformation.",
+          "citation": []
+        },
+        {
+          "text": "Current hand-wringing over fake news in many ways mirrors widespread concern in the mid-20th century that propaganda-by Nazis, and later by Communists-posed a fundamental threat to democracy.",
+          "citation": []
+        }
+      ],
+      "subtypes": [
+        {
+          "text": "politically-oriented fake news",
+          "citation": []
+        }
+      ],
+      "supertypes": [
+        {
+          "text": "Fake news is a subcategory of misinformation-incorrect or misleading information about the state of the world.",
+          "citation": []
+        }
+      ],
+      "examples": [
+        {
+          "text": "Russia successfully manipulated all of the major platforms during the 2016 election, as their recent testimony before the Senate Judiciary Committee made clear (8).",
+          "citation": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "misinformation",
+      "definitions": [
+        {
+          "text": "Fake news is a subcategory of misinformation-incorrect or misleading information about the state of the world.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "The ancien régime protecting against misinformation resulted from the emergence of journalistic norms of objectivity and balance that arose as a backlash among journalists against the widespread use of propaganda in World War I-particularly the role journalists had played in propagating it-as well as against the rise of corporate public relations in the 1920s",
+          "citation": []
+        }
+      ],
+      "related_terms": [],
+      "subtypes": [
+        {
+          "text": "Fake news is a subcategory of misinformation",
+          "citation": []
+        }
+      ],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "fact checking",
+      "definitions": [
+        {
+          "text": "Currently, one of the primary interventions focused on stemming the flow of fake news is fact checking: the direct identification of content that is factually incorrect.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "There are many forms of fact checking, from stand-alone websites that evaluate the factual claims of news reports, such as Politifact and Snopes, to evaluations of news reports by credible news media, such as the Washington Post, to warnings on content placed by informational intermediaries, such as Facebook.",
+          "citation": []
+        },
+        {
+          "text": "Despite the apparent elegance of fact checking, the science supporting its efficacy as a solution to fake news is at best mixed.",
+          "citation": []
+        },
+        {
+          "text": "To make matters worse, the way that human memory operates means that unless conducted carefully, fact checking might even be counterproductive under certain circumstances.",
+          "citation": []
+        },
+        {
+          "text": "Further research is needed to reconcile these contradictions and determine the conditions under which fact checking interventions are most effective.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "That is, prior partisan and ideological beliefs might prevent acceptance of fact checking of a given fake news story.",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [
+        {
+          "text": "those aimed at empowering individuals to evaluate the fake news they encounter (in particular, fact checking and education)",
+          "citation": []
+        },
+        {
+          "text": "one of the primary interventions focused on stemming the flow of fake news",
+          "citation": []
+        }
+      ],
+      "examples": [
+        {
+          "text": "stand-alone websites that evaluate the factual claims of news reports, such as Politifact and Snopes",
+          "citation": []
+        },
+        {
+          "text": "warnings on content placed by informational intermediaries, such as Facebook",
+          "citation": []
+        }
+      ]
+    },
+    {
+      "term": "selective exposure",
+      "definitions": [
+        {
+          "text": "Additional research demonstrates that people prefer information that confirms their pre-existing attitudes (selective exposure)",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "It is quite plausible that the emphasis by search and social media platforms on optimizing attention from consumers increases selective exposure.",
+          "citation": []
+        },
+        {
+          "text": "There is an emerging literature on the algorithmic underpinnings of the 21 st century world, including some evidence of this amplification of selective exposure of political content for Facebook and Google.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "confirmation bias",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": [
+        {
+          "text": "Google or Facebook may provide users with slanted content because they predict that someone like them is more likely to engage with it.",
+          "citation": []
+        }
+      ]
+    },
+    {
+      "term": "confirmation bias",
+      "definitions": [
+        {
+          "text": "people prefer information that confirms their pre-existing attitudes (selective exposure) and view information consistent with their pre-existing beliefs as more persuasive than dissonant information (confirmation bias)",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "That is, prior partisan and ideological beliefs might prevent acceptance of fact checking of a given fake news story. Ironically, this means that those most likely to be deceived by fake news are least likely to believe any attempt to prevent their own deception.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "selective exposure",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "fluency",
+      "definitions": [
+        {
+          "text": "Research on fluency-the ease of information recall-and familiarity bias in politics shows that people tend to remember information, or how they feel about it, while forgetting the context within which they encountered it.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Thus, providing any information may increase an individual's likelihood of accepting it as true when encountered again.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "familiarity bias",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "social bots",
+      "definitions": [
+        {
+          "text": "social bots (automated accounts impersonating humans)",
+          "citation": []
+        }
+      ],
+      "synonyms": [
+        {
+          "text": "Bots",
+          "citation": []
+        }
+      ],
+      "description": [
+        {
+          "text": "By liking, sharing, and searching for information, social bots (automated accounts impersonating humans) and extreme partisans can amplify the reach of fake news.",
+          "citation": []
+        },
+        {
+          "text": "Bots are numerous and commoditized.",
+          "citation": []
+        },
+        {
+          "text": "These tactics also aim to manipulate the algorithms that platforms utilize to predict potential engagement with content by a wider population.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "cyborgs (humans aided by automated posting to their accounts)",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": [
+        {
+          "text": "They were responsible for a significant portion of political content posted during the 2016 campaign, and some of the same bots later attempted to influence the 2017 French election (9).",
+          "citation": [
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "cyborgs",
+      "definitions": [
+        {
+          "text": "cyborgs (humans aided by automated posting to their accounts)",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "More generally, the automated spread of news content by bots and cyborgs (humans aided by automated posting to their accounts) could be curbed.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "social bots (automated accounts impersonating humans)",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    }
+  ]
+}

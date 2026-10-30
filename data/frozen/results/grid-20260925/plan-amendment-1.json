@@ -1,0 +1,21 @@
+{
+ "acceptance_on_test": "The DEV pick is then checked once on TEST against Opus (Rdb54680: 290/1002 matches, 79.5% recall, 28.9% precision). It 'matches or beats Opus' if TEST matches >= 290. Precision is reported next to Opus's. TEST results of every config are reported but never used to choose.",
+ "added_formats": {
+  "chat-default": "dspy.ChatAdapter() with DSPy's default automatic JSONAdapter fallback enabled (every fallback call counted as a model call), 8,192 output tokens",
+  "json-default": "dspy.JSONAdapter() as shipped by DSPy 3.3.1 (its own response_format choice), 8,192 output tokens"
+ },
+ "added_formats_scope": "both models x arms A/B/C x DEV/TEST, same decoding as the plan (temperature 0, seed 9, thinking off, no response cache, no transport retries)",
+ "added_pools": "per model x arm x stage: chat-default + json-default; and the original pools unchanged",
+ "added_stages": {
+  "filtered-ordinary-noverify": "ordinary relevance filter applied directly to the combined records",
+  "filtered-title-noverify": "title-aware relevance filter applied directly to the combined records (no LLM verifier)"
+ },
+ "added_stages_scope": "every cohort, including the original three formats",
+ "amends_plan_sha256": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322",
+ "authorization": "Owner in chat 2026-09-25: no Passau models; add plain DSPy default formats; use as few LLM runs as possible; must match or beat Opus on TEST.",
+ "created_utc": "2026-09-25T05:07:46.539137+00:00",
+ "pick_rule_replaced": "Selection uses DEV only. Among eligible configs with DEV recall >= 80% (>= 92/115) and DEV precision >= 15%, pick the config with the fewest LLM calls (extraction + verifier, including fallbacks) on DEV; configs within 10% of the fewest calls count as tied and the tie goes to higher DEV precision. If none reaches 80% DEV recall, pick the highest DEV recall with precision >= 15%.",
+ "schema": "controlled-model-grid-amendment-v1",
+ "status_at_amendment": "No DEV or TEST score of any grid cohort has been computed; the scoring job 9518615 was cancelled while pending, before starting. Qwen DEV generation (9518611) had finished; Qwen TEST and Gemma generation were running.",
+ "test_use_note": "If the DEV pick fails the TEST acceptance and a different config is then chosen by looking at TEST, TEST becomes a development set and the claim needs a new held-out set. This is recorded in advance."
+}

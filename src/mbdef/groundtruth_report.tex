@@ -1,0 +1,195 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=19mm]{geometry}
+\usepackage{lmodern,booktabs,tabularx,array,xcolor,listings,microtype}
+\usepackage[hidelinks]{hyperref}
+\definecolor{inkblue}{HTML}{245582}
+\definecolor{added}{HTML}{176B54}
+\definecolor{before}{HTML}{9B493E}
+\definecolor{muted}{HTML}{59636D}
+\definecolor{rulegray}{HTML}{CDD2D7}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.17}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\file}[1]{{\small\texttt{#1}}}
+\newcommand{\smallhead}[1]{\vspace{7pt}{\large\bfseries #1}\par\vspace{2pt}}
+\newcommand{\barrow}[3]{#1 & {\color{inkblue}\rule{#2mm}{5pt}}\, #3\\}
+\lstset{basicstyle=\ttfamily\fontsize{8.5}{10.5}\selectfont,
+  columns=fullflexible,keepspaces=true,showstringspaces=false,
+  breaklines=true,breakatwhitespace=true,breakindent=15pt,
+  morestring=[b]",stringstyle=\color{added},
+  escapeinside={(*@}{@*)},frame=tb,rulecolor=\color{rulegray},
+  aboveskip=6pt,belowskip=6pt,xleftmargin=3pt,xrightmargin=3pt}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries MBDef-Gold: annotated ground truth}\\[5pt]
+{\small The hand-labelled ground truth of MBDef \enspace\textperiodcentered\enspace version 1.0.0}
+\end{center}
+\vspace{-4pt}
+The main dataset, \textbf{MBDef-Gold}, contains \textbf{1,003 concept records from 130 papers},
+with \textbf{1,192 definitions and 387 examples}. Another 1,325 valid but non-relevant
+records are stored separately. A \emph{record} describes one concept in one paper;
+it can contain several definitions and examples.
+
+\smallhead{From the original JSON to the final JSON}
+\begin{tabularx}{\linewidth}{@{}lrrY@{}}
+\toprule
+Version & Papers* & Records & What changed \\
+\midrule
+DefExtra / SciDef & 75 & 268 & Original mapping from each paper and term to a definition, context and type. \\
+V2 & 75 & 272 & LLM-assisted enrichment of the original papers with additional fields. \\
+V3 & 150 & 2,488 & 73 original publications plus 77 new papers; the full record structure shown on page 3. \\
+MBDef-Gold & 130 & 1,003 & Main dataset: retained relevant definitions after annotation and curation. \\
+Non-relevant & 135 & 1,325 & Separate set of valid definitions outside the relevant target. \\
+\bottomrule
+\end{tabularx}
+{\footnotesize *For the original and V2 snapshots, 75 paper IDs represent 73 unique publications.
+For the final sets, papers are counted only when they contain retained records.}
+
+V3 was a synthetic extraction dataset. Annotators recorded judgments and comments
+in separate Label Studio exports; their comments did not directly rewrite V3.
+Curation selected records and applied approved edits to their fields. The final
+files retain \textbf{V3's JSON structure}, paper metadata, IDs and train/test assignments.
+MBDef-Gold stores exactly 130 papers; 20 entries with no retained records were removed.
+The non-relevant file still stores 150 entries: 135 with records and 15 empty. The sets
+overlap in 115 papers because relevance is judged per concept, not per paper.
+
+\smallhead{Where the 2,488 V3 records went}
+\begin{tabularx}{\linewidth}{@{}Yrr@{}}
+\toprule
+Result & Records & Definitions \\
+\midrule
+MBDef-Gold: \file{validated\_gt.json} & 1,003 & 1,192 \\
+Non-relevant: \file{validated\_gt\_non\_relevant.json} & 1,325 & 1,507 \\
+Excluded from both files & 160* & --- \\
+\bottomrule
+\end{tabularx}
+{\footnotesize *158 records were judged not to be definitions. Two more
+(\emph{miss rate} and \emph{precision effect test}) have incomplete definition
+judgments, but both initial annotators marked each as irrelevant. They remain
+excluded, with the missing answers preserved; no further review is required.}
+
+\smallhead{How the annotations were used}
+Two annotators assessed each record. Disagreements on \emph{is a definition} or
+\emph{is relevant} received a third independent annotation (931 records).
+This did not resolve every disagreement about individual supporting fields.
+The curator handled notes, field issues and corrections, and accepted the remaining
+agreed or majority outcomes. Original annotations, rejected records and edit history
+are preserved in the release archive.
+
+\smallhead{Training, development and test sets}
+{\small
+\begin{tabularx}{\linewidth}{@{}Yrrrr@{}}
+\toprule
+Split & \multicolumn{2}{c}{MBDef-Gold} & \multicolumn{2}{c}{Non-relevant} \\
+ & Papers & Records & Papers & Records \\
+\midrule
+<<SPLIT_ROWS>>
+\bottomrule
+\end{tabularx}
+}
+{\footnotesize Parentheses: original SciDef + added in V3, counted as papers or records
+according to the column. Papers with no records are excluded from these counts.}
+
+
+\newpage
+{\Large\bfseries Fields and changes}\par
+All seven list fields are retained, including empty lists. Each list item has
+\file{text} and \file{citation}; \file{term} is a single string.
+The table compares the \textbf{same 1,003 relevant records} before and after
+curation, so filtering out other records does not count as an edit.
+
+\begin{tabularx}{\linewidth}{@{}lYrrr@{}}
+\toprule
+JSON field & Meaning & V3 & MBDef-Gold & Non-relevant \\
+\midrule
+<<FIELD_ROWS>>
+\bottomrule
+\end{tabularx}
+{\footnotesize Values count list items, except for \file{term}, which counts records.
+The last column is the separate set of 1,325 records. A change can alter text,
+citations or field placement without changing an item count.}
+
+\smallhead{What changed in the relevant records?}
+\textbf{829 records (82.7\%) are unchanged from V3; 174 (17.3\%) have edits.}
+The separate non-relevant records all retain their V3 content.
+Among the relevant records, 892 have one definition and 111 have two or more;
+202 records contain examples.
+
+\vspace{5pt}
+\begin{minipage}[t]{0.35\linewidth}
+\textbf{Records edited, by field}\par
+{\small
+\begin{tabular}{@{}ll@{}}
+<<BAR_ROWS>>
+\end{tabular}}
+\par\vspace{3pt}
+{\footnotesize One record can appear in several bars. Field moves count in both
+the old and new fields. Counts compare complete field values, including citations.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.60\linewidth}
+\textbf{Examples of approved edits}\par
+{\small
+\textbf{Behavioral Bias --- completing the sentence}\par
+\textcolor{before}{V3: <<BEHAVIOR_BEFORE>>}\par
+\textcolor{added}{Final: <<BEHAVIOR_AFTER>>}\par
+\textbf{Fairness through Awareness --- moving a field}\par
+The passage beginning ``any two individuals who are similar'' moved from
+\file{description} to \file{definitions}; the text and citations stayed the same.
+\par
+\textbf{enchantment deepfake --- fixing extracted text}\par
+\textcolor{before}{V3: ``a ributes''}\quad$\rightarrow$\quad
+\textcolor{added}{Final: ``attributes''}. The term itself was retained.
+\par
+\textbf{fuzzy trace theory --- repairing a citation}\par
+\textcolor{before}{V3: <<CITATION_BEFORE>>}\par
+\textcolor{added}{Final: <<CITATION_AFTER>>}
+}
+\end{minipage}
+
+\smallhead{Reading these changes}
+Edits include corrections and moves between fields, as well as additions and
+removals. There are 31 moves where the complete text and citation are unchanged;
+moves accompanied by edits are not counted in that number. Net item counts alone
+cannot distinguish these operations.
+
+Keeping V3 can also be an explicit decision: \emph{Description bias} retains its
+full sentence and the citation marker \file{\{McCarthy, 1996 \#xxx\}} because that
+marker is already broken in the source. An annotation comment is not itself a
+replacement value in the GT.
+
+\newpage
+{\Large\bfseries The final JSON}\par
+Both files contain \file{papers}. Each paper has \file{paper\_id}, \file{split},
+\file{metadata} and \file{definition\_records}, alongside the preserved V3 fields.
+Metadata includes title, authors, publication year, DOI and venue.
+The example below is \textbf{one complete final record}, from
+\emph{A Survey on Bias and Fairness in Machine Learning} (paper ID 3457607).
+Only key order and line wrapping are changed for display.
+\begin{lstlisting}
+<<JSON_SAMPLE>>
+\end{lstlisting}
+{\footnotesize \textcolor{inkblue}{Blue: field names.}
+\textcolor{added}{Green: stored strings.} Citation markers are stored literally;
+an empty list means there are no items in that field.}
+
+\smallhead{What to use and what to keep}
+Use \file{validated\_gt.json} for the relevant-definition training target.
+Keep \file{validated\_gt\_non\_relevant.json} separate:
+its definitions were judged valid, but supporting fields were hidden when an
+annotator marked a concept irrelevant, so those fields did not receive the same
+review. Relevance labels and annotation notes remain in the accompanying evidence,
+outside the training records.
+
+The release archive \file{validated\_gt\_release.zip}, which the build of this release writes,
+contains both datasets, this report, statistics, historical JSONs, the original export and all
+annotation/edit evidence. \file{SHA256SUMS} lists checksums for its contents. MBDef-Gold omits 20 empty paper
+entries and sets \file{paper\_count} to 130; all retained paper and record values are
+unchanged. The non-relevant file and original export are preserved exactly.
+
+{\footnotesize Source: the curator's final export, the SciDef, V2 and V3 JSON snapshots,
+the Label Studio exports and configuration, and the annotation guidelines.
+The release preserves source spellings, citation markers and metadata blanks.
+All 150 original input PDFs are identified in the accompanying evidence.}
+\end{document}

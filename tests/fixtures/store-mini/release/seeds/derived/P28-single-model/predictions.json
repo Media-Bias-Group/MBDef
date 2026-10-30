@@ -1,0 +1,50 @@
+{
+ "missing_part_outputs": [],
+ "paper_count": 3,
+ "papers": [
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "A slant in news coverage."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [
+      {
+       "citation": [],
+       "text": "slant"
+      }
+     ],
+     "term": "Media Bias"
+    }
+   ],
+   "metadata": {
+    "doi": "10.0000/mini.1",
+    "title": "A synthetic seed paper"
+   },
+   "paper_id": "seed-1"
+  },
+  {
+   "definition_records": [],
+   "metadata": {
+    "title": "Another synthetic seed paper"
+   },
+   "paper_id": "seed-2"
+  },
+  {
+   "definition_records": [],
+   "metadata": {},
+   "paper_id": "seed-3"
+  }
+ ],
+ "pick": {
+  "config": "mini/P28-single-model"
+ }
+}

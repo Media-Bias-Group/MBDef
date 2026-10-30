@@ -1,0 +1,2686 @@
+{
+ "papers": [
+  "paper00",
+  "paper01",
+  "paper02",
+  "paper03",
+  "paper04",
+  "paper05",
+  "paper06",
+  "paper07",
+  "paper08",
+  "paper09",
+  "paper10",
+  "paper11",
+  "paper12",
+  "paper13",
+  "paper14",
+  "paper15",
+  "paper16",
+  "paper17",
+  "paper18",
+  "paper19",
+  "paper20",
+  "paper21",
+  "paper22",
+  "paper23",
+  "paper24",
+  "paper25",
+  "paper26",
+  "paper27",
+  "paper28",
+  "paper29",
+  "paper30",
+  "paper31",
+  "paper32",
+  "paper33",
+  "paper34",
+  "paper35",
+  "paper36",
+  "paper37",
+  "paper38",
+  "paper39",
+  "paper40",
+  "paper41",
+  "paper42",
+  "paper43",
+  "paper44",
+  "paper45",
+  "paper46",
+  "paper47",
+  "paper48",
+  "paper49",
+  "paper50",
+  "paper51",
+  "paper52",
+  "paper53",
+  "paper54",
+  "paper55",
+  "paper56",
+  "paper57",
+  "paper58",
+  "paper59",
+  "paper60",
+  "paper61",
+  "paper62",
+  "paper63"
+ ],
+ "concepts": [
+  {
+   "mention_id": "m0000",
+   "paper_id": "paper01",
+   "corpus": "seeds",
+   "label": "media bias",
+   "definitions": [
+    [
+     "d0000-0",
+     "definition 0 of media bias in paper01"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0001",
+   "paper_id": "paper09",
+   "corpus": "seeds",
+   "label": "media bias",
+   "definitions": [
+    [
+     "d0001-0",
+     "definition 0 of media bias in paper09"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0002",
+   "paper_id": "paper12",
+   "corpus": "seeds",
+   "label": "media bias",
+   "definitions": [
+    [
+     "d0002-0",
+     "definition 0 of media bias in paper12"
+    ],
+    [
+     "d0002-1",
+     "definition 1 of media bias in paper12"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0003",
+   "paper_id": "paper22",
+   "corpus": "closure",
+   "label": "media bias",
+   "definitions": [
+    [
+     "d0003-0",
+     "definition 0 of media bias in paper22"
+    ],
+    [
+     "d0003-1",
+     "definition 1 of media bias in paper22"
+    ],
+    [
+     "d0003-2",
+     "definition 2 of media bias in paper22"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0004",
+   "paper_id": "paper44",
+   "corpus": "closure",
+   "label": "media bias",
+   "definitions": [
+    [
+     "d0004-0",
+     "definition 0 of media bias in paper44"
+    ],
+    [
+     "d0004-1",
+     "definition 1 of media bias in paper44"
+    ],
+    [
+     "d0004-2",
+     "definition 2 of media bias in paper44"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0005",
+   "paper_id": "paper12",
+   "corpus": "seeds",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0005-0",
+     "definition 0 of bias in the media in paper12"
+    ],
+    [
+     "d0005-1",
+     "definition 1 of bias in the media in paper12"
+    ],
+    [
+     "d0005-2",
+     "definition 2 of bias in the media in paper12"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0006",
+   "paper_id": "paper16",
+   "corpus": "seeds",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0006-0",
+     "definition 0 of bias in the media in paper16"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0007",
+   "paper_id": "paper35",
+   "corpus": "closure",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0007-0",
+     "definition 0 of bias in the media in paper35"
+    ],
+    [
+     "d0007-1",
+     "definition 1 of bias in the media in paper35"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0008",
+   "paper_id": "paper39",
+   "corpus": "closure",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0008-0",
+     "definition 0 of bias in the media in paper39"
+    ],
+    [
+     "d0008-1",
+     "definition 1 of bias in the media in paper39"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0009",
+   "paper_id": "paper40",
+   "corpus": "closure",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0009-0",
+     "definition 0 of bias in the media in paper40"
+    ],
+    [
+     "d0009-1",
+     "definition 1 of bias in the media in paper40"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0010",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "bias in the media",
+   "definitions": [
+    [
+     "d0010-0",
+     "definition 0 of bias in the media in paper47"
+    ],
+    [
+     "d0010-1",
+     "definition 1 of bias in the media in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0011",
+   "paper_id": "paper02",
+   "corpus": "seeds",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0011-0",
+     "definition 0 of Media Biases in paper02"
+    ],
+    [
+     "d0011-1",
+     "definition 1 of Media Biases in paper02"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0012",
+   "paper_id": "paper08",
+   "corpus": "seeds",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0012-0",
+     "definition 0 of Media Biases in paper08"
+    ],
+    [
+     "d0012-1",
+     "definition 1 of Media Biases in paper08"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0013",
+   "paper_id": "paper12",
+   "corpus": "seeds",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0013-0",
+     "definition 0 of Media Biases in paper12"
+    ],
+    [
+     "d0013-1",
+     "definition 1 of Media Biases in paper12"
+    ],
+    [
+     "d0013-2",
+     "definition 2 of Media Biases in paper12"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0014",
+   "paper_id": "paper22",
+   "corpus": "closure",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0014-0",
+     "definition 0 of Media Biases in paper22"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0015",
+   "paper_id": "paper24",
+   "corpus": "closure",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0015-0",
+     "definition 0 of Media Biases in paper24"
+    ],
+    [
+     "d0015-1",
+     "definition 1 of Media Biases in paper24"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0016",
+   "paper_id": "paper45",
+   "corpus": "closure",
+   "label": "Media Biases",
+   "definitions": [
+    [
+     "d0016-0",
+     "definition 0 of Media Biases in paper45"
+    ],
+    [
+     "d0016-1",
+     "definition 1 of Media Biases in paper45"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0017",
+   "paper_id": "paper05",
+   "corpus": "seeds",
+   "label": "framing",
+   "definitions": [
+    [
+     "d0017-0",
+     "definition 0 of framing in paper05"
+    ],
+    [
+     "d0017-1",
+     "definition 1 of framing in paper05"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0018",
+   "paper_id": "paper41",
+   "corpus": "closure",
+   "label": "framing",
+   "definitions": [
+    [
+     "d0018-0",
+     "definition 0 of framing in paper41"
+    ],
+    [
+     "d0018-1",
+     "definition 1 of framing in paper41"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0019",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "Framing",
+   "definitions": [
+    [
+     "d0019-0",
+     "definition 0 of Framing in paper27"
+    ],
+    [
+     "d0019-1",
+     "definition 1 of Framing in paper27"
+    ],
+    [
+     "d0019-2",
+     "definition 2 of Framing in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0020",
+   "paper_id": "paper17",
+   "corpus": "seeds",
+   "label": "frames",
+   "definitions": [
+    [
+     "d0020-0",
+     "definition 0 of frames in paper17"
+    ],
+    [
+     "d0020-1",
+     "definition 1 of frames in paper17"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0021",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "frames",
+   "definitions": [
+    [
+     "d0021-0",
+     "definition 0 of frames in paper47"
+    ],
+    [
+     "d0021-1",
+     "definition 1 of frames in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0022",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "click-bait",
+   "definitions": [
+    [
+     "d0022-0",
+     "definition 0 of click-bait in paper06"
+    ],
+    [
+     "d0022-1",
+     "definition 1 of click-bait in paper06"
+    ],
+    [
+     "d0022-2",
+     "definition 2 of click-bait in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0023",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "click-bait",
+   "definitions": [
+    [
+     "d0023-0",
+     "definition 0 of click-bait in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0024",
+   "paper_id": "paper31",
+   "corpus": "closure",
+   "label": "click-bait",
+   "definitions": [
+    [
+     "d0024-0",
+     "definition 0 of click-bait in paper31"
+    ],
+    [
+     "d0024-1",
+     "definition 1 of click-bait in paper31"
+    ],
+    [
+     "d0024-2",
+     "definition 2 of click-bait in paper31"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0025",
+   "paper_id": "paper23",
+   "corpus": "closure",
+   "label": "clickbait",
+   "definitions": [
+    [
+     "d0025-0",
+     "definition 0 of clickbait in paper23"
+    ],
+    [
+     "d0025-1",
+     "definition 1 of clickbait in paper23"
+    ],
+    [
+     "d0025-2",
+     "definition 2 of clickbait in paper23"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0026",
+   "paper_id": "paper51",
+   "corpus": "closure",
+   "label": "clickbait",
+   "definitions": [
+    [
+     "d0026-0",
+     "definition 0 of clickbait in paper51"
+    ],
+    [
+     "d0026-1",
+     "definition 1 of clickbait in paper51"
+    ],
+    [
+     "d0026-2",
+     "definition 2 of clickbait in paper51"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0027",
+   "paper_id": "paper03",
+   "corpus": "seeds",
+   "label": "click bait",
+   "definitions": [
+    [
+     "d0027-0",
+     "definition 0 of click bait in paper03"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0028",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "FN (fake news)",
+   "definitions": [
+    [
+     "d0028-0",
+     "definition 0 of FN (fake news) in paper06"
+    ],
+    [
+     "d0028-1",
+     "definition 1 of FN (fake news) in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0029",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "FN (fake news)",
+   "definitions": [
+    [
+     "d0029-0",
+     "definition 0 of FN (fake news) in paper26"
+    ],
+    [
+     "d0029-1",
+     "definition 1 of FN (fake news) in paper26"
+    ],
+    [
+     "d0029-2",
+     "definition 2 of FN (fake news) in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0030",
+   "paper_id": "paper52",
+   "corpus": "closure",
+   "label": "FN (fake news)",
+   "definitions": [
+    [
+     "d0030-0",
+     "definition 0 of FN (fake news) in paper52"
+    ],
+    [
+     "d0030-1",
+     "definition 1 of FN (fake news) in paper52"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0031",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "fake news",
+   "definitions": [
+    [
+     "d0031-0",
+     "definition 0 of fake news in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0032",
+   "paper_id": "paper44",
+   "corpus": "closure",
+   "label": "fake news",
+   "definitions": [
+    [
+     "d0032-0",
+     "definition 0 of fake news in paper44"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0033",
+   "paper_id": "paper50",
+   "corpus": "closure",
+   "label": "fake news",
+   "definitions": [
+    [
+     "d0033-0",
+     "definition 0 of fake news in paper50"
+    ],
+    [
+     "d0033-1",
+     "definition 1 of fake news in paper50"
+    ],
+    [
+     "d0033-2",
+     "definition 2 of fake news in paper50"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0034",
+   "paper_id": "paper21",
+   "corpus": "closure",
+   "label": "Fake News",
+   "definitions": [
+    [
+     "d0034-0",
+     "definition 0 of Fake News in paper21"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0035",
+   "paper_id": "paper41",
+   "corpus": "closure",
+   "label": "Fake News",
+   "definitions": [
+    [
+     "d0035-0",
+     "definition 0 of Fake News in paper41"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0036",
+   "paper_id": "paper50",
+   "corpus": "closure",
+   "label": "Fake News",
+   "definitions": [
+    [
+     "d0036-0",
+     "definition 0 of Fake News in paper50"
+    ],
+    [
+     "d0036-1",
+     "definition 1 of Fake News in paper50"
+    ],
+    [
+     "d0036-2",
+     "definition 2 of Fake News in paper50"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0037",
+   "paper_id": "paper18",
+   "corpus": "seeds",
+   "label": "misinformation",
+   "definitions": [
+    [
+     "d0037-0",
+     "definition 0 of misinformation in paper18"
+    ],
+    [
+     "d0037-1",
+     "definition 1 of misinformation in paper18"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0038",
+   "paper_id": "paper21",
+   "corpus": "closure",
+   "label": "misinformation",
+   "definitions": [
+    [
+     "d0038-0",
+     "definition 0 of misinformation in paper21"
+    ],
+    [
+     "d0038-1",
+     "definition 1 of misinformation in paper21"
+    ],
+    [
+     "d0038-2",
+     "definition 2 of misinformation in paper21"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0039",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "(mis)information",
+   "definitions": [
+    [
+     "d0039-0",
+     "definition 0 of (mis)information in paper26"
+    ],
+    [
+     "d0039-1",
+     "definition 1 of (mis)information in paper26"
+    ],
+    [
+     "d0039-2",
+     "definition 2 of (mis)information in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0040",
+   "paper_id": "paper46",
+   "corpus": "closure",
+   "label": "(mis)information",
+   "definitions": [
+    [
+     "d0040-0",
+     "definition 0 of (mis)information in paper46"
+    ],
+    [
+     "d0040-1",
+     "definition 1 of (mis)information in paper46"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0041",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "(mis)information",
+   "definitions": [
+    [
+     "d0041-0",
+     "definition 0 of (mis)information in paper47"
+    ],
+    [
+     "d0041-1",
+     "definition 1 of (mis)information in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0042",
+   "paper_id": "paper55",
+   "corpus": "closure",
+   "label": "(mis)information",
+   "definitions": [
+    [
+     "d0042-0",
+     "definition 0 of (mis)information in paper55"
+    ],
+    [
+     "d0042-1",
+     "definition 1 of (mis)information in paper55"
+    ],
+    [
+     "d0042-2",
+     "definition 2 of (mis)information in paper55"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0043",
+   "paper_id": "paper30",
+   "corpus": "closure",
+   "label": "Affect (negative)",
+   "definitions": [
+    [
+     "d0043-0",
+     "definition 0 of Affect (negative) in paper30"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0044",
+   "paper_id": "paper48",
+   "corpus": "closure",
+   "label": "Affect (negative)",
+   "definitions": [
+    [
+     "d0044-0",
+     "definition 0 of Affect (negative) in paper48"
+    ],
+    [
+     "d0044-1",
+     "definition 1 of Affect (negative) in paper48"
+    ],
+    [
+     "d0044-2",
+     "definition 2 of Affect (negative) in paper48"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0045",
+   "paper_id": "paper18",
+   "corpus": "seeds",
+   "label": "affect",
+   "definitions": [
+    [
+     "d0045-0",
+     "definition 0 of affect in paper18"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0046",
+   "paper_id": "paper24",
+   "corpus": "closure",
+   "label": "affect",
+   "definitions": [
+    [
+     "d0046-0",
+     "definition 0 of affect in paper24"
+    ],
+    [
+     "d0046-1",
+     "definition 1 of affect in paper24"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0047",
+   "paper_id": "paper12",
+   "corpus": "seeds",
+   "label": "polarisation",
+   "definitions": [
+    [
+     "d0047-0",
+     "definition 0 of polarisation in paper12"
+    ],
+    [
+     "d0047-1",
+     "definition 1 of polarisation in paper12"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0048",
+   "paper_id": "paper35",
+   "corpus": "closure",
+   "label": "polarisation",
+   "definitions": [
+    [
+     "d0048-0",
+     "definition 0 of polarisation in paper35"
+    ],
+    [
+     "d0048-1",
+     "definition 1 of polarisation in paper35"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0049",
+   "paper_id": "paper24",
+   "corpus": "closure",
+   "label": "polarization",
+   "definitions": [
+    [
+     "d0049-0",
+     "definition 0 of polarization in paper24"
+    ],
+    [
+     "d0049-1",
+     "definition 1 of polarization in paper24"
+    ],
+    [
+     "d0049-2",
+     "definition 2 of polarization in paper24"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0050",
+   "paper_id": "paper39",
+   "corpus": "closure",
+   "label": "polarization",
+   "definitions": [
+    [
+     "d0050-0",
+     "definition 0 of polarization in paper39"
+    ],
+    [
+     "d0050-1",
+     "definition 1 of polarization in paper39"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0051",
+   "paper_id": "paper48",
+   "corpus": "closure",
+   "label": "polarization",
+   "definitions": [
+    [
+     "d0051-0",
+     "definition 0 of polarization in paper48"
+    ],
+    [
+     "d0051-1",
+     "definition 1 of polarization in paper48"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0052",
+   "paper_id": "paper05",
+   "corpus": "seeds",
+   "label": "agenda setting",
+   "definitions": [
+    [
+     "d0052-0",
+     "definition 0 of agenda setting in paper05"
+    ],
+    [
+     "d0052-1",
+     "definition 1 of agenda setting in paper05"
+    ],
+    [
+     "d0052-2",
+     "definition 2 of agenda setting in paper05"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0053",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "agenda setting",
+   "definitions": [
+    [
+     "d0053-0",
+     "definition 0 of agenda setting in paper26"
+    ],
+    [
+     "d0053-1",
+     "definition 1 of agenda setting in paper26"
+    ],
+    [
+     "d0053-2",
+     "definition 2 of agenda setting in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0054",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "agenda setting",
+   "definitions": [
+    [
+     "d0054-0",
+     "definition 0 of agenda setting in paper27"
+    ],
+    [
+     "d0054-1",
+     "definition 1 of agenda setting in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0055",
+   "paper_id": "paper40",
+   "corpus": "closure",
+   "label": "agenda setting",
+   "definitions": [
+    [
+     "d0055-0",
+     "definition 0 of agenda setting in paper40"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0056",
+   "paper_id": "paper49",
+   "corpus": "closure",
+   "label": "agenda setting",
+   "definitions": [
+    [
+     "d0056-0",
+     "definition 0 of agenda setting in paper49"
+    ],
+    [
+     "d0056-1",
+     "definition 1 of agenda setting in paper49"
+    ],
+    [
+     "d0056-2",
+     "definition 2 of agenda setting in paper49"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0057",
+   "paper_id": "paper37",
+   "corpus": "closure",
+   "label": "agenda-setting",
+   "definitions": [
+    [
+     "d0057-0",
+     "definition 0 of agenda-setting in paper37"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0058",
+   "paper_id": "paper56",
+   "corpus": "closure",
+   "label": "agenda-setting",
+   "definitions": [
+    [
+     "d0058-0",
+     "definition 0 of agenda-setting in paper56"
+    ],
+    [
+     "d0058-1",
+     "definition 1 of agenda-setting in paper56"
+    ],
+    [
+     "d0058-2",
+     "definition 2 of agenda-setting in paper56"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0059",
+   "paper_id": "paper24",
+   "corpus": "closure",
+   "label": "gatekeeping",
+   "definitions": [
+    [
+     "d0059-0",
+     "definition 0 of gatekeeping in paper24"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0060",
+   "paper_id": "paper57",
+   "corpus": "closure",
+   "label": "gatekeeping",
+   "definitions": [
+    [
+     "d0060-0",
+     "definition 0 of gatekeeping in paper57"
+    ],
+    [
+     "d0060-1",
+     "definition 1 of gatekeeping in paper57"
+    ],
+    [
+     "d0060-2",
+     "definition 2 of gatekeeping in paper57"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0061",
+   "paper_id": "paper59",
+   "corpus": "closure",
+   "label": "gatekeeping",
+   "definitions": [
+    [
+     "d0061-0",
+     "definition 0 of gatekeeping in paper59"
+    ],
+    [
+     "d0061-1",
+     "definition 1 of gatekeeping in paper59"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0062",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "gate keeping",
+   "definitions": [
+    [
+     "d0062-0",
+     "definition 0 of gate keeping in paper06"
+    ],
+    [
+     "d0062-1",
+     "definition 1 of gate keeping in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0063",
+   "paper_id": "paper43",
+   "corpus": "closure",
+   "label": "gate keeping",
+   "definitions": [
+    [
+     "d0063-0",
+     "definition 0 of gate keeping in paper43"
+    ],
+    [
+     "d0063-1",
+     "definition 1 of gate keeping in paper43"
+    ],
+    [
+     "d0063-2",
+     "definition 2 of gate keeping in paper43"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0064",
+   "paper_id": "paper07",
+   "corpus": "seeds",
+   "label": "deep learning",
+   "definitions": [
+    [
+     "d0064-0",
+     "definition 0 of deep learning in paper07"
+    ],
+    [
+     "d0064-1",
+     "definition 1 of deep learning in paper07"
+    ],
+    [
+     "d0064-2",
+     "definition 2 of deep learning in paper07"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0065",
+   "paper_id": "paper14",
+   "corpus": "seeds",
+   "label": "deep learning",
+   "definitions": [
+    [
+     "d0065-0",
+     "definition 0 of deep learning in paper14"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0066",
+   "paper_id": "paper17",
+   "corpus": "seeds",
+   "label": "Deep Learning",
+   "definitions": [
+    [
+     "d0066-0",
+     "definition 0 of Deep Learning in paper17"
+    ],
+    [
+     "d0066-1",
+     "definition 1 of Deep Learning in paper17"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0067",
+   "paper_id": "paper30",
+   "corpus": "closure",
+   "label": "Deep Learning",
+   "definitions": [
+    [
+     "d0067-0",
+     "definition 0 of Deep Learning in paper30"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0068",
+   "paper_id": "paper43",
+   "corpus": "closure",
+   "label": "Deep Learning",
+   "definitions": [
+    [
+     "d0068-0",
+     "definition 0 of Deep Learning in paper43"
+    ],
+    [
+     "d0068-1",
+     "definition 1 of Deep Learning in paper43"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0069",
+   "paper_id": "paper10",
+   "corpus": "seeds",
+   "label": "neural network",
+   "definitions": [
+    [
+     "d0069-0",
+     "definition 0 of neural network in paper10"
+    ],
+    [
+     "d0069-1",
+     "definition 1 of neural network in paper10"
+    ],
+    [
+     "d0069-2",
+     "definition 2 of neural network in paper10"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0070",
+   "paper_id": "paper08",
+   "corpus": "seeds",
+   "label": "neural networks",
+   "definitions": [
+    [
+     "d0070-0",
+     "definition 0 of neural networks in paper08"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0071",
+   "paper_id": "paper22",
+   "corpus": "closure",
+   "label": "AI",
+   "definitions": [
+    [
+     "d0071-0",
+     "definition 0 of AI in paper22"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0072",
+   "paper_id": "paper39",
+   "corpus": "closure",
+   "label": "AI",
+   "definitions": [
+    [
+     "d0072-0",
+     "definition 0 of AI in paper39"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0073",
+   "paper_id": "paper44",
+   "corpus": "closure",
+   "label": "AI",
+   "definitions": [
+    [
+     "d0073-0",
+     "definition 0 of AI in paper44"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0074",
+   "paper_id": "paper46",
+   "corpus": "closure",
+   "label": "AI",
+   "definitions": [
+    [
+     "d0074-0",
+     "definition 0 of AI in paper46"
+    ],
+    [
+     "d0074-1",
+     "definition 1 of AI in paper46"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0075",
+   "paper_id": "paper48",
+   "corpus": "closure",
+   "label": "AI",
+   "definitions": [
+    [
+     "d0075-0",
+     "definition 0 of AI in paper48"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0076",
+   "paper_id": "paper16",
+   "corpus": "seeds",
+   "label": "sentiment analysis",
+   "definitions": [
+    [
+     "d0076-0",
+     "definition 0 of sentiment analysis in paper16"
+    ],
+    [
+     "d0076-1",
+     "definition 1 of sentiment analysis in paper16"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0077",
+   "paper_id": "paper21",
+   "corpus": "closure",
+   "label": "sentiment analysis",
+   "definitions": [
+    [
+     "d0077-0",
+     "definition 0 of sentiment analysis in paper21"
+    ],
+    [
+     "d0077-1",
+     "definition 1 of sentiment analysis in paper21"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0078",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "sentiment analysis",
+   "definitions": [
+    [
+     "d0078-0",
+     "definition 0 of sentiment analysis in paper27"
+    ],
+    [
+     "d0078-1",
+     "definition 1 of sentiment analysis in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0079",
+   "paper_id": "paper33",
+   "corpus": "closure",
+   "label": "sentiment analysis",
+   "definitions": [
+    [
+     "d0079-0",
+     "definition 0 of sentiment analysis in paper33"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0080",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "sentiment analysis",
+   "definitions": [
+    [
+     "d0080-0",
+     "definition 0 of sentiment analysis in paper47"
+    ],
+    [
+     "d0080-1",
+     "definition 1 of sentiment analysis in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0081",
+   "paper_id": "paper01",
+   "corpus": "seeds",
+   "label": "Sentiment Analysis (SA)",
+   "definitions": [
+    [
+     "d0081-0",
+     "definition 0 of Sentiment Analysis (SA) in paper01"
+    ],
+    [
+     "d0081-1",
+     "definition 1 of Sentiment Analysis (SA) in paper01"
+    ],
+    [
+     "d0081-2",
+     "definition 2 of Sentiment Analysis (SA) in paper01"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0082",
+   "paper_id": "paper22",
+   "corpus": "closure",
+   "label": "Sentiment Analysis (SA)",
+   "definitions": [
+    [
+     "d0082-0",
+     "definition 0 of Sentiment Analysis (SA) in paper22"
+    ],
+    [
+     "d0082-1",
+     "definition 1 of Sentiment Analysis (SA) in paper22"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0083",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "Sentiment Analysis (SA)",
+   "definitions": [
+    [
+     "d0083-0",
+     "definition 0 of Sentiment Analysis (SA) in paper27"
+    ],
+    [
+     "d0083-1",
+     "definition 1 of Sentiment Analysis (SA) in paper27"
+    ],
+    [
+     "d0083-2",
+     "definition 2 of Sentiment Analysis (SA) in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0084",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "Sentiment Analysis (SA)",
+   "definitions": [
+    [
+     "d0084-0",
+     "definition 0 of Sentiment Analysis (SA) in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0085",
+   "paper_id": "paper57",
+   "corpus": "closure",
+   "label": "Sentiment Analysis (SA)",
+   "definitions": [
+    [
+     "d0085-0",
+     "definition 0 of Sentiment Analysis (SA) in paper57"
+    ],
+    [
+     "d0085-1",
+     "definition 1 of Sentiment Analysis (SA) in paper57"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0086",
+   "paper_id": "paper10",
+   "corpus": "seeds",
+   "label": "the news value",
+   "definitions": [
+    [
+     "d0086-0",
+     "definition 0 of the news value in paper10"
+    ],
+    [
+     "d0086-1",
+     "definition 1 of the news value in paper10"
+    ],
+    [
+     "d0086-2",
+     "definition 2 of the news value in paper10"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0087",
+   "paper_id": "paper01",
+   "corpus": "seeds",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0087-0",
+     "definition 0 of news values in paper01"
+    ],
+    [
+     "d0087-1",
+     "definition 1 of news values in paper01"
+    ],
+    [
+     "d0087-2",
+     "definition 2 of news values in paper01"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0088",
+   "paper_id": "paper09",
+   "corpus": "seeds",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0088-0",
+     "definition 0 of news values in paper09"
+    ],
+    [
+     "d0088-1",
+     "definition 1 of news values in paper09"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0089",
+   "paper_id": "paper11",
+   "corpus": "seeds",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0089-0",
+     "definition 0 of news values in paper11"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0090",
+   "paper_id": "paper18",
+   "corpus": "seeds",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0090-0",
+     "definition 0 of news values in paper18"
+    ],
+    [
+     "d0090-1",
+     "definition 1 of news values in paper18"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0091",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0091-0",
+     "definition 0 of news values in paper26"
+    ],
+    [
+     "d0091-1",
+     "definition 1 of news values in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0092",
+   "paper_id": "paper41",
+   "corpus": "closure",
+   "label": "news values",
+   "definitions": [
+    [
+     "d0092-0",
+     "definition 0 of news values in paper41"
+    ],
+    [
+     "d0092-1",
+     "definition 1 of news values in paper41"
+    ],
+    [
+     "d0092-2",
+     "definition 2 of news values in paper41"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0093",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "a priori",
+   "definitions": [
+    [
+     "d0093-0",
+     "definition 0 of a priori in paper06"
+    ],
+    [
+     "d0093-1",
+     "definition 1 of a priori in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0094",
+   "paper_id": "paper38",
+   "corpus": "closure",
+   "label": "a priori",
+   "definitions": [
+    [
+     "d0094-0",
+     "definition 0 of a priori in paper38"
+    ],
+    [
+     "d0094-1",
+     "definition 1 of a priori in paper38"
+    ],
+    [
+     "d0094-2",
+     "definition 2 of a priori in paper38"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0095",
+   "paper_id": "paper42",
+   "corpus": "closure",
+   "label": "a priori",
+   "definitions": [
+    [
+     "d0095-0",
+     "definition 0 of a priori in paper42"
+    ],
+    [
+     "d0095-1",
+     "definition 1 of a priori in paper42"
+    ],
+    [
+     "d0095-2",
+     "definition 2 of a priori in paper42"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0096",
+   "paper_id": "paper03",
+   "corpus": "seeds",
+   "label": "selection bias",
+   "definitions": [
+    [
+     "d0096-0",
+     "definition 0 of selection bias in paper03"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0097",
+   "paper_id": "paper28",
+   "corpus": "closure",
+   "label": "bias by selection",
+   "definitions": [
+    [
+     "d0097-0",
+     "definition 0 of bias by selection in paper28"
+    ],
+    [
+     "d0097-1",
+     "definition 1 of bias by selection in paper28"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0098",
+   "paper_id": "paper49",
+   "corpus": "closure",
+   "label": "bias by selection",
+   "definitions": [
+    [
+     "d0098-0",
+     "definition 0 of bias by selection in paper49"
+    ],
+    [
+     "d0098-1",
+     "definition 1 of bias by selection in paper49"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0099",
+   "paper_id": "paper04",
+   "corpus": "seeds",
+   "label": "spin",
+   "definitions": [
+    [
+     "d0099-0",
+     "definition 0 of spin in paper04"
+    ],
+    [
+     "d0099-1",
+     "definition 1 of spin in paper04"
+    ],
+    [
+     "d0099-2",
+     "definition 2 of spin in paper04"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0100",
+   "paper_id": "paper20",
+   "corpus": "closure",
+   "label": "spin",
+   "definitions": [
+    [
+     "d0100-0",
+     "definition 0 of spin in paper20"
+    ],
+    [
+     "d0100-1",
+     "definition 1 of spin in paper20"
+    ],
+    [
+     "d0100-2",
+     "definition 2 of spin in paper20"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0101",
+   "paper_id": "paper21",
+   "corpus": "closure",
+   "label": "spin",
+   "definitions": [
+    [
+     "d0101-0",
+     "definition 0 of spin in paper21"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0102",
+   "paper_id": "paper41",
+   "corpus": "closure",
+   "label": "spin",
+   "definitions": [
+    [
+     "d0102-0",
+     "definition 0 of spin in paper41"
+    ],
+    [
+     "d0102-1",
+     "definition 1 of spin in paper41"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0103",
+   "paper_id": "paper45",
+   "corpus": "closure",
+   "label": "spin",
+   "definitions": [
+    [
+     "d0103-0",
+     "definition 0 of spin in paper45"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0104",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "slant",
+   "definitions": [
+    [
+     "d0104-0",
+     "definition 0 of slant in paper06"
+    ],
+    [
+     "d0104-1",
+     "definition 1 of slant in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0105",
+   "paper_id": "paper16",
+   "corpus": "seeds",
+   "label": "slant",
+   "definitions": [
+    [
+     "d0105-0",
+     "definition 0 of slant in paper16"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0106",
+   "paper_id": "paper35",
+   "corpus": "closure",
+   "label": "slant",
+   "definitions": [
+    [
+     "d0106-0",
+     "definition 0 of slant in paper35"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0107",
+   "paper_id": "paper45",
+   "corpus": "closure",
+   "label": "slant",
+   "definitions": [
+    [
+     "d0107-0",
+     "definition 0 of slant in paper45"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0108",
+   "paper_id": "paper50",
+   "corpus": "closure",
+   "label": "slant",
+   "definitions": [
+    [
+     "d0108-0",
+     "definition 0 of slant in paper50"
+    ],
+    [
+     "d0108-1",
+     "definition 1 of slant in paper50"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0109",
+   "paper_id": "paper12",
+   "corpus": "seeds",
+   "label": "slanted coverage",
+   "definitions": [
+    [
+     "d0109-0",
+     "definition 0 of slanted coverage in paper12"
+    ],
+    [
+     "d0109-1",
+     "definition 1 of slanted coverage in paper12"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0110",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "slanted coverage",
+   "definitions": [
+    [
+     "d0110-0",
+     "definition 0 of slanted coverage in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0111",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "slanted coverage",
+   "definitions": [
+    [
+     "d0111-0",
+     "definition 0 of slanted coverage in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0112",
+   "paper_id": "paper57",
+   "corpus": "closure",
+   "label": "slanted coverage",
+   "definitions": [
+    [
+     "d0112-0",
+     "definition 0 of slanted coverage in paper57"
+    ],
+    [
+     "d0112-1",
+     "definition 1 of slanted coverage in paper57"
+    ],
+    [
+     "d0112-2",
+     "definition 2 of slanted coverage in paper57"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0113",
+   "paper_id": "paper58",
+   "corpus": "closure",
+   "label": "slanted coverage",
+   "definitions": [
+    [
+     "d0113-0",
+     "definition 0 of slanted coverage in paper58"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0114",
+   "paper_id": "paper15",
+   "corpus": "seeds",
+   "label": "coverage bias",
+   "definitions": [
+    [
+     "d0114-0",
+     "definition 0 of coverage bias in paper15"
+    ],
+    [
+     "d0114-1",
+     "definition 1 of coverage bias in paper15"
+    ],
+    [
+     "d0114-2",
+     "definition 2 of coverage bias in paper15"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0115",
+   "paper_id": "paper26",
+   "corpus": "closure",
+   "label": "coverage bias",
+   "definitions": [
+    [
+     "d0115-0",
+     "definition 0 of coverage bias in paper26"
+    ],
+    [
+     "d0115-1",
+     "definition 1 of coverage bias in paper26"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0116",
+   "paper_id": "paper32",
+   "corpus": "closure",
+   "label": "coverage bias",
+   "definitions": [
+    [
+     "d0116-0",
+     "definition 0 of coverage bias in paper32"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0117",
+   "paper_id": "paper47",
+   "corpus": "closure",
+   "label": "coverage bias",
+   "definitions": [
+    [
+     "d0117-0",
+     "definition 0 of coverage bias in paper47"
+    ],
+    [
+     "d0117-1",
+     "definition 1 of coverage bias in paper47"
+    ],
+    [
+     "d0117-2",
+     "definition 2 of coverage bias in paper47"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0118",
+   "paper_id": "paper56",
+   "corpus": "closure",
+   "label": "coverage bias",
+   "definitions": [
+    [
+     "d0118-0",
+     "definition 0 of coverage bias in paper56"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0119",
+   "paper_id": "paper05",
+   "corpus": "seeds",
+   "label": "tone",
+   "definitions": [
+    [
+     "d0119-0",
+     "definition 0 of tone in paper05"
+    ],
+    [
+     "d0119-1",
+     "definition 1 of tone in paper05"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0120",
+   "paper_id": "paper09",
+   "corpus": "seeds",
+   "label": "tone",
+   "definitions": [
+    [
+     "d0120-0",
+     "definition 0 of tone in paper09"
+    ],
+    [
+     "d0120-1",
+     "definition 1 of tone in paper09"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0121",
+   "paper_id": "paper11",
+   "corpus": "seeds",
+   "label": "tone",
+   "definitions": [
+    [
+     "d0121-0",
+     "definition 0 of tone in paper11"
+    ],
+    [
+     "d0121-1",
+     "definition 1 of tone in paper11"
+    ],
+    [
+     "d0121-2",
+     "definition 2 of tone in paper11"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0122",
+   "paper_id": "paper53",
+   "corpus": "closure",
+   "label": "tone",
+   "definitions": [
+    [
+     "d0122-0",
+     "definition 0 of tone in paper53"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0123",
+   "paper_id": "paper56",
+   "corpus": "closure",
+   "label": "tone",
+   "definitions": [
+    [
+     "d0123-0",
+     "definition 0 of tone in paper56"
+    ],
+    [
+     "d0123-1",
+     "definition 1 of tone in paper56"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0124",
+   "paper_id": "paper04",
+   "corpus": "seeds",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0124-0",
+     "definition 0 of objectivity in paper04"
+    ],
+    [
+     "d0124-1",
+     "definition 1 of objectivity in paper04"
+    ],
+    [
+     "d0124-2",
+     "definition 2 of objectivity in paper04"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0125",
+   "paper_id": "paper07",
+   "corpus": "seeds",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0125-0",
+     "definition 0 of objectivity in paper07"
+    ],
+    [
+     "d0125-1",
+     "definition 1 of objectivity in paper07"
+    ],
+    [
+     "d0125-2",
+     "definition 2 of objectivity in paper07"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0126",
+   "paper_id": "paper10",
+   "corpus": "seeds",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0126-0",
+     "definition 0 of objectivity in paper10"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0127",
+   "paper_id": "paper30",
+   "corpus": "closure",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0127-0",
+     "definition 0 of objectivity in paper30"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0128",
+   "paper_id": "paper34",
+   "corpus": "closure",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0128-0",
+     "definition 0 of objectivity in paper34"
+    ],
+    [
+     "d0128-1",
+     "definition 1 of objectivity in paper34"
+    ],
+    [
+     "d0128-2",
+     "definition 2 of objectivity in paper34"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0129",
+   "paper_id": "paper55",
+   "corpus": "closure",
+   "label": "objectivity",
+   "definitions": [
+    [
+     "d0129-0",
+     "definition 0 of objectivity in paper55"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0130",
+   "paper_id": "paper14",
+   "corpus": "seeds",
+   "label": "MediaBias",
+   "definitions": [
+    [
+     "d0130-0",
+     "definition 0 of MediaBias in paper14"
+    ],
+    [
+     "d0130-1",
+     "definition 1 of MediaBias in paper14"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0131",
+   "paper_id": "paper32",
+   "corpus": "closure",
+   "label": "MediaBias",
+   "definitions": [
+    [
+     "d0131-0",
+     "definition 0 of MediaBias in paper32"
+    ],
+    [
+     "d0131-1",
+     "definition 1 of MediaBias in paper32"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0132",
+   "paper_id": "paper49",
+   "corpus": "closure",
+   "label": "MediaBias",
+   "definitions": [
+    [
+     "d0132-0",
+     "definition 0 of MediaBias in paper49"
+    ],
+    [
+     "d0132-1",
+     "definition 1 of MediaBias in paper49"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0133",
+   "paper_id": "paper56",
+   "corpus": "closure",
+   "label": "MediaBias",
+   "definitions": [
+    [
+     "d0133-0",
+     "definition 0 of MediaBias in paper56"
+    ],
+    [
+     "d0133-1",
+     "definition 1 of MediaBias in paper56"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0134",
+   "paper_id": "paper15",
+   "corpus": "seeds",
+   "label": "refugees",
+   "definitions": [
+    [
+     "d0134-0",
+     "definition 0 of refugees in paper15"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0135",
+   "paper_id": "paper24",
+   "corpus": "closure",
+   "label": "refugees",
+   "definitions": [
+    [
+     "d0135-0",
+     "definition 0 of refugees in paper24"
+    ],
+    [
+     "d0135-1",
+     "definition 1 of refugees in paper24"
+    ],
+    [
+     "d0135-2",
+     "definition 2 of refugees in paper24"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0136",
+   "paper_id": "paper27",
+   "corpus": "closure",
+   "label": "refugees",
+   "definitions": [
+    [
+     "d0136-0",
+     "definition 0 of refugees in paper27"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0137",
+   "paper_id": "paper39",
+   "corpus": "closure",
+   "label": "refugees",
+   "definitions": [
+    [
+     "d0137-0",
+     "definition 0 of refugees in paper39"
+    ],
+    [
+     "d0137-1",
+     "definition 1 of refugees in paper39"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0138",
+   "paper_id": "paper45",
+   "corpus": "closure",
+   "label": "refugee",
+   "definitions": [
+    [
+     "d0138-0",
+     "definition 0 of refugee in paper45"
+    ],
+    [
+     "d0138-1",
+     "definition 1 of refugee in paper45"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0139",
+   "paper_id": "paper36",
+   "corpus": "closure",
+   "label": "refuge",
+   "definitions": [
+    [
+     "d0139-0",
+     "definition 0 of refuge in paper36"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0140",
+   "paper_id": "paper40",
+   "corpus": "closure",
+   "label": "refuge",
+   "definitions": [
+    [
+     "d0140-0",
+     "definition 0 of refuge in paper40"
+    ],
+    [
+     "d0140-1",
+     "definition 1 of refuge in paper40"
+    ],
+    [
+     "d0140-2",
+     "definition 2 of refuge in paper40"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0141",
+   "paper_id": "paper44",
+   "corpus": "closure",
+   "label": "refuge",
+   "definitions": [
+    [
+     "d0141-0",
+     "definition 0 of refuge in paper44"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0142",
+   "paper_id": "paper16",
+   "corpus": "seeds",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0142-0",
+     "definition 0 of themes in paper16"
+    ],
+    [
+     "d0142-1",
+     "definition 1 of themes in paper16"
+    ],
+    [
+     "d0142-2",
+     "definition 2 of themes in paper16"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0143",
+   "paper_id": "paper19",
+   "corpus": "seeds",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0143-0",
+     "definition 0 of themes in paper19"
+    ],
+    [
+     "d0143-1",
+     "definition 1 of themes in paper19"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0144",
+   "paper_id": "paper21",
+   "corpus": "closure",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0144-0",
+     "definition 0 of themes in paper21"
+    ],
+    [
+     "d0144-1",
+     "definition 1 of themes in paper21"
+    ],
+    [
+     "d0144-2",
+     "definition 2 of themes in paper21"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0145",
+   "paper_id": "paper25",
+   "corpus": "closure",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0145-0",
+     "definition 0 of themes in paper25"
+    ],
+    [
+     "d0145-1",
+     "definition 1 of themes in paper25"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0146",
+   "paper_id": "paper34",
+   "corpus": "closure",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0146-0",
+     "definition 0 of themes in paper34"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0147",
+   "paper_id": "paper52",
+   "corpus": "closure",
+   "label": "themes",
+   "definitions": [
+    [
+     "d0147-0",
+     "definition 0 of themes in paper52"
+    ],
+    [
+     "d0147-1",
+     "definition 1 of themes in paper52"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0148",
+   "paper_id": "paper06",
+   "corpus": "seeds",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0148-0",
+     "definition 0 of theme in paper06"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0149",
+   "paper_id": "paper15",
+   "corpus": "seeds",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0149-0",
+     "definition 0 of theme in paper15"
+    ],
+    [
+     "d0149-1",
+     "definition 1 of theme in paper15"
+    ],
+    [
+     "d0149-2",
+     "definition 2 of theme in paper15"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0150",
+   "paper_id": "paper23",
+   "corpus": "closure",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0150-0",
+     "definition 0 of theme in paper23"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0151",
+   "paper_id": "paper28",
+   "corpus": "closure",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0151-0",
+     "definition 0 of theme in paper28"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0152",
+   "paper_id": "paper51",
+   "corpus": "closure",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0152-0",
+     "definition 0 of theme in paper51"
+    ],
+    [
+     "d0152-1",
+     "definition 1 of theme in paper51"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0153",
+   "paper_id": "paper52",
+   "corpus": "closure",
+   "label": "theme",
+   "definitions": [
+    [
+     "d0153-0",
+     "definition 0 of theme in paper52"
+    ],
+    [
+     "d0153-1",
+     "definition 1 of theme in paper52"
+    ],
+    [
+     "d0153-2",
+     "definition 2 of theme in paper52"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0154",
+   "paper_id": "paper17",
+   "corpus": "seeds",
+   "label": "judgement",
+   "definitions": [
+    [
+     "d0154-0",
+     "definition 0 of judgement in paper17"
+    ],
+    [
+     "d0154-1",
+     "definition 1 of judgement in paper17"
+    ],
+    [
+     "d0154-2",
+     "definition 2 of judgement in paper17"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0155",
+   "paper_id": "paper34",
+   "corpus": "closure",
+   "label": "judgment",
+   "definitions": [
+    [
+     "d0155-0",
+     "definition 0 of judgment in paper34"
+    ],
+    [
+     "d0155-1",
+     "definition 1 of judgment in paper34"
+    ],
+    [
+     "d0155-2",
+     "definition 2 of judgment in paper34"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0156",
+   "paper_id": "paper36",
+   "corpus": "closure",
+   "label": "judgment",
+   "definitions": [
+    [
+     "d0156-0",
+     "definition 0 of judgment in paper36"
+    ],
+    [
+     "d0156-1",
+     "definition 1 of judgment in paper36"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0157",
+   "paper_id": "paper07",
+   "corpus": "seeds",
+   "label": "crises",
+   "definitions": [
+    [
+     "d0157-0",
+     "definition 0 of crises in paper07"
+    ],
+    [
+     "d0157-1",
+     "definition 1 of crises in paper07"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0158",
+   "paper_id": "paper09",
+   "corpus": "seeds",
+   "label": "crises",
+   "definitions": [
+    [
+     "d0158-0",
+     "definition 0 of crises in paper09"
+    ],
+    [
+     "d0158-1",
+     "definition 1 of crises in paper09"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0159",
+   "paper_id": "paper15",
+   "corpus": "seeds",
+   "label": "crises",
+   "definitions": [
+    [
+     "d0159-0",
+     "definition 0 of crises in paper15"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0160",
+   "paper_id": "paper31",
+   "corpus": "closure",
+   "label": "crises",
+   "definitions": [
+    [
+     "d0160-0",
+     "definition 0 of crises in paper31"
+    ],
+    [
+     "d0160-1",
+     "definition 1 of crises in paper31"
+    ],
+    [
+     "d0160-2",
+     "definition 2 of crises in paper31"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0161",
+   "paper_id": "paper58",
+   "corpus": "closure",
+   "label": "crises",
+   "definitions": [
+    [
+     "d0161-0",
+     "definition 0 of crises in paper58"
+    ],
+    [
+     "d0161-1",
+     "definition 1 of crises in paper58"
+    ],
+    [
+     "d0161-2",
+     "definition 2 of crises in paper58"
+    ]
+   ]
+  },
+  {
+   "mention_id": "m0162",
+   "paper_id": "paper02",
+   "corpus": "seeds",
+   "label": "crisis",
+   "definitions": [
+    [
+     "d0162-0",
+     "definition 0 of crisis in paper02"
+    ],
+    [
+     "d0162-1",
+     "definition 1 of crisis in paper02"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+  "chunk_extractor.extract_v3.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "paper_text": "In recent decades, there has been remarkable growth in scientific research examining the multiple ways in which racism can adversely affect health. This interest has been driven in part by the striking persistence of racial/ethnic inequities in health and the empirical evidence that indicates that socioeconomic factors alone do not account for racial/ethnic inequities in health. Racism is considered a fundamental cause of adverse health outcomes for racial/ethnic minorities and racial/ethnic inequities in health. This article provides an overview of the evidence linking the primary domains of racism-structural racism, cultural racism, and individual-level discrimination-to mental and physical health outcomes. For each mechanism, we describe key findings and identify priorities for future research.\n\nINTRODUCTION\n\nScientific research on the multiple ways in which racism can affect health and racial/ethnic inequities in health has experienced steady and sustained growth. This article provides an overview of key findings and trends in this area of research. It begins with a description of the nature of racism and the principal mechanisms-structural, cultural, and individual-by which racism can affect health. For each dimension, we review key research findings and describe needed scientific research. We also discuss evidence for interventions to reduce racism and describe research needed to advance knowledge in this area. Finally, we discuss crosscutting priorities across the three domains of racism.\n\nThe patterning of racial/ethnic inequities in health was an early impetus for research on racism and health (139). First, rates of disease and death are elevated for historically marginalized racial groups, blacks (or African Americans), Native Americans (or American Indians and Alaska Natives), and Native Hawaiians and Other Pacific Islanders, who tend to have earlier onset of illness, more aggressive progression of disease, and poorer survival (5,134). Second, empirical analyses have revealed the persistence of racial differences in health even after adjustment for socioeconomic status (SES). For example, at every level of education and income, African Americans have a lower life expectancy at age 25 than do whites and Hispanics (or Latinos), and blacks with a college degree or more education have a lower life expectancy than do whites and Hispanics who graduated from high school (16). Third, research has also documented declining health for Hispanic immigrants over time: Middle-aged US-born Mexican Americans and Mexican immigrants who had resided 20+ years in the United States had a health profile that did not differ from that of African Americans (55).\n\nRACISM AND HEALTH\n\nRacism is an organized social system in which the dominant racial group, based on an ideology of inferiority, categorizes and ranks people into social groups called \"races\" and uses its power to devalue, disempower, and differentially allocate valued societal resources and opportunities to groups defined as inferior (13,140). Race is primarily a social category, based on nationality, ethnicity, phenotypic, or other markers of social difference, which captures differential access to power and resources in society (133). Racism functions on multiple levels. The cultural agencies within a society socialize the population to accept as true the inferiority of nondominant racial groups. This view leads to negative normative beliefs (stereotypes) and attitudes (prejudice) toward stigmatized racial groups, which undergird differential treatment of members of these groups by both individuals and social institutions (13,140). A characteristic of racism is that its structure and ideology can persist in governmental and institutional policies in the absence of individual actors who are explicitly racially prejudiced (7). As a structured system, racism interacts with other social institutions, shaping them and being reshaped by them, to reinforce, justify, and perpetuate a racial hierarchy. Racism has created a set of dynamic, interdependent, components or subsystems that reinforce each other, creating and sustaining reciprocal causality of racial inequities across various sectors of society (106). Thus, structural racism exists within, and is reinforced and supported by, multiple societal systems, including the housing, labor, and credit markets, and the education, criminal justice, economic, and health care systems. Accordingly, racism is adaptive over time, maintaining its pervasive adverse effects through multiple mechanisms that arise to replace forms that have been diminished (99,140).\n\nThe persistence of racial inequities in health should be understood in the context of relatively stable racialized social structures that determine differential access to risks, opportunities, and resources that drive health. We conceptualize this system of racism, chiefly operating through institutional and cultural domains, as a basic or fundamental cause of racial health inequalities (73,99,133,136). According to Lieberson (72), fundamental causes are critical causal factors that generate an outcome; by comparison, surface causes are associated with the outcome, but changes in these factors do not trigger changes in the outcome. Instead, as long as the fundamental causes are operative, interventions on surface causes only give rise to new intervening mechanisms to maintain the same outcome. Sociologists have argued that SES is a fundamental cause of health (52,132), with Link and colleagues (73,100) providing considerable evidence in support of this perspective. In 1997, Williams (133) argued that alongside SES and other upstream social factors, racism should be recognized as a fundamental cause of racial inequities in health. Evidence continues to accumulate, highlighting racism as a driver of multiple upstream societal factors that perpetuate racial inequities in health for multiple nondominant racial groups around the world (99,140).\n\nSTRUCTURAL OR INSTITUTIONAL RACISM\n\nWe use the terms institutional and structural racism interchangeably, which is consistent with much of the social science literature (13,54,106). Institutional racism refers to the processes of racism that are embedded in laws (local, state, and federal), policies, and practices of society and its institutions that provide advantages to racial groups deemed as superior, while differentially oppressing, disadvantaging, or otherwise neglecting racial groups viewed as inferior (13,104). We argue that structural racism is the most important way through which racism affects health. We highlight evidence of the health impact of residential segregation but acknowledge that there are multiple other forms of institutional racism in society. For example, structural racism in the criminal justice system (84,130) can adversely affect health through multiple pathways (38,66,130).\n\nRacial Residential Segregation\n\nRacial residential segregation remains one of the most widely studied institutional mechanisms of racism and has been identified as a fundamental cause of racial health disparities owing to the multiple pathways through which it operates to have pervasive negative consequences on health (7,39,59,136). Racial residential segregation refers to the occupancy of different neighborhood environments by race, which was developed in the United States to ensure that whites resided in separate communities from blacks. Segregation was created by federal policies as well as by explicit governmental support of private policies such as discriminatory zoning, mortgage discrimination, redlining, and restrictive covenants (107). This physical separation of races in distinctive residential areas (including the forced removal and relocation of American Indians) was shaped by multiple social institutions (83,136). Although segregation has been illegal since the Fair Housing Act of 1968, its basic structures established by the 1940s remain largely intact.\n\nIn the 2010 US Census, residential segregation was at its lowest level in 100 years, and the decline in segregation was observed in all the nation's largest metropolitan areas (43). However, the recent declines in segregation have been driven by a few blacks moving to formerly all-white residential areas; the declines in segregation have had a negligible impact on census tracts with a very high percentage of blacks, the residential isolation of most African Americans, and Lawrence • Davis the concentration of urban poverty (44). Although segregation is increasing for Hispanics, the segregation of African Americans remains distinctive. In the 2000 census, middle-class blacks were more segregated than poor Hispanics and Asians (81), and the segregation of immigrant groups has never been as high as the current segregation of African Americans (83).\n\nSegregation and Health: Pathways\n\nSegregation affects health in multiple ways (136). First, it is a critical determinant of SES, which is a strong predictor of variations in health. Research has found that segregation reduces economic status in adulthood by reducing access to quality elementary and high school education, preparation for higher education, and employment opportunities (136). Schools in segregated areas have fewer high-quality teachers, lower levels of educational resources and per -student spending, and higher levels of neighborhood violence, crime, and poverty (91). Segregation also reduces access to employment opportunities by triggering the movement of low-skill, high-pay jobs from areas where racial minorities are concentrated to other areas and by enabling employers to discriminate against job applicants by using their place of residence as a predictor of whether the applicant would be a good employee (136). One national study found that the elimination of segregation would erase black-white differences in income, education, and unemployment and reduce racial differences in single motherhood by two-thirds (29). Thus, segregation is responsible for the large and persistent racial/ethnic differences in SES. In 2016, for every dollar of income that white households received, Hispanics earned 73 cents and blacks earned 61 cents (110). And racial differences in wealth are stunningly larger . For every dollar of wealth that white households have, Hispanics have 7 pennies, and blacks have 6 pennies (122).\n\nSegregation can also adversely affect health by creating communities of concentrated poverty with high levels of neighborhood disadvantage and low-quality housing stock, and with both government and the private sector demonstrating disinterest or divestment from these communities. In turn, the physical conditions (poor -quality housing and neighborhood environments) and the social conditions (co-occurrence of social problems and disorders linked to concentrated poverty) that characterize segregated geographic areas lead to elevated exposure to physical and chemical hazards, increased prevalence and co-occurrence of chronic and acute psychosocial stressors, and reduced access to a broad range of resources that enhance health (59,87,128,136). The living conditions created by concentrated poverty and segregation make it more dif cult for residents of these contexts to practice healthy behaviors (7,59,128,136). Segregation also adversely affects the availability and affordability of care, contributing to lower access to high-quality primary and specialty care and even pharmacy services (129).\n\nEpidemiological Evidence Linking Segregation to Health\n\nA 2011 review of nearly 50 empirical studies generally found that segregation was associated with poorer health (128). A 2017 review and meta-analysis focused on 42 articles that examined the association between segregation and birth outcomes found that segregation was associated with increased risk of low birth weight and preterm birth for blacks (85). Other recent studies show that segregation is associated with increased risk of preterm birth for US-born and foreign-born black women (79) and with stillbirth for blacks and whites; the effects are more pronounced for blacks than for whites (131). A systematic review of 17 papers examining segregation and cancer found that segregation was positively associated with later -stage diagnosis, elevated mortality , and lower survival rates for both breast and lung cancers for blacks (64). Recent studies highlight variation in the association between segregation and health for population subgroups. One national study found that segregation was associated with poor self-rated health for blacks in high-poverty but not lower-poverty neighborhoods (32). It was unrelated to poor health for whites but benefited whites indirectly by reducing the likelihood of their location in high-poverty neighborhoods (32). And a 25-year longitudinal study found that cumulatively higher exposure to segregation was associated with elevated risk of incident obesity in black women but not black men (101).\n\nRecommendations for Research on Institutional Racism\n\nSeveral strategies should be implemented to further our understanding of how institutional racism adversely affects health. First, there is a need to broaden our conceptualization and assessment of the multiple domains and contexts in which these structural processes are operative and to empirically assess their impact on health. In a study of structural racism and myocardial infarction (MI), Lukachko and colleagues (74) utilized four state-level measures of structural racism: political participation, employment, education, and judicial treatment. The analyses revealed that state-level racial disparities that disadvantaged blacks in political representation, employment, and incarceration were associated with increased risk of MI in the prior year. Among whites, structural racism was unrelated to or had a beneficial effect on the risk of MI.\n\nSecond, immigration policy has been identified as a mechanism of structural racism (39), and systematic attention should be given to understanding how contemporary immigration policies adversely affect population health. Recent research suggests that anti-immigrant policies can trigger hostility toward immigrants, leading to perceptions of vulnerability, threat, and psychological distress for both those who are directly targeted and those who are not (46). One study found that a large federal immigration raid was associated with an increase in low birthweight risk among infants born to Latina but not white mothers in that community a year after the raid (90). Immigration policies can also adversely affect health by leading to reduced utilization of preventive health services by both documented and undocumented immigrants (80,117,127).\n\nThird, some of the methodological limitations of the current literature need to be addressed. Research on structural racism has been limited by the availability of data on structural levels, and ecological analyses are limited in capturing the underlying processes. The available evidence suggests that the associations between segregation and health tend to vary on the basis of the choice of a geographic unit of analysis (7,39,59,128). While smaller units tend to produce the most reliable estimates, the appropriate geographic level may not be consistent across all health outcomes. These analytic challenges are further exacerbated by difficulties in disentangling the potential mediating and moderating effects that contribute to observed patterns. Many studies adjust for variables such as poverty or other indicators of low SES and the social context, which are likely a part of the pathway by which segregation exerts its effects (59,128). Future research needs to identify the proximal mechanisms that link segregation to health by using longitudinal data to establish temporality and by leveraging new statistical techniques (59,128). More complex systems modeling approaches are also needed that seek to capture the impact of all the dynamic historical processes that influence each other over time at multiple levels of analysis (31,92).\n\nFourth, greater attention should be given to similarities and differences across national and cultural contexts. For example, segregation levels are rising in Europe and are positively associated with darker-skinned nationalities and being Muslim, but there has been little analysis of the effects of this segregation on SES and health (82). A study that compared a national sample of Caribbean blacks in the United States to those in England found that in the United States increased black Caribbean ethnic density was associated with improved health, whereas increased black ethnic density was associated with worse health; the opposite pattern was evident for Caribbean blacks in England, however (10). Comparative research could enhance our understanding of the contextual factors such as variation in the racialization of ethnic groups that could contribute to the observed associations.\n\nFinally, we need a better understanding of the conditions under which group density can have positive versus adverse effects on health (86). A national study of Hispanics found that segregation was adversely related to poor self-rated health among US-born Hispanics, but it had a salutary effect on the health of foreign-born Hispanics (33). We need a clearer understanding of when and how segregation can give rise to health-enhancing versus health-damaging factors.\n\nCULTURAL RACISM\n\nCultural racism refers to the instillation of the ideology of inferiority in the values, language, imagery, symbols, and unstated assumptions of the larger society. It creates a larger ideological environment wherein the system of racism can flourish and can undergird both institutional-and individual-level discrimination. It manifests itself through media, stereotyping, and norms within society and its institutions (48,140). It can yield inconspicuous forms of racism, such as implicit bias, as a result of the commonplace and continuous negative imagery about racial and ethnic minorities (140). Cultural forms of racism may serve as the conduit through which views regarding the limitations, stereotypes, values, images, and ideologies associated with racial/ethnic minority groups are presented to society and are consciously or subconsciously adopted and normalized (105,113).\n\nThe internalization of racism yields a tendency to focus on individual pathology and abilities rather than examining structural components that give rise to racial inequities. This internalization affects most members of the dominant group and a nontrivial proportion of the marginalized group as well, given that both groups are exposed to key socializing agents of the larger society that perpetuate racist beliefs (105). Research indicates that negative racial and ethnic stereotypes persist in entertainment, media, and fashion (19,140). A recent national survey of adults who work with children found that whites had high levels of negative racial stereotypes (lazy, unintelligent, violent, and having unhealthy habits) toward nonwhites, with the highest levels toward blacks followed by Native Americans and Hispanics (103).\n\nCultural Racism and Health\n\nCultural racism can affect health in multiple ways. First, cultural racism can drive societal policies that lead to the creation and maintenance of structures that provide differential access to opportunities (140). For example, a study of white residents revealed that their negative stereotypes about blacks influenced their housing decisions in ways that would maintain residential segregation (63). In this study, whites rated an all-white neighborhood more positively (on the cost of housing, safety, future property value, and quality of schools) than an identical neighborhood if a black person were pictured in it.\n\nSecond, cultural racism can also lead to individual-level unconscious bias that can lead to discrimination against outgroup members. In clinical encounters, these processes lead to minorities receiving inferior medical care compared with care received by whites. Research indicates that across virtually every type of diagnostic and treatment intervention blacks and other minorities receive fewer procedures and poorer-quality medical care than do whites (112). Recent research documents the persistence of these patterns and reveals that higher implicit bias scores among physicians are associated with biased treatment recommendations in the care of black patients (123). Providers' implicit bias is also associated with poorer quality of patient-provider communication, including the provider's nonverbal behavior (26).\n\nStereotype threat is a third pathway. This term refers to the anxieties and expectations that can be activated in stigmatized groups when negative stereotypes about their group are made salient. These anxieties can adversely affect academic performance and psychological functioning (114). Some limited evidence indicates that stereotype threat can lead to increased anxiety, reduced selfregulation, and impaired decision making, which can lead to unhealthy behaviors, poor patientprovider communication, lower levels of adherence to medical advice, increased blood pressure, and weight gain among stigmatized groups (6,114,141). Relatedly, a study documented that exposure of American Indian students to Native American mascots leads to declines in self-esteem, community worth, and achievement aspirations (36).\n\nFourth, as noted, some members of stigmatized racial populations respond to the pervasive negative racial stereotypes in the culture by accepting them to be true. This endorsement of the dominant society's beliefs about their inferiority is called internalized racism or self-stereotyping. Research indicates that it is associated with lower psychological well-being and higher levels of alcohol consumption, depressive symptoms, and obesity (139).\n\nRecommendations for Research on Cultural Racism\n\nFuture research should aim to understand how and why cultural racism, measured as elevated levels of racial prejudice at the community level, is associated with poorer health for racial minorities and sometimes for all persons who live in that community. Recent studies have found that residing in communities with high levels of racial prejudice is positively associated with overall mortality (21), heart disease mortality (67), and low birthweight (22). Community-level prejudice against immigrants has also been associated with increased mortality among US-born immigrant adults (89). However, these studies are ecological in nature and lack adjustment for individual-level factors.\n\nIn addition, we need to better understand how internalized racism can affect health. There is limited understanding of the conditions under which internalized racism has adverse consequences for health, of the groups that are most vulnerable, and of the range of health and health-related outcomes that may be affected (140). The optimal measurement of internalized racism is also a challenge. Studies have used scales of internalized racism, minority group endorsement of negative stereotypes, and African Americans' scores on antiblack bias on the implicit association test. It is currently unclear how these measures correlate with each other and the extent to which they may capture different aspects of internalized racism. Future work should also examine internalized racism in a more collective form, beyond the individual, that could facilitate understanding of the cultural and structural pervasiveness of racism at the societal level (105). Research should also assess if and how racist ideologies and oppression become internalized among immigrants in the United States and how these are associated with health outcomes.\n\nDISCRIMINATION\n\nDiscrimination is the most frequently studied domain of racism in the health literature. It exists in two forms: (a) where individuals and larger institutions, deliberately or without intent, treat racial groups differently, resulting in inequitable access to opportunities and resources (e.g., employment, education, and medical care) by race/ethnicity; and (b) self-reported discrimination, a subset of these experiences that individuals are aware of. These latter incidents are a type of stressful life experience that can adversely affect health, similar to other kinds of psychosocial stressors. Considerable scientific evidence supports the first pathway, much of it captured through audit studies (those in which researchers use individuals who are equally qualified in every respect but differ only in race or ethnicity) that document the persistence of discrimination in many contexts, including employment, education, housing, credit, and criminal justice systems (93). This discrimination in social institutions contributes to the differential access to resources and opportunities and results in SES and other material disadvantages.\n\nSelf-Reported Discrimination and Health\n\nA large proportion of the discrimination literature focuses on the second pathway; the evidence indicates that stigmatized racial and ethnic populations and other socially marginalized groups around the world report experiences of discrimination that are inversely related to good health (69,109,139). Researchers refer to these experiences as self-reported discrimination, perceived discrimination, and racial discrimination, and we use these terms interchangeably. Self-reports of discrimination can adversely affect health by triggering negative emotional reactions that can lead to altered physiological reactions and changes in health behaviors, which can increase the risk of poor health (41). We highlight key patterns and trends in this research on discrimination and health.\n\nA 2015 meta-analysis assessed the scientific evidence for the association between self-reported racial discrimination and health from more than 300 articles published between 1983 and 2013 (95). Eighty-one percent of studies were from the United States followed by those from the United Kingdom, Australia, Canada, the Netherlands, and 15 other countries. The analyses found that the association between discrimination and mental health was stronger than that between discrimination and physical health. This finding was inconsistent with a prior review that found similar effect sizes for physical and mental health (96). Ethnicity moderated the effect of self-reported racial discrimination on health; the association between perceived racial discrimination and mental health was stronger for Asian Americans and Latino Americans compared with blacks and the association with physical health was stronger for Latinos than for blacks.\n\nAlthough the review by Paradies and colleagues (95) is the most comprehensive published to date, it excluded many studies that are included in other reviews. Because of its focus on experiences of \"racism,\" it excluded studies using measures of discrimination, bias, and unfair treatment where race or ethnicity were not explicitly noted as the reason for discrimination. This exclusion included many studies using the Everyday Discrimination Scale and the Major Experiences of Discrimination Scale (137,143), which use a two-stage approach wherein respondents are first asked about generic experiences of bias and then a follow-up question ascertains the main reason. Many studies that have used these measures have not asked or analyzed the follow-up question. Relatedly, studies were also excluded that used a version of these two instruments that were utilized in the national Midlife in the United States (MIDUS) study (58). It explicitly asked respondents to report only instances where they had been \"discriminated against\" because of their race or other specific social characteristics (58). It appears that the use of \"discrimination\" does not affect the reports of bias by blacks but depresses reports by whites (8). Multiple reviews have concluded that the deleterious health effects of discrimination are generally evident with the generic perception of bias or unfair treatment, irrespective of which social status category to which the experience is attributed (69,96,139).\n\nSeveral recent reviews provide additional evidence of the pervasive negative health effects of exposure to discrimination. A 2015 review indicated that self-reported discrimination is related not only to indicators of mental health symptoms and distress but also to defined psychiatric disorders (69). Moreover, there is growing evidence that self-reported discrimination is associated with preclinical indicators of disease, including increased allostatic load, inflammation, shorter telomere length, coronary artery calcification, dysregulation in cortisol, and greater oxidative stress (69).\n\nLinkages between self-reported racial discrimination and physical health outcomes have been documented in multiple recent reviews, with research indicating positive associations between reports of discrimination and adverse cardiovascular outcomes (71), body mass index (BMI) and incidence of obesity (12), hypertension and nighttime ambulatory blood pressure (34), engagement in high-risk behaviors (41), alcohol use and misuse (42), and poor sleep (111). Research also indicates that experiences of discrimination can shape health care-seeking behaviors and adherence to medical regimens. A 2017 review and meta-analysis of studies on discrimination and health service utilization revealed that perceived discrimination was inversely related to positive experiences with regards to health care (e.g., satisfaction with care or perceived quality of care) and reduced adherence to medical regimens and delaying or not seeking health care (11).\n\nResearch on stress and health reveals that in addition to stressful experiences affecting health through actual exposure, the threat of exposure as captured by responses of vigilance, worry, rumination, and anticipatory stress can prolong the negative effect of stressors and exacerbate the negative effects of stressful experiences on health (18). Increased attention has been given to capturing vigilance with regard to the threat of discrimination. Several recent studies have used the heightened vigilance scale (24) or a shortened version of it and have found that vigilance about discrimination was positively associated with depressive symptoms (65), sleep difficulties (49), and hypertension (51) and contributed to racial differences for these outcomes. Another recent study with the same measure also found that heightened vigilance was associated with increased waist circumference and BMI among black but not white women (50). However, these studies have all been cross-sectional, and future research using longitudinal study designs would strengthen the evidence for vigilance as a risk factor for health.\n\nAnother trend in recent research on discrimination and health is increasing attention to its negative effects on the health and well-being of children and adolescents. A 2013 review of discrimination and the health of persons aged 0-18 years found 121 studies that had examined this association (102). There were consistent positive associations between self-reported discrimination and indicators of mental health problems, negative health behaviors, and physical health outcomes. Accumulating evidence also demonstrates that the adverse health effects of discrimination in childhood and adolescence are evident early in life and are a likely contributor to racial inequities in health in young adulthood. For example, a study of black adolescents found that those who reported high levels of discrimination at ages 16, 17, and 18 had elevated levels of stress hormones (cortisol, epinephrine, and norepinephrine), blood pressure, inflammation, and BMI by age 20 (17).",
+        "title": "Racism and Health: Evidence and Needed Research",
+        "reasoning": "The extracted terms are central to the study of racism, its mechanisms, and its impact on health, which aligns with the objective to focus on concepts related to media bias (cultural racism), cognitive biases (implicit bias/stereotype threat), and systemic inequalities. Definitions were extracted directly from the text, preserving exact wording and citation markers. Terms like \"institutional racism\" and \"structural racism\" are treated as synonyms as indicated by the text. \"Internalized racism\" and \"Stereotype threat\" are included as they are key conceptual components of the mechanisms of cultural racism described in the paper.",
+        "definition_records": [
+          {
+            "term": "Racism",
+            "definitions": [
+              {
+                "text": "Racism is an organized social system in which the dominant racial group, based on an ideology of inferiority, categorizes and ranks people into social groups called \"races\" and uses its power to devalue, disempower, and differentially allocate valued societal resources and opportunities to groups defined as inferior (13,140).",
+                "citation": [
+                  "13,140"
+                ]
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Race",
+            "definitions": [
+              {
+                "text": "Race is primarily a social category, based on nationality, ethnicity, phenotypic, or other markers of social difference, which captures differential access to power and resources in society (133).",
+                "citation": [
+                  "133"
+                ]
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Institutional racism",
+            "definitions": [
+              {
+                "text": "Institutional racism refers to the processes of racism that are embedded in laws (local, state, and federal), policies, and practices of society and its institutions that provide advantages to racial groups deemed as superior, while differentially oppressing, disadvantaging, or otherwise neglecting racial groups viewed as inferior (13,104).",
+                "citation": [
+                  "13,104"
+                ]
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "structural racism",
+                "citation": []
+              }
+            ],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Structural racism",
+            "definitions": [
+              {
+                "text": "We use the terms institutional and structural racism interchangeably, which is consistent with much of the social science literature (13,54,106).",
+                "citation": []
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "institutional racism",
+                "citation": []
+              }
+            ],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Racial residential segregation",
+            "definitions": [
+              {
+                "text": "Racial residential segregation refers to the occupancy of different neighborhood environments by race, which was developed in the United States to ensure that whites resided in separate communities from blacks.",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Cultural racism",
+            "definitions": [
+              {
+                "text": "Cultural racism refers to the instillation of the ideology of inferiority in the values, language, imagery, symbols, and unstated assumptions of the larger society.",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [
+              {
+                "text": "It manifests itself through media, stereotyping, and norms within society and its institutions (48,140).",
+                "citation": [
+                  "48,140"
+                ]
+              }
+            ],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Internalized racism",
+            "definitions": [
+              {
+                "text": "This endorsement of the dominant society's beliefs about their inferiority is called internalized racism or self-stereotyping.",
+                "citation": []
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "self-stereotyping",
+                "citation": []
+              }
+            ],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Stereotype threat",
+            "definitions": [
+              {
+                "text": "This term refers to the anxieties and expectations that can be activated in stigmatized groups when negative stereotypes about their group are made salient.",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Discrimination",
+            "definitions": [
+              {
+                "text": "Discrimination ... exists in two forms: (a) where individuals and larger institutions, deliberately or without intent, treat racial groups differently, resulting in inequitable access to opportunities and resources (e.g., employment, education, and medical care) by race/ethnicity; and (b) self-reported discrimination, a subset of these experiences that individuals are aware of.",
+                "citation": []
+              }
+            ],
+            "synonyms": [],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          },
+          {
+            "term": "Self-reported discrimination",
+            "definitions": [
+              {
+                "text": "Researchers refer to these experiences as self-reported discrimination, perceived discrimination, and racial discrimination, and we use these terms interchangeably.",
+                "citation": []
+              }
+            ],
+            "synonyms": [
+              {
+                "text": "perceived discrimination",
+                "citation": []
+              },
+              {
+                "text": "racial discrimination",
+                "citation": []
+              }
+            ],
+            "description": [],
+            "related_terms": [],
+            "subtypes": [],
+            "supertypes": [],
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "signature": {
+      "instructions": "Extract source-grounded definition records from one paper window.\n\nExtract reusable scholarly terms, not paper-local names, datasets, experiment\ngroups, variables, or system components. Copy every string exactly and\ncontiguously from the supplied text. Never paraphrase or use outside knowledge.\nPrefer the complete definitional sentence, including its subject, over a short\nclause when the complete sentence is present. Do not invent a missing subject.\n\nA definition states what a term means. Put explanation or qualification in\ndescription, equivalent terms in synonyms, associated terms in related_terms,\nnarrower terms in subtypes, broader terms in supertypes, and concrete cases,\ntextual illustrations, or manifestations in examples. Copy attached citation\nmarkers into citation. Leave unsupported fields empty.\n\nA window may contribute evidence to a term defined elsewhere in the same paper,\nso a partial record may have no definition. Paper-level aggregation discards any\nterm that has no definition anywhere in the paper.\nFocus on concepts relevant to media bias, including news framing, misinformation, audience and cognitive biases, and bias or fairness in algorithms and data. Omit unrelated definitions.",
+      "fields": [
+        {
+          "prefix": "Title:",
+          "description": "Paper title."
+        },
+        {
+          "prefix": "Paper Text:",
+          "description": "One exact window from the GROBID paper."
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Definition Records:",
+          "description": "${definition_records}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.3.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

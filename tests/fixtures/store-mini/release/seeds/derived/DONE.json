@@ -1,0 +1,43 @@
+{
+ "papers": 3,
+ "picks": {
+  "P>=20": {
+   "definitions": 5,
+   "missing_part_outputs": 0,
+   "papers": 3,
+   "pick": "mini/P20",
+   "predictions": "/run/seeds/derived/P20/predictions.json",
+   "predictions_sha256": "0eb072a453b3dafe9d6577f5149d50f87cd0d34e7164f3d711f7bfca7a4fbb06",
+   "records": 5
+  },
+  "P>=24": {
+   "definitions": 4,
+   "missing_part_outputs": 0,
+   "papers": 3,
+   "pick": "mini/P24",
+   "predictions": "/run/seeds/derived/P24/predictions.json",
+   "predictions_sha256": "fc5fc3628cd67c066fce3fab5c88d7ec4920870d4aef58c62de049b63d71c21e",
+   "records": 3
+  },
+  "P>=28": {
+   "definitions": 3,
+   "missing_part_outputs": 0,
+   "papers": 3,
+   "pick": "mini/P28",
+   "predictions": "/run/seeds/derived/P28/predictions.json",
+   "predictions_sha256": "e196d888d71d2f0e79ce9d1d4da2e2bc46a213c7ab300d51264e691ad7309a9c",
+   "records": 3
+  },
+  "P>=28-single-model": {
+   "definitions": 1,
+   "missing_part_outputs": 0,
+   "papers": 3,
+   "pick": "mini/P28-single-model",
+   "predictions": "/run/seeds/derived/P28-single-model/predictions.json",
+   "predictions_sha256": "99eb147d39211833b390e5dac217184b3965ce8018f4239870d416f6f3ac4924",
+   "records": 1
+  }
+ },
+ "schema": "mini",
+ "set": "seeds"
+}

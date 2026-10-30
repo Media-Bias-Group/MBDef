@@ -1,0 +1,381 @@
+{
+ "stats": {
+  "P20": {
+   "papers": 3869,
+   "records": 54877,
+   "definitions": 106339,
+   "papers_zero": 57,
+   "median_defs_per_paper": 22,
+   "p90_defs_per_paper": 55.0,
+   "max_defs_per_paper": 473,
+   "definitions_with_citation_marker": 43714
+  },
+  "P24": {
+   "papers": 3869,
+   "records": 49190,
+   "definitions": 77560,
+   "papers_zero": 45,
+   "median_defs_per_paper": 16,
+   "p90_defs_per_paper": 39.0,
+   "max_defs_per_paper": 313,
+   "definitions_with_citation_marker": 30346
+  },
+  "P28": {
+   "papers": 3869,
+   "records": 38659,
+   "definitions": 62433,
+   "papers_zero": 110,
+   "median_defs_per_paper": 12,
+   "p90_defs_per_paper": 33.0,
+   "max_defs_per_paper": 277,
+   "definitions_with_citation_marker": 25756
+  },
+  "P28-single-model": {
+   "papers": 3869,
+   "records": 43142,
+   "definitions": 69795,
+   "papers_zero": 87,
+   "median_defs_per_paper": 14,
+   "p90_defs_per_paper": 36.0,
+   "max_defs_per_paper": 303,
+   "definitions_with_citation_marker": 27814
+  }
+ },
+ "samples": [
+  {
+   "paper_id": "pdf-47026c8ba37a03fdbfd5e81e60665d21ab4c4272949b842fc40d06ff626eacbd",
+   "title": "Interest group framing in Denmark and the UK: membership representation or public appeal?",
+   "records_per_output": {
+    "P20": 31,
+    "P24": 26,
+    "P28": 27,
+    "P28-single-model": 28
+   },
+   "records": [
+    {
+     "term": "liberal media systems",
+     "definition": "Pluralist countries are thus typically characterised by liberal media systems with a relatively high degree of commercialisation, high journalistic professionalism, and a moderate level of political parallelism.",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "corporatist countries",
+     "definition": "Corporatist countries have institutionalised the interaction between groups and state actors to a higher degree by providing key groups with regular access to public decision-making processes",
+     "citation": [
+      "Eising 2008(Eising : 1170)"
+     ],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-8fefe39e9eacb5383734656935f20bd6a7a3667b93a191a582641d15edc921dc",
+   "title": "The Moral Psychology of Misinformation: Why We Excuse Dishonesty in a Post-Truth World",
+   "records_per_output": {
+    "P20": 8,
+    "P24": 6,
+    "P28": 6,
+    "P28-single-model": 7
+   },
+   "records": [
+    {
+     "term": "condone misinformation",
+     "definition": "they recognize it as false, but give it a moral pass",
+     "citation": [
+      "11"
+     ],
+     "n_definitions": 2,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "fake news",
+     "definition": "articles that are intentionally and verifiably false and that could mislead readers",
+     "citation": [
+      "32"
+     ],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-5d2d79106b4e492cabd72d0011f33423a1d5e1dcfb9146eba7a1fd0088307c43",
+   "title": "EAI Endorsed Transactions on Scalable Information Systems",
+   "records_per_output": {
+    "P20": 7,
+    "P24": 18,
+    "P28": 6,
+    "P28-single-model": 6
+   },
+   "records": [
+    {
+     "term": "Fake news",
+     "definition": "news articles that are intentionally and verifiably false",
+     "citation": [],
+     "n_definitions": 2,
+     "synonyms": [
+      "Disinformation",
+      "misinformation",
+      "Disinformation and misinformation"
+     ],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "content-based based methods",
+     "definition": "In content-based based methods, the fundamental basis is that the textual and linguistic features of a real news will differ from that of a fake news.",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-23627a8a82a7f7e676e932871185df6bc6eaaf57e0bebabd1590e384f4d02451",
+   "title": "Radio, mujeres y feminismo en la ciudad de Oaxaca, 1977-1984",
+   "records_per_output": {
+    "P20": 8,
+    "P24": 7,
+    "P28": 5,
+    "P28-single-model": 7
+   },
+   "records": [
+    {
+     "term": "intervención política",
+     "definition": "Como ya han señalado García, Millán y Pech, las feministas de la década de 1970 consideraban la intervención política como algo absolutamente necesario pero problemático, que se daba fundamentalmente bajo la forma de manifestaciones simbólicas, discusiones y publicaciones.",
+     "citation": [
+      "69"
+     ],
+     "n_definitions": 2,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "transmisión oral",
+     "definition": "En estos contextos, la transmisión oral -relatos, leyendas, cuentos, mitos, tradiciones y rituales-ha sido el principal vehículo de memoria, conocimientos y sabiduría, que no pasan por el lenguaje escrito.",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-154b7f820b3bf9e02934a527595562299bb4bdbab9ffb61e9201896ba1f0249d",
+   "title": "Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks",
+   "records_per_output": {
+    "P20": 8,
+    "P24": 10,
+    "P28": 7,
+    "P28-single-model": 7
+   },
+   "records": [
+    {
+     "term": "social homophily",
+     "definition": "the tendency of individuals to form social ties with others who share their views and preferences",
+     "citation": [
+      "McPherson et al., 2001"
+     ],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "fake news",
+     "definition": "text published by news sources with an intent to spread misinformation and sway beliefs",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-17a1d6a907e9162410b1acc0fa92abea66ef04fc0da6cb9bea5795abad9a8c1c",
+   "title": "Comparative analysis of media coverage concerning the social implications on three life sciences in Japan during 1991-2020",
+   "records_per_output": {
+    "P20": 7,
+    "P24": 17,
+    "P28": 5,
+    "P28-single-model": 5
+   },
+   "records": [
+    {
+     "term": "framing effect",
+     "definition": "the framing effect is embedded in text as a given message that renders the readers' thoughts applicable to evoking particular thoughts and feelings",
+     "citation": [
+      "1997"
+     ],
+     "n_definitions": 2,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "juggernaut science",
+     "definition": "juggernaut science is a way of thinking about science that is prevalent not only among science journalists but also among Japanese ethicists and others.",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-925fda0e7b79b9eba46884d357118de9db4db4f7aafaf86639d53186050998b7",
+   "title": "Quantifying Sexism and Hate Speech: A Comprehensive Analysis of Albanian Online Media",
+   "records_per_output": {
+    "P20": 11,
+    "P24": 8,
+    "P28": 7,
+    "P28-single-model": 8
+   },
+   "records": [
+    {
+     "term": "hate speech",
+     "definition": "use of insults, derogatory language, and slander",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "body shaming",
+     "definition": "This form of humiliation and derogatory commentary, aimed at individuals' physical attributes, is highly damaging.",
+     "citation": [],
+     "n_definitions": 1,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "pdf-7829a47fd2b3cf89b9cc69afa135fe2a56da796cfcc0194df0d172b14d158199",
+   "title": "DISCURSO DE ODIO XENÓFOBO EN REDES SOCIALES A TRAVÉS DE LOS MENSAJES DIFUNDIDOS EN LA PLATAFORMA X",
+   "records_per_output": {
+    "P20": 14,
+    "P24": 6,
+    "P28": 6,
+    "P28-single-model": 6
+   },
+   "records": [
+    {
+     "term": "Nivel 5: Incitación directa a la violencia",
+     "definition": "llamamientos explícitos a la violencia física, amenazas claras y directas, o deseos explícitos de que un individuo o grupo social sufra daños graves.",
+     "citation": [],
+     "n_definitions": 2,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    },
+    {
+     "term": "Nivel 4: Amenazas veladas e incitación implícita",
+     "definition": "los mensajes contienen amenazas indirectas, implícitas o veladas hacia un grupo social o sus miembros.",
+     "citation": [],
+     "n_definitions": 2,
+     "synonyms": [],
+     "subtypes": [],
+     "in_outputs": [
+      "P20",
+      "P24",
+      "P28",
+      "P28-single-model"
+     ]
+    }
+   ]
+  }
+ ]
+}

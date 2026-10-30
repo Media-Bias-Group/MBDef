@@ -1,0 +1,28 @@
+# Machine settings (they hold keys) and the environment
+.env
+.venv/
+.venv-*/
+
+# Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Logs and scratch output
+*.log
+tmp/
+/sample-out/
+
+# Zips: only the test fixtures and the frozen inputs are tracked
+*.zip
+!tests/fixtures/*.zip
+!data/frozen/**/*.zip
+
+# The MBDef Explorer: `mbdef explorer build` writes the page and its data (docs/dataset/explorer.md)
+explorer/index.html
+explorer/data/
+
+# The tutorials: what their notebooks write (tutorials/README.md), and Jupyter's checkpoints
+tutorials/outputs/
+.ipynb_checkpoints/

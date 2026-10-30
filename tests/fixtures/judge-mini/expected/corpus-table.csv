@@ -1,0 +1,6 @@
+method,unit,item_id,split,score
+"judge prob: gemma, qwen8b-combined-nearest32, thinking off, temperature 0 (corpus)",term,m01,corpus,0.5337249975996338
+"judge prob: gemma, qwen8b-combined-nearest32, thinking off, temperature 0 (corpus)",term,m02,corpus,0.7100797599017121
+"judge prob: gemma, qwen8b-combined-nearest32, thinking off, temperature 0 (corpus)",term,m03,corpus,0.7239832790582685
+"judge prob: gemma, qwen8b-combined-nearest32, thinking off, temperature 0 (corpus)",term,m04,corpus,0.6540803306232951
+"judge prob: gemma, qwen8b-combined-nearest32, thinking off, temperature 0 (corpus)",term,m06,corpus,0.6968246067728682

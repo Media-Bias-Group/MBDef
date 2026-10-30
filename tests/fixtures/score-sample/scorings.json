@@ -1,0 +1,12 @@
+[
+ {
+  "id": "Rdb54680",
+  "reference": "reference.json",
+  "papers": "rows/Rdb54680/papers"
+ },
+ {
+  "id": "QWEN-POOL3",
+  "reference": "reference.json",
+  "papers": "rows/QWEN-POOL3/papers"
+ }
+]

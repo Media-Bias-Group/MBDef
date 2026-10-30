@@ -1,0 +1,3886 @@
+[
+  {
+    "mention_id": "m0000",
+    "concept_id": "gf8d45d620d38",
+    "term": "fake news",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [],
+    "paper_id": "paper01",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.753836348424307,
+    "strict": true,
+    "classifier_score": 0.8446113430028943,
+    "basal_score": 0.3346241459710061,
+    "judge_score": 0.4742622450164835,
+    "classifier_ref_rank": 0.5229647919699671,
+    "basal_ref_rank": 0.04649016960903696,
+    "judge_ref_rank": 0.2309640812105329,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "satire",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0001",
+    "concept_id": "gf8d45d620d38",
+    "term": "fake news",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [],
+    "paper_id": "paper13",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.9469052594409768,
+    "basal_score": 0.7549774107126678,
+    "judge_score": 0.2949248978752761,
+    "classifier_ref_rank": 0.27688973752139934,
+    "basal_ref_rank": 0.029532609683508793,
+    "judge_ref_rank": 0.9233391790020594,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "partisan media",
+        "citations": []
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": []
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0002",
+    "concept_id": "gf8d45d620d38",
+    "term": "fake news",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [],
+    "paper_id": "paper18",
+    "corpus": "seeds",
+    "n_definitions": 3,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.08738718785794175,
+    "basal_score": 0.21329274668572562,
+    "judge_score": 0.6872957741467944,
+    "classifier_ref_rank": 0.6288619659802352,
+    "basal_ref_rank": 0.45152287686913417,
+    "judge_ref_rank": 0.7229042314052625,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0003",
+    "concept_id": "gf8d45d620d38",
+    "term": "fake news",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [],
+    "paper_id": "paper26",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.21414311420470578,
+    "basal_score": 0.7165226480369045,
+    "judge_score": 0.16253824188304522,
+    "classifier_ref_rank": 0.9813556439045535,
+    "basal_ref_rank": 0.13121970715368036,
+    "judge_ref_rank": 0.5264976458863814,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "framing",
+        "citations": []
+      },
+      {
+        "text": "coverage bias",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0004",
+    "concept_id": "gf8d45d620d38",
+    "term": "Fake News",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper26",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.057239424019625784,
+    "basal_score": 0.5230085462093294,
+    "judge_score": 0.31354330920972984,
+    "classifier_ref_rank": 0.46726694969249616,
+    "basal_ref_rank": 0.8411927648265637,
+    "judge_ref_rank": 0.9405708641113633,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0005",
+    "concept_id": "gf8d45d620d38",
+    "term": "Fake News",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper34",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.7965197184620844,
+    "strict": true,
+    "classifier_score": 0.28108429616522224,
+    "basal_score": 0.17640676328966887,
+    "judge_score": 0.37019315898230587,
+    "classifier_ref_rank": 0.6553013082433349,
+    "basal_ref_rank": 0.9447261567729267,
+    "judge_ref_rank": 0.9387179684065647,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "hoax",
+        "citations": [
+          "[12]"
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "[12]"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0006",
+    "concept_id": "gf8d45d620d38",
+    "term": "Fake News",
+    "word_set_key": "fake news",
+    "spacing_key": "fakenews",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper36",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.947709348177986,
+    "basal_score": 0.4205468228846404,
+    "judge_score": 0.6130567078277263,
+    "classifier_ref_rank": 0.6554558733527595,
+    "basal_ref_rank": 0.14924419705143355,
+    "judge_ref_rank": 0.3161268207986082,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "framing",
+        "citations": []
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0008",
+    "concept_id": "g1b8640b47938",
+    "term": "media bias",
+    "word_set_key": "bias media",
+    "spacing_key": "mediabias",
+    "normalisation": [],
+    "paper_id": "paper25",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.5284048947059978,
+    "strict": false,
+    "classifier_score": 0.9392592805564911,
+    "basal_score": 0.5703908611975499,
+    "judge_score": 0.4864086357263543,
+    "classifier_ref_rank": 0.19363851623906125,
+    "basal_ref_rank": 0.37932237648459377,
+    "judge_ref_rank": 0.16830692087103527,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "propaganda",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0009",
+    "concept_id": "g1b8640b47938",
+    "term": "media bias",
+    "word_set_key": "bias media",
+    "spacing_key": "mediabias",
+    "normalisation": [],
+    "paper_id": "paper36",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.6247471894146823,
+    "strict": true,
+    "classifier_score": 0.7591186251059402,
+    "basal_score": 0.8219355589281402,
+    "judge_score": 0.6096785653131392,
+    "classifier_ref_rank": 0.2692280417306726,
+    "basal_ref_rank": 0.6313780817041965,
+    "judge_ref_rank": 0.8687959416424264,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "citations": []
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0011",
+    "concept_id": "g1b8640b47938",
+    "term": "bias in the media",
+    "word_set_key": "bias media",
+    "spacing_key": "biasinthemedia",
+    "normalisation": [
+      "stop words left out of the word-set key: 'in', 'the'"
+    ],
+    "paper_id": "paper29",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.4274236889691032,
+    "strict": false,
+    "classifier_score": 0.3894442881884097,
+    "basal_score": 0.4211809772778783,
+    "judge_score": 0.5582104986465102,
+    "classifier_ref_rank": 0.5292899422918022,
+    "basal_ref_rank": 0.3081625277079254,
+    "judge_ref_rank": 0.09250272105586266,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "rumour",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "junk news",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "news bias",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0013",
+    "concept_id": "g1b8640b47938",
+    "term": "Media Biases",
+    "word_set_key": "bias media",
+    "spacing_key": "mediabias",
+    "normalisation": [
+      "case-folded",
+      "plural 'biases' -> 'bias' (-es)"
+    ],
+    "paper_id": "paper05",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.3608605113419221,
+    "strict": false,
+    "classifier_score": 0.8648821731981513,
+    "basal_score": 0.5018564892580288,
+    "judge_score": 0.06479573632971847,
+    "classifier_ref_rank": 0.09227080248467401,
+    "basal_ref_rank": 0.5263435028439603,
+    "judge_ref_rank": 0.8840795001317661,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "hoaxes",
+        "citations": []
+      },
+      {
+        "text": "partisan media",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "false news",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0015",
+    "concept_id": "ga67b95a680c9",
+    "term": "framing",
+    "word_set_key": "framing",
+    "spacing_key": "framing",
+    "normalisation": [],
+    "paper_id": "paper08",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.7249977983043703,
+    "strict": true,
+    "classifier_score": 0.8713170314419394,
+    "basal_score": 0.8576249168886557,
+    "judge_score": 0.0755442928109814,
+    "classifier_ref_rank": 0.8890875064126068,
+    "basal_ref_rank": 0.33014046239985717,
+    "judge_ref_rank": 0.3697904401084532,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "framing",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "news bias",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0017",
+    "concept_id": "ge7d679448a72",
+    "term": "frames",
+    "word_set_key": "frames",
+    "spacing_key": "frames",
+    "normalisation": [],
+    "paper_id": "paper03",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.9697997234137429,
+    "strict": true,
+    "classifier_score": 0.30330128515986954,
+    "basal_score": 0.03947398276850178,
+    "judge_score": 0.2134839885470482,
+    "classifier_ref_rank": 0.0035800451653134058,
+    "basal_ref_rank": 0.6533691433752844,
+    "judge_ref_rank": 0.3685907372207303,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "news bias",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "hoaxes",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": []
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0019",
+    "concept_id": "ge7d679448a72",
+    "term": "frames",
+    "word_set_key": "frames",
+    "spacing_key": "frames",
+    "normalisation": [],
+    "paper_id": "paper20",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.6268538967168737,
+    "strict": true,
+    "classifier_score": 0.911207620932898,
+    "basal_score": 0.7914732454027008,
+    "judge_score": 0.09927090978173658,
+    "classifier_ref_rank": 0.8914207698431393,
+    "basal_ref_rank": 0.23419599839520355,
+    "judge_ref_rank": 0.07775016068186336,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "[99]"
+        ]
+      },
+      {
+        "text": "disinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0020",
+    "concept_id": "ge7d679448a72",
+    "term": "frames",
+    "word_set_key": "frames",
+    "spacing_key": "frames",
+    "normalisation": [],
+    "paper_id": "paper30",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.3538566120112746,
+    "strict": false,
+    "classifier_score": 0.9000831082376031,
+    "basal_score": 0.43113343326324227,
+    "judge_score": 0.8296726480480802,
+    "classifier_ref_rank": 0.8316448414273052,
+    "basal_ref_rank": 0.5025398681961947,
+    "judge_ref_rank": 0.2425818199408032,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "frames",
+        "citations": []
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0021",
+    "concept_id": "g3edc682a1ecb",
+    "term": "click-bait",
+    "word_set_key": "bait click",
+    "spacing_key": "clickbait",
+    "normalisation": [
+      "hyphen, slash, dash or underscore: the parts are one compound, joined in the spacing key"
+    ],
+    "paper_id": "paper20",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.7405880470171539,
+    "strict": true,
+    "classifier_score": 0.3054177137460664,
+    "basal_score": 0.638011780845364,
+    "judge_score": 0.2647403592360814,
+    "classifier_ref_rank": 0.876951676830966,
+    "basal_ref_rank": 0.14528413372472548,
+    "judge_ref_rank": 0.2310968307153951,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "media bias",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "coverage bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0022",
+    "concept_id": "g3edc682a1ecb",
+    "term": "click-bait",
+    "word_set_key": "bait click",
+    "spacing_key": "clickbait",
+    "normalisation": [
+      "hyphen, slash, dash or underscore: the parts are one compound, joined in the spacing key"
+    ],
+    "paper_id": "paper29",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.33681880184799307,
+    "strict": false,
+    "classifier_score": 0.06062696074052343,
+    "basal_score": 0.8405214165723588,
+    "judge_score": 0.8959536339266,
+    "classifier_ref_rank": 0.8035960381057874,
+    "basal_ref_rank": 0.7944429628314705,
+    "judge_ref_rank": 0.5383757433738027,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "coverage bias",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0025",
+    "concept_id": "g4b0149fcebb5",
+    "term": "misinformation",
+    "word_set_key": "misinformation",
+    "spacing_key": "misinformation",
+    "normalisation": [],
+    "paper_id": "paper09",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.7759772902287501,
+    "strict": true,
+    "classifier_score": 0.15742898030773067,
+    "basal_score": 0.6632841817965971,
+    "judge_score": 0.87770875464754,
+    "classifier_ref_rank": 0.5540547907054469,
+    "basal_ref_rank": 0.12540769543740304,
+    "judge_ref_rank": 0.059121703372868595,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "partisan media",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0026",
+    "concept_id": "g4b0149fcebb5",
+    "term": "misinformation",
+    "word_set_key": "misinformation",
+    "spacing_key": "misinformation",
+    "normalisation": [],
+    "paper_id": "paper35",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.9911724875993098,
+    "strict": true,
+    "classifier_score": 0.6385983961440603,
+    "basal_score": 0.09894469069095324,
+    "judge_score": 0.9822047235310147,
+    "classifier_ref_rank": 0.2571860126615483,
+    "basal_ref_rank": 0.6633893640301312,
+    "judge_ref_rank": 0.7208496457287213,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Entman, 1993",
+          "[99]"
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0027",
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "word_set_key": "disinformation",
+    "spacing_key": "disinformation",
+    "normalisation": [],
+    "paper_id": "paper10",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.6908245553624587,
+    "strict": true,
+    "classifier_score": 0.45991555744705515,
+    "basal_score": 0.7516137353947782,
+    "judge_score": 0.9718001497464999,
+    "classifier_ref_rank": 0.6993564326790984,
+    "basal_ref_rank": 0.8330368332540259,
+    "judge_ref_rank": 0.2346017705048855,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "media bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "false news",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0028",
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "word_set_key": "disinformation",
+    "spacing_key": "disinformation",
+    "normalisation": [],
+    "paper_id": "paper15",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.9188435389560731,
+    "strict": true,
+    "classifier_score": 0.6573193433203538,
+    "basal_score": 0.604520699153205,
+    "judge_score": 0.5900505169108876,
+    "classifier_ref_rank": 0.30704231632387735,
+    "basal_ref_rank": 0.7522048939895604,
+    "judge_ref_rank": 0.8248109351518657,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "citations": []
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0029",
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "word_set_key": "disinformation",
+    "spacing_key": "disinformation",
+    "normalisation": [],
+    "paper_id": "paper23",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.6963432322267878,
+    "strict": true,
+    "classifier_score": 0.1274176148038777,
+    "basal_score": 0.15224757721769777,
+    "judge_score": 0.705329114778317,
+    "classifier_ref_rank": 0.47590491377257194,
+    "basal_ref_rank": 0.6612480946313085,
+    "judge_ref_rank": 0.03494672335056814,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "hoaxes",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "news bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "misinformation",
+        "citations": []
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0030",
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "word_set_key": "disinformation",
+    "spacing_key": "disinformation",
+    "normalisation": [],
+    "paper_id": "paper29",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.644778247379022,
+    "strict": true,
+    "classifier_score": 0.31019751602876344,
+    "basal_score": 0.9351714618102926,
+    "judge_score": 0.5847119208110484,
+    "classifier_ref_rank": 0.580086252326627,
+    "basal_ref_rank": 0.08287071113006816,
+    "judge_ref_rank": 0.3531942870955588,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      },
+      {
+        "text": "misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0031",
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "word_set_key": "disinformation",
+    "spacing_key": "disinformation",
+    "normalisation": [],
+    "paper_id": "paper35",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.5531691898720926,
+    "strict": false,
+    "classifier_score": 0.9776193054552386,
+    "basal_score": 0.551984503989637,
+    "judge_score": 0.4541047823054587,
+    "classifier_ref_rank": 0.528832096888328,
+    "basal_ref_rank": 0.7164441029046013,
+    "judge_ref_rank": 0.3877933112393531,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "coverage bias",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "false news",
+        "citations": [
+          "[99]"
+        ]
+      },
+      {
+        "text": "framing",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0034",
+    "concept_id": "ga7a418dbd54b",
+    "term": "agenda setting",
+    "word_set_key": "agenda setting",
+    "spacing_key": "agendasetting",
+    "normalisation": [],
+    "paper_id": "paper07",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.3479842762725769,
+    "strict": false,
+    "classifier_score": 0.6032729009210641,
+    "basal_score": 0.8870531540183715,
+    "judge_score": 0.7032856515411586,
+    "classifier_ref_rank": 0.8459240499910222,
+    "basal_ref_rank": 0.7834609371752501,
+    "judge_ref_rank": 0.9139061740747414,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "Entman, 1993",
+          "[99]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "media bias",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0036",
+    "concept_id": "ga7a418dbd54b",
+    "term": "agenda setting",
+    "word_set_key": "agenda setting",
+    "spacing_key": "agendasetting",
+    "normalisation": [],
+    "paper_id": "paper31",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.6459637038784855,
+    "strict": true,
+    "classifier_score": 0.9532418872766563,
+    "basal_score": 0.6377518520677856,
+    "judge_score": 0.15568825862071956,
+    "classifier_ref_rank": 0.30842777977610125,
+    "basal_ref_rank": 0.5027710730603772,
+    "judge_ref_rank": 0.23965046863026152,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0038",
+    "concept_id": "ga7a418dbd54b",
+    "term": "agenda-setting",
+    "word_set_key": "agenda setting",
+    "spacing_key": "agendasetting",
+    "normalisation": [
+      "hyphen, slash, dash or underscore: the parts are one compound, joined in the spacing key"
+    ],
+    "paper_id": "paper36",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.7587786368359393,
+    "strict": true,
+    "classifier_score": 0.40817855921945956,
+    "basal_score": 0.709664175734811,
+    "judge_score": 0.32336964803854273,
+    "classifier_ref_rank": 0.970979837280723,
+    "basal_ref_rank": 0.44747734697808694,
+    "judge_ref_rank": 0.1720510435396918,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "junk news",
+        "citations": []
+      },
+      {
+        "text": "framing",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "frames",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      },
+      {
+        "text": "propaganda",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "framing",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "frames",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0040",
+    "concept_id": "gaf53a0db3d3e",
+    "term": "gatekeeping",
+    "word_set_key": "gatekeeping",
+    "spacing_key": "gatekeeping",
+    "normalisation": [],
+    "paper_id": "paper28",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.8555908119622266,
+    "strict": true,
+    "classifier_score": 0.02797129152443034,
+    "basal_score": 0.9631024179134701,
+    "judge_score": 0.7009872172194872,
+    "classifier_ref_rank": 0.5469016154652007,
+    "basal_ref_rank": 0.18333085982578767,
+    "judge_ref_rank": 0.5169796739235661,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "coverage bias",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "partisan media",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0043",
+    "concept_id": "gaf53a0db3d3e",
+    "term": "gate keeping",
+    "word_set_key": "gate keeping",
+    "spacing_key": "gatekeeping",
+    "normalisation": [],
+    "paper_id": "paper39",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.3436732250964101,
+    "strict": false,
+    "classifier_score": 0.4872683556372679,
+    "basal_score": 0.6102879949616729,
+    "judge_score": 0.2087668559924878,
+    "classifier_ref_rank": 0.5690785520562635,
+    "basal_ref_rank": 0.5907626274942536,
+    "judge_ref_rank": 0.6951331759352942,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "frames",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0046",
+    "concept_id": "g9f907a13ae69",
+    "term": "polarisation",
+    "word_set_key": "polarization",
+    "spacing_key": "polarization",
+    "normalisation": [
+      "British spelling 'polarisation' -> 'polarization'"
+    ],
+    "paper_id": "paper32",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.5719405380176847,
+    "strict": false,
+    "classifier_score": 0.9270039230824545,
+    "basal_score": 0.6798651980357219,
+    "judge_score": 0.9733671575588937,
+    "classifier_ref_rank": 0.015333071552102617,
+    "basal_ref_rank": 0.7786112640769246,
+    "judge_ref_rank": 0.9473042133523989,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "hoaxes",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "citations": []
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "news bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "media bias",
+        "citations": []
+      },
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0048",
+    "concept_id": "g9f907a13ae69",
+    "term": "polarization",
+    "word_set_key": "polarization",
+    "spacing_key": "polarization",
+    "normalisation": [],
+    "paper_id": "paper11",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.9632232878856444,
+    "strict": true,
+    "classifier_score": 0.41485907989669035,
+    "basal_score": 0.8609440482137211,
+    "judge_score": 0.6066561733425653,
+    "classifier_ref_rank": 0.37815740837620404,
+    "basal_ref_rank": 0.06526866402266984,
+    "judge_ref_rank": 0.7762439999834378,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "propaganda",
+        "citations": []
+      },
+      {
+        "text": "misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "[12]"
+        ]
+      },
+      {
+        "text": "junk news",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0050",
+    "concept_id": "g9f907a13ae69",
+    "term": "polarization",
+    "word_set_key": "polarization",
+    "spacing_key": "polarization",
+    "normalisation": [],
+    "paper_id": "paper20",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.9708106322127812,
+    "strict": true,
+    "classifier_score": 0.9316403251262242,
+    "basal_score": 0.40593249894314143,
+    "judge_score": 0.15943856078336294,
+    "classifier_ref_rank": 0.6087866273906646,
+    "basal_ref_rank": 0.07116530327627668,
+    "judge_ref_rank": 0.9777369633135711,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "[12]"
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "partisan media",
+        "citations": [
+          "[12]"
+        ]
+      },
+      {
+        "text": "frames",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0051",
+    "concept_id": "g250d8c26ae4a",
+    "term": "refugees",
+    "word_set_key": "refugee",
+    "spacing_key": "refugee",
+    "normalisation": [
+      "plural 'refugees' -> 'refugee' (-s)"
+    ],
+    "paper_id": "paper39",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.13986393659285057,
+    "basal_score": 0.5997508819990167,
+    "judge_score": 0.09261279986329762,
+    "classifier_ref_rank": 0.32615354008950526,
+    "basal_ref_rank": 0.763093936078719,
+    "judge_ref_rank": 0.12537518458585106,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "false news",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "news bias",
+        "citations": []
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "media bias",
+        "citations": []
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "slant",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "satire",
+        "citations": []
+      },
+      {
+        "text": "coverage bias",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0052",
+    "concept_id": "g250d8c26ae4a",
+    "term": "refugee",
+    "word_set_key": "refugee",
+    "spacing_key": "refugee",
+    "normalisation": [],
+    "paper_id": "paper16",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.43762155291629456,
+    "basal_score": 0.694149690014257,
+    "judge_score": 0.7788292158895924,
+    "classifier_ref_rank": 0.10636924050162488,
+    "basal_ref_rank": 0.0036952823175355753,
+    "judge_ref_rank": 0.7286791822004989,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": []
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "framing",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "slant",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0053",
+    "concept_id": "g250d8c26ae4a",
+    "term": "refugee",
+    "word_set_key": "refugee",
+    "spacing_key": "refugee",
+    "normalisation": [],
+    "paper_id": "paper31",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.7417046540697896,
+    "strict": true,
+    "classifier_score": 0.2354899067646824,
+    "basal_score": 0.5064203454931383,
+    "judge_score": 0.5731333417200356,
+    "classifier_ref_rank": 0.020190482955208533,
+    "basal_ref_rank": 0.4476201027333656,
+    "judge_ref_rank": 0.6353732152335526,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "media bias",
+        "citations": []
+      },
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "framing",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0054",
+    "concept_id": "g250d8c26ae4a",
+    "term": "refugee",
+    "word_set_key": "refugee",
+    "spacing_key": "refugee",
+    "normalisation": [],
+    "paper_id": "paper37",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.65,
+    "strict": true,
+    "classifier_score": 0.37263087880805656,
+    "basal_score": 0.4902307783061425,
+    "judge_score": 0.2322255195299413,
+    "classifier_ref_rank": 0.06894955153001103,
+    "basal_ref_rank": 0.3726246723653929,
+    "judge_ref_rank": 0.26843267278379435,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": []
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "media bias",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      },
+      {
+        "text": "junk news",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0056",
+    "concept_id": "g99fa4b83eaa0",
+    "term": "news values",
+    "word_set_key": "news values",
+    "spacing_key": "newsvalues",
+    "normalisation": [],
+    "paper_id": "paper25",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.6681949417036063,
+    "strict": true,
+    "classifier_score": 0.8511883959704031,
+    "basal_score": 0.28006790405354376,
+    "judge_score": 0.08709701122600011,
+    "classifier_ref_rank": 0.15562308135392589,
+    "basal_ref_rank": 0.5042191349307896,
+    "judge_ref_rank": 0.013950408414377335,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "partisan media",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "false news",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "hoaxes",
+        "citations": []
+      },
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "hoaxes",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "news bias",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "framing",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0057",
+    "concept_id": "g99fa4b83eaa0",
+    "term": "news values",
+    "word_set_key": "news values",
+    "spacing_key": "newsvalues",
+    "normalisation": [],
+    "paper_id": "paper35",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.4782249312106063,
+    "strict": false,
+    "classifier_score": 0.058368997762849095,
+    "basal_score": 0.4901716022019216,
+    "judge_score": 0.7627993491170579,
+    "classifier_ref_rank": 0.2621872642329014,
+    "basal_ref_rank": 0.3466128033508663,
+    "judge_ref_rank": 0.5014461059244493,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0061",
+    "concept_id": "gb68cd4c008d2",
+    "term": "selection bias",
+    "word_set_key": "bias selection",
+    "spacing_key": "selectionbias",
+    "normalisation": [],
+    "paper_id": "paper25",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.9871740094784011,
+    "strict": true,
+    "classifier_score": 0.4496926620378232,
+    "basal_score": 0.8944735120089302,
+    "judge_score": 0.45299950424819735,
+    "classifier_ref_rank": 0.24657235901025476,
+    "basal_ref_rank": 0.7046517965220854,
+    "judge_ref_rank": 0.14323783614973362,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0064",
+    "concept_id": "gdf00962407a0",
+    "term": "detection bias",
+    "word_set_key": "bias detection",
+    "spacing_key": "detectionbias",
+    "normalisation": [],
+    "paper_id": "paper10",
+    "corpus": "seeds",
+    "n_definitions": 3,
+    "ensemble_score": 0.579896026595786,
+    "strict": false,
+    "classifier_score": 0.42319884036868527,
+    "basal_score": 0.4133799203857349,
+    "judge_score": 0.1212155728078892,
+    "classifier_ref_rank": 0.01433249826927585,
+    "basal_ref_rank": 0.2514842035846906,
+    "judge_ref_rank": 0.6429422586538108,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "coverage bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "junk news",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "partisan media",
+        "citations": []
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0065",
+    "concept_id": "gdf00962407a0",
+    "term": "detection bias",
+    "word_set_key": "bias detection",
+    "spacing_key": "detectionbias",
+    "normalisation": [],
+    "paper_id": "paper24",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.9293776687955391,
+    "strict": true,
+    "classifier_score": 0.39944443335773716,
+    "basal_score": 0.1651358340916056,
+    "judge_score": 0.8842781864118404,
+    "classifier_ref_rank": 0.2010475979463775,
+    "basal_ref_rank": 0.36964247179720977,
+    "judge_ref_rank": 0.10291136136514745,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0066",
+    "concept_id": "gdf00962407a0",
+    "term": "detection bias",
+    "word_set_key": "bias detection",
+    "spacing_key": "detectionbias",
+    "normalisation": [],
+    "paper_id": "paper30",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.9832473728471094,
+    "strict": true,
+    "classifier_score": 0.9535698083825812,
+    "basal_score": 0.49593809435272074,
+    "judge_score": 0.8328823179257686,
+    "classifier_ref_rank": 0.7245317285500072,
+    "basal_ref_rank": 0.6366621392000202,
+    "judge_ref_rank": 0.2218826007720296,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "framing",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "rumour",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0068",
+    "concept_id": "g871183362fa6",
+    "term": "deep learning",
+    "word_set_key": "deep learning",
+    "spacing_key": "deeplearning",
+    "normalisation": [],
+    "paper_id": "paper08",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.5477393225294485,
+    "strict": false,
+    "classifier_score": 0.6343303846575361,
+    "basal_score": 0.1575319050760815,
+    "judge_score": 0.7383469479282668,
+    "classifier_ref_rank": 0.3286757144484642,
+    "basal_ref_rank": 0.25390212063147066,
+    "judge_ref_rank": 0.09457214895939547,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "false news",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "framing",
+        "citations": []
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0070",
+    "concept_id": "g871183362fa6",
+    "term": "Deep Learning",
+    "word_set_key": "deep learning",
+    "spacing_key": "deeplearning",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper10",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.5607824621096009,
+    "strict": false,
+    "classifier_score": 0.7093424078673016,
+    "basal_score": 0.31640344103151663,
+    "judge_score": 0.8605396182459832,
+    "classifier_ref_rank": 0.8179830029385078,
+    "basal_ref_rank": 0.08273888477809133,
+    "judge_ref_rank": 0.11842675774743594,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "[99]"
+        ]
+      },
+      {
+        "text": "satire",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "false news",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "rumour",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0072",
+    "concept_id": "g871183362fa6",
+    "term": "Deep Learning",
+    "word_set_key": "deep learning",
+    "spacing_key": "deeplearning",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper26",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.8183625674354162,
+    "strict": true,
+    "classifier_score": 0.1312271501981933,
+    "basal_score": 0.5133822147980925,
+    "judge_score": 0.9552962758457112,
+    "classifier_ref_rank": 0.5054787144806846,
+    "basal_ref_rank": 0.6225998467081191,
+    "judge_ref_rank": 0.6618538863108456,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "junk news",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0074",
+    "concept_id": "g871183362fa6",
+    "term": "Deep Learning",
+    "word_set_key": "deep learning",
+    "spacing_key": "deeplearning",
+    "normalisation": [
+      "case-folded"
+    ],
+    "paper_id": "paper35",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.6094257666012667,
+    "strict": true,
+    "classifier_score": 0.35479913621938675,
+    "basal_score": 0.40751774761333237,
+    "judge_score": 0.18791309915182453,
+    "classifier_ref_rank": 0.1273815198442425,
+    "basal_ref_rank": 0.6426653142528442,
+    "judge_ref_rank": 0.4720780516421951,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "false news",
+        "citations": [
+          "Entman, 1993",
+          "[99]"
+        ]
+      },
+      {
+        "text": "propaganda",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0075",
+    "concept_id": "g3c624a736736",
+    "term": "sentiment analysis",
+    "word_set_key": "analysis sentiment",
+    "spacing_key": "sentimentanalysis",
+    "normalisation": [],
+    "paper_id": "paper11",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.6938538007594538,
+    "strict": true,
+    "classifier_score": 0.47389608871583666,
+    "basal_score": 0.6271470836230033,
+    "judge_score": 0.6275439353599819,
+    "classifier_ref_rank": 0.3000872994053071,
+    "basal_ref_rank": 0.5077295065787919,
+    "judge_ref_rank": 0.5618258418195881,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "satire",
+        "citations": []
+      },
+      {
+        "text": "media bias",
+        "citations": []
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0076",
+    "concept_id": "g3c624a736736",
+    "term": "Sentiment Analysis (SA)",
+    "word_set_key": "analysis sentiment",
+    "spacing_key": "sentimentanalysis",
+    "normalisation": [
+      "bracket '(SA)' dropped: an acronym of 'Sentiment Analysis'",
+      "case-folded"
+    ],
+    "paper_id": "paper01",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.9336415112364542,
+    "strict": true,
+    "classifier_score": 0.5541104477760632,
+    "basal_score": 0.6131148681813903,
+    "judge_score": 0.9390306077965365,
+    "classifier_ref_rank": 0.4973684343962763,
+    "basal_ref_rank": 0.7564554000897095,
+    "judge_ref_rank": 0.19410793197508047,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "citations": []
+      },
+      {
+        "text": "disinformation campaign",
+        "citations": []
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "false news",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "slant",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0077",
+    "concept_id": "g3c624a736736",
+    "term": "Sentiment Analysis (SA)",
+    "word_set_key": "analysis sentiment",
+    "spacing_key": "sentimentanalysis",
+    "normalisation": [
+      "bracket '(SA)' dropped: an acronym of 'Sentiment Analysis'",
+      "case-folded"
+    ],
+    "paper_id": "paper21",
+    "corpus": "closure",
+    "n_definitions": 1,
+    "ensemble_score": 0.7692770584017995,
+    "strict": true,
+    "classifier_score": 0.3897612828681395,
+    "basal_score": 0.9782669734390027,
+    "judge_score": 0.15232453035618443,
+    "classifier_ref_rank": 0.4592207579161982,
+    "basal_ref_rank": 0.6890378480648456,
+    "judge_ref_rank": 0.9763689300430347,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "false news",
+        "citations": []
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "frames",
+        "citations": []
+      },
+      {
+        "text": "misinformation",
+        "citations": [
+          "Entman, 1993",
+          "[99]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0078",
+    "concept_id": "g3c624a736736",
+    "term": "Sentiment Analysis (SA)",
+    "word_set_key": "analysis sentiment",
+    "spacing_key": "sentimentanalysis",
+    "normalisation": [
+      "bracket '(SA)' dropped: an acronym of 'Sentiment Analysis'",
+      "case-folded"
+    ],
+    "paper_id": "paper30",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.4229366253666611,
+    "strict": false,
+    "classifier_score": 0.8515895509705643,
+    "basal_score": 0.6168015137141897,
+    "judge_score": 0.7912120385740817,
+    "classifier_ref_rank": 0.5845954412284046,
+    "basal_ref_rank": 0.19487304962844965,
+    "judge_ref_rank": 0.24043453953748872,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": []
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "rumour",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0081",
+    "concept_id": "g4d48fd163227",
+    "term": "judgement",
+    "word_set_key": "judgment",
+    "spacing_key": "judgment",
+    "normalisation": [
+      "British spelling 'judgement' -> 'judgment'"
+    ],
+    "paper_id": "paper09",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.40287033022913554,
+    "strict": false,
+    "classifier_score": 0.9984877004743058,
+    "basal_score": 0.8523302188537506,
+    "judge_score": 0.9505783923873004,
+    "classifier_ref_rank": 0.015384397362400604,
+    "basal_ref_rank": 0.7268426930562627,
+    "judge_ref_rank": 0.07092786525840733,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0082",
+    "concept_id": "g4d48fd163227",
+    "term": "judgement",
+    "word_set_key": "judgment",
+    "spacing_key": "judgment",
+    "normalisation": [
+      "British spelling 'judgement' -> 'judgment'"
+    ],
+    "paper_id": "paper34",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.510802089140696,
+    "strict": false,
+    "classifier_score": 0.7217869646575088,
+    "basal_score": 0.5875596845802655,
+    "judge_score": 0.6422550213815443,
+    "classifier_ref_rank": 0.9482753782043001,
+    "basal_ref_rank": 0.08324874909455193,
+    "judge_ref_rank": 0.591803449673052,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "rumour",
+        "citations": []
+      },
+      {
+        "text": "frames",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "junk news",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "hoaxes",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0083",
+    "concept_id": "g4d48fd163227",
+    "term": "judgement",
+    "word_set_key": "judgment",
+    "spacing_key": "judgment",
+    "normalisation": [
+      "British spelling 'judgement' -> 'judgment'"
+    ],
+    "paper_id": "paper39",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.4006554260577797,
+    "strict": false,
+    "classifier_score": 0.9313031748679159,
+    "basal_score": 0.600441101113233,
+    "judge_score": 0.3028211997216972,
+    "classifier_ref_rank": 0.761888349537173,
+    "basal_ref_rank": 0.5418870758007349,
+    "judge_ref_rank": 0.8194023160488917,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "slant",
+        "citations": []
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "citations": [
+          "Entman, 1993",
+          "[99]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0085",
+    "concept_id": "g58076e4127e6",
+    "term": "crises",
+    "word_set_key": "crisis",
+    "spacing_key": "crisis",
+    "normalisation": [
+      "plural 'crises' -> 'crisis' (-ses -> -sis)"
+    ],
+    "paper_id": "paper07",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.35752408122473944,
+    "strict": false,
+    "classifier_score": 0.549737766225965,
+    "basal_score": 0.1499120306031756,
+    "judge_score": 0.6199794499448957,
+    "classifier_ref_rank": 0.5245403619788858,
+    "basal_ref_rank": 0.11891310850345771,
+    "judge_ref_rank": 0.9537791821246436,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "disinformation campaigns",
+        "citations": []
+      },
+      {
+        "text": "partisan media",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "partisan media",
+        "citations": []
+      },
+      {
+        "text": "framing",
+        "citations": []
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0086",
+    "concept_id": "g58076e4127e6",
+    "term": "crises",
+    "word_set_key": "crisis",
+    "spacing_key": "crisis",
+    "normalisation": [
+      "plural 'crises' -> 'crisis' (-ses -> -sis)"
+    ],
+    "paper_id": "paper12",
+    "corpus": "seeds",
+    "n_definitions": 3,
+    "ensemble_score": 0.9836498548360914,
+    "strict": true,
+    "classifier_score": 0.8487561991226094,
+    "basal_score": 0.852585089880815,
+    "judge_score": 0.8926969874283841,
+    "classifier_ref_rank": 0.4325913034909964,
+    "basal_ref_rank": 0.9665135174147335,
+    "judge_ref_rank": 0.5776140514210157,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "slant",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "satire",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0087",
+    "concept_id": "g58076e4127e6",
+    "term": "crises",
+    "word_set_key": "crisis",
+    "spacing_key": "crisis",
+    "normalisation": [
+      "plural 'crises' -> 'crisis' (-ses -> -sis)"
+    ],
+    "paper_id": "paper16",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.34678642918858604,
+    "strict": false,
+    "classifier_score": 0.7043040957259674,
+    "basal_score": 0.4033965997225657,
+    "judge_score": 0.07624059114236503,
+    "classifier_ref_rank": 0.5439121266537986,
+    "basal_ref_rank": 0.3738447115203699,
+    "judge_ref_rank": 0.7078767809077006,
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "slant",
+        "citations": []
+      },
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "coverage bias",
+        "citations": []
+      },
+      {
+        "text": "hoaxes",
+        "citations": []
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0094",
+    "concept_id": "g8441e3f7413a",
+    "term": "slant",
+    "word_set_key": "slant",
+    "spacing_key": "slant",
+    "normalisation": [],
+    "paper_id": "paper03",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.407596979778735,
+    "strict": false,
+    "classifier_score": 0.28721684060693786,
+    "basal_score": 0.7258277405397973,
+    "judge_score": 0.34396119708092365,
+    "classifier_ref_rank": 0.7599280147955954,
+    "basal_ref_rank": 0.1364458680882189,
+    "judge_ref_rank": 0.4364719899817501,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "Entman, 1993"
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "false news",
+        "citations": []
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0095",
+    "concept_id": "g8441e3f7413a",
+    "term": "slant",
+    "word_set_key": "slant",
+    "spacing_key": "slant",
+    "normalisation": [],
+    "paper_id": "paper16",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.6623859154024059,
+    "strict": true,
+    "classifier_score": 0.1669221317138918,
+    "basal_score": 0.2164961580909649,
+    "judge_score": 0.7904266110639239,
+    "classifier_ref_rank": 0.8679326265571411,
+    "basal_ref_rank": 0.9991794900578453,
+    "judge_ref_rank": 0.001521338101048486,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "disinformation",
+        "citations": []
+      },
+      {
+        "text": "false news",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0098",
+    "concept_id": "g5acd2a8f2727",
+    "term": "coverage bias",
+    "word_set_key": "bias coverage",
+    "spacing_key": "coveragebias",
+    "normalisation": [],
+    "paper_id": "paper11",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.8716664697166311,
+    "strict": true,
+    "classifier_score": 0.5036751351024716,
+    "basal_score": 0.11632601603827208,
+    "judge_score": 0.9534754286751329,
+    "classifier_ref_rank": 0.7860192497267687,
+    "basal_ref_rank": 0.04412340970667339,
+    "judge_ref_rank": 0.28027187226685635,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0101",
+    "concept_id": "g5acd2a8f2727",
+    "term": "coverage bias",
+    "word_set_key": "bias coverage",
+    "spacing_key": "coveragebias",
+    "normalisation": [],
+    "paper_id": "paper35",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.5023256683215467,
+    "strict": false,
+    "classifier_score": 0.4993074048009448,
+    "basal_score": 0.7695147294138778,
+    "judge_score": 0.42939993893383377,
+    "classifier_ref_rank": 0.1401163713653596,
+    "basal_ref_rank": 0.5323138586564692,
+    "judge_ref_rank": 0.5500216291038741,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "rumour",
+        "citations": []
+      }
+    ],
+    "supertypes": [],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0102",
+    "concept_id": "g4429f68570da",
+    "term": "tone",
+    "word_set_key": "tone",
+    "spacing_key": "tone",
+    "normalisation": [],
+    "paper_id": "paper07",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.6826760307696178,
+    "strict": true,
+    "classifier_score": 0.1779752650935793,
+    "basal_score": 0.6399697757838737,
+    "judge_score": 0.09641898461784171,
+    "classifier_ref_rank": 0.7079509627322613,
+    "basal_ref_rank": 0.346586546633873,
+    "judge_ref_rank": 0.02175206434877941,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": []
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "partisan media",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "false news",
+        "citations": []
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0107",
+    "concept_id": "g11b80efb2595",
+    "term": "hostile media effect",
+    "word_set_key": "effect hostile media",
+    "spacing_key": "hostilemediaeffect",
+    "normalisation": [],
+    "paper_id": "paper06",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.788138618759966,
+    "strict": true,
+    "classifier_score": 0.7180721543252518,
+    "basal_score": 0.27246998047416204,
+    "judge_score": 0.6410523929933727,
+    "classifier_ref_rank": 0.4932343348899604,
+    "basal_ref_rank": 0.9511958985814171,
+    "judge_ref_rank": 0.9994831919069814,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "disinformation campaigns",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "news bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "false news",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "satire",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0109",
+    "concept_id": "g11b80efb2595",
+    "term": "hostile media effect",
+    "word_set_key": "effect hostile media",
+    "spacing_key": "hostilemediaeffect",
+    "normalisation": [],
+    "paper_id": "paper28",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.4739727288452996,
+    "strict": false,
+    "classifier_score": 0.14194060111436235,
+    "basal_score": 0.6470224104517183,
+    "judge_score": 0.18118266624671953,
+    "classifier_ref_rank": 0.684221712028068,
+    "basal_ref_rank": 0.5928259641335929,
+    "judge_ref_rank": 0.06982381783989133,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "agenda setting",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0110",
+    "concept_id": "g11b80efb2595",
+    "term": "hostile media effect",
+    "word_set_key": "effect hostile media",
+    "spacing_key": "hostilemediaeffect",
+    "normalisation": [],
+    "paper_id": "paper38",
+    "corpus": "closure",
+    "n_definitions": 2,
+    "ensemble_score": 0.8817376722391347,
+    "strict": true,
+    "classifier_score": 0.6319226602748399,
+    "basal_score": 0.6530309453566069,
+    "judge_score": 0.14547576382258542,
+    "classifier_ref_rank": 0.4162880893631322,
+    "basal_ref_rank": 0.5131685146071557,
+    "judge_ref_rank": 0.6780011904248326,
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "false news",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0112",
+    "concept_id": "g744d749f645a",
+    "term": "election campaign",
+    "word_set_key": "campaign election",
+    "spacing_key": "electioncampaign",
+    "normalisation": [],
+    "paper_id": "paper25",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.8609801502400078,
+    "strict": true,
+    "classifier_score": 0.6505670717938422,
+    "basal_score": 0.7524120659980623,
+    "judge_score": 0.33512018583133296,
+    "classifier_ref_rank": 0.8838901862395852,
+    "basal_ref_rank": 0.3826776448581404,
+    "judge_ref_rank": 0.39067231052506024,
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "propaganda",
+        "citations": [
+          "[12]",
+          "[99]"
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]",
+          "[99]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "junk news",
+        "citations": []
+      },
+      {
+        "text": "partisan media",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": [
+          "[99]"
+        ]
+      }
+    ]
+  },
+  {
+    "mention_id": "m0113",
+    "concept_id": "g744d749f645a",
+    "term": "election campaign",
+    "word_set_key": "campaign election",
+    "spacing_key": "electioncampaign",
+    "normalisation": [],
+    "paper_id": "paper36",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.8461440897739219,
+    "strict": true,
+    "classifier_score": 0.8439252935543232,
+    "basal_score": 0.5874652681897543,
+    "judge_score": 0.8704521374253921,
+    "classifier_ref_rank": 0.6665633460454425,
+    "basal_ref_rank": 0.4959181718693445,
+    "judge_ref_rank": 0.6663296134466257,
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      },
+      {
+        "text": "news bias",
+        "citations": []
+      }
+    ],
+    "supertypes": [],
+    "examples": []
+  },
+  {
+    "mention_id": "m0115",
+    "concept_id": "g814af3172d4c",
+    "term": "rumor",
+    "word_set_key": "rumor",
+    "spacing_key": "rumor",
+    "normalisation": [],
+    "paper_id": "paper17",
+    "corpus": "seeds",
+    "n_definitions": 1,
+    "ensemble_score": 0.7544030882500747,
+    "strict": true,
+    "classifier_score": 0.3040518961220463,
+    "basal_score": 0.09292356124692613,
+    "judge_score": 0.3427665153277303,
+    "classifier_ref_rank": 0.9930578505360053,
+    "basal_ref_rank": 0.11412532953561538,
+    "judge_ref_rank": 0.8220199528154919,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "citations": []
+      },
+      {
+        "text": "hoax",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "slant",
+        "citations": []
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "citations": []
+      }
+    ]
+  },
+  {
+    "mention_id": "m0116",
+    "concept_id": "g814af3172d4c",
+    "term": "rumor",
+    "word_set_key": "rumor",
+    "spacing_key": "rumor",
+    "normalisation": [],
+    "paper_id": "paper38",
+    "corpus": "closure",
+    "n_definitions": 3,
+    "ensemble_score": 0.333852511577843,
+    "strict": false,
+    "classifier_score": 0.5586368011314197,
+    "basal_score": 0.7341102335422718,
+    "judge_score": 0.1467733834420245,
+    "classifier_ref_rank": 0.5624297307471529,
+    "basal_ref_rank": 0.14768615875640623,
+    "judge_ref_rank": 0.591670979619995,
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "hoax",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "[12]"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "framing",
+        "citations": [
+          "Allcott and Gentzkow, 2017",
+          "[99]"
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "mention_id": "m0119",
+    "concept_id": "g5f910decd4d6",
+    "term": "hoax",
+    "word_set_key": "hoax",
+    "spacing_key": "hoax",
+    "normalisation": [],
+    "paper_id": "paper01",
+    "corpus": "seeds",
+    "n_definitions": 2,
+    "ensemble_score": 0.5457634076948041,
+    "strict": false,
+    "classifier_score": 0.5366104461898126,
+    "basal_score": 0.4524997360202815,
+    "judge_score": 0.4676408583421401,
+    "classifier_ref_rank": 0.12444264618456691,
+    "basal_ref_rank": 0.18144174207421138,
+    "judge_ref_rank": 0.7477786767120849,
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "citations": [
+          "Allcott and Gentzkow, 2017"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "slant",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "citations": []
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "slant",
+        "citations": [
+          "McCombs and Shaw, 1972",
+          "[3]"
+        ]
+      },
+      {
+        "text": "media bias",
+        "citations": [
+          "Entman, 1993"
+        ]
+      }
+    ],
+    "examples": []
+  }
+]

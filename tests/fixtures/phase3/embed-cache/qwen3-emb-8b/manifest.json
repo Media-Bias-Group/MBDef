@@ -1,0 +1,14 @@
+{
+ "model": "qwen3-emb-8b",
+ "repo": "Qwen/Qwen3-Embedding-8B",
+ "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+ "pooling": "last",
+ "prefix": "Instruct: Represent the meaning of this scholarly concept and its definition\nQuery:",
+ "engine": "vllm",
+ "dtype": "bfloat16",
+ "quantization": null,
+ "max_length": 1024,
+ "normalize": "l2",
+ "storage": "float16",
+ "text_views": "definition_text=term+': '+text; term_text=term"
+}

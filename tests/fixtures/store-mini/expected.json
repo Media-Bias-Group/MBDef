@@ -1,0 +1,662 @@
+{
+ "mentions": [
+  [
+   1,
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "media bias",
+   "Media Bias",
+   "media bias",
+   null,
+   "seeds:P20"
+  ],
+  [
+   2,
+   "md95c46d44f3f2644",
+   "seed-1",
+   "hostile media effect",
+   "Hostile Media Effect (HME)",
+   "hostile media effect",
+   "HME",
+   "seeds:P20"
+  ],
+  [
+   3,
+   "m84d50dddc1d5d3a7",
+   "seed-1",
+   "framing communication",
+   "framing (communication)",
+   "framing communication",
+   null,
+   "seeds:P20"
+  ],
+  [
+   4,
+   "mdb129984e668902f",
+   "seed-2",
+   "echo chambers",
+   "the echo chambers",
+   "echo chambers",
+   null,
+   "seeds:P20"
+  ],
+  [
+   5,
+   "m88ef5a6ba1bf9ff0",
+   "seed-2",
+   "filtering",
+   "ﬁltering",
+   "filtering",
+   null,
+   "seeds:P20"
+  ],
+  [
+   6,
+   "m6ae39c54f6c5e685",
+   "seed-2",
+   "echo chamber",
+   "Echo Chamber",
+   "echo chamber",
+   null,
+   "seeds:P24"
+  ],
+  [
+   7,
+   "m27e792e237a975fd",
+   "closure-1",
+   "gatekeeping",
+   "Gatekeeping",
+   "gatekeeping",
+   null,
+   "closure:P20"
+  ],
+  [
+   8,
+   "ma20903f3767ba27a",
+   "closure-1",
+   "bias",
+   "A bias",
+   "bias",
+   null,
+   "closure:P20"
+  ],
+  [
+   9,
+   "m6ea5339be07a58ec",
+   "closure-2",
+   "médias biaisés",
+   "Médias biaisés",
+   "médias biaisés",
+   null,
+   "closure:P20"
+  ],
+  [
+   10,
+   "me61daa20f10db8a2",
+   "closure-2",
+   "media bias",
+   "media bias",
+   "media bias",
+   null,
+   "closure:P20"
+  ]
+ ],
+ "occurrence_sources": [
+  [
+   1,
+   "o71614914848e5bd2",
+   "seeds:P20",
+   0,
+   0,
+   "A slant in news coverage.",
+   "[\"Author A 2001\"]"
+  ],
+  [
+   2,
+   "ofc5265f6b7b87394",
+   "seeds:P20",
+   0,
+   0,
+   "Coverage that  favours\none side.",
+   "[]"
+  ],
+  [
+   3,
+   "oaccf5cb924ee7239",
+   "seeds:P20",
+   0,
+   0,
+   "news bias",
+   "[]"
+  ],
+  [
+   4,
+   "o36562ef8edc7b5ae",
+   "seeds:P20",
+   1,
+   0,
+   "The perception that neutral news is biased against one's side.",
+   "[]"
+  ],
+  [
+   5,
+   "occ8bd75bb169fd15",
+   "seeds:P20",
+   1,
+   0,
+   "media bias",
+   "[]"
+  ],
+  [
+   6,
+   "oa2aa1a02ce2c62a6",
+   "seeds:P20",
+   2,
+   0,
+   "Selecting some aspects of a perceived reality.",
+   "[\"Author C 1993\"]"
+  ],
+  [
+   7,
+   "od3f579ca3727dde4",
+   "seeds:P20",
+   2,
+   0,
+   "agenda setting",
+   "[]"
+  ],
+  [
+   8,
+   "o47040bd3b0e2904f",
+   "seeds:P20",
+   2,
+   0,
+   "episodic framing",
+   "[]"
+  ],
+  [
+   9,
+   "o6fc54a4cac85e59e",
+   "seeds:P20",
+   0,
+   0,
+   "A closed space where beliefs are amplified.",
+   "[]"
+  ],
+  [
+   10,
+   "o3f7def5f029b7ca7",
+   "seeds:P20",
+   0,
+   0,
+   "A closed space where beliefs are amplified.",
+   "[]"
+  ],
+  [
+   11,
+   "o455ddbf778d9860f",
+   "seeds:P20",
+   1,
+   0,
+   "Removing items before publication.",
+   "[]"
+  ],
+  [
+   12,
+   "o71614914848e5bd2",
+   "seeds:P24",
+   0,
+   0,
+   "A slant in news coverage.",
+   "[\"Author A 2001\", \"Author B 2003\"]"
+  ],
+  [
+   13,
+   "o9ca50be3b212714e",
+   "seeds:P24",
+   0,
+   1,
+   "Bias in the selection of stories.",
+   "[]"
+  ],
+  [
+   14,
+   "o36562ef8edc7b5ae",
+   "seeds:P24",
+   1,
+   0,
+   "The perception that neutral news is biased against one's side.",
+   "[]"
+  ],
+  [
+   15,
+   "oa2a22a8b97c327fb",
+   "seeds:P24",
+   0,
+   0,
+   "A closed  space where beliefs are amplified.",
+   "[]"
+  ],
+  [
+   16,
+   "o71614914848e5bd2",
+   "seeds:P28",
+   0,
+   0,
+   "A slant in news coverage.",
+   "[\"Author A 2001\"]"
+  ],
+  [
+   17,
+   "o081fd05e60f7f5ce",
+   "seeds:P28",
+   1,
+   0,
+   "Partisan tilt in reporting.",
+   "[]"
+  ],
+  [
+   18,
+   "o6fc54a4cac85e59e",
+   "seeds:P28",
+   0,
+   0,
+   "  A closed space where beliefs are amplified. ",
+   "[]"
+  ],
+  [
+   19,
+   "o71614914848e5bd2",
+   "seeds:P28-single-model",
+   0,
+   0,
+   "A slant in news coverage.",
+   "[]"
+  ],
+  [
+   20,
+   "od6b7a6f504505b80",
+   "seeds:P28-single-model",
+   0,
+   0,
+   "slant",
+   "[]"
+  ],
+  [
+   21,
+   "o9faeae5fe0e4ee86",
+   "closure:P20",
+   0,
+   0,
+   "Gatekeeping decides what becomes news.",
+   "[\"Author D 1950\"]"
+  ],
+  [
+   22,
+   "od11ec34a7b53ac9e",
+   "closure:P20",
+   0,
+   1,
+   "A filter on what is published.",
+   "[\"Author F 2010\"]"
+  ],
+  [
+   23,
+   "o12bd822c674f70d2",
+   "closure:P20",
+   0,
+   0,
+   "pre-media gatekeeping",
+   "[]"
+  ],
+  [
+   24,
+   "o691a505ce54a151a",
+   "closure:P20",
+   1,
+   0,
+   "Any systematic deviation.",
+   "[]"
+  ],
+  [
+   25,
+   "od11ec34a7b53ac9e",
+   "closure:P20",
+   2,
+   0,
+   "A filter on what is published.",
+   "[\"Author G 2012\"]"
+  ],
+  [
+   26,
+   "o6a31371dbdfb6e63",
+   "closure:P20",
+   0,
+   0,
+   "Une couverture partiale.",
+   "[]"
+  ],
+  [
+   27,
+   "o6670da903e2c2bce",
+   "closure:P20",
+   1,
+   0,
+   "A slant in news coverage.",
+   "[]"
+  ],
+  [
+   28,
+   "o9faeae5fe0e4ee86",
+   "closure:P24",
+   0,
+   0,
+   "Gatekeeping decides what becomes news.",
+   "[]"
+  ],
+  [
+   29,
+   "o9faeae5fe0e4ee86",
+   "closure:P28",
+   0,
+   0,
+   "Gatekeeping decides what becomes news.",
+   "[\"Author D 1950\"]"
+  ],
+  [
+   30,
+   "o6670da903e2c2bce",
+   "closure:P28",
+   0,
+   0,
+   "A slant in news coverage.",
+   "[]"
+  ],
+  [
+   31,
+   "o9faeae5fe0e4ee86",
+   "closure:P28-single-model",
+   0,
+   0,
+   "Gatekeeping decides what becomes news.",
+   "[]"
+  ],
+  [
+   32,
+   "oa4833364ec272900",
+   "closure:P28-single-model",
+   0,
+   0,
+   "An editor dropping a story.",
+   "[]"
+  ],
+  [
+   33,
+   "o6a31371dbdfb6e63",
+   "closure:P28-single-model",
+   0,
+   0,
+   "Une couverture partiale.",
+   "[]"
+  ]
+ ],
+ "occurrences": [
+  [
+   1,
+   "o71614914848e5bd2",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "definitions",
+   "A slant in news coverage.",
+   "a slant in news coverage",
+   "[\"Author A 2001\"]"
+  ],
+  [
+   2,
+   "ofc5265f6b7b87394",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "description",
+   "Coverage that favours one side.",
+   "coverage that favours one side",
+   "[]"
+  ],
+  [
+   3,
+   "oaccf5cb924ee7239",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "synonyms",
+   "news bias",
+   "news bias",
+   "[]"
+  ],
+  [
+   4,
+   "o36562ef8edc7b5ae",
+   "md95c46d44f3f2644",
+   "seed-1",
+   "definitions",
+   "The perception that neutral news is biased against one's side.",
+   "the perception that neutral news is biased against one s side",
+   "[]"
+  ],
+  [
+   5,
+   "occ8bd75bb169fd15",
+   "md95c46d44f3f2644",
+   "seed-1",
+   "supertypes",
+   "media bias",
+   "media bias",
+   "[]"
+  ],
+  [
+   6,
+   "oa2aa1a02ce2c62a6",
+   "m84d50dddc1d5d3a7",
+   "seed-1",
+   "definitions",
+   "Selecting some aspects of a perceived reality.",
+   "selecting some aspects of a perceived reality",
+   "[\"Author C 1993\"]"
+  ],
+  [
+   7,
+   "od3f579ca3727dde4",
+   "m84d50dddc1d5d3a7",
+   "seed-1",
+   "related_terms",
+   "agenda setting",
+   "agenda setting",
+   "[]"
+  ],
+  [
+   8,
+   "o47040bd3b0e2904f",
+   "m84d50dddc1d5d3a7",
+   "seed-1",
+   "subtypes",
+   "episodic framing",
+   "episodic framing",
+   "[]"
+  ],
+  [
+   9,
+   "o6fc54a4cac85e59e",
+   "mdb129984e668902f",
+   "seed-2",
+   "definitions",
+   "A closed space where beliefs are amplified.",
+   "a closed space where beliefs are amplified",
+   "[]"
+  ],
+  [
+   10,
+   "o3f7def5f029b7ca7",
+   "mdb129984e668902f",
+   "seed-2",
+   "description",
+   "A closed space where beliefs are amplified.",
+   "a closed space where beliefs are amplified",
+   "[]"
+  ],
+  [
+   11,
+   "o455ddbf778d9860f",
+   "m88ef5a6ba1bf9ff0",
+   "seed-2",
+   "definitions",
+   "Removing items before publication.",
+   "removing items before publication",
+   "[]"
+  ],
+  [
+   12,
+   "o9ca50be3b212714e",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "definitions",
+   "Bias in the selection of stories.",
+   "bias in the selection of stories",
+   "[]"
+  ],
+  [
+   13,
+   "oa2a22a8b97c327fb",
+   "m6ae39c54f6c5e685",
+   "seed-2",
+   "definitions",
+   "A closed space where beliefs are amplified.",
+   "a closed space where beliefs are amplified",
+   "[]"
+  ],
+  [
+   14,
+   "o081fd05e60f7f5ce",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "definitions",
+   "Partisan tilt in reporting.",
+   "partisan tilt in reporting",
+   "[]"
+  ],
+  [
+   15,
+   "od6b7a6f504505b80",
+   "m0634fc13aeb4eeb1",
+   "seed-1",
+   "synonyms",
+   "slant",
+   "slant",
+   "[]"
+  ],
+  [
+   16,
+   "o9faeae5fe0e4ee86",
+   "m27e792e237a975fd",
+   "closure-1",
+   "definitions",
+   "Gatekeeping decides what becomes news.",
+   "gatekeeping decides what becomes news",
+   "[\"Author D 1950\"]"
+  ],
+  [
+   17,
+   "od11ec34a7b53ac9e",
+   "m27e792e237a975fd",
+   "closure-1",
+   "definitions",
+   "A filter on what is published.",
+   "a filter on what is published",
+   "[\"Author F 2010\"]"
+  ],
+  [
+   18,
+   "o12bd822c674f70d2",
+   "m27e792e237a975fd",
+   "closure-1",
+   "subtypes",
+   "pre-media gatekeeping",
+   "pre media gatekeeping",
+   "[]"
+  ],
+  [
+   19,
+   "o691a505ce54a151a",
+   "ma20903f3767ba27a",
+   "closure-1",
+   "definitions",
+   "Any systematic deviation.",
+   "any systematic deviation",
+   "[]"
+  ],
+  [
+   20,
+   "o6a31371dbdfb6e63",
+   "m6ea5339be07a58ec",
+   "closure-2",
+   "definitions",
+   "Une couverture partiale.",
+   "une couverture partiale",
+   "[]"
+  ],
+  [
+   21,
+   "o6670da903e2c2bce",
+   "me61daa20f10db8a2",
+   "closure-2",
+   "definitions",
+   "A slant in news coverage.",
+   "a slant in news coverage",
+   "[]"
+  ],
+  [
+   22,
+   "oa4833364ec272900",
+   "m27e792e237a975fd",
+   "closure-1",
+   "examples",
+   "An editor dropping a story.",
+   "an editor dropping a story",
+   "[]"
+  ]
+ ],
+ "papers": [
+  [
+   1,
+   "seed-1",
+   "A synthetic seed paper",
+   "10.0000/mini.1",
+   "seeds"
+  ],
+  [
+   2,
+   "seed-2",
+   "Another synthetic seed paper",
+   null,
+   "seeds"
+  ],
+  [
+   3,
+   "seed-3",
+   null,
+   null,
+   "seeds"
+  ],
+  [
+   4,
+   "closure-1",
+   "A synthetic closure paper",
+   "10.0000/mini.4",
+   "closure"
+  ],
+  [
+   5,
+   "closure-2",
+   "Another synthetic closure paper",
+   "10.0000/mini.5",
+   "closure"
+  ]
+ ]
+}

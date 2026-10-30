@@ -1,0 +1,14 @@
+{
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "created_utc": "2026-09-25T05:27:52.652369+00:00",
+ "cross_arm_pools_extended": "Cross-arm pools (AB, AC, ABC) are also built for the chat-default+json-default pool when all parts exist.",
+ "pick_candidates": "Every single-format cohort of every format (chat8192, schema8192, schema16384, chat-default, json-default) at every stage, every declared within-arm format pool, and every cross-arm pool are eligible pick candidates under the plan-amendment-1 rule.",
+ "reason": "Clarifies pick candidates. The plan listed 'chat only' as a declared pool and the owner asked for the fewest LLM runs; single-format pipelines are therefore legitimate candidates.",
+ "schema": "controlled-model-grid-amendment-v3",
+ "status_at_amendment": "No DEV or TEST score of any grid cohort has been computed; the scorer has not been submitted.",
+ "unchanged": "Pick rule, Opus TEST acceptance (>= 290 matches), quality gate and failure policy are unchanged."
+}

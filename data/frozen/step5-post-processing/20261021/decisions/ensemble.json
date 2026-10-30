@@ -1,0 +1,142 @@
+{
+ "path": "ensemble",
+ "method": "ensemble: classifier + basal + judge | stack C=0.01, reference-scale ranks (S5-Q98 option a)",
+ "cut": 0.41500412441215667,
+ "target_recall": 0.95,
+ "cut_from": "train + dev out-of-fold scores on the reference scale (frozen v2 weights)",
+ "best_f1_cut": 0.5849553369198143,
+ "weights": {
+  "classifier": 0.9306403554233327,
+  "basal": 0.9179535217920844,
+  "judge": 0.8554876739272002
+ },
+ "score": "sum_m w_m r_m / sum_m |w_m|, r_m = (#{ref < x} + 0.5 #{ref = x}) / n_ref",
+ "references": {
+  "classifier": "/home/bitwise/Documents/Media_Bias_Group/step5-relevance-worktree/results/step5-post-processing/20261015/evaluation/scores/classifier.csv",
+  "basal": "/home/bitwise/Documents/Media_Bias_Group/step5-decision-models-worktree/results/step5-post-processing/20261021/corpus-decision-models/scores/basal-fp8-h200-gt-r1.csv",
+  "judge": "/home/bitwise/Documents/Media_Bias_Group/step5-judges-worktree/results/step5-post-processing/20261020/judge-sweep/stage1/20261021/scores/s1-qwen8b-k32-think0-prob.csv"
+ },
+ "inputs": {
+  "classifier": {
+   "path": "/home/bitwise/Documents/Media_Bias_Group/step5-relevance-worktree/results/step5-post-processing/20261015/decisions/classifier.csv",
+   "column": "score",
+   "sha256": "c23a1f7129cf76cb6be01279a3c816935281a534b611ba7f4f37902c3ac00467",
+   "rows": 67394
+  },
+  "basal": {
+   "path": "/home/bitwise/Documents/Media_Bias_Group/step5-decision-models-worktree/results/step5-post-processing/20261021/corpus-decision-models/scores/basal-fp8-h200-corpus.csv",
+   "column": "score",
+   "sha256": "61ec2a4881613dda716a5aca899be2e6baa128a95d0688844ca6cd7142cbd4ae",
+   "rows": 67394
+  },
+  "judge": {
+   "path": "/home/bitwise/Documents/Media_Bias_Group/step5-judges-worktree/results/step5-post-processing/20261020/judge-sweep/corpus/20261021/judge-corpus-scores.csv",
+   "column": "score",
+   "sha256": "506463632eb2f0d20c349adff4052649727b68f3ab853d891cd26a17c322f058",
+   "rows": 67394
+  }
+ },
+ "counts": {
+  "terms": 67394,
+  "kept": 62066,
+  "excluded": 5328,
+  "seeds": {
+   "terms": 38347,
+   "kept": 35807
+  },
+  "closure": {
+   "terms": 29047,
+   "kept": 26259
+  },
+  "label_groups": {
+   "groups": 38467,
+   "all_kept": 34207,
+   "all_dropped": 3496,
+   "split": 764
+  },
+  "definitions": {
+   "total": 110399,
+   "kept": 103476
+  },
+  "papers": {
+   "total": 6241,
+   "kept": 6115
+  }
+ },
+ "comparison": {
+  "(a) reference ranks, 95%-recall cut": {
+   "terms": 62066,
+   "terms_share": 0.9209425171380241,
+   "definitions": 103476,
+   "definitions_share": 0.9372910986512559,
+   "papers": 6115,
+   "of": {
+    "terms": 67394,
+    "definitions": 110399,
+    "papers": 6241
+   }
+  },
+  "(a) reference ranks, best-F1 cut": {
+   "terms": 50037,
+   "terms_share": 0.7424548179363148,
+   "definitions": 87405,
+   "definitions_share": 0.7917191278906511,
+   "papers": 5905,
+   "of": {
+    "terms": 67394,
+    "definitions": 110399,
+    "papers": 6241
+   }
+  },
+  "(b) within-corpus ranks, frozen 95%-recall cut": {
+   "terms": 39170,
+   "terms_share": 0.5812090097041279,
+   "definitions": 71460,
+   "definitions_share": 0.6472884718158679,
+   "papers": 5611,
+   "of": {
+    "terms": 67394,
+    "definitions": 110399,
+    "papers": 6241
+   }
+  },
+  "(b) within-corpus ranks, frozen best-F1 cut": {
+   "terms": 32401,
+   "terms_share": 0.4807698014660059,
+   "definitions": 60712,
+   "definitions_share": 0.5499325175046875,
+   "papers": 5339,
+   "of": {
+    "terms": 67394,
+    "definitions": 110399,
+    "papers": 6241
+   }
+  },
+  "classifier alone (16 Oct decisions, cut 0.1848)": {
+   "terms": 62084,
+   "terms_share": 0.9212096032287741,
+   "definitions": 102910,
+   "definitions_share": 0.9321642406181215,
+   "papers": 6145,
+   "of": {
+    "terms": 67394,
+    "definitions": 110399,
+    "papers": 6241
+   }
+  }
+ },
+ "sanity": {
+  "rule": "the share of corpus terms (a) keeps at its 95%-recall cut must lie in [0.70, 1.00] (coordinator, 21 Oct 12:55 JST; also in research-notes); otherwise no decisions file",
+  "share_a": 0.9209425171380241,
+  "share_classifier": 0.9212096032287741,
+  "passed": true
+ },
+ "nli": null,
+ "pick": "results/step5-post-processing/20261020/ensembles/pick.json",
+ "pick_sha256": "3397b5de2b6a913f6a8cc800d47a7c2b54e737dbcfa22b3b426903945f4dec50",
+ "provenance": {
+  "commit": "3ae7c18a2e9885f3cca371642953a4386d7e9616",
+  "src_step5_dirty": false,
+  "run_at": "2026-10-21T08:43:40+00:00"
+ }
+}

@@ -1,0 +1,579 @@
+{
+  "paper_id": "4243aa9bacd51bc02d4240378e7528912962b53e",
+  "row": "Rdb54680",
+  "stage": "final",
+  "definition_records": [
+    {
+      "term": "brand",
+      "definitions": [
+        {
+          "text": "A brand, according to the classic definition by the American Marketing Association (1960), is a name, term, sign, symbol or design, or a combination of them which is intended to identify the goods or services of one seller or a group of sellers and to differentiate them from those of competitors.",
+          "citation": [
+            "American Marketing Association (1960)"
+          ]
+        },
+        {
+          "text": "A more sophisticated definition is offered by Aaker (1996:68): a brand is a multidimensional assortment of functional, emotional, relational and strategic elements that collectively generate a unique set of associations in the public mind.",
+          "citation": [
+            "Aaker (1996:68)"
+          ]
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "A brand is more than just a name; it is a complex bundle of images, meanings, associations and experiences in the mind of people.",
+          "citation": []
+        }
+      ],
+      "related_terms": [],
+      "subtypes": [
+        {
+          "text": "a nation brand should not be confused with a national brand",
+          "citation": []
+        },
+        {
+          "text": "a nation brand is regarded as an umbrella brand that endorses many sector brands, for example, in tourism or exports (Dinnie, 2007:200). A nation brand can also be treated as ingredient brand or co brand.",
+          "citation": [
+            "Dinnie, 2007:200"
+          ]
+        }
+      ],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "nation brand",
+      "definitions": [
+        {
+          "text": "A nation brand is the total sum of all perceptions of a nation in the mind of international stakeholders which may contain some of the following elements: people, place, culture/language, history, food, fashion, famous faces (celebrities), global brands etc.",
+          "citation": []
+        },
+        {
+          "text": "A nation brand is a complicated multi-facet construct that is dependent on the context such as other countries, special events or occasions.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Every country has a unique name and images in the mind of people both inside and outside the country, so a nation does have brands.",
+          "citation": []
+        },
+        {
+          "text": "A nation's 'brand' exists, with or without any conscious efforts in nation branding, as each country has a current image to its international audience, be it strong or weak, clear or vague (Fan, 2006:12).",
+          "citation": [
+            "Fan, 2006:12"
+          ]
+        },
+        {
+          "text": "Unlike commercial brands, many elements in nation brand construct are not in the control of those engaged in nation branding management, they are difficult to change in the short term.",
+          "citation": []
+        },
+        {
+          "text": "The root of such confusion lies in the diverse interpretations of nation brands and branding (details are shown in Figure 1). There interpretations can be divided into six or seven levels.",
+          "citation": []
+        },
+        {
+          "text": "The simplest way is to treat a nation brand as a visual symbol, a slogan or strapline.",
+          "citation": []
+        },
+        {
+          "text": "At Level B, a nation brand is regarded as an umbrella brand that endorses many sector brands, for example, in tourism or exports (Dinnie, 2007:200).",
+          "citation": [
+            "Dinnie, 2007:200"
+          ]
+        },
+        {
+          "text": "A nation brand can also be treated as ingredient brand or co brand.",
+          "citation": []
+        },
+        {
+          "text": "At next level C, a nation brand concerns the country's image, reputation and positioning, a role quite similar to that of corporate branding (Gilmore, 2002;Teslik, 2007;Roth and Diamantopoulos, 2009).",
+          "citation": [
+            "Gilmore, 2002",
+            "Teslik, 2007",
+            "Roth and Diamantopoulos, 2009"
+          ]
+        },
+        {
+          "text": "Even the critics of nation branding have admitted that nation brands exist.",
+          "citation": []
+        },
+        {
+          "text": "The image of a nation is so complex and fluid as to deny the clarity implicit in a term such as brand image; and different parts of a nation's identity come into focus on the international stage at different times",
+          "citation": [
+            "O'Shaughenssy and 2000"
+          ]
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "It is widely recognised that nation brands exist though opinions differ on what nation branding refers to, how a nation brand relates to nation branding and what nation branding should or could accomplish.",
+          "citation": []
+        },
+        {
+          "text": "Comparison between nation branding and commercial branding Nation brand Product brand Corporate brand",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": [
+        {
+          "text": "The simplest way is to treat a nation brand as a visual symbol, a slogan or strapline.",
+          "citation": []
+        },
+        {
+          "text": "At next level C, a nation brand concerns the country's image, reputation and positioning, a role quite similar to that of corporate branding (Gilmore, 2002;Teslik, 2007;Roth and Diamantopoulos, 2009).",
+          "citation": [
+            "Gilmore, 2002",
+            "Teslik, 2007",
+            "Roth and Diamantopoulos, 2009"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "national brand",
+      "definitions": [
+        {
+          "text": "In contrast with a global brand, a national brand is originated from a country, and its use is probably still confined to the country; while a global brand is recognised in the world marketplace.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Firstly a nation brand should not be confused with a national brand.",
+          "citation": []
+        }
+      ],
+      "related_terms": [],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "global brand",
+      "definitions": [
+        {
+          "text": "In contrast with a global brand, a national brand is originated from a country, and its use is probably still confined to the country; while a global brand is recognised in the world marketplace.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [],
+      "related_terms": [],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "nation branding",
+      "definitions": [
+        {
+          "text": "Unlike the studies on COO and place branding which have a clear focus on promoting specific economic interests (export, tourism or inward investment), nation branding is concerned with a country's whole image on the international stage covering political, economic and cultural dimensions (Quelch and Jocz, 2004;Fan, 2006).",
+          "citation": [
+            "Quelch and Jocz, 2004",
+            "Fan, 2006"
+          ]
+        },
+        {
+          "text": "Nation branding is a process by which a nation's images can be created, monitored, evaluated and proactively managed in order to improve or enhance the country's reputation among a target international audience.",
+          "citation": []
+        },
+        {
+          "text": "The way for a nation to gain a better reputation is to communicate to the international audience that how good you are, -this practice is called nation branding.",
+          "citation": []
+        }
+      ],
+      "synonyms": [
+        {
+          "text": "nation image management",
+          "citation": []
+        }
+      ],
+      "description": [
+        {
+          "text": "Albeit being a relatively new subject, the origin of nation branding study can be traced to four different sources, namely, country of origin (COO) (Papadoplous and Heslop, 2002), place or destination branding (Kotler, et al, 1993;Kotler and Gertner, 2002;Morgan, et al, 2002), and more recently, public diplomacy (van Ham, 2001;Melissen, 2005;Fan, 2008a), and national identity (Smith, 1991;Bond, et al, 2001).",
+          "citation": [
+            "Papadoplous and Heslop, 2002",
+            "Kotler, et al, 1993",
+            "Kotler and Gertner, 2002",
+            "Morgan, et al, 2002",
+            "van Ham, 2001",
+            "Melissen, 2005",
+            "Fan, 2008a",
+            "Smith, 1991",
+            "Bond, et al, 2001"
+          ]
+        },
+        {
+          "text": "As an emerging area of interest, nation branding is driven largely by practitioners and there is an urgent need for conceptual and theoretical development of the subject.",
+          "citation": []
+        },
+        {
+          "text": "As a result, nation branding still faces serious challenges from outright objection to cynical scepticism among the public (Olins, 2002;Kabn, 2006).",
+          "citation": [
+            "Olins, 2002",
+            "Kabn, 2006"
+          ]
+        },
+        {
+          "text": "Nation branding does not exist, it is a dangerous myth. To branding a country is vain, naive and foolish, which creates the problem not the solution (Anholt, 2008).",
+          "citation": [
+            "Anholt, 2008"
+          ]
+        },
+        {
+          "text": "What nation branding concerns is the image and reputation a nation enjoys in the world.",
+          "citation": []
+        },
+        {
+          "text": "Nation branding is not about \"building or remoulding the national identity\" as Olins (1999) initially suggested.",
+          "citation": [
+            "Olins, 1999"
+          ]
+        },
+        {
+          "text": "Instead, nation branding is about to alter the image that outside people hold about the nation. Nation branding in essence is to align the nation's image to the reality.",
+          "citation": []
+        },
+        {
+          "text": "It is the task of nation branding to narrow the gap between the images and reality.",
+          "citation": []
+        },
+        {
+          "text": "Nation branding is an extremely difficult subject to research.",
+          "citation": []
+        },
+        {
+          "text": "The biggest challenge in nation branding is how to communicate a single image or message to different audiences countries.",
+          "citation": []
+        },
+        {
+          "text": "In theory, nation branding calls for communicating in a coordinated and consistent fashion with multiple stakeholders.",
+          "citation": []
+        },
+        {
+          "text": "In reality, it is impossible to develop such a simple core message about a country that can be used by different industry sectors in different countries",
+          "citation": [
+            "Fan, 2006",
+            "2007"
+          ]
+        },
+        {
+          "text": "It would be more meaningful and practical to have nation branding to be conceptualised, measured and executed at one of sublevels (as a place brand, event brand or export brand).",
+          "citation": []
+        },
+        {
+          "text": "Nation branding is not a myth. The impact of nation branding should not be exaggerated or dismissed.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "country of origin (COO)",
+          "citation": [
+            "Papadoplous and Heslop, 2002"
+          ]
+        },
+        {
+          "text": "place or destination branding",
+          "citation": [
+            "Kotler, et al, 1993",
+            "Kotler and Gertner, 2002",
+            "Morgan, et al, 2002"
+          ]
+        },
+        {
+          "text": "public diplomacy",
+          "citation": [
+            "van Ham, 2001",
+            "Melissen, 2005",
+            "Fan, 2008a"
+          ]
+        },
+        {
+          "text": "national identity",
+          "citation": [
+            "Smith, 1991",
+            "Bond, et al, 2001"
+          ]
+        },
+        {
+          "text": "nation branding can benefit from the rich literature of organisation identity and organisation reputation (Hatch and Schultz, 1997, 2002Stets and Burke, 2000)",
+          "citation": [
+            "Hatch and Schultz, 1997, 2002",
+            "Stets and Burke, 2000"
+          ]
+        },
+        {
+          "text": "nation image management",
+          "citation": []
+        },
+        {
+          "text": "The relationship between national identity, nation branding and nation's image can be summarised as below:",
+          "citation": []
+        },
+        {
+          "text": "Nation image management describes more accurately about the topic subject as well as its chief objective in nation branding.",
+          "citation": []
+        },
+        {
+          "text": "All published empirical studies of \"nation\" branding, under close scrutiny, are merely export branding, or destination branding, with none of them actually branding at the nation level.",
+          "citation": []
+        }
+      ],
+      "subtypes": [
+        {
+          "text": "All published empirical studies of \"nation\" branding, under close scrutiny, are merely export branding, or destination branding, with none of them actually branding at the nation level.",
+          "citation": []
+        },
+        {
+          "text": "as a place brand, event brand or export brand",
+          "citation": []
+        }
+      ],
+      "supertypes": [],
+      "examples": [
+        {
+          "text": "At level D, nation branding aims to build and sustain a nation's competitiveness (Anholt, 2007;Lee, 2009;Porter, 1990). At Level E, nation branding helps enhance a country's soft power (Fan, 2007(Fan, , 2008a;;Nye 2004aNye , 2004b)). At Level F, nation branding relates to national identity (Dinnie, 2007).",
+          "citation": [
+            "Anholt, 2007",
+            "Lee, 2009",
+            "Porter, 1990",
+            "Fan, 2007",
+            "Fan, 2008a",
+            "Nye 2004a",
+            "Dinnie, 2007"
+          ]
+        },
+        {
+          "text": "For example, \"Malaysia: Truly Asia\" is just a tourism branding.",
+          "citation": []
+        }
+      ]
+    },
+    {
+      "term": "competitive identity",
+      "definitions": [
+        {
+          "text": "Anholt (2007) has recently re-brand the concept as \"competitive identity\", which is described as a new model for enhancing national competitiveness using both public diplomacy and brand management.",
+          "citation": [
+            "Anholt (2007)"
+          ]
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "To respond to the public scepticism on the use of the term branding, Anholt (2007) has recently re-brand the concept as \"competitive identity\"",
+          "citation": [
+            "Anholt (2007)"
+          ]
+        }
+      ],
+      "related_terms": [],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "National identity",
+      "definitions": [
+        {
+          "text": "Nation identity, to paraphrase Albert and Whetten's definition of organisational identity (1985), is the collective understanding by a nation's people of the features presumed to be central and relatively permanent, and that distinguish the nation from other nations.",
+          "citation": [
+            "Albert and Whetten",
+            "1985"
+          ]
+        },
+        {
+          "text": "A nation's identity refers to the essentially irrational psychological bond that binds fellow nationals together and which is supposed to constitute the essence of national identity.",
+          "citation": []
+        }
+      ],
+      "synonyms": [
+        {
+          "text": "Nation identity",
+          "citation": []
+        }
+      ],
+      "description": [
+        {
+          "text": "National identity embodies the characteristics of a nation that its people perceive to be central, distinctive, and enduring (CED) in a nation when past, present and future is taken into account.",
+          "citation": []
+        },
+        {
+          "text": "This psychological bond is usually termed \"a sense of belonging\" and such expressions point to the close link established between each individual and the collective self, namely the nation (Triandafyllidou, 1998).",
+          "citation": [
+            "Triandafyllidou, 1998"
+          ]
+        },
+        {
+          "text": "A nation's identity is defined by the nation's people not by the branding strategist. Any change in a nation's identity is either accomplished or accompanied by fundamental changes in the country's political, economic and social systems.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "It is important to distinguish nation brand identity with national identity as these are two related but totally different constructs.",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "National brand identity",
+      "definitions": [
+        {
+          "text": "National brand identity, on the other hand, refers to the identity of a specific \"nation brand\", not the nation. It is a set of associations the brand strategist seeks to create or maintain (Aaker and Joachimsthaler, 2002:43).",
+          "citation": [
+            "Aaker and Joachimsthaler, 2002:43"
+          ]
+        }
+      ],
+      "synonyms": [
+        {
+          "text": "nation brand identity",
+          "citation": []
+        }
+      ],
+      "description": [
+        {
+          "text": "More specifically, it can also refer to the visual symbol or logo that identifies the brand.",
+          "citation": []
+        },
+        {
+          "text": "As a country may have a number of different nation brands, it can have many different nation brand identities at the same time.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "It is important to distinguish nation brand identity with national identity as these are two related but totally different constructs.",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "Identity",
+      "definitions": [
+        {
+          "text": "Identity is about self perception.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Identity, image and reputation, though often used interchangeably, the three terms are, in fact, different constructs. They all refer to mental associations generated by knowledge and past experience.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "Identity, image and reputation",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "Image",
+      "definitions": [
+        {
+          "text": "Image is what is projected to other while reputation is the feedback received from other (Whetten and Mackey, 2002:400).",
+          "citation": [
+            "Whetten and Mackey, 2002:400"
+          ]
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Image and reputation, which is the reciprocal of image, both are components of a symmetrical communications process between the nation (self) and its international stakeholders (other).",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "Identity, image and reputation",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "reputation",
+      "definitions": [
+        {
+          "text": "Image is what is projected to other while reputation is the feedback received from other (Whetten and Mackey, 2002:400).",
+          "citation": [
+            "Whetten and Mackey, 2002:400"
+          ]
+        },
+        {
+          "text": "reputation is a particular type of feedback received by the nation from the outside world, concerning the credibility of the nation's identity claims",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Image and reputation, which is the reciprocal of image, both are components of a symmetrical communications process between the nation (self) and its international stakeholders (other).",
+          "citation": []
+        }
+      ],
+      "related_terms": [],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": []
+    },
+    {
+      "term": "Nation's image",
+      "definitions": [
+        {
+          "text": "Thus, a nation's image is what a nation's people want the world to understand is most central, enduring and distinctive about their nation",
+          "citation": []
+        },
+        {
+          "text": "A nation's image is defined by the people outside the country; their perceptions are influenced by stereotyping, media coverage as well as personal experience.",
+          "citation": []
+        }
+      ],
+      "synonyms": [],
+      "description": [
+        {
+          "text": "Like commercial brands, a nation's image can be repackaged, repositioned and communicated in a professional fashion.",
+          "citation": []
+        }
+      ],
+      "related_terms": [
+        {
+          "text": "their perceptions are influenced by stereotyping, media coverage as well as personal experience",
+          "citation": []
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "examples": [
+        {
+          "text": "If a nation have some advantages due to its favourable country image, this is normally confined to one specific industry sector, rather than covering the whole country. For example, fashion in Italy or engineering in Germany.",
+          "citation": []
+        }
+      ]
+    }
+  ]
+}

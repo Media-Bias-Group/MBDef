@@ -1,0 +1,77 @@
+{
+ "version": "v2",
+ "name": "ensemble--classifier+basal+judge--stack-C0.01",
+ "members": [
+  "classifier",
+  "basal",
+  "judge"
+ ],
+ "combiner": "stack C=0.01",
+ "C": 0.01,
+ "scale": "weighted mean",
+ "weights": {
+  "classifier": 0.9306403554233327,
+  "basal": 0.9179535217920844,
+  "judge": 0.8554876739272002
+ },
+ "normalised_weights": {
+  "classifier": 0.3441613493609643,
+  "basal": 0.3394696145181718,
+  "judge": 0.3163690361208638
+ },
+ "intercept": -1.7738446849484324,
+ "train_dev_criterion": {
+  "mean_auc_over_5_folds": 0.9332162631385007,
+  "candidates": 315
+ },
+ "cuts": {
+  "cut": 0.43797444796834095,
+  "f1_cut": 0.5174434678594493,
+  "set_on": "train + dev out-of-fold table scores/ensemble--classifier+basal+judge--stack-C0.01.csv",
+  "rule": "recall_cut(y, s, 0.95) and f1_cut(y, s), src/step5/evaluate.py"
+ },
+ "test_recipe": [
+  "1. For each member, load its test table (test_sources) and keep the 628 test records, groundtruth.load(splits=('test',)).",
+  "2. Normalised rank within the test split, per member: scipy.stats.rankdata(scores, method='average') / 628 (rank 1 = lowest, ties at the average rank).",
+  "3. Stacking, weighted-mean scale: score = sum_m weights[m] * rank_m / sum_m |weights[m]| (= sum_m normalised_weights[m] * rank_m; the intercept does not enter), weights fitted on all 1,700 train + dev records (ranks / 1,700).",
+  "4. Keep a record when score >= cuts.cut (95%-recall cut) or cuts.f1_cut (best-F1 cut), both set on train + dev.",
+  "Caveats: a record's score depends on the other records it is ranked with (the test split here, the corpus later); the cuts carry over to test only as far as the score distributions match.",
+  "Command: python -m scripts.step5.ensembles --part test-table (reads pick.json; writes test-scores.csv; no label read)."
+ ],
+ "test_sources": {
+  "classifier": {
+   "member": "embedding classifier (in use)",
+   "test_table": "/home/bitwise/Documents/Media_Bias_Group/step5-relevance-worktree/results/step5-post-processing/20261021/final-comparison/inputs/classifier.csv",
+   "sha256": "9ff0447825ce135fd5ef72e23575f35ad34c092e059c700828445613b0fe0a75",
+   "test_ids_covered": 628,
+   "train_dev_table": "/home/bitwise/Documents/Media_Bias_Group/step5-relevance-worktree/results/step5-post-processing/20261015/evaluation/scores/classifier.csv",
+   "train_dev_auc": 0.9132364931769102
+  },
+  "basal": {
+   "member": "basal-omni-1.0-ultra, FP8, H100, run 1",
+   "test_table": "/home/bitwise/Documents/Media_Bias_Group/step5-decision-models-worktree/results/step5-post-processing/20261020/decision-models/scores/basal-fp8-h100-r1.csv",
+   "sha256": "ad514ef6c725177a6201dfd21e392e50c446688109034951c06171b7045c09a5",
+   "test_ids_covered": 628,
+   "train_dev_table": "/home/bitwise/Documents/Media_Bias_Group/step5-decision-models-worktree/results/step5-post-processing/20261020/decision-models/scores/basal-fp8-h100-r1.csv",
+   "train_dev_auc": 0.9115240932519979
+  },
+  "judge": {
+   "member": "GT-RAG judge sweep, chosen setting",
+   "test_table": "/home/bitwise/Documents/Media_Bias_Group/step5-judges-worktree/results/step5-post-processing/20261020/judge-sweep/test-read/s1-qwen8b-k32-think0-prob.csv",
+   "sha256": "3ae1c9b00c82161b9eb0f430824e6c589d3ee69be99868de2c9de690f6ba2595",
+   "test_ids_covered": null,
+   "train_dev_table": "/home/bitwise/Documents/Media_Bias_Group/step5-judges-worktree/results/step5-post-processing/20261020/judge-sweep/stage1/20261021/scores/s1-qwen8b-k32-think0-prob.csv",
+   "train_dev_auc": 0.892656168723696
+  }
+ },
+ "provenance": {
+  "commit": "3ae7c18a2e9885f3cca371642953a4386d7e9616",
+  "src_step5_dirty": false,
+  "run_at": "2026-10-21T01:29:59+00:00"
+ },
+ "frozen": {
+  "as_finalist": true,
+  "from_version": "v2",
+  "at": "2026-10-21T01:30:11+00:00"
+ }
+}

@@ -1,0 +1,121 @@
+[
+ {
+  "label": "bias detection",
+  "joined_with": "bias detection | detection bias",
+  "group_id": "gdf00962407a0",
+  "terms": 3,
+  "kept_terms": 3
+ },
+ {
+  "label": "Identity groups",
+  "joined_with": "Identity groups | group identity",
+  "group_id": "g329a58a0a06a",
+  "terms": 4,
+  "kept_terms": 4
+ },
+ {
+  "label": "event trigger",
+  "joined_with": "event trigger | trigger event",
+  "group_id": "g3bdd540c89c2",
+  "terms": 4,
+  "kept_terms": 4
+ },
+ {
+  "label": "online religion",
+  "joined_with": "online religion | religion online",
+  "group_id": "g90fffc3e9564",
+  "terms": 3,
+  "kept_terms": 2
+ },
+ {
+  "label": "First person",
+  "joined_with": "First person | person-first",
+  "group_id": "ga96eb3268592",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "community of sense",
+  "joined_with": "community of sense | sense of community",
+  "group_id": "gc7c37876b38c",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "Many-to-One",
+  "joined_with": "Many-to-One | One-to-Many",
+  "group_id": "g6ded01bdc1bd",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "Human-to-LLM Persuasion",
+  "joined_with": "Human-to-LLM Persuasion | LLM-to-Human Persuasion",
+  "group_id": "g6093d0def122",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "Information Science",
+  "joined_with": "Information Science | science information",
+  "group_id": "gbe61c1380826",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "news quality",
+  "joined_with": "news quality | quality news",
+  "group_id": "gabf3d1317028",
+  "terms": 3,
+  "kept_terms": 3
+ },
+ {
+  "label": "Information quality",
+  "joined_with": "Information quality | quality information",
+  "group_id": "g25d165a86e9b",
+  "terms": 5,
+  "kept_terms": 5
+ },
+ {
+  "label": "State propaganda",
+  "joined_with": "State propaganda | propaganda state",
+  "group_id": "g2f02e76ef1e9",
+  "terms": 3,
+  "kept_terms": 3
+ },
+ {
+  "label": "identity narrative",
+  "joined_with": "identity narrative | narrative identity",
+  "group_id": "g4708f3d8ce41",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "encuadre de estrategia",
+  "joined_with": "encuadre de estrategia | estrategias de encuadre",
+  "group_id": "gfb4360b5c759",
+  "terms": 3,
+  "kept_terms": 3
+ },
+ {
+  "label": "context information",
+  "joined_with": "context information | information context",
+  "group_id": "gcd3226b71e95",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "bias and fairness",
+  "joined_with": "bias and fairness | fairness bias",
+  "group_id": "g9652125d9a35",
+  "terms": 2,
+  "kept_terms": 2
+ },
+ {
+  "label": "Value and Bias",
+  "joined_with": "Value and Bias | bias value",
+  "group_id": "g6003ef309ac6",
+  "terms": 2,
+  "kept_terms": 2
+ }
+]

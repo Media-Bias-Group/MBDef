@@ -1,0 +1,43 @@
+{
+ "papers": 2,
+ "picks": {
+  "P>=20": {
+   "definitions": 6,
+   "missing_part_outputs": 0,
+   "papers": 2,
+   "pick": "mini/P20",
+   "predictions": "/run/closure/derived/P20/predictions.json",
+   "predictions_sha256": "d42cfd6fffc6c5e6499cbad28f0c9b5908a2ee1d0ae3b144e46769c022caa91f",
+   "records": 5
+  },
+  "P>=24": {
+   "definitions": 1,
+   "missing_part_outputs": 0,
+   "papers": 2,
+   "pick": "mini/P24",
+   "predictions": "/run/closure/derived/P24/predictions.json",
+   "predictions_sha256": "9f57b80e89b7e2662bdf355aa37d5047316a45d948e0bdd39b0c56b85b924b01",
+   "records": 1
+  },
+  "P>=28": {
+   "definitions": 2,
+   "missing_part_outputs": 0,
+   "papers": 2,
+   "pick": "mini/P28",
+   "predictions": "/run/closure/derived/P28/predictions.json",
+   "predictions_sha256": "101196a1e328a18b86cb84370bd778f61df20fe0e1ab0e557271a65110589ecb",
+   "records": 2
+  },
+  "P>=28-single-model": {
+   "definitions": 2,
+   "missing_part_outputs": 0,
+   "papers": 2,
+   "pick": "mini/P28-single-model",
+   "predictions": "/run/closure/derived/P28-single-model/predictions.json",
+   "predictions_sha256": "705ac446287b1ae9c24aa38cc6a18efc7207b84e8d77811d3ea43ec5936eac7d",
+   "records": 2
+  }
+ },
+ "schema": "mini",
+ "set": "closure"
+}

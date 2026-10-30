@@ -1,0 +1,178 @@
+{
+ "P20-minus-P24": {
+  "label": "in P>=20, not in P>=24",
+  "count": 41726,
+  "samples": [
+   {
+    "title": "Diversity in Canadian election-related Twitter discourses: Influential voices and the media logic of #elxn42 and #cdnpoli hashtags",
+    "term": "discourse communities",
+    "definition": "discourse communities centered on a certain topic",
+    "citation": []
+   },
+   {
+    "title": "What is so special about online (as compared to offline) hate speech?",
+    "term": "political online consumerism",
+    "definition": "Internet companies can be subject to forms of political online consumerism-meaning, for example, that users can drop Facebook in favour of alternative social networking sites if they do not like the fact that Facebook has adopted a particular community standard relating to hate speech.",
+    "citation": []
+   },
+   {
+    "title": "Trans News Matters: Media Coverage and Trans Minors’ Social Transitions in the Basque Country",
+    "term": "gender identity",
+    "definition": "a fundamental aspect of human existence",
+    "citation": []
+   },
+   {
+    "title": "Changes in media selection and framing of science news in Croatian daily press",
+    "term": "ethical frame",
+    "definition": "based on problematizing the ethical aspects of scientific work and the application of research results. It includes articles which emphasize ethical issues of scientific research and discovery, especially the application of their results.",
+    "citation": []
+   },
+   {
+    "title": "Populist Representations of Russia’s Education Reforms in the Russian Media",
+    "term": "журналистские культуры",
+    "definition": "культурный контекст влияет на так называемые журналистские культуры, которые, в свою очередь, задают специфические модели поведения журналистов",
+    "citation": [
+     "Nygren, Dobek-Ostrowska, 2015"
+    ]
+   },
+   {
+    "title": "Disinfodemic Threats. Real, False, and Fake News",
+    "term": "deepfake",
+    "definition": "a deepfake is 'a way of adding a digital image or video over another image or video, so that it appears to be part of the original […] an image or video that has been changed in this way'",
+    "citation": []
+   }
+  ]
+ },
+ "P24-minus-P28": {
+  "label": "in P>=24, not in P>=28",
+  "count": 17694,
+  "samples": [
+   {
+    "title": "Stance Detection with BERT Embeddings for Credibility Analysis of Information on Social Media",
+    "term": "detection",
+    "definition": "data mining with feature extraction and model construction",
+    "citation": []
+   },
+   {
+    "title": "Personalizing the war: Perspectives for the adoption of news recommendation algorithms in the media coverage of the conflict in Eastern Ukraine",
+    "term": "diversity metrics",
+    "definition": "The realization of such a system will require the use of diversity metrics, such as the ones optimizing for long-tail diversity or serendipity in news recommendations (Vargas and Castells, 2011).",
+    "citation": [
+     "Vargas and Castells, 2011"
+    ]
+   },
+   {
+    "title": "Hybrid Information Technology for Automatic Detection of Disinformation and Inauthentic Behaviour of Chat Users based on NLP, Machine Learning, and Graph Analysis",
+    "term": "Gradient boosting model",
+    "definition": "The Gradient boosting model is built by sequentially minimising losses:",
+    "citation": []
+   },
+   {
+    "title": "Political audience diversity and news reliability in algorithmic ranking",
+    "term": "collaborative filtering",
+    "definition": "Collaborative filtering is a classic recommendation algorithm in which some ratings are provided as input and unknown ratings are predicted based on those known input ratings.",
+    "citation": []
+   },
+   {
+    "title": "Language Processing for Detecting Fake News on Twitter Using a Long Short-Term Memory Architecture",
+    "term": "F1-Score",
+    "definition": "F1-Score, or F1-Measure, is derived from the weighted harmonic mean of precision and recall values (8) [35]",
+    "citation": [
+     "35"
+    ]
+   },
+   {
+    "title": "The geography of corporate fake news",
+    "term": "KL divergence",
+    "definition": "KL divergence is a measure of how one probability distribution differs from a second distribution.",
+    "citation": []
+   }
+  ]
+ },
+ "P28-single-model-minus-P28": {
+  "label": "in Gemma-only, removed by the Qwen check (not in P>=28)",
+  "count": 7353,
+  "samples": [
+   {
+    "title": "Unraveling Media Perspectives: A Comprehensive Methodology Combining Large Language Models, Topic Modeling, Sentiment Analysis, and Ontology Learning to Analyse Media Bias",
+    "term": "sentiment classification",
+    "definition": "sentiment classification, which usually takes labeled data as input",
+    "citation": []
+   },
+   {
+    "title": "EDITED BY",
+    "term": "fact-checking",
+    "definition": "the rate at which users are fact-checked and stop forwarding",
+    "citation": []
+   },
+   {
+    "title": "BELIEF ECHOES: THE PERSISTENT EFFECTS OF CORRECTED MISINFORMATION COPYRIGHT",
+    "term": "belief perseverance",
+    "definition": "individuals believe the misinformation for a period of time before it was corrected.",
+    "citation": []
+   },
+   {
+    "title": "A Tale of Three Women: Framing as a Patriarchal Practice in the News Coverage of Women in Distress",
+    "term": "Women in Especially Difficult Circumstances (WEDC)",
+    "definition": "the definition of Women in Especially Difficult Circumstances (WEDC) laid out in Section 30 of the Philippine Magna Carta of Women's Rights",
+    "citation": []
+   },
+   {
+    "title": "Towards European securitization press processes? A comparison of Sahel news coverage in Southern European countries",
+    "term": "securitization",
+    "definition": "securitisation theory corresponds to exclusionary and scarcely democratic logic",
+    "citation": [
+     "Aradau (2004)"
+    ]
+   },
+   {
+    "title": "The Application of Solutions Journalism: Strategic Communications and Public Affairs Group in Somalia",
+    "term": "third generation peacekeeping operations",
+    "definition": "third generation peacekeeping operations most likely identify as peace enforcement rather than peace making.",
+    "citation": []
+   }
+  ]
+ },
+ "P28-minus-P28-single-model": {
+  "label": "in P>=28, not in Gemma-only",
+  "count": 52,
+  "samples": [
+   {
+    "title": "Frames and sentiments of the Twitter communication by German Chancellor Scholz during the Russian invasion of Ukraine",
+    "term": "Latent Dirichlet Allocation (LDA)",
+    "definition": "One of the most commonly used topic modelling techniques is the Latent Dirichlet Allocation (LDA) model. This three -level hierarchical Bayesian probability model serves to represent a corpus effectively.",
+    "citation": []
+   },
+   {
+    "title": "A Hybrid Method Based on CRITIC Method and Machine Learning Models for Effective Fake News Detection in Thai Language",
+    "term": "feature vector",
+    "definition": "Upon the identification of unique words, they are organized into a feature vector, where the sequence is not of significance.",
+    "citation": []
+   },
+   {
+    "title": "La IA como herramienta para combatir la desinformación. Planteamiento de un modelo enfocado en los bulos en un contexto electoral",
+    "term": "especificidad",
+    "definition": "la especificidad es la tasa de falsos positivos",
+    "citation": []
+   },
+   {
+    "title": "Compound nouns as linguistic framing devices in Arabic news headlines in the context of the Israel-Gaza conflict",
+    "term": "Exocentric noun compounds",
+    "definition": "where the compound does not have a head or main element that determines its grammatical category",
+    "citation": []
+   },
+   {
+    "title": "Jazz and Foreign Art in the Press: A Socio-Historical Study of Cultural Propaganda in Francoism",
+    "term": "música negra",
+    "definition": "la llamada música negra, los bailables swing o cualquier otro género de composición cuyas letras estén en idioma extranjero o por cualquier concepto puedan rozar la moral pública o el más elemental buen gusto",
+    "citation": []
+   },
+   {
+    "title": "Demonization of virtual reality in modern media culture",
+    "term": "virtual reality",
+    "definition": "the term \"virtual reality\" is a complex concept that encompasses various fields such as world philosophical thought, cultural studies, cybernetics, computer-mediated communication, and more.",
+    "citation": []
+   }
+  ]
+ }
+}

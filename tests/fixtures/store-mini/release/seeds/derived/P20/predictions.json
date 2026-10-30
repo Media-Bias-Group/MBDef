@@ -1,0 +1,145 @@
+{
+ "missing_part_outputs": [],
+ "paper_count": 3,
+ "papers": [
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [
+        "Author A 2001"
+       ],
+       "text": "A slant in news coverage."
+      }
+     ],
+     "description": [
+      {
+       "citation": [],
+       "text": "Coverage that  favours\none side."
+      }
+     ],
+     "examples": [
+      {
+       "citation": [],
+       "text": ""
+      }
+     ],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [
+      {
+       "citation": [],
+       "text": "news bias"
+      }
+     ],
+     "term": "Media Bias"
+    },
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "The perception that neutral news is biased against one's side."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "citation": [],
+       "text": "media bias"
+      }
+     ],
+     "synonyms": [],
+     "term": "Hostile Media Effect (HME)"
+    },
+    {
+     "definitions": [
+      {
+       "citation": [
+        "Author C 1993"
+       ],
+       "text": "Selecting some aspects of a perceived reality."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [
+      {
+       "citation": [],
+       "text": "agenda setting"
+      }
+     ],
+     "subtypes": [
+      {
+       "citation": [],
+       "text": "episodic framing"
+      }
+     ],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "framing (communication)"
+    }
+   ],
+   "metadata": {
+    "doi": "10.0000/mini.1",
+    "title": "A synthetic seed paper"
+   },
+   "paper_id": "seed-1"
+  },
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "A closed space where beliefs are amplified."
+      }
+     ],
+     "description": [
+      {
+       "citation": [],
+       "text": "A closed space where beliefs are amplified."
+      }
+     ],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "the echo chambers"
+    },
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "Removing items before publication."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "ﬁltering"
+    }
+   ],
+   "metadata": {
+    "title": "Another synthetic seed paper"
+   },
+   "paper_id": "seed-2"
+  },
+  {
+   "definition_records": [],
+   "metadata": {},
+   "paper_id": "seed-3"
+  }
+ ],
+ "pick": {
+  "config": "mini/P20"
+ }
+}

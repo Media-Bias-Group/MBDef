@@ -1,0 +1,127 @@
+{
+ "path": "ensemble",
+ "method": "ensemble: classifier + basal + judge | stack C=0.01, reference-scale ranks (option a)",
+ "cut": 0.5431012608056414,
+ "target_recall": 0.95,
+ "cut_from": "train + dev out-of-fold scores on the reference scale (frozen v2 weights)",
+ "best_f1_cut": 0.5431012608056414,
+ "weights": {
+  "classifier": 0.9716315287095013,
+  "basal": 0.8140409187227917,
+  "judge": 0.6333195634974967
+ },
+ "score": "sum_m w_m r_m / sum_m |w_m|, r_m = (#{ref < x} + 0.5 #{ref = x}) / n_ref",
+ "inputs": {
+  "classifier": {
+   "column": "score",
+   "sha256": "472748593ef3f4b2b05d53e7419d445783e890578301576e5e5f81bfb03f53bc",
+   "rows": 500
+  },
+  "basal": {
+   "column": "score",
+   "sha256": "183700de823946c30623ab57b2c12b4ada490699bbc4568b6a6b85f2a4ad6b57",
+   "rows": 500
+  },
+  "judge": {
+   "column": "score",
+   "sha256": "6ad3efd45d9d3e8f13b96dace871292dc00ca0afb9a23f3c12aaf86e9334a2b5",
+   "rows": 500
+  }
+ },
+ "counts": {
+  "terms": 500,
+  "kept": 388,
+  "excluded": 112,
+  "seeds": {
+   "terms": 191,
+   "kept": 150
+  },
+  "closure": {
+   "terms": 309,
+   "kept": 238
+  },
+  "label_groups": {
+   "groups": 300,
+   "all_kept": 193,
+   "all_dropped": 25,
+   "split": 82
+  },
+  "definitions": {
+   "total": 1007,
+   "kept": 776
+  },
+  "papers": {
+   "total": 90,
+   "kept": 89
+  }
+ },
+ "comparison": {
+  "(a) reference ranks, 95%-recall cut": {
+   "terms": 388,
+   "terms_share": 0.776,
+   "definitions": 776,
+   "definitions_share": 0.7706057596822244,
+   "papers": 89,
+   "of": {
+    "terms": 500,
+    "definitions": 1007,
+    "papers": 90
+   }
+  },
+  "(a) reference ranks, best-F1 cut": {
+   "terms": 388,
+   "terms_share": 0.776,
+   "definitions": 776,
+   "definitions_share": 0.7706057596822244,
+   "papers": 89,
+   "of": {
+    "terms": 500,
+    "definitions": 1007,
+    "papers": 90
+   }
+  },
+  "(b) within-corpus ranks, frozen 95%-recall cut": {
+   "terms": 238,
+   "terms_share": 0.476,
+   "definitions": 487,
+   "definitions_share": 0.48361469712015887,
+   "papers": 83,
+   "of": {
+    "terms": 500,
+    "definitions": 1007,
+    "papers": 90
+   }
+  },
+  "(b) within-corpus ranks, frozen best-F1 cut": {
+   "terms": 241,
+   "terms_share": 0.482,
+   "definitions": 492,
+   "definitions_share": 0.4885799404170804,
+   "papers": 84,
+   "of": {
+    "terms": 500,
+    "definitions": 1007,
+    "papers": 90
+   }
+  },
+  "classifier alone (its frozen decisions, cut 0.1848)": {
+   "terms": 452,
+   "terms_share": 0.904,
+   "definitions": 906,
+   "definitions_share": 0.8997020854021847,
+   "papers": 89,
+   "of": {
+    "terms": 500,
+    "definitions": 1007,
+    "papers": 90
+   }
+  }
+ },
+ "sanity": {
+  "rule": "the share of corpus terms (a) keeps at its 95%-recall cut must lie in [0.70, 1.00]; otherwise no decisions file",
+  "share_a": 0.776,
+  "share_classifier": 0.904,
+  "passed": true
+ },
+ "nli": null
+}

@@ -1,0 +1,19 @@
+{
+ "added_cross_arm_pools": {
+  "AB-minimal-8k16k32k": "arms A + B merged per paper and per stage with src.extractor.merge: the minimal prompt on 8,000/1,000 + 16,000/2,000 + 32,000/4,000-character windows (the owner's triple-input pipeline)",
+  "ABC-all": "arms A + B + C merged",
+  "AC-minimal8k-gepa16k32k": "arms A + C merged"
+ },
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "authorization": "Owner in chat 2026-09-25: consider a triple-input pipeline (8k, 16k and 32k windows combined, then verifier/filter); ensure no technical or silent errors; fair comparison.",
+ "created_utc": "2026-09-25T05:15:03.005554+00:00",
+ "cross_arm_scope": "per model x single format x stage (combined, verified-self, verified-qwen, filtered-*, filtered-*-noverify, and -qv variants for Gemma); also for the chat8192+schema8192 and three-format pools of each arm when all parts exist. LLM calls = sum of the parts.",
+ "equivalence_note": "Merging stage outputs equals running the verifier on the merged list under the strict any-window-yes policy only up to verifier batching; the filter is applied per record before the merge. This is the same merge-after-stage method used for QWEN-POOL3 and is recorded as such.",
+ "pick_rule": "unchanged from plan-amendment-1 (DEV only; fewest LLM calls among >=80% DEV recall and >=15% precision; ties within 10% calls go to higher DEV precision); cross-arm pools are eligible candidates.",
+ "quality_gate": "Before any score is published, an independent audit checks every cohort: captured requests == server POSTs, all HTTP 200, finish_reason=length counts, parse failures and fallbacks, empty windows/papers, context-length refusals or truncated inputs, identical inputs/prompts/decoding across models, thinking actually off, verifier missing verdicts. Configs with an unexplained defect are marked and excluded from the pick; the audit is reported with the results.",
+ "schema": "controlled-model-grid-amendment-v2",
+ "status_at_amendment": "No DEV or TEST score of any grid cohort has been computed."
+}

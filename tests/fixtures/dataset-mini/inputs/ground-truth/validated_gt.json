@@ -1,0 +1,768 @@
+{
+ "schema_version": 1,
+ "dataset_id": "mini",
+ "paper_count": 8,
+ "papers": [
+  {
+   "paper_id": "0000000000000000000000000000000000000000",
+   "split": "train",
+   "metadata": {
+    "title": "Ground-truth paper 0",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2010,
+    "doi": "",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 0.0",
+     "definitions": [
+      {
+       "text": "Relevant term 0.0 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [
+      {
+       "text": "partisan media",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": [
+      {
+       "text": "news bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "term": "relevant term 0.1",
+     "definitions": [
+      {
+       "text": "Relevant term 0.1 is the tendency of the press to report the facts of political events in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [
+      {
+       "text": "media bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [],
+     "examples": [
+      {
+       "text": "coverage bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "term": "relevant term 0.2",
+     "definitions": [
+      {
+       "text": "Relevant term 0.2 is the tendency of the press to report the facts of election campaigns in one light.",
+       "citation": "[12]"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 0.3",
+     "definitions": [
+      {
+       "text": "Relevant term 0.3 is the tendency of the press to report the facts of election campaigns in one light.",
+       "citation": "McCombs and Shaw, 1972"
+      }
+     ],
+     "description": [],
+     "synonyms": [
+      {
+       "text": "hoaxes",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "related_terms": [
+      {
+       "text": "media bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000001",
+   "split": "train",
+   "metadata": {
+    "title": "Ground-truth paper 1",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2011,
+    "doi": "https://doi.org/10.3000/GT.1",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 1.0",
+     "definitions": [
+      {
+       "text": "Relevant term 1.0 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [
+      {
+       "text": "Partisan Media",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "junk news",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": [
+      {
+       "text": "news bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "term": "relevant term 1.1",
+     "definitions": [
+      {
+       "text": "Relevant term 1.1 is the tendency of the press to report the facts of scientific findings in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000002",
+   "split": "dev",
+   "metadata": {
+    "title": "Ground-truth paper 2",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": null,
+    "doi": "https://doi.org/10.3000/GT.2",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 2.0",
+     "definitions": [
+      {
+       "text": "Relevant term 2.0 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "Partisan Media",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": []
+    },
+    {
+     "term": "relevant term 2.1",
+     "definitions": [
+      {
+       "text": "Relevant term 2.1 is the tendency of the press to report the facts of scientific findings in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [
+      {
+       "text": "slant",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "related_terms": [],
+     "subtypes": [
+      {
+       "text": "misinformation",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 2.2",
+     "definitions": [
+      {
+       "text": "Relevant term 2.2 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "[12]"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "agenda setting",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": []
+    },
+    {
+     "term": "relevant term 2.3",
+     "definitions": [
+      {
+       "text": "Relevant term 2.3 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "McCombs and Shaw, 1972"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000003",
+   "split": "dev",
+   "metadata": {
+    "title": "Ground-truth paper 3",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2013,
+    "doi": "",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 3.0",
+     "definitions": [
+      {
+       "text": "Relevant term 3.0 is the tendency of the press to report the facts of political events in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 3.1",
+     "definitions": [
+      {
+       "text": "Relevant term 3.1 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [
+      {
+       "text": "frames",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000004",
+   "split": "original_test",
+   "metadata": {
+    "title": "Ground-truth paper 4",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2014,
+    "doi": "https://doi.org/10.3000/GT.4",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 4.0",
+     "definitions": [
+      {
+       "text": "Relevant term 4.0 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [
+      {
+       "text": "coverage bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 4.1",
+     "definitions": [
+      {
+       "text": "Relevant term 4.1 is the tendency of the press to report the facts of political events in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [
+      {
+       "text": "disinformation campaigns",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [
+      {
+       "text": "agenda setting",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 4.2",
+     "definitions": [
+      {
+       "text": "Relevant term 4.2 is the tendency of the press to report the facts of scientific findings in one light.",
+       "citation": "[12]"
+      }
+     ],
+     "description": [
+      {
+       "text": "Misinformation",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [
+      {
+       "text": "misinformation",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 4.3",
+     "definitions": [
+      {
+       "text": "Relevant term 4.3 is the tendency of the press to report the facts of scientific findings in one light.",
+       "citation": "McCombs and Shaw, 1972"
+      }
+     ],
+     "description": [
+      {
+       "text": "news bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "synonyms": [
+      {
+       "text": "rumour",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "hoaxes",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000005",
+   "split": "new_test",
+   "metadata": {
+    "title": "Ground-truth paper 5",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2015,
+    "doi": "https://doi.org/10.3000/GT.5",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 5.0",
+     "definitions": [
+      {
+       "text": "Relevant term 5.0 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [
+      {
+       "text": "news bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "related_terms": [],
+     "subtypes": [
+      {
+       "text": "frames",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [],
+     "examples": [
+      {
+       "text": "agenda setting",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "term": "relevant term 5.1",
+     "definitions": [
+      {
+       "text": "Relevant term 5.1 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": [
+      {
+       "text": "disinformation campaign",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "term": "relevant term 5.2",
+     "definitions": [
+      {
+       "text": "Relevant term 5.2 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "[12]"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "false news",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000006",
+   "split": "train",
+   "metadata": {
+    "title": "Ground-truth paper 6",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2016,
+    "doi": "",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 6.0",
+     "definitions": [
+      {
+       "text": "Relevant term 6.0 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    },
+    {
+     "term": "relevant term 6.1",
+     "definitions": [
+      {
+       "text": "Relevant term 6.1 is the tendency of the press to report the facts of political events in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [
+      {
+       "text": "propaganda",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "examples": []
+    }
+   ]
+  },
+  {
+   "paper_id": "0000000000000000000000000000000000000007",
+   "split": "dev",
+   "metadata": {
+    "title": "Ground-truth paper 7",
+    "authors": [
+     "A. Author"
+    ],
+    "publication_year": 2017,
+    "doi": "https://doi.org/10.3000/GT.7",
+    "venue": "Synthetic Venue"
+   },
+   "definition_records": [
+    {
+     "term": "relevant term 7.0",
+     "definitions": [
+      {
+       "text": "Relevant term 7.0 is the tendency of the press to report the facts of public issues in one light.",
+       "citation": "Entman, 1993"
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [
+      {
+       "text": "frames",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": []
+    },
+    {
+     "term": "relevant term 7.1",
+     "definitions": [
+      {
+       "text": "Relevant term 7.1 is the tendency of the press to report the facts of minority groups in one light.",
+       "citation": "Allcott and Gentzkow, 2017"
+      },
+      {
+       "text": "   ",
+       "citation": []
+      }
+     ],
+     "description": [],
+     "synonyms": [],
+     "related_terms": [
+      {
+       "text": "rumour",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "subtypes": [
+      {
+       "text": "rumour",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "supertypes": [
+      {
+       "text": "media bias",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ],
+     "examples": [
+      {
+       "text": "partisan media",
+       "citation": [
+        "[1]",
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

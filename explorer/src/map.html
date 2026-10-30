@@ -1,0 +1,37 @@
+  <section class="view" id="v-map" hidden>
+    <div class="mapstage" id="mapbox">
+      <canvas id="mapcanvas" tabindex="0" aria-label="3D map of every term mention: dots close together have similar definitions; colours are topics. Use Find a label in the map controls to reach a term by name."></canvas>
+      <div class="maplabels" id="maplabels"></div>
+      <div class="maptip" id="maptip" hidden></div>
+      <div class="mpanel mrail" id="maprail" role="region" aria-label="Map controls">
+        <div class="mr-head"><span class="eyebrow">The map</span><span class="mr-count" id="map-count"></span></div>
+        <div class="mr-find">
+          <input type="search" id="map-q" placeholder="Find a label" aria-label="Find a label on the map" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="map-sugg" aria-autocomplete="list">
+          <button class="mbtn icon" id="map-home" type="button" title="Reset: the opening view, every topic, no search (R)" aria-label="Reset the map"></button>
+          <button class="mbtn icon" id="map-rail-tog" type="button" aria-expanded="true" aria-controls="map-rail-c1 map-rail-c2" title="Show or hide the map controls (C)" aria-label="Map controls"></button>
+        </div>
+        <ul class="msugg" id="map-sugg" role="listbox" aria-label="concepts with this label" hidden></ul>
+        <div class="mr-qn" id="map-qn" aria-live="polite"></div>
+        <div class="mr-c mr-colour" id="map-rail-c1"><span class="lbl">Colour</span><span id="seg-color"></span><span id="seg-score"></span></div>
+        <div class="mlegend" id="map-legend"></div>
+        <div class="mr-c" id="map-rail-c2">
+          <div class="mrow"><span class="lbl">View</span><span id="seg-dim"></span>
+            <button class="mbtn" id="map-spin" type="button" aria-pressed="false" title="Turn the map slowly around its centre">Turn</button>
+            <button class="mbtn" id="map-names" type="button" aria-pressed="true" title="Topic names on the map (N)">Names</button></div>
+          <div class="mrow"><span class="lbl">Dots</span><input type="range" id="map-size" min="0.4" max="3" step="0.1" value="1" aria-label="dot size"><output class="mono" id="map-sizeo" for="map-size">1.0×</output></div>
+        </div>
+      </div>
+      <details class="mpanel mtopics" id="maptopics" open>
+        <summary>Topics <span class="mono" id="map-tsum"></span></summary>
+        <div class="mt-b">
+          <input type="search" id="map-tq" placeholder="Filter topics" aria-label="Filter the topics by their concepts" autocomplete="off" spellcheck="false">
+          <div class="tlist" id="map-tlist" role="group" aria-label="topics"></div>
+          <p class="small muted" id="map-tnone" hidden>No topic has this among its largest concepts.</p>
+          <div class="mt-foot"><button class="mbtn" id="map-tall" type="button" disabled>Show all</button><button class="mbtn" id="map-tfly" type="button" disabled>Fly there</button></div>
+        </div>
+      </details>
+      <div class="mapload" id="mapload"><p>Loading the 3D view (three.js from cdn.jsdelivr.net)…</p></div>
+      <div class="maphint" id="maphint"></div>
+    </div>
+    <div class="xps" id="map-explain"></div>
+  </section>

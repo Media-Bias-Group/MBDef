@@ -1,0 +1,358 @@
+{
+  "amendment": "results/training-20260925/plan-amendment-1.json",
+  "amendment_sha256": "5374c7ae4b7c9776c6f2cec5f1ec4fc4919d0c89d913e57df9fbdefab9ba428c",
+  "client": {
+    "max_inflight_per_run": 128,
+    "threads": 128,
+    "window_workers": 256
+  },
+  "created_utc": "2026-09-25T07:02:24.622973+00:00",
+  "data": {
+    "example_order": "src/experiment.py: paper examples of TRAIN+DEV in GT order, random.Random(9).shuffle, then split by 'train'/'dev'",
+    "test_guard": "no TEST TEI is staged; any TEST paper ID in data, examples, metric calls or program hand-off aborts the process (exit 97)",
+    "trainset": "all 80 TRAIN papers",
+    "valset": "the 21 DEV papers"
+  },
+  "dataset_sha256": "237803dd4de365fd4fe85f9ed3bdb2a35841eaf9701802e16262a7de04940bcd",
+  "deadline_utc": "2026-09-26T16:00:00+00:00",
+  "decoding": {
+    "context_fit": "max_tokens lowered only if prompt + 32,768 > 65,536 (recorded per request)",
+    "dspy_cache": "private per run (node-local), enabled as in the historical runs",
+    "enable_thinking": true,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": true
+      }
+    },
+    "generation_config": "auto",
+    "max_tokens": 32768,
+    "num_retries": "DSPy default (3), as in the historical runs",
+    "seed": 9,
+    "server_context": 65536,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+  },
+  "metric": "M3-full-v1 per paper: src.full_record_metric.score(gold, raw_definition_records, 0.5, allow_partial=False)['score']; 0 on output_error (as src.experiment.optimization_objective)",
+  "model_calls": 0,
+  "models": {
+    "gemma12b": {
+      "fallback": {
+        "servers": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "tensor_parallel_size": 1
+      },
+      "hf": "gemma_hf",
+      "model": "google/gemma-4-12B-it-qat-w4a16-ct",
+      "precision": "QAT w4a16 (compressed-tensors)",
+      "reasoning_parser": "gemma4",
+      "revision": "1d2c2d7f2466070e69d6fb3fd5ce9a7d75f2f6ee",
+      "serve": {
+        "data_parallel_size": 4,
+        "gpu_memory_utilization": 0.82,
+        "max_num_batched_tokens": 16384,
+        "max_num_seqs": 512,
+        "tensor_parallel_size": 1
+      }
+    },
+    "qwen": {
+      "fallback": {
+        "servers": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "tensor_parallel_size": 2
+      },
+      "hf": "qwen_hf",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "precision": "BF16",
+      "reasoning_parser": "qwen3",
+      "revision": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+      "serve": {
+        "data_parallel_size": 2,
+        "gpu_memory_utilization": 0.82,
+        "max_num_batched_tokens": 16384,
+        "max_num_seqs": 512,
+        "tensor_parallel_size": 2
+      }
+    }
+  },
+  "optimizers": {
+    "bootstrap": {
+      "class": "dspy.BootstrapFewShot",
+      "compile": {
+        "trainset": "TRAIN (80)"
+      },
+      "max_bootstrapped_demos": 1,
+      "max_labeled_demos": 0
+    },
+    "gepa": {
+      "class": "dspy.GEPA",
+      "compile": {
+        "trainset": "TRAIN (80)",
+        "valset": "DEV (21)"
+      },
+      "log_dir": "<run>/gepa-score-only-search (GEPA's resumable state)",
+      "max_metric_calls": 300,
+      "num_threads": 128,
+      "reflection_lm": "same LM, thinking on, no sampling overrides",
+      "seed": 9,
+      "track_stats": true,
+      "variant": "gepa-score-only (src.gepa_feedback.metric(0.5, detailed=False))"
+    },
+    "mipro": {
+      "auto": "light",
+      "class": "dspy.MIPROv2",
+      "compile": {
+        "data_aware_proposer": false,
+        "minibatch": false,
+        "num_trials": null,
+        "seed": 9,
+        "trainset": "TRAIN (80)",
+        "valset": "DEV (21)",
+        "view_data_batch_size": 1
+      },
+      "log_dir": "<run>/mipro-log (+ per-trial program checkpoints)",
+      "max_bootstrapped_demos": 1,
+      "max_labeled_demos": 0,
+      "num_candidates": null,
+      "num_threads": 128,
+      "seed": 9
+    }
+  },
+  "plan": "results/training-20260925/plan.json",
+  "plan_sha256": "78e4cdc775a1003e3cc71c2f38afc84dd763c75e3cbf68301c81f25ac094b4e0",
+  "runs": [
+    {
+      "model": "qwen",
+      "optimizer": "bootstrap",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/bootstrap/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/bootstrap/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "bootstrap",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/bootstrap/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/bootstrap/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "bootstrap",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/bootstrap/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/bootstrap/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "mipro",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/mipro/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/mipro/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "mipro",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/mipro/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/mipro/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "mipro",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/mipro/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/mipro/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "gepa",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/gepa/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/gepa/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "gepa",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/gepa/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/gepa/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "qwen",
+      "optimizer": "gepa",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/qwen/gepa/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/qwen/gepa/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "bootstrap",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/bootstrap/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/bootstrap/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "bootstrap",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/bootstrap/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/bootstrap/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "bootstrap",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/bootstrap/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/bootstrap/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "mipro",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/mipro/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/mipro/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "mipro",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/mipro/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/mipro/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "mipro",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/mipro/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/mipro/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "gepa",
+      "overlap_chars": 1000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/gepa/w8k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/gepa/w8k",
+      "window": "w8k",
+      "window_chars": 8000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "gepa",
+      "overlap_chars": 2000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/gepa/w16k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/gepa/w16k",
+      "window": "w16k",
+      "window_chars": 16000
+    },
+    {
+      "model": "gemma12b",
+      "optimizer": "gepa",
+      "overlap_chars": 4000,
+      "programs_dir": "/home/nimtsspi/taxonomy/training-20260925/programs/gemma12b/gepa/w32k",
+      "run_dir": "/home/nimtsspi/taxonomy/training-20260925/runs/gemma12b/gepa/w32k",
+      "window": "w32k",
+      "window_chars": 32000
+    }
+  ],
+  "schema": "training-20260925-job-plan/2",
+  "source_sha256": {
+    "scripts/training_20260925_runner.py": "c45c22d05288cbae29a2f5cd30d8e4af6c9f980b4a19e764e53740b47b150f6e",
+    "src/config.py": "8a56f2a9041009594566432f5f183c7758a3b7cc0171c0a13346fd79bb927d11",
+    "src/data.py": "5e9638530e3dfe93432111aee42221b3dc910da4f761c3ff4ae3e7531e2fb990",
+    "src/extractor.py": "e0a3df35d934bdf590e58a96fdef25144b228f73a6f8fa2de761ef0390201ad4",
+    "src/full_record_metric.py": "8f4a92f2f3cef3005e3b24f9f69e81fab5789f57e8efdd153e3e0d66f3169720",
+    "src/gepa_feedback.py": "13954d13e2127630da3b05856a3143758949a873f6a07a75e826f4c2e5864172",
+    "src/matching.py": "77732614f8165b5f27598556d616a07f18ef5ea69596874f8a17929b954e446e",
+    "src/metrics.py": "6916e7ba063afa86251f91c081c3d0f1cb46a3c0a6b3cd8d03be0be3bd25ab83",
+    "src/paper_extractor.py": "1af4c52550b88f62b91ed0e2d70353919c7c6accd873db83dc541e5105b88679",
+    "src/schema.py": "8dcf0d88ecf86799904b797b1bb310c4762d9fca6989863cd6491a2c731c2b52",
+    "src/shared.py": "6784600568ff4dab53b05a943c4e06359d93e79752a47dcc232a370436e73970",
+    "src/usage.py": "88e7161581b9493fe4f416e3df6872f318562457648c8265800ab030793024ce"
+  },
+  "split_sha256": "26c76170a0ddf9acb72525802c08bdfa9eea67f6e0dc1edf465a8db9a65fdccc",
+  "stop_policy": {
+    "best_program": "the optimizer's own choice by its valset score (GEPA best val aggregate, MIPRO best full-eval trial); after a hard stop the same rule is applied to the saved GEPA state / MIPRO trial log. TEST is never used.",
+    "hard_stop_minutes_before_deadline": 12,
+    "soft_stop_minutes_before_deadline": 75,
+    "walltime_pause_minutes_before_end": 20
+  },
+  "student": {
+    "adapter": "DSPy default (dspy.ChatAdapter, automatic JSONAdapter fallback); none configured",
+    "program": "src.paper_extractor.PaperExtractor(relevant_only=True) (historical --scope relevant)",
+    "reasoning_field": "dspy.ChainOfThought text 'reasoning' field (str); API reasoning_content kept in receipts only, never parsed or fed back",
+    "window_execution": "windows of one paper run concurrently; outputs, merge order and DSPy trace order identical to the sequential forward (verified offline)"
+  },
+  "windows": {
+    "w16k": [
+      16000,
+      2000
+    ],
+    "w32k": [
+      32000,
+      4000
+    ],
+    "w8k": [
+      8000,
+      1000
+    ]
+  },
+  "zib": {
+    "code": "/home/nimtsspi/taxonomy/training-20260925/code",
+    "gemma_hf": "/home/nimtsspi/taxonomy/test-eval-20260924/gemma/hf-cache",
+    "metric_hf": "/home/nimtsspi/taxonomy/qwen-two-checks-20260924/hf-cache (BGE a5beb1e, ModernBERT-NLI ca476cb)",
+    "qwen_hf": "/home/nimtsspi/taxonomy/qwen-two-checks-20260924/hf-cache",
+    "root": "/home/nimtsspi/taxonomy/training-20260925",
+    "runtime": "/scratch/usr/nimtsspi/biasdef130/repo/.venv-zib",
+    "teis": "/home/nimtsspi/taxonomy/training-20260925/inputs/teis"
+  }
+}

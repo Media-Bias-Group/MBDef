@@ -1,0 +1,106 @@
+[project]
+name = "mbdef"
+version = "1.0.0"
+description = "The pipeline behind MBDef and MBDef-Gold, datasets of media bias definitions quoted from the scientific literature."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+# Tested with Python 3.14 only; a newer Python runs with a warning (mbdef/__init__.py).
+requires-python = ">=3.14"
+dependencies = [
+  "curl-cffi>=0.16.3,<1",
+  # 3.4 brought the engine interface the LM layer is built on (llm.py). 3.5 has not been tried with it, so the bound stays (docs/setup/toolchain.md).
+  "dspy[optuna]>=3.4.1,<3.5",
+  # Step 5's judge: its neighbour search must give the recorded cosines to the last bit (postprocess/judge.py)
+  "faiss-cpu>=1.15.1,<1.16",
+  # `mbdef cluster download` (docs/setup/cluster.md); it came only through transformers before.
+  "huggingface-hub>=1.33",
+  # The relevance step renders its prompt templates with Jinja, as the recorded runs did (relevance/prompts/)
+  "jinja2>=3.1.6,<4",
+  # Step 5's judge checks each answer against its JSON schema, as the recorded runs did
+  "jsonschema>=4.26,<5",
+  # The agreement numbers (`evaluate agreement`) cross-check their alpha with this package; agreement.json records its version.
+  "krippendorff>=0.9.0",
+  # Match Torch cu130 headers; newer nvcc/CRT break FlashInfer JIT compilation.
+  "nvidia-cuda-crt>=13.0,<13.1",
+  "nvidia-cuda-nvcc>=13.0,<13.1",
+  "nvidia-nvvm>=13.0,<13.1",
+  "numpy>=2.4.6",
+  # `mbdef dataset` (docs/dataset/dataset.md): a parquet file records the version of the polars that wrote it, so the byte-for-byte rebuild of the released tables needs exactly this one; pyarrow reads them back for the JSON copy.
+  "polars==2.0.0",
+  "pyarrow>=26.0.0",
+  "pyyaml>=6.0.3,<7",
+  "scikit-learn>=1.9.1",
+  "scipy>=1.18.1",
+  "torch>=2.13.0",
+  "transformers>=5.19.0",
+  # vLLM refuses Python 3.15 and newer; there, the commands that run a model in-process (`embed build`) stop with a message, and a model server can run in its own Python 3.14 environment.
+  "vllm>=0.32.0; python_version < '3.15'",
+]
+
+[project.scripts]
+mbdef = "mbdef.cli:main"
+
+[project.optional-dependencies]
+# Analysis packages that only some steps use: the figures of `evaluate agreement` and the Explorer's map (`explorer data`). The dev group has them too, so `uv sync` installs them.
+analysis = [
+    "matplotlib>=3.11.2",
+    "umap-learn>=0.5.12",
+]
+# The tutorials' notebooks and their analyses (tutorials/README.md, src/mbdef/analysis/): `uv sync --extra tutorials`.
+tutorials = [
+    "ipykernel>=7.4",
+    "ipywidgets>=8",
+    "jupyterlab>=4.6",
+    "langdetect==1.0.9",
+    "matplotlib>=3.11.2",
+    "sentence-transformers>=6.2",
+    "wordfreq>=3.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mbdef"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/pyproject.toml", "/uv.lock", "/README.md", "/.env.example"]
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.11.2",
+    "umap-learn>=0.5.12",
+    # The tests, the checks of .pre-commit-config.yaml, ruff and ty, at the versions in uv.lock (docs/setup/toolchain.md).
+    "prek>=0.5.7",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+    "ty>=0.0.90",
+]
+
+[tool.pytest.ini_options]
+markers = [
+  "slow: needs a GPU, model weights or the data root; run by hand; the fast test set deselects it with -m 'not slow'",
+  "gpu: runs a model on a CUDA GPU (always also slow); on a shared machine take a lock first (flock)",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[[tool.ty.overrides]]
+# The GPU encoders in embed.py and the scoring models in evaluate/metric.py import torch, transformers and vllm only when called, and `cluster download` imports huggingface_hub the same way; so do Step 5's GPU scorers. An environment without the GPU packages has none of them but transformers (for the verifier's tokenizer), so the "ty: ignore" comments there are used in such an environment and unused with the full one (where transformers' types say a tokenizer may be None); both must pass.
+include = [
+  "src/mbdef/embed.py",
+  "src/mbdef/cluster.py",
+  "src/mbdef/evaluate/metric.py",
+  "src/mbdef/postprocess/nli_fast.py",
+]
+rules = { unused-ignore-comment = "ignore" }
+
+[tool.uv]
+environments = [
+  "sys_platform == 'linux' and platform_machine == 'x86_64'",
+  "sys_platform == 'linux' and platform_machine == 'aarch64'",
+]

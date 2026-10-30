@@ -1,0 +1,30 @@
+{
+ "cut": 0.3,
+ "best_f1_cut": 0.6,
+ "counts": {
+  "terms": 97,
+  "kept": 69,
+  "excluded": 28,
+  "seeds": {
+   "terms": 39,
+   "kept": 28
+  },
+  "closure": {
+   "terms": 58,
+   "kept": 41
+  },
+  "definitions": {
+   "total": 188,
+   "kept": 134
+  },
+  "papers": {
+   "total": 37,
+   "kept": 32
+  }
+ },
+ "comparison": {
+  "(a) reference ranks, best-F1 cut": {
+   "terms": 45
+  }
+ }
+}

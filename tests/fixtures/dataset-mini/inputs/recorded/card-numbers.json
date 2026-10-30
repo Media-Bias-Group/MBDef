@@ -1,0 +1,66 @@
+{
+ "test": {
+  "records": 20,
+  "relevant": 9,
+  "papers": 4,
+  "comparisons": 12,
+  "reads": 3,
+  "ensemble": {
+   "auc": 0.91,
+   "auc_ci95": [
+    0.85,
+    0.96
+   ],
+   "kept": 10,
+   "precision": 0.7,
+   "recall": 0.78,
+   "f1": 0.74,
+   "mcc": 0.5
+  },
+  "classifier": {
+   "auc": 0.9,
+   "auc_ci95": [
+    0.84,
+    0.95
+   ],
+   "kept": 12,
+   "precision": 0.6,
+   "recall": 0.8,
+   "f1": 0.69,
+   "mcc": 0.4
+  },
+  "difference": {
+   "auc": 0.01,
+   "auc_ci95": [
+    0.001,
+    0.02
+   ],
+   "precision": 0.1,
+   "precision_ci95": [
+    0.01,
+    0.2
+   ]
+  }
+ },
+ "train_dev": {
+  "cut_95": 0.3,
+  "best_f1_cut": 0.6,
+  "reference_ranks_auc": 0.92,
+  "within_batch_auc": 0.91,
+  "at_cut_95": {
+   "recall": 0.95,
+   "precision": 0.6,
+   "kept_share": 0.65
+  },
+  "at_best_f1": {
+   "recall": 0.8,
+   "precision": 0.8,
+   "kept_share": 0.4
+  }
+ },
+ "merge_audit": {
+  "missed_pairs": 2,
+  "missed_kept_terms": 3,
+  "word_order_heads_differ": 4
+ }
+}

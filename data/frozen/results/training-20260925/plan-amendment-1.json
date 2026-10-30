@@ -1,0 +1,16 @@
+{
+ "amends_plan_sha256": "78e4cdc775a1003e3cc71c2f38afc84dd763c75e3cbf68301c81f25ac094b4e0",
+ "caching": "private per-run DSPy response cache during optimization (as historically); evaluations of finished programs remain fresh generations with the response cache off",
+ "created_utc": "2026-09-25T06:32:10.427811+00:00",
+ "data_split_replaced": {
+  "optimizer_train": "all 80 TRAIN papers (as historically)",
+  "optimizer_validation": "the 21 DEV papers (valset=dev, as historically)",
+  "test": "29 TEST papers: never loaded by any optimizer process (hard guard); used for the final pick"
+ },
+ "owner_decisions": "Owner in chat 2026-09-25: keep the historical data split so past comparisons stay comparable; optimize on DEV and pick on TEST; response caching during training is fine; DSPy defaults; keep DSPy's default handling of the API reasoning field; scale vLLM continuous batching to hundreds of parallel requests.",
+ "reasoning_handling": "DSPy default: the extractor is dspy.ChainOfThought with its written text 'reasoning' field (type str); the API's native reasoning_content is kept in logs but not parsed or fed back (no dspy.Reasoning field).",
+ "schema": "thinking-training-amendment-v1",
+ "serving_concurrency": "max-num-seqs 512 per engine and hundreds of in-flight client requests per server (vLLM continuous batching), subject to KV-cache capacity at 65,536 context",
+ "status": "No optimizer run has been submitted.",
+ "unchanged": "models, thinking-on decoding, optimizers and budgets, windows, metric, deadline 2026-09-26 16:00 UTC, parity check"
+}

@@ -1,0 +1,9 @@
+corpus_id,paperid,title,abstract,doi
+doi_10.1000_agree,doi_10.1000_agree,Framing of migration in national newspapers,We compare how four newspapers frame migration and find a consistent slant.,10.1000/agree
+hash_shared_a,hash_shared,Soil chemistry of alpine meadows,We measure nitrogen in alpine soils over three summers.,
+doi_10.1000_tie,doi_10.1000_tie,Spreading false stories online,A review of how false information travels between platforms.,10.1000/tie
+hash_da39a3ee5e6b4b0d,hash_da39a3ee5e6b4b0d,,,
+doi_10.1000_unsure,doi_10.1000_unsure,Audience trust after corrections,Survey of readers after a newspaper printed a correction.,10.1000/unsure
+hash_shared_b,hash_shared,Partisan slant in evening television news,Coding of two networks' evening news for partisan tone.,
+doi_10.1000_neither,doi_10.1000_neither,A faster sorting network,We give a sorting network of smaller depth.,10.1000/neither
+doi_10.1000_unasked,doi_10.1000_unasked,Headline wording and clicks,An experiment with two headline wordings for the same story.,10.1000/unasked

@@ -1,0 +1,35 @@
+{
+ "adapter": "DSPy defaults during training (dspy.ChatAdapter with its default JSON fallback); trained programs are evaluated in chat-default-think and json-default-think",
+ "authorization": "Owner in chat 2026-09-25: re-train the open models' prompts with default thinking ON, maximize vLLM throughput (shared servers), launch asap.",
+ "caches": "a private DSPy cache per optimizer run during training only; every DEV/TEST evaluation of a trained program is a fresh generation with the response cache OFF (the historical mistake was evaluating on cached optimizer outputs).",
+ "created_utc": "2026-09-25T06:13:31.694015+00:00",
+ "data_split": {
+  "dev": "21 DEV papers: never seen by any optimizer; used only to choose among trained configs with the grid pick rule",
+  "optimizer_train": "60 of the 80 TRAIN papers",
+  "optimizer_validation": "the other 20 TRAIN papers (fixed split, seed 9, recorded by paper ID before any run)",
+  "test": "29 TEST papers: final acceptance check against Opus (>= 290 of 365), reported for every config"
+ },
+ "evaluation": "each finished program is evaluated like the grid (plan.json + amendments 1-4): DEV and TEST, formats chat-default-think and json-default-think, stages combined / verified (common Qwen verifier, thinking off) / filtered / noverify, arm pools (w16k+w32k, w8k+w16k+w32k); audited by the independent audit before scoring; one DEV-only pick across the whole grid + trained configs with the same rule.",
+ "metric": "M3-full-v1 per paper, unchanged from the historical optimizers",
+ "models": {
+  "gemma12b": "google/gemma-4-12B-it-qat-w4a16-ct@1d2c2d7",
+  "qwen": "Qwen/Qwen3.6-35B-A3B@995ad96, BF16"
+ },
+ "optimizers": {
+  "bootstrap": "dspy.BootstrapFewShot, max_bootstrapped_demos=1, max_labeled_demos=0 (historical defaults), starting from the hand-written instruction",
+  "gepa": "dspy.GEPA score-only, metric M3-full-v1 paper-level, reflection LM = the same model with thinking ON at its default sampling, valset = optimizer_validation, max_metric_calls 300 (half the historical 600 because thinking multiplies cost)",
+  "mipro": "dspy.MIPROv2 auto=light, max 1 bootstrapped demo, no labeled demos, no data-aware proposer (historical settings), valset = optimizer_validation"
+ },
+ "parity_check": "The audit publishes one table of reasoning mode, sampling, max tokens, adapter and windows for EVERY compared config, open and paid, and flags any difference between configs that are compared.",
+ "runs": "2 models x 3 optimizers x 3 window programs = 18 optimizer runs",
+ "schema": "thinking-training-plan-v1",
+ "serving": "one vLLM server per model spanning a whole 4-GPU node (Qwen: data-parallel 2 x tensor-parallel 2; Gemma: data-parallel 4), prefix caching on, high max-num-seqs; all optimizer runs of that model share the server with high client concurrency. Fallback if data-parallel serving fails its startup check: independent servers per GPU group with client-side round-robin.",
+ "student_decoding": "thinking ON exactly as plan-amendment-4 default-on (enable_thinking=true, model's own generation_config sampling, seed 9, 32,768 max_tokens, model reasoning parser)",
+ "time_limit": "all optimizer runs stop by 2026-09-26 16:00 UTC so that nodes are free for the Sunday corpus run; a run stopped by the deadline returns its best program by optimizer_validation score (never by DEV) and is labelled 'stopped at deadline'. Runs checkpoint so a 24 h walltime or node failure can resume.",
+ "why": "Every open-model prompt so far (Qwen GEPA, Gemma Bootstrap/MIPRO/GEPA, SOOFI) was optimized and evaluated with thinking disabled, while paid models used high reasoning. Prompts optimized without thinking may be wrong for thinking mode.",
+ "windows": {
+  "w16k": "16,000/2,000",
+  "w32k": "32,000/4,000 (w16k and w32k programs are combined as in arm C)",
+  "w8k": "8,000/1,000 characters (single sweep)"
+ }
+}

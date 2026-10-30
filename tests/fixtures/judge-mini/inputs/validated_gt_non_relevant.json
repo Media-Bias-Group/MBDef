@@ -1,0 +1,294 @@
+{
+ "papers": [
+  {
+   "paper_id": "t1",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 1: Sources sources partisan journalists."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t1-0",
+     "definitions": [
+      {
+       "text": "Selective salience choice coverage data journalists exposure media news."
+      }
+     ]
+    },
+    {
+     "term": "valid term t1-1",
+     "definitions": [
+      {
+       "text": "Salience persuasion frames salience selective bias sources model sources."
+      },
+      {
+       "text": "Coverage opinion agenda slant agenda reporting agenda frames editorial."
+      }
+     ]
+    },
+    {
+     "term": "valid term t1-2",
+     "definitions": [
+      {
+       "text": "Exposure salience bias selective partisan opinion sources public reporting."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "t2",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 2: Stereotypes news editorial stereotypes."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t2-0",
+     "definitions": [
+      {
+       "text": "Audiences trust stereotypes audiences frames bias model exposure exposure."
+      }
+     ]
+    },
+    {
+     "term": "valid term t2-1",
+     "definitions": [
+      {
+       "text": "Sources editorial stereotypes news model choice model frames exposure."
+      },
+      {
+       "text": "Frames partisan data sources audiences exposure frames agenda stereotypes."
+      }
+     ]
+    },
+    {
+     "term": "valid term t2-2",
+     "definitions": [
+      {
+       "text": "Media coverage editorial salience exposure reporting salience partisan data."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "t3",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 3: Media public frames agenda."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t3-0",
+     "definitions": [
+      {
+       "text": "Choice audiences stereotypes editorial persuasion sources bias opinion opinion."
+      }
+     ]
+    },
+    {
+     "term": "valid term t3-1",
+     "definitions": [
+      {
+       "text": "Model sources coverage coverage selective slant journalists agenda salience."
+      },
+      {
+       "text": "Data selective data reporting public trust stereotypes agenda model."
+      }
+     ]
+    },
+    {
+     "term": "valid term t3-2",
+     "definitions": [
+      {
+       "text": "Trust slant audiences model agenda public agenda audiences choice."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "t4",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 4: Partisan trust stereotypes trust."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t4-0",
+     "definitions": [
+      {
+       "text": "Audiences slant journalists model choice data news sources sources."
+      }
+     ]
+    },
+    {
+     "term": "valid term t4-1",
+     "definitions": [
+      {
+       "text": "Partisan agenda sources editorial salience frames opinion partisan news."
+      },
+      {
+       "text": "News sources frames exposure salience media journalists sources sources."
+      }
+     ]
+    },
+    {
+     "term": "valid term t4-2",
+     "definitions": [
+      {
+       "text": "Model exposure partisan exposure slant reporting model agenda bias."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "t5",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 5: Editorial sources editorial stereotypes."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t5-0",
+     "definitions": [
+      {
+       "text": "News selective choice reporting editorial reporting coverage bias editorial."
+      }
+     ]
+    },
+    {
+     "term": "valid term t5-1",
+     "definitions": [
+      {
+       "text": "Trust stereotypes editorial exposure editorial selective trust news audiences."
+      },
+      {
+       "text": "Partisan audiences data slant trust slant model coverage model."
+      }
+     ]
+    },
+    {
+     "term": "valid term t5-2",
+     "definitions": [
+      {
+       "text": "Coverage trust editorial journalists journalists salience sources exposure choice."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "t6",
+   "split": "train",
+   "metadata": {
+    "title": "Train paper 6: Coverage editorial agenda media."
+   },
+   "definition_records": [
+    {
+     "term": "valid term t6-0",
+     "definitions": [
+      {
+       "text": "Stereotypes public persuasion bias data reporting journalists model opinion."
+      }
+     ]
+    },
+    {
+     "term": "valid term t6-1",
+     "definitions": [
+      {
+       "text": "Frames reporting audiences news sources persuasion stereotypes editorial choice."
+      },
+      {
+       "text": "Journalists data editorial opinion bias choice agenda frames selective."
+      }
+     ]
+    },
+    {
+     "term": "valid term t6-2",
+     "definitions": [
+      {
+       "text": "Slant agenda coverage slant audiences public audiences choice frames."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "doi:10.1/d1",
+   "split": "dev",
+   "metadata": {
+    "title": "A dev paper on framing."
+   },
+   "definition_records": [
+    {
+     "term": "valid term doi:10.1/d1-0",
+     "definitions": [
+      {
+       "text": "Bias trust selective media agenda stereotypes editorial partisan data."
+      }
+     ]
+    },
+    {
+     "term": "valid term doi:10.1/d1-1",
+     "definitions": [
+      {
+       "text": "Slant sources choice editorial bias model data agenda bias."
+      },
+      {
+       "text": "Persuasion sources audiences salience choice persuasion public data persuasion."
+      }
+     ]
+    },
+    {
+     "term": "valid term doi:10.1/d1-2",
+     "definitions": [
+      {
+       "text": "Stereotypes stereotypes coverage model trust sources public frames opinion."
+      },
+      {
+       "text": "   "
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "paper_id": "x1",
+   "split": "original_test",
+   "metadata": {
+    "title": "A test paper, held out."
+   },
+   "definition_records": [
+    {
+     "term": "valid term x1-0",
+     "definitions": [
+      {
+       "text": "Selective agenda model bias bias model partisan model slant."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

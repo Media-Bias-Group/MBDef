@@ -1,0 +1,8 @@
+{
+  "model": "z-ai/glm-5.2",
+  "templates": [
+    "templates/relevance/few_shot_diverse.j2"
+  ],
+  "max_tokens": 2048,
+  "temperature": null
+}

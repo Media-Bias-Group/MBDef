@@ -1,0 +1,36 @@
+  <section class="view" id="v-relevance" hidden>
+    <div class="stage rl-stage" id="rl-stage">
+      <div class="rl-hero">
+        <span class="eyebrow">Relevance · three models, one score</span>
+        <h2 class="rl-title">Which mentions belong in MBDef</h2>
+        <p class="rl-line" id="rl-lede"></p>
+      </div>
+      <div class="stats rl-stats" id="rl-stats"></div>
+
+      <div class="rl-3dgrid">
+        <div class="rl-plotcol">
+          <div class="rl-ctls">
+            <div class="ctl"><span class="rl-lbl">Space</span><span id="rl3-space"></span></div>
+            <div class="ctl"><span class="rl-lbl">View</span><span id="rl3-view"></span></div>
+            <div class="ctl"><span class="rl-lbl">Colour</span><span id="rl3-color"></span>
+              <label class="small rl-chk"><input type="checkbox" id="rl3-plane" checked> cut plane</label>
+              <label class="small rl-chk"><input type="checkbox" id="rl3-strict" checked> strict plane</label></div>
+          </div>
+          <div class="rl-box" id="rl3-box">
+            <canvas id="rl3-canvas" aria-label="3D scatter of every MBDef mention by its three model ranks, with the cut and the strict cut drawn as planes; click a dot to explain it"></canvas>
+            <div class="rl-labels" id="rl3-labels" aria-hidden="true"></div>
+            <div class="rl-tip" id="rl3-tip" hidden></div>
+            <div class="rl-load" id="rl3-load"><p>Loading the 3D view (three.js from cdn.jsdelivr.net)…</p></div>
+            <div class="rl-legend" id="rl3-legend"></div>
+            <span class="rl-hint">drag to turn · scroll or pinch to zoom · click a dot</span>
+          </div>
+        </div>
+        <aside class="rl-aside">
+          <div class="rl-explain" id="rl3-explain" aria-live="polite"></div>
+          <p class="rl-cap" id="rl3-cap"></p>
+        </aside>
+      </div>
+    </div>
+
+    <div class="xps rl-xps" id="rl-xps"></div>
+  </section>

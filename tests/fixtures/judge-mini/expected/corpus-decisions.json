@@ -1,0 +1,136 @@
+{
+  "c1": {
+    "m04-0": [
+      {
+        "definition": "yes",
+        "relevance": "yes",
+        "reason": "Frames public model trust persuasion.",
+        "relevance_reason": "Data media exposure salience choice opinion.",
+        "relevance_probs": {
+          "yes": 0.5463926526418303,
+          "no": 0.23823199139524023,
+          "uncertain": 0.21537535596292948,
+          "mass": 1.0,
+          "chosen": "yes"
+        },
+        "source_sha256": ""
+      }
+    ]
+  },
+  "s1": {
+    "m01-0": [
+      {
+        "definition": "no",
+        "relevance": "no",
+        "reason": "Model model audiences news media.",
+        "relevance_reason": "Choice audiences audiences journalists editorial data.",
+        "relevance_probs": {
+          "yes": 0.1912551844611481,
+          "no": 0.7115077895619902,
+          "uncertain": 0.09723702597686162,
+          "mass": 1.0,
+          "chosen": "no"
+        },
+        "source_sha256": ""
+      }
+    ],
+    "m01-1": [
+      {
+        "definition": "yes",
+        "relevance": "uncertain",
+        "reason": "Salience editorial sources audiences audiences.",
+        "relevance_reason": "Agenda opinion bias coverage data agenda.",
+        "relevance_probs": {
+          "yes": 0.24073761495171864,
+          "no": 0.1732876197524512,
+          "uncertain": 0.5859747652958303,
+          "mass": 0.9999999999999999,
+          "chosen": "uncertain"
+        },
+        "source_sha256": ""
+      }
+    ],
+    "m02-0": [
+      {
+        "definition": "yes",
+        "relevance": "yes",
+        "reason": "Stereotypes selective media salience audiences.",
+        "relevance_reason": "Journalists opinion coverage model sources trust.",
+        "relevance_probs": {
+          "yes": 0.6729722414030344,
+          "no": 0.25281272159961,
+          "uncertain": 0.07421503699735565,
+          "mass": 1.0,
+          "chosen": "yes"
+        },
+        "source_sha256": ""
+      }
+    ],
+    "m02-1": [
+      {
+        "definition": "no",
+        "relevance": "no",
+        "reason": "Partisan coverage media coverage public.",
+        "relevance_reason": "Exposure trust partisan coverage bias public.",
+        "relevance_probs": {
+          "yes": 0.15817658478251276,
+          "no": 0.696030101502412,
+          "uncertain": 0.14579331371507526,
+          "mass": 1.0,
+          "chosen": "no"
+        },
+        "source_sha256": ""
+      }
+    ],
+    "m02-2": [
+      {
+        "definition": "no",
+        "relevance": "yes",
+        "reason": "Audiences coverage salience journalists editorial.",
+        "relevance_reason": "Slant media selective data trust coverage.",
+        "relevance_probs": {
+          "yes": 0.5700826054406185,
+          "no": 0.224713739213457,
+          "uncertain": 0.20520365534592452,
+          "mass": 1.0,
+          "chosen": "yes"
+        },
+        "source_sha256": ""
+      }
+    ]
+  },
+  "s2": {
+    "m03-0": [
+      {
+        "definition": "yes",
+        "relevance": "yes",
+        "reason": "Data agenda audiences journalists choice.",
+        "relevance_reason": "Sources trust sources trust audiences salience.",
+        "relevance_probs": {
+          "yes": 0.6915508262945784,
+          "no": 0.2435842681780414,
+          "uncertain": 0.06486490552738018,
+          "mass": 0.9999999999999999,
+          "chosen": "yes"
+        },
+        "source_sha256": ""
+      }
+    ],
+    "m06-0": [
+      {
+        "definition": "no",
+        "relevance": "yes",
+        "reason": "Public selective model model audiences.",
+        "relevance_reason": "Selective journalists agenda trust salience sources.",
+        "relevance_probs": {
+          "yes": 0.6348375380979289,
+          "no": 0.24118832455219266,
+          "uncertain": 0.12397413734987851,
+          "mass": 1.0,
+          "chosen": "yes"
+        },
+        "source_sha256": ""
+      }
+    ]
+  }
+}

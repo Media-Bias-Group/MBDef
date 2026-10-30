@@ -1,0 +1,59 @@
+{
+ "missing_part_outputs": [],
+ "paper_count": 2,
+ "papers": [
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [
+        "Author D 1950"
+       ],
+       "text": "Gatekeeping decides what becomes news."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "Gatekeeping"
+    }
+   ],
+   "metadata": {
+    "doi": "10.0000/mini.4",
+    "title": "A synthetic closure paper"
+   },
+   "paper_id": "closure-1"
+  },
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "A slant in news coverage."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "media bias"
+    }
+   ],
+   "metadata": {
+    "doi": "10.0000/mini.5",
+    "title": "Another synthetic closure paper"
+   },
+   "paper_id": "closure-2"
+  }
+ ],
+ "pick": {
+  "config": "mini/P28"
+ }
+}

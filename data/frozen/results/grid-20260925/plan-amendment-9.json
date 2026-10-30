@@ -1,0 +1,21 @@
+{
+ "added_output": {
+  "P>=28-single-model": "gemma12b TR-bootstrap-8k+16k32k chat-default-think filtered-ordinary-noverify (ordinary relevance filter on the combined Gemma output, no LLM verifier). TEST 294/1036 (80.5% recall, 28.4% precision), DEV 95/468, 644 LLM calls per 29 TEST papers."
+ },
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan-amendment-3.json": "24182d648469bddc14dda1b20c47df58d3f6a476755ea00071e1cb9ca517ac0b",
+  "plan-amendment-4.json": "a4eb5480444c0c238b0a18b18d4933bdcf55d0bd508ab2b00ff695995bd11004",
+  "plan-amendment-5.json": "61ea57369b117a0ebec1eb33b55501b50e60e24d60bda399b285fccfa3ebb1af",
+  "plan-amendment-6.json": "b87d791869ccf53b0d16f23e287ad943b59858db520623ef1fa797a76c0db6ad",
+  "plan-amendment-7.json": "3836d574db6f78f88b234a9781480bf01a3cf68668ef65cd5a92aba8cd34b8ed",
+  "plan-amendment-8.json": "08733f9da1cb34431d5ee96a2c5f421a644446f5962421a1d43dc3646d2f4680",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "closure": "The closure union includes the variant's citations (they are expected to be covered by the P>=20 output already).",
+ "created_utc": "2026-09-26T13:01:10.125309+00:00",
+ "owner_decision": "Owner in chat 2026-09-26: also produce a single-model (pure Gemma) variant of the P>=28 pick, and choose between the variants after seeing the corpus outputs; no re-run needed.",
+ "schema": "controlled-model-grid-amendment-v9",
+ "unchanged": "The three amendment-8 picks (re-selected with the corrected audit, grid-20260925/score/runs/20260926T020812Z-reselect) remain the production outputs; the variant is an additional derived output from the same generations."
+}

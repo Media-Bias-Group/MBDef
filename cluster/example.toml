@@ -1,0 +1,35 @@
+# An example site file for `mbdef cluster render` (docs/setup/cluster.md): what one Slurm cluster is.
+# Copy it to cluster/<name>.toml, change every value to your cluster's (its documentation, `sinfo` and `scontrol show partition` say them) and render with `--site <name>`. Who you are on the cluster and where your files live are not written here: they go into .env as CLUSTER_<NAME>_ROOT and CLUSTER_<NAME>_ACCOUNT (.env.example). `render --site example` works as it is, for a look at a job script.
+
+# The login node, for your own notes: render does not read it.
+login = "login.cluster.example.org"
+
+# Jobs are billed to a project account, so render asks for CLUSTER_<NAME>_ACCOUNT and writes --account.
+# Delete this line if your cluster bills none.
+needs_account = true
+
+# The normal QOS, the only one render writes. Name it here: without it Slurm uses the cluster's default QOS, which on some clusters pre-empts (requeues) other users' running jobs.
+qos = "normal"
+
+# Copy the models to node-local disk before the step (true) when the shared disk is slow to read: a 70 GB model read at 45 MB/s takes about 26 minutes. Fast project storage can stay false.
+stage_models = false
+
+[gpu]
+partition = "gpu"
+# What `--gres` asks for; {gpus} becomes --gpus. Some clusters name the type ("gpu:H100:{gpus}") or add node-local disk ("gpu:{gpus},tmp:200G"); add `constraint = "80gb"` if the cluster picks GPU memory that way.
+gres = "gpu:{gpus}"
+# The job's GPU check accepts a device whose name holds one of these, with at least this much memory (GB). The released runs used GPUs of 80 GB or more.
+names = ["A100", "H100", "H200"]
+min_memory_gb = 79
+# Each GPU's share of the node: --gpus 4 asks for 64 CPUs and 480 GB.
+cpus_per_gpu = 16
+memory_gb_per_gpu = 120
+
+# CPU-only jobs (`render --gpus 0`), such as a GROBID server. Delete the table if the cluster takes none.
+[cpu]
+partition = "cpu"
+cpus = 48
+memory_gb = 120
+
+[env]
+# Extra environment for every job on this cluster, one KEY = "value" per line; {root} becomes the site's root folder. For example, a node whose driver is older than the locked CUDA wheels needs NVIDIA's forward-compatibility libraries: LD_LIBRARY_PATH = "{root}/cuda-compat/usr/local/cuda-13.1/compat"

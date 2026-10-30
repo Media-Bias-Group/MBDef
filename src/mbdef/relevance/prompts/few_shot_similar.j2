@@ -1,0 +1,20 @@
+{% if examples %}
+Use these similarly labeled examples as guidance:
+{% for example in examples %}
+- Title: {{ example.title }}
+  Abstract: {{ example.abstract }}
+  Label: {{ example.manual_label }}
+{% endfor %}
+{% endif %}
+
+
+Article to classify:
+Title: {{ title }}
+Abstract: {{ abstract }}
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:

@@ -1,0 +1,272 @@
+[
+ {
+  "paper_id": "doi_10.1007_s42001-018-0015-z__763e60216fa37c762e4ce0876a0edd6ce953bfeb__d2a7e0e2a0619b84",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-3966deca0c788a5e898003a5d4ebcd41d7de12a0ea747e6173956fd5612bc5bf",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1017_9781009325844.016__128052d46143110641babafd614e6c026d3c4f32__843bb7043646a698",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.1017_pan.2024.29__c82a2d022a4e6c1a376d483551d01309ca532d64__cc1765b2b475a533",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.1017_s204579602400043x__b024a65d25d4529d655f0c9cc03c09ece90a8fd1__ec6e29ff0c2b0e1c",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.1080_21670811.2022.2155205__1ac2e1e9e69d6e2353fbee4b844343416e775c77__0f46a9014aa6558b",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.1109_tkde.2022.3185151__43b5ea3cc6b2c3b3e754048227c8ecf3bdb45a4a__352237e9329aacc0",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-796f53106eee7245b07e22c8f57ed35b34983a921ff8f42241e521bb259c7772",
+  "share": 0.998
+ },
+ {
+  "paper_id": "doi_10.1109_tpami.2018.2858826__052cf365ed66f2d1505977880674d0e62179f3f3__91d22e2bff102c69",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_42a26846c6635cbc__4a404cedd467d8da",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1126_science.aal4230__165e85298bc38b3af1083d4d146ceb404daa9f41__1aa8d0ac1ef466a5",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-580cf3d29e2764848b91274b4604307b1b58f91d32eb3c1e72e65533b538c431",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1177_1077699015605803__d51d9e767aad7cc2d1614ce31d37da51818fc8cd__b14c902cc7a1d800",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-1b6ae139212919c4d85b5a9310ec97f56bdb25a8fd1c08055d6339cc8210de4d",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1177_1750481316683291__705c50018581202fc091613849e239e29ad72c1c__022d48bdd77566a5",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-8888d0b9299862ff5cd3aa752f0c939138e1828e9702004442f8c051f7fae8f2",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1344_der.2020.37.230-239__c857ee445773e85dcd2a3fc9b00c16c03a2eb4f4__4ff249a4da8cff49",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-3f8f184c00a1b33e592b01d6f7af769f6357aa8c4f7d80eecf00b62fc7cd856b",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.1590_s1677-5538.ibju.2020.s121__b8ffeba7618898d47017f0a58e0b43353a053dbc__97147528dc12034f",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.1609_aaai.v35i1.16134__b019c809fc77a6b378ee5ce89ce1bc78a39d10eb__2d434cbdb471a14f",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-3c7a40bf76178a1dcba6590c79e07852a19068157938d985f7bf626a86532f13",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.18413_2313-8912-2022-8-1-0-5__26ed7ec29bdb3ffc24079fd0cbb27a136d262e9e__364c5abf7af6baed",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.18653_v1_2022.findings-naacl.101__cb80bdcd908a0e45289bec4eff9dd6548b635cf2__be80d4ccc1e19fdc",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-5f0b5542efd8e16319b0e8b558881551134c1c959556cc96650f651c7909e202",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.18653_v1_2024.findings-acl.954__819085f30743225f0baa80fd10b1734f105c94cc__a213ee77580ca1be",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-ab2407a96874df5e6eda4cc9478e6947ceb57cc6835608d1ecd19fca4782369f",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.18653_v1_d17-1317__2084590bc0d1b60ba8a89badb02e7e8566a27fdb__3491653ad9328ec0",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-b5162fe035006526d854a495d1792ef35db61068ffac791f58c4433f8468b819",
+  "share": 0.995
+ },
+ {
+  "paper_id": "doi_10.18653_v1_d19-1327__f0d69df1dd790617695a537bb84ddd5e0430e7bb__e9b67f12658947ef",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-1901472053a2d2c777ce09bfa75f51f5bf45f9281cfc985e85dc849bb68317ca",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.18653_v1_d19-1565__6832869266533bd7c7d8f2f0c03376ae70f67a93__3e804b83f26dbcd4",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-ee6abdb1b0f0c0e204bf431f79f989b1907dc0814b3530ea42a28ba3177a2590",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.25267_pragmalinguistica.2022.i30.01__b0631ba14c1bc5abb85bd2b6bf7c33c5819a7c9b__c2bf79a094444361",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.35669_rcys.2021.11.e207__2e02ef379f9022e7bea7c3521200fe8c49f3fca7__84b322c143f54de3",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.4102_sajip.v29i1.88__d77984d9ed6f6d27c8329b9e633ed99617d1b30f__b2cd88ea3f43f25a",
+  "reason": "not cited: collected through a DOI GROBID had put on the wrong reference entry"
+ },
+ {
+  "paper_id": "doi_10.4185_rlcs-2022-1538__11fa6342f23e5565af8612ed0096b9a521d3c20d__b865f83abe3dbb39",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-a14f46116cbf72f3117e768e304afd062f8c0aba50fc05d662d549c252a75ad6",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.48550_arxiv.1301.3781__3cb2faa8f0e01116178f3ea47849aef598257a7f__3a2169a49caf15e5",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_13fbee78f4471164__447d441600e176d3",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.48550_arxiv.2201.11903__5c6426ef7b33ad6fb0e12549e68ec68cd737338e__1933ba537b24d9c1",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.52202_068431-1800__51d05296a16f09828b9ef1aee19cd3b53310440e__5d0b2ecb824a5bd4",
+  "share": 1.0
+ },
+ {
+  "paper_id": "doi_10.48550_arxiv.2310.05189__8dd1b65fad2b699abbd086a63ec315f8db518111__73bc032bd5ba2aea",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1038_s42256-024-00881-z__c07e00e7b17fb8f39f8553fad0605c8b919b1f33__6c35559e15a196cd",
+  "share": 0.996
+ },
+ {
+  "paper_id": "hash_04104992d871a344__7739d7d7990cfb69",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-49821499e10e7f3dd1383b8fb22ca5befb22f91fcd5c50fdcc092ff7ddc7175b",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_08d9c4c83185df66__e4245c09ba97fad4",
+  "reason": "same text as a seed paper",
+  "seed_paper_id": "pdf-4dc52d4bbe2f482dbe3751dfd6aba53297dcb2340bf3c42cc2918bab6e82adc3",
+  "share": 0.998
+ },
+ {
+  "paper_id": "hash_21d2e3e7ca14d381__cd3c3bdedf1ba535",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_04091e9d0579cade__8724c60770aa0289",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_222be5227dba1541__bdbc66892b025138",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1145_3003433__eb4b941fe10b3138965510ac30027d9f555b34ef__3976924159795eb9",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_227468a1df165b05__d952026739f62680",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1017_mem.2022.7__5457492b9d29103af36f28ccd58edbef573e2410__a1fb9c9acf8c8b55",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_27787c66998e740a__2f7ffb8b0aa00e44",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1016_j.ijinfomgt.2020.102196__83529996b658777f51fe92f477eeb0a2cb8465b3__4c2c0aaae94566f4",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_2b9c4bc59bf57797__fc0194dc3af214a1",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_f7f18d4bced68e0c__03763346e46c9eba",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_2fc5825a4da6c567__a0383e7a4e2f2ed4",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_12ac30f5dc7b1ce9__b5dd6d45e5e6bdc4",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_345f91d5bfd955e0__ba10058795f756a9",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1023_b_ryso.0000038603.34963.de__af1af84ff0310ea134f845864f05da491be405d7__38445d61b2b85c90",
+  "share": 0.998
+ },
+ {
+  "paper_id": "hash_3721e468122a1b06__45069b629b8c82a1",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1145_3571730__8d6e585237263b41e64c2864fef9a4bc8668efb2__bf1aa1509c89ed0c",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_3cdf927a54b7db42__74c1035b48495c14",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_9beb7e86e3a68e31__753c623f342f2532",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_44986d1f73999637__438a6c9da1dc9701",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_d81c80ae2852baf4__0ecc812f1aa6421e",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_6b5d4f8d4feec83e__5d9afe2d32e52b0e",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_eda570bd773073da__56cc46636b3bea85",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_6d898b3f8405e79e__45a297baad24e35e",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_c6059f23cc940558__f97f45f71739d649",
+  "share": 0.998
+ },
+ {
+  "paper_id": "hash_821744641bed8920__91ace3e83ce9350e",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1017_gov.2023.5__7636a070d03bc4b13843191e1822314b974bb2dd__4f8a500a1c50d676",
+  "share": 0.999
+ },
+ {
+  "paper_id": "hash_88063ba7d9827571__d7cfa81c1d3ab44c",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_1010aa029729775e__fd96cc571bd325e4",
+  "share": 0.999
+ },
+ {
+  "paper_id": "hash_a26f3c277ed27231__8cc89338797ce67d",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_693eea0fcf1280a1__8f479e60226a7384",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_b555cad0365ed49c__c0b2a567bedf1c32",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.18573_jcads.10__9a2ff7deef011bf6903a96bafba3e2f0038e5b21__ac6af780dedfb805",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_b8b1a97d6472fa8d__a5e6223ef756c5bf",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.1145_3137597.3137600__6c71f71a91489cdc536a4c4acee60b4ba0104d2b__0b486ad748e799f1",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_dec34722db2ce832__748cb72f81438e2a",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "doi_10.18653_v1_2021.acl-long.295__ce7e55acb287f0c8a5aa6ff39a223c03b95196fb__872cbe2350b68a27",
+  "share": 1.0
+ },
+ {
+  "paper_id": "hash_e8de60f9c008ade8__d30a1c5f5ef647ef",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_218d5063a01e3e6d__55917697b3600dde",
+  "share": 0.998
+ },
+ {
+  "paper_id": "hash_fb66324b1a79d584__8ae5b2f571d76b08",
+  "reason": "same text as another closure paper",
+  "kept_paper_id": "hash_187e1f99d70f8448__304df60bef0f7bfb",
+  "share": 1.0
+ }
+]

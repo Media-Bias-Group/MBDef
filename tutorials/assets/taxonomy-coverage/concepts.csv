@@ -1,0 +1,12 @@
+group,concept,spinde,rodrigo,needs_manual_check,half_note,search_terms
+Reporting level,Gatekeeping / selection bias,full,full,yes,,gatekeeping bias;gatekeeping;selection bias;news selection bias;story selection bias;agenda bias
+Reporting level,Coverage bias,full,full,no,,coverage bias;visibility bias;coverage imbalance
+Reporting level,Omission / commission bias,full,full,no,,omission bias;bias by omission;commission bias;bias by commission
+Statement level,Statement bias,full,full,no,,statement bias;presentation bias
+Statement level,Spin bias,full,full,no,,spin bias;spin;rhetoric bias
+Statement level,Sensationalism / emotionalism,half,full,no,[16]: exaggeration within spin / informational bias (Sec. 4.2.2),sensationalism;emotionalism;sensationalism bias;emotionalism bias
+Language level,Framing bias,full,half,yes,,framing bias;ideology bias;stance
+Language level,Labeling and word choice,half,full,no,[16]: split across linguistic bias types (Sec. 4.2.1),word choice bias;bias by word choice;labeling bias;labelling bias;bias by labeling;bias by labelling
+Language level,Subjective qualifying adjectives,half,full,no,[16]: subjective intensifiers within framing bias (Sec. 4.2.1),subjective qualifying adjectives;subjective adjectives;subjective intensifiers
+Language level,Phrasing bias,full,half,no,[15]: loaded language within labeling and word choice (Sec. 3.4.9),phrasing bias
+Language level,Connotation bias,full,half,no,[15]: connotation within labeling and word choice (Sec. 3.4.9),connotation bias

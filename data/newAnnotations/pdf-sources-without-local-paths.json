@@ -1,0 +1,1365 @@
+{
+  "description": "Local PDF identity inventory. MD5 is compared to the input fingerprint in the V3-linked TEI, with leading zero padding. This proves file identity, not text extraction accuracy or curator review.",
+  "papers": {
+    "73bfad11b96a69cb882028ead115751adb55252d": {
+      "title": "The science of fake news",
+      "path": "papers/73bfad11b96a69cb882028ead115751adb55252d.pdf",
+      "source_path": "paper_73bfad11b96a69cb882028ead115751adb55252d.pdf",
+      "tei_md5": "0115c5f795341ef9d169cbc6116a4a71",
+      "md5": "0115c5f795341ef9d169cbc6116a4a71",
+      "sha256": "c962c550a38e74cfdf5eb800c660e5f8e2bf620a27f00772e1008662cc8e6a02",
+      "status": "same_grobid_input"
+    },
+    "855a0e4669165e10caeaf7f1f3f58452610bd82a": {
+      "title": "Fake News and Covid-19 in Italy: Results of a Quantitative Observational Study",
+      "path": "papers/855a0e4669165e10caeaf7f1f3f58452610bd82a.pdf",
+      "source_path": "paper_855a0e4669165e10caeaf7f1f3f58452610bd82a.pdf",
+      "tei_md5": "7dc6c9dc32e496242a90d572be21a5e5",
+      "md5": "7dc6c9dc32e496242a90d572be21a5e5",
+      "sha256": "a11cd05e9b8e996f3b257c2459dcd79e6b806b1aad3eb716c3c1b5d91603cf3f",
+      "status": "same_grobid_input"
+    },
+    "95560085f16dfe9b556d0eea424ef4f7977fb647": {
+      "title": "Corruption, Public Investment, and Growth",
+      "path": "papers/95560085f16dfe9b556d0eea424ef4f7977fb647.pdf",
+      "source_path": "paper_95560085f16dfe9b556d0eea424ef4f7977fb647.pdf",
+      "tei_md5": "22210e88c2111bc31babfd41d47b038c",
+      "md5": "22210e88c2111bc31babfd41d47b038c",
+      "sha256": "7a81de107f0db0eaccee73741e3c671fbbacaa9e76c429a094a85610b15395b2",
+      "status": "same_grobid_input"
+    },
+    "d6d82c77c2b4241b25fe3ce5758568c69942aadc": {
+      "title": "A Threat in the Air: How Stereotypes Shape Intellectual Identity and Performance",
+      "path": "papers/d6d82c77c2b4241b25fe3ce5758568c69942aadc.pdf",
+      "source_path": "paper_d6d82c77c2b4241b25fe3ce5758568c69942aadc.pdf",
+      "tei_md5": "22e7ba001e8b0fa7ee9b6fc1a84041ee",
+      "md5": "22e7ba001e8b0fa7ee9b6fc1a84041ee",
+      "sha256": "aba2bcb5c45ea85d890ba466cc36a6d5324260815ae95b00185bc9ab2617c174",
+      "status": "same_grobid_input"
+    },
+    "dc776ddcc62c0992e2ef4893e0dfb7c9b918148c": {
+      "title": "Planting misinformation in the human mind: A 30-year investigation of the malleability of memory",
+      "path": "papers/dc776ddcc62c0992e2ef4893e0dfb7c9b918148c.pdf",
+      "source_path": "paper_dc776ddcc62c0992e2ef4893e0dfb7c9b918148c.pdf",
+      "tei_md5": "e0d9a2b7d4ff9787c99fc26109121bf3",
+      "md5": "e0d9a2b7d4ff9787c99fc26109121bf3",
+      "sha256": "93527aa3647e82da4aab2190d5ac8a991e850c2822ead76706f3a00fa3ffc0cf",
+      "status": "same_grobid_input"
+    },
+    "4b33419863b96c270d5875af9bd5af3ce5dbb1e2": {
+      "title": "The Social Amplification of Risk A Conceptual Framework",
+      "path": "papers/4b33419863b96c270d5875af9bd5af3ce5dbb1e2.pdf",
+      "source_path": "paper_4b33419863b96c270d5875af9bd5af3ce5dbb1e2.pdf",
+      "tei_md5": "ae68b7641864f770108e9778b44174b5",
+      "md5": "ae68b7641864f770108e9778b44174b5",
+      "sha256": "14d27a86a07961ecd742fa10c3a079723bebb8882939ba286cfaa5c3ef59a14f",
+      "status": "same_grobid_input"
+    },
+    "26af8e81a7ca5b137912acb81d8c19f38fce0200": {
+      "title": "Undone Science: Charting Social Movement and Civil Society Challenges to Research Agenda Setting",
+      "path": "papers/26af8e81a7ca5b137912acb81d8c19f38fce0200.pdf",
+      "source_path": "paper_26af8e81a7ca5b137912acb81d8c19f38fce0200.pdf",
+      "tei_md5": "b440914f0ec12a6aa103d545f0238e8a",
+      "md5": "b440914f0ec12a6aa103d545f0238e8a",
+      "sha256": "27d04a8bf7a7dc703229c32abf4d5c637de903a04289405e76152b22d767da0a",
+      "status": "same_grobid_input"
+    },
+    "35ed340b12c10a5a66504cb2396800486fa5aa26": {
+      "title": "Partisans without Constraint: Political Polarization and Trends in American Public Opinion 1",
+      "path": "papers/35ed340b12c10a5a66504cb2396800486fa5aa26.pdf",
+      "source_path": "paper_35ed340b12c10a5a66504cb2396800486fa5aa26.pdf",
+      "tei_md5": "2c91acac43b6c0ae1eb4d65fef8209d6",
+      "md5": "2c91acac43b6c0ae1eb4d65fef8209d6",
+      "sha256": "9f3246812db80123809f412484b3e37b2a8d99ca9d4d191179a3312eb6f8a69a",
+      "status": "same_grobid_input"
+    },
+    "s10816-016-9274-2": {
+      "title": "Quality Assurance in Archaeological Survey",
+      "path": "papers/s10816-016-9274-2.pdf",
+      "source_path": "s10816-016-9274-2.pdf",
+      "tei_md5": "def03a0b5cbd0dbc3139e7b121a95540",
+      "md5": "def03a0b5cbd0dbc3139e7b121a95540",
+      "sha256": "721aacb29755d6d818c896e1db7ce179a7a2274a9031e2fced40f70d826f2431",
+      "status": "same_grobid_input"
+    },
+    "17734113f254a64b3bae312713edba3b1e34fb56": {
+      "title": "The Emergence of Deepfake Technology: A Review",
+      "path": "papers/17734113f254a64b3bae312713edba3b1e34fb56.pdf",
+      "source_path": "paper_17734113f254a64b3bae312713edba3b1e34fb56.pdf",
+      "tei_md5": "ddf21a519d9430299fbd9b06d7fd55d9",
+      "md5": "ddf21a519d9430299fbd9b06d7fd55d9",
+      "sha256": "0fcdbe3e876e115f940b5f0e3626974347a80ba40e9037a12fdb7c563ddd7226",
+      "status": "same_grobid_input"
+    },
+    "4232b05abe413bf3294a560082b0b6bb72dc5a27": {
+      "title": "The Social Determinants of Health: Coming of Age",
+      "path": "papers/4232b05abe413bf3294a560082b0b6bb72dc5a27.pdf",
+      "source_path": "paper_4232b05abe413bf3294a560082b0b6bb72dc5a27.pdf",
+      "tei_md5": "7a7bb88437680d39978b3951fbc39ada",
+      "md5": "7a7bb88437680d39978b3951fbc39ada",
+      "sha256": "d7368c7b91105cbecf989411b578a534ea66e9bc4e18d0d3b96a766a3b48cb77",
+      "status": "same_grobid_input"
+    },
+    "s40537-025-01077-x": {
+      "title": "Survey on terminology extraction from texts",
+      "path": "papers/s40537-025-01077-x.pdf",
+      "source_path": "s40537-025-01077-x.pdf",
+      "tei_md5": "322868bb65de6ce369b4068a3fa9b180",
+      "md5": "322868bb65de6ce369b4068a3fa9b180",
+      "sha256": "902c331812e7cf8f3b89826e29b8e83754ebae720390bab3f6f0a06f1cc97d60",
+      "status": "same_grobid_input"
+    },
+    "0f7eda998bbce003745ff2fdbcaa1d9a8119368b": {
+      "title": "ECHO CHAMBERS AND EPISTEMIC BUBBLES",
+      "path": "papers/0f7eda998bbce003745ff2fdbcaa1d9a8119368b.pdf",
+      "source_path": "paper_0f7eda998bbce003745ff2fdbcaa1d9a8119368b.pdf",
+      "tei_md5": "ba95a1693ceeb5f08994f09bbe8344da",
+      "md5": "ba95a1693ceeb5f08994f09bbe8344da",
+      "sha256": "4d35b7af927c53795591bd9de2ea9a233a47a3293cb1430c19b1038b296ef9c5",
+      "status": "same_grobid_input"
+    },
+    "057bd5a3a6b652dfd1419128aae578478f5891b0": {
+      "title": "The Stigma Complex",
+      "path": "papers/057bd5a3a6b652dfd1419128aae578478f5891b0.pdf",
+      "source_path": "paper_057bd5a3a6b652dfd1419128aae578478f5891b0.pdf",
+      "tei_md5": "b4630bc243a643740385bf722e077a2c",
+      "md5": "b4630bc243a643740385bf722e077a2c",
+      "sha256": "373012bf33693456f7a63b6f7e4b063dd1d0837693eac8f592c93c48ce4ed82e",
+      "status": "same_grobid_input"
+    },
+    "502c9122dda395eb30bd0707a85bc235d4e6e3ba": {
+      "title": "How to Do a Systematic Review: A Best Practice Guide for Conducting and Reporting Narrative Reviews, Meta-Analyses, and Meta-Syntheses",
+      "path": "papers/502c9122dda395eb30bd0707a85bc235d4e6e3ba.pdf",
+      "source_path": "paper_502c9122dda395eb30bd0707a85bc235d4e6e3ba.pdf",
+      "tei_md5": "1440554abc47189c0a8c99b584d17e25",
+      "md5": "1440554abc47189c0a8c99b584d17e25",
+      "sha256": "4272b73fa831048cc558e127adc74d14d25ef7c28676644b9f8ee52b7bf2369c",
+      "status": "same_grobid_input"
+    },
+    "bc5facfd49ec7b635f2fe75a817def81cb9a1a24": {
+      "title": "Fighting COVID-19 misinformation on social media: Experimental evidence for a scalable accuracy nudge intervention",
+      "path": "papers/bc5facfd49ec7b635f2fe75a817def81cb9a1a24.pdf",
+      "source_path": "paper_bc5facfd49ec7b635f2fe75a817def81cb9a1a24.pdf",
+      "tei_md5": "c6bbd7c87bc43efa1fa69548b58ed67c",
+      "md5": "c6bbd7c87bc43efa1fa69548b58ed67c",
+      "sha256": "c10bf93f881d2679f1f6d636dc78643c075625b66e311d98706945b3f120f36c",
+      "status": "same_grobid_input"
+    },
+    "doi_10.12957_publicum.2019.47199": {
+      "title": "Privacy antibodies for information monopolies and mass profiling",
+      "path": "papers/doi_10.12957_publicum.2019.47199.pdf",
+      "source_path": "doi_10_12957_publicum_2019_47199__doi_10.12957_publicum.2019.47199.pdf",
+      "tei_md5": "ea6adb49a295bb0b75df1442caa0e664",
+      "md5": "ea6adb49a295bb0b75df1442caa0e664",
+      "sha256": "46a27abdf73f0e68697029be29edd256a5e0b24961136dc8bfa5f8b6d5dc7706",
+      "status": "same_grobid_input"
+    },
+    "70c93e5e38a8176590f69c0491fd63ab2a9e67c4": {
+      "title": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+      "path": "papers/70c93e5e38a8176590f69c0491fd63ab2a9e67c4.pdf",
+      "source_path": "paper_70c93e5e38a8176590f69c0491fd63ab2a9e67c4.pdf",
+      "tei_md5": "c57bfc837744b581c4647d8d3c57e786",
+      "md5": "c57bfc837744b581c4647d8d3c57e786",
+      "sha256": "41f1e760c5aaf966d7f27c57d7ae6955a127239395da60b915afc08bc091ec55",
+      "status": "same_grobid_input"
+    },
+    "885c3154386e3dd1ff6a12e566152846186f9569": {
+      "title": "Partisan Polarization Is the Primary Psychological Motivation behind Political Fake News Sharing on Twitter",
+      "path": "papers/885c3154386e3dd1ff6a12e566152846186f9569.pdf",
+      "source_path": "paper_885c3154386e3dd1ff6a12e566152846186f9569.pdf",
+      "tei_md5": "baa1b3d30662be5f827d5d8eeb8f4074",
+      "md5": "baa1b3d30662be5f827d5d8eeb8f4074",
+      "sha256": "c4a9b06848e1231dc65f5d830056531f83b8cb356f5945b755bc86a91f2b3bf1",
+      "status": "same_grobid_input"
+    },
+    "How_to_define_ecology_on_the_basis_of_its_current_understanding": {
+      "title": "How to define ecology on the basis of its current understanding?",
+      "path": "papers/How_to_define_ecology_on_the_basis_of_its_current_understanding.pdf",
+      "source_path": "How_to_define_ecology_on_the_basis_of_its_current_understanding.pdf",
+      "tei_md5": "ca3dab5f7123e3c1924ebdd2cb6f1c49",
+      "md5": "ca3dab5f7123e3c1924ebdd2cb6f1c49",
+      "sha256": "94693545616d5f6c4721c6f34a98dd36781be9dec6379069ac3130a03cf044c9",
+      "status": "same_grobid_input"
+    },
+    "591de36f141029eb8de754ff4f59a5c8be9f268d": {
+      "title": "Field Experiments on Discrimination",
+      "path": "papers/591de36f141029eb8de754ff4f59a5c8be9f268d.pdf",
+      "source_path": "paper_591de36f141029eb8de754ff4f59a5c8be9f268d.pdf",
+      "tei_md5": "8f923e6c1ad5d76c9ce793c76af57a46",
+      "md5": "8f923e6c1ad5d76c9ce793c76af57a46",
+      "sha256": "a644135add97c1321bf60242616d97cdb7f410570c9728de10398e797178110c",
+      "status": "same_grobid_input"
+    },
+    "doi_10.48009_4_iis_2025_126": {
+      "title": "Using artificial intelligence (AI) to spread misinformation and fake content within social media posts",
+      "path": "papers/doi_10.48009_4_iis_2025_126.pdf",
+      "source_path": "doi_10_48009_4_iis_2025_126__doi_10.48009_4_iis_2025_126.pdf",
+      "tei_md5": "aa6ec489a89972f32a32b6b5a340e12e",
+      "md5": "aa6ec489a89972f32a32b6b5a340e12e",
+      "sha256": "9132eedff895381ebc5cd63a7703a18f199d283c0da13617c08867afa9ac06a7",
+      "status": "same_grobid_input"
+    },
+    "4243aa9bacd51bc02d4240378e7528912962b53e": {
+      "title": "BRANDING THE NATION: TOWARDS A BETTER UNDERSTANDING",
+      "path": "papers/4243aa9bacd51bc02d4240378e7528912962b53e.pdf",
+      "source_path": "paper_4243aa9bacd51bc02d4240378e7528912962b53e.pdf",
+      "tei_md5": "1dba929df529cb0fe8aeecf7e610bca5",
+      "md5": "1dba929df529cb0fe8aeecf7e610bca5",
+      "sha256": "f5604f814ba41d3c4c4550dadf3119097fa2edfe27696ac0229bf989f98652ce",
+      "status": "same_grobid_input"
+    },
+    "e804f4ea00a0656719cd0426f100a4c70075600b": {
+      "title": "Race, Socioeconomic Status, and Health The Added Effects of Racism and Discrimination",
+      "path": "papers/e804f4ea00a0656719cd0426f100a4c70075600b.pdf",
+      "source_path": "paper_e804f4ea00a0656719cd0426f100a4c70075600b.pdf",
+      "tei_md5": "93a9193a0ae5b505f89605d6282ec613",
+      "md5": "93a9193a0ae5b505f89605d6282ec613",
+      "sha256": "d270f29960ccf1fd3ebeddce80a921318e19fd3337d16e19ff455afbad305560",
+      "status": "same_grobid_input"
+    },
+    "0dcf170200969c29476284619dcc438070abe488": {
+      "title": "The Brexit Botnet and User-Generated Hyperpartisan News",
+      "path": "papers/0dcf170200969c29476284619dcc438070abe488.pdf",
+      "source_path": "paper_0dcf170200969c29476284619dcc438070abe488.pdf",
+      "tei_md5": "e23a001a1f22a197ac0866f2bbb06e0b",
+      "md5": "e23a001a1f22a197ac0866f2bbb06e0b",
+      "sha256": "40942ab3b71c680f81bdcd7d8788251ee640abab6fe274cf2ed2b05760f5a64a",
+      "status": "same_grobid_input"
+    },
+    "f88027bd7a0740bb870e3911a1c51fe0b55e83bf": {
+      "title": "Journalism is twerking? How web analytics is changing the process of gatekeeping",
+      "path": "papers/f88027bd7a0740bb870e3911a1c51fe0b55e83bf.pdf",
+      "source_path": "paper_f88027bd7a0740bb870e3911a1c51fe0b55e83bf.pdf",
+      "tei_md5": "056835d2ba7581105bb13e8f15303b5c",
+      "md5": "056835d2ba7581105bb13e8f15303b5c",
+      "sha256": "80508e79a3c6090c6fe929a0b0bb7827441e558c1b87b1d3aa1ba7733f586a61",
+      "status": "same_grobid_input"
+    },
+    "7a6823d16a1dc680c9bdfe03dc4caccbe2e944b6": {
+      "title": "DISINFORMATION AND SOCIAL BOT OPERATIONS IN THE RUN UP TO THE 2017 FRENCH PRESIDENTIAL ELECTION",
+      "path": "papers/7a6823d16a1dc680c9bdfe03dc4caccbe2e944b6.pdf",
+      "source_path": "paper_7a6823d16a1dc680c9bdfe03dc4caccbe2e944b6.pdf",
+      "tei_md5": "d240e7fb5796f83159d35aac628a0adf",
+      "md5": "d240e7fb5796f83159d35aac628a0adf",
+      "sha256": "50b0e55534335422a2e8eda92ada9d4256f48f10dc1e476021bb2ab9fbeaa589",
+      "status": "same_grobid_input"
+    },
+    "d6baa6a163549cd7175f181483be827d43c83dbe": {
+      "title": "THE COGNITIVE SHIFT IN TERMINOLOGY AND SPECIALIZED TRANSLATION",
+      "path": "papers/d6baa6a163549cd7175f181483be827d43c83dbe.pdf",
+      "source_path": "paper_d6baa6a163549cd7175f181483be827d43c83dbe.pdf",
+      "tei_md5": "885d3cd1863bd8b61731713702e4da7b",
+      "md5": "885d3cd1863bd8b61731713702e4da7b",
+      "sha256": "4e14864159e00e4b32359cd21886ee665ac1e2a2d4299f95f807733eee9dbd40",
+      "status": "same_grobid_input"
+    },
+    "033b21cf1c6d3bdae587e673452b994443bf3546": {
+      "title": "Defining narrative",
+      "path": "papers/033b21cf1c6d3bdae587e673452b994443bf3546.pdf",
+      "source_path": "paper_033b21cf1c6d3bdae587e673452b994443bf3546.pdf",
+      "tei_md5": "524fd55187223d2f491477149e4771a0",
+      "md5": "524fd55187223d2f491477149e4771a0",
+      "sha256": "09662f172d2fec3d2c6d17b6014377bed0460305992366726c4967e673b6a817",
+      "status": "same_grobid_input"
+    },
+    "91c1a302b1ba3d78f18d769090d5c285c36d9567": {
+      "title": "Exercise, physical activity, and self-determination theory: A systematic review",
+      "path": "papers/91c1a302b1ba3d78f18d769090d5c285c36d9567.pdf",
+      "source_path": "paper_91c1a302b1ba3d78f18d769090d5c285c36d9567.pdf",
+      "tei_md5": "5b75e3f934b8dedcec09b4bda7849a69",
+      "md5": "5b75e3f934b8dedcec09b4bda7849a69",
+      "sha256": "d50cea307c72efb47b8470f80523398bf6c39cf0a7605091c63daade49a9e706",
+      "status": "same_grobid_input"
+    },
+    "https://media-bias-research.org/wp-content/uploads/2024/07/Preprint_ICWSM_25_NewsUnfold": {
+      "title": "NewsUnfold: Creating a News-Reading Application That Indicates Linguistic Media Bias and Collects Feedback",
+      "path": "papers/https%3A%2F%2Fmedia-bias-research.org%2Fwp-content%2Fuploads%2F2024%2F07%2FPreprint_ICWSM_25_NewsUnfold.pdf",
+      "source_path": "Preprint_ICWSM_25_NewsUnfold.pdf",
+      "tei_md5": "21d29722e4f00e62f5f8f53b18576684",
+      "md5": "21d29722e4f00e62f5f8f53b18576684",
+      "sha256": "cb63cc95ef23cc9d9948d9e32207274e43ab0fdf375474ea9baea8bc87d7b081",
+      "status": "same_grobid_input"
+    },
+    "cff9b9a8ec487511f4e5736aa9e4b9ab1e55969f": {
+      "title": "Evaluating the fake news problem at the scale of the information ecosystem",
+      "path": "papers/cff9b9a8ec487511f4e5736aa9e4b9ab1e55969f.pdf",
+      "source_path": "paper_cff9b9a8ec487511f4e5736aa9e4b9ab1e55969f.pdf",
+      "tei_md5": "4abdde87bc1bb4ff72c771b0195c93ae",
+      "md5": "4abdde87bc1bb4ff72c771b0195c93ae",
+      "sha256": "aa5fae76cc57c40291bbb09f7dc70305865158f45a3f9bd1019859452eb0a835",
+      "status": "same_grobid_input"
+    },
+    "E105.D_2021EDR0003": {
+      "title": "A Survey on Explainable Fake News Detection",
+      "path": "papers/E105.D_2021EDR0003.pdf",
+      "source_path": "E105.D_2021EDR0003.pdf",
+      "tei_md5": "6f3b565cbc01654aeabceb50cb834acf",
+      "md5": "6f3b565cbc01654aeabceb50cb834acf",
+      "sha256": "013caac14919f283268e787dce6b25d5d6c921004a2628492c6069a3426a84a6",
+      "status": "same_grobid_input"
+    },
+    "d7701e78e0bfc92b03a89582e80cfb751ac03f26": {
+      "title": "Explaining Explanations: An Overview of Interpretability of Machine Learning",
+      "path": "papers/d7701e78e0bfc92b03a89582e80cfb751ac03f26.pdf",
+      "source_path": "paper_d7701e78e0bfc92b03a89582e80cfb751ac03f26.pdf",
+      "tei_md5": "8fa9216e8e9411a708764722be3acaad",
+      "md5": "8fa9216e8e9411a708764722be3acaad",
+      "sha256": "d787200f8cf9521b1f32d50f298ea24f2b3836611c6410b8d7c73b3de4c80942",
+      "status": "same_grobid_input"
+    },
+    "2303.14725v2": {
+      "title": "Natural Language Reasoning, A Survey",
+      "path": "papers/2303.14725v2.pdf",
+      "source_path": "2303.14725v2.pdf",
+      "tei_md5": "d4e64ad0d5c6bc8ea1338ad826409476",
+      "md5": "d4e64ad0d5c6bc8ea1338ad826409476",
+      "sha256": "67682fdf1e5bb68218603549d1a4f32e29d215e4240a4913644acc4e95aee335",
+      "status": "same_grobid_input"
+    },
+    "cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea": {
+      "title": "The Sociology of Discrimination: Racial Discrimination in Employment, Housing, Credit, and Consumer Markets",
+      "path": "papers/cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea.pdf",
+      "source_path": "paper_cbd5e98add83dafeff4bb3b6a538deaf1c3db0ea.pdf",
+      "tei_md5": "d7886cad7e5813ebf8d37df8d0b8e04d",
+      "md5": "d7886cad7e5813ebf8d37df8d0b8e04d",
+      "sha256": "844a6b3ab886d122d6ac47950c76aa8aa1d8c0f4c9ee07e3c023bf9d099b413a",
+      "status": "same_grobid_input"
+    },
+    "da9cb56b9c7c2c2b191dd658b1830774d741fc62": {
+      "title": "Bots, #StrongerIn, and #Brexit: Computational Propaganda during the UK-EU Referendum COMPROP RESEARCH NOTE 2016.1",
+      "path": "papers/da9cb56b9c7c2c2b191dd658b1830774d741fc62.pdf",
+      "source_path": "paper_da9cb56b9c7c2c2b191dd658b1830774d741fc62.pdf",
+      "tei_md5": "72e53cb0f04d57f50d5073c8475c7321",
+      "md5": "72e53cb0f04d57f50d5073c8475c7321",
+      "sha256": "f19d83dab31ce9b9c8cf612d567b4199277737f7718353cb31e944ee4d66707a",
+      "status": "same_grobid_input"
+    },
+    "35266513e601aed2e2707e9263b2ccd466644b60": {
+      "title": "The Origins and Consequences of Affective Polarization in the United States",
+      "path": "papers/35266513e601aed2e2707e9263b2ccd466644b60.pdf",
+      "source_path": "paper_35266513e601aed2e2707e9263b2ccd466644b60.pdf",
+      "tei_md5": "476dac32018708ab11f8e14acc216810",
+      "md5": "476dac32018708ab11f8e14acc216810",
+      "sha256": "145adada376b52a250013fd7483fefae693fec7ec47e832361a3424ed0d4dab0",
+      "status": "same_grobid_input"
+    },
+    "8dd6a2c9c88c9b3465484228c93f4dcc11cfeab9": {
+      "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+      "path": "papers/8dd6a2c9c88c9b3465484228c93f4dcc11cfeab9.pdf",
+      "source_path": "paper_8dd6a2c9c88c9b3465484228c93f4dcc11cfeab9.pdf",
+      "tei_md5": "7a34701ad26e91ebbceebde8694d9401",
+      "md5": "7a34701ad26e91ebbceebde8694d9401",
+      "sha256": "22f304ed2aa43f854932d1f8358682e3e32879780319476d983bf8c3ebe56ae4",
+      "status": "same_grobid_input"
+    },
+    "2166f29bba0223ed5358a4324cfbabcec856bc5b": {
+      "title": "STRUCTURAL RACISM AND HEALTH INEQUITIES",
+      "path": "papers/2166f29bba0223ed5358a4324cfbabcec856bc5b.pdf",
+      "source_path": "paper_2166f29bba0223ed5358a4324cfbabcec856bc5b.pdf",
+      "tei_md5": "18d3c6d0e9252b05c981104b90dd9990",
+      "md5": "18d3c6d0e9252b05c981104b90dd9990",
+      "sha256": "6d6a27796eeb3fbb53cd439d497380f421385a09794a0dc45ca2c17d20a6e149",
+      "status": "same_grobid_input"
+    },
+    "641b12df54a3d853bad273bf5fed2c0965936f83": {
+      "title": "Discrimination in a Low-Wage Labor Market: A Field Experiment",
+      "path": "papers/641b12df54a3d853bad273bf5fed2c0965936f83.pdf",
+      "source_path": "paper_641b12df54a3d853bad273bf5fed2c0965936f83.pdf",
+      "tei_md5": "27f8da8700b1c8ef03a4425e8f5700b2",
+      "md5": "27f8da8700b1c8ef03a4425e8f5700b2",
+      "sha256": "56d8c3d5bcf97bbed229ecf9834a584feec530bf9b9d2fec7f1ad8719e3c4d8a",
+      "status": "same_grobid_input"
+    },
+    "92b4c8deecee703569b9e909dfb88aa70e691219": {
+      "title": "The Creation and Detection of Deepfakes: A Survey",
+      "path": "papers/92b4c8deecee703569b9e909dfb88aa70e691219.pdf",
+      "source_path": "paper_92b4c8deecee703569b9e909dfb88aa70e691219.pdf",
+      "tei_md5": "1f67bc046f9753429d6c1df7a9a54a84",
+      "md5": "1f67bc046f9753429d6c1df7a9a54a84",
+      "sha256": "72ac5fbcec6890ac8a097d4e0d23a205ebc46c6fe20fa4b7b82ff5f0044f7fae",
+      "status": "same_grobid_input"
+    },
+    "86abcc06c0270620b79bf68c1081926b56c10fa9": {
+      "title": "The Impact of Trust in the News Media on Online News Consumption and Participation",
+      "path": "papers/86abcc06c0270620b79bf68c1081926b56c10fa9.pdf",
+      "source_path": "paper_86abcc06c0270620b79bf68c1081926b56c10fa9.pdf",
+      "tei_md5": "023f78f66a755a342f4af0e22073fdcc",
+      "md5": "023f78f66a755a342f4af0e22073fdcc",
+      "sha256": "b3a2dabb0a73b32ca465e1b4ea4d4f648066828d655ea3fbdfb906ff0f475857",
+      "status": "same_grobid_input"
+    },
+    "doi_10.1016_j.procs.2024.10.214": {
+      "title": "FASSILA: A CORPUS FOR ALGERIAN DIALECT FAKE NEWS DETECTION AND SENTIMENT ANALYSIS",
+      "path": "papers/doi_10.1016_j.procs.2024.10.214.pdf",
+      "source_path": "hash_fcc0e3f00a412e6e__hash_fcc0e3f00a412e6e.pdf",
+      "tei_md5": "245634936c8ee7e1e6709885190cf944",
+      "md5": "245634936c8ee7e1e6709885190cf944",
+      "sha256": "73731f28d5cdb56b07dd6a6540c98b044ef2ac5b0789fe6aa3e64ae7309c6d6a",
+      "status": "same_grobid_input",
+      "equivalent_url": "https://arxiv.org/pdf/2411.04604",
+      "upstream_paper_id": "hash_fcc0e3f00a412e6e",
+      "mapping_evidence": "relevant_papers.csv:695"
+    },
+    "A_survey_on_extremism_analysis_using_natural_langu": {
+      "title": "A survey on extremism analysis using natural language processing: definitions, literature review, trends and challenges",
+      "path": "papers/A_survey_on_extremism_analysis_using_natural_langu.pdf",
+      "source_path": "A_survey_on_extremism_analysis_using_natural_langu.pdf",
+      "tei_md5": "1127288279f2805453451758cc03cd34",
+      "md5": "1127288279f2805453451758cc03cd34",
+      "sha256": "12ed8d551be23be661db9eec41251b383082c9abf8d754ea841f857493cb506f",
+      "status": "same_grobid_input"
+    },
+    "doi_10.4108_eetsis.3894": {
+      "title": "Artificial intelligence to reduce misleading publications on social networks",
+      "path": "papers/doi_10.4108_eetsis.3894.pdf",
+      "source_path": "doi_10_4108_eetsis_3894__doi_10.4108_eetsis.3894.pdf",
+      "tei_md5": "820e16ae34ff41a918211272894d9ef6",
+      "md5": "820e16ae34ff41a918211272894d9ef6",
+      "sha256": "097265431246292885da45066acffc8cdd6f4e45c7d116a9df57babfebd5f7f0",
+      "status": "same_grobid_input"
+    },
+    "03c4bb2121b3dd2b5302d37c81e84092a501bc91": {
+      "title": "Platformed racism: the mediation and circulation of an Australian race-based controversy on Twitter, Facebook and YouTube",
+      "path": "papers/03c4bb2121b3dd2b5302d37c81e84092a501bc91.pdf",
+      "source_path": "paper_03c4bb2121b3dd2b5302d37c81e84092a501bc91.pdf",
+      "tei_md5": "99d0431d13b43819c7f9128def267a73",
+      "md5": "99d0431d13b43819c7f9128def267a73",
+      "sha256": "5bb653a0b5bd0cdd3690f70023903619e8f86015590b73fc288d9527fa91d74a",
+      "status": "same_grobid_input"
+    },
+    "4089-8457-1-PB": {
+      "title": "Covid-19 Fake News Detection: A Survey",
+      "path": "papers/4089-8457-1-PB.pdf",
+      "source_path": "4089-8457-1-PB.pdf",
+      "tei_md5": "f47a90efb5f919ac1510b46e4f3937dd",
+      "md5": "f47a90efb5f919ac1510b46e4f3937dd",
+      "sha256": "730172af98123ac13b905761a241780f8c28d6af3eadb877269ab3db438def25",
+      "status": "same_grobid_input"
+    },
+    "frai-06-1225093": {
+      "title": "Rationalization for explainable NLP: a survey",
+      "path": "papers/frai-06-1225093.pdf",
+      "source_path": "frai-06-1225093.pdf",
+      "tei_md5": "3d7fe61c2ca514c1f41f588c9f89766f",
+      "md5": "3d7fe61c2ca514c1f41f588c9f89766f",
+      "sha256": "51a6e8f7ccd98ed002cdfd1f82b765598e350f4518b2a2e00b3afc2f9eb9065f",
+      "status": "same_grobid_input"
+    },
+    "4eb5a9745dfc892cb42ed427a5f08e6abf8df7e3": {
+      "title": "Affective polarization, local contexts and public opinion in America",
+      "path": "papers/4eb5a9745dfc892cb42ed427a5f08e6abf8df7e3.pdf",
+      "source_path": "paper_4eb5a9745dfc892cb42ed427a5f08e6abf8df7e3.pdf",
+      "tei_md5": "7f7147c8f53e9ec1005813afff8592f6",
+      "md5": "7f7147c8f53e9ec1005813afff8592f6",
+      "sha256": "c8f0c37ce9287e3b48bcf677f956234fe4ca62de29ac48caf57b83a4da40b51a",
+      "status": "same_grobid_input"
+    },
+    "23eb7b57f821ec3b579605540b494d7c079a8467": {
+      "title": "Beyond prejudice as simple antipathy: Hostile and benevolent sexism across cultures.",
+      "path": "papers/23eb7b57f821ec3b579605540b494d7c079a8467.pdf",
+      "source_path": "paper_23eb7b57f821ec3b579605540b494d7c079a8467.pdf",
+      "tei_md5": "55d4b997cbb7af29db39aacb668fd074",
+      "md5": "55d4b997cbb7af29db39aacb668fd074",
+      "sha256": "03e43b24ef249f72916f1c2dce8062974ffe2c561f68b360eeaaf2780dc45142",
+      "status": "same_grobid_input"
+    },
+    "0209e602acaeab882fee84e244caf574cf345ef9": {
+      "title": "How numeracy influences risk comprehension and medical decision making.",
+      "path": "papers/0209e602acaeab882fee84e244caf574cf345ef9.pdf",
+      "source_path": "paper_0209e602acaeab882fee84e244caf574cf345ef9.pdf",
+      "tei_md5": "eda9e687ae2be15086dd9895bb0f3a2a",
+      "md5": "eda9e687ae2be15086dd9895bb0f3a2a",
+      "sha256": "0cec1ae811639a79e4180c91da5afa90347436c8f707e749ed0e6fa9dce3035b",
+      "status": "same_grobid_input"
+    },
+    "d85a5081709d4218d233b0f7c6b830bcf31907e0": {
+      "title": "Determinants of social desirability bias in sensitive surveys: a literature review",
+      "path": "papers/d85a5081709d4218d233b0f7c6b830bcf31907e0.pdf",
+      "source_path": "paper_d85a5081709d4218d233b0f7c6b830bcf31907e0.pdf",
+      "tei_md5": "61a80c49c96519f62b5ac51a5a29c2ad",
+      "md5": "61a80c49c96519f62b5ac51a5a29c2ad",
+      "sha256": "39f2ec16970643ceb5a8060cf97b2d19d5363d82dd48b2037ce51851f94d9f83",
+      "status": "same_grobid_input"
+    },
+    "https://link.springer.com/article/10.1007/s00799-018-0261-y": {
+      "title": "Automated identification of media bias in news articles: an interdisciplinary literature review",
+      "path": "papers/https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00799-018-0261-y.pdf",
+      "source_path": "s00799-018-0261-y.pdf",
+      "tei_md5": "ac56a15cf8a9094141edc58cbd73bd52",
+      "md5": "ac56a15cf8a9094141edc58cbd73bd52",
+      "sha256": "d2b54caa2c3ce2aaf3a6db5ef33b971adcd78227712549ce6bc8f874c2228d38",
+      "status": "same_grobid_input"
+    },
+    "e546418c674b9c82d3f03da674d2c614541b9e15": {
+      "title": "Fake News and The Economy of Emotions",
+      "path": "papers/e546418c674b9c82d3f03da674d2c614541b9e15.pdf",
+      "source_path": "paper_e546418c674b9c82d3f03da674d2c614541b9e15.pdf",
+      "tei_md5": "418b1209b3a9025be83975a591e780ce",
+      "md5": "418b1209b3a9025be83975a591e780ce",
+      "sha256": "126c1870b3a6ed32ed50def0aacad7ad589d8560ab7d3a86bf2f0b8215c45c5e",
+      "status": "same_grobid_input"
+    },
+    "2106.04554v2": {
+      "title": "A Survey of Transformers",
+      "path": "papers/2106.04554v2.pdf",
+      "source_path": "2106.04554v2.pdf",
+      "tei_md5": "0e830097f846eb51ebd9f453cafacac5",
+      "md5": "0e830097f846eb51ebd9f453cafacac5",
+      "sha256": "4d4d323f9f7d92c1c68a7747a896566d90c188bfb16c31504349e0226bd8b234",
+      "status": "same_grobid_input"
+    },
+    "167f1d5e64b874bea86acdef6d5476da904fec6a": {
+      "title": "Confirmation, Disconfirmation, and Information in Hypothesis Testing",
+      "path": "papers/167f1d5e64b874bea86acdef6d5476da904fec6a.pdf",
+      "source_path": "paper_167f1d5e64b874bea86acdef6d5476da904fec6a.pdf",
+      "tei_md5": "94aeced62c5ab82da836a4a856e5a3e2",
+      "md5": "94aeced62c5ab82da836a4a856e5a3e2",
+      "sha256": "6206b93c92202a315305ac8e4fbf13955e799e6e73e2cccab730dbb56bd63388",
+      "status": "same_grobid_input"
+    },
+    "2eaa6fd3f2662aa0fbf5db886f6dbc4a21855695": {
+      "title": "The genuine problem of fake news",
+      "path": "papers/2eaa6fd3f2662aa0fbf5db886f6dbc4a21855695.pdf",
+      "source_path": "paper_2eaa6fd3f2662aa0fbf5db886f6dbc4a21855695.pdf",
+      "tei_md5": "da3e553590cce3a12a820797986f60db",
+      "md5": "da3e553590cce3a12a820797986f60db",
+      "sha256": "b19d8c3116fbfd9dd3a3ae954c44c6e20b2d29050ee5f03c4bdf11dbf561906b",
+      "status": "same_grobid_input"
+    },
+    "044031c8bf57c9155572d26b0627af5ca80677f6": {
+      "title": "Participatory journalism practices in the media and beyond: an international comparative study of initiatives in online newspapers",
+      "path": "papers/044031c8bf57c9155572d26b0627af5ca80677f6.pdf",
+      "source_path": "paper_044031c8bf57c9155572d26b0627af5ca80677f6.pdf",
+      "tei_md5": "b42b991fc54dfdda513de8ada2db4f68",
+      "md5": "b42b991fc54dfdda513de8ada2db4f68",
+      "sha256": "10c0a85ff7eb0e9e3c0769f45fcfee4525a6cc627fcfac7c8a333079abd52ddd",
+      "status": "same_grobid_input"
+    },
+    "1fc22db1adfbc21daef99f3199de1e5c8f05be09": {
+      "title": "How Elite Partisan Polarization Affects Public Opinion Formation",
+      "path": "papers/1fc22db1adfbc21daef99f3199de1e5c8f05be09.pdf",
+      "source_path": "paper_1fc22db1adfbc21daef99f3199de1e5c8f05be09.pdf",
+      "tei_md5": "b998a9701f8accf89e0193ea3c9f3408",
+      "md5": "b998a9701f8accf89e0193ea3c9f3408",
+      "sha256": "1d723d80fc36bd5a2a1ac5b112c5a1b6c7ac60e6e753e4d289943faf0c33a723",
+      "status": "same_grobid_input"
+    },
+    "fa30ffaca501fbd391419a92b0cfb25881727700": {
+      "title": "Health literacy and public health: A systematic review and integration of definitions and models",
+      "path": "papers/fa30ffaca501fbd391419a92b0cfb25881727700.pdf",
+      "source_path": "paper_fa30ffaca501fbd391419a92b0cfb25881727700.pdf",
+      "tei_md5": "ff4fbca12c9e5967bb2b8b4f760032bb",
+      "md5": "ff4fbca12c9e5967bb2b8b4f760032bb",
+      "sha256": "a56627fa608c2ec65c4fdaa4c9353c2e5f6e52893997fb9aa4734dcdb61179a8",
+      "status": "same_grobid_input"
+    },
+    "https://arxiv.org/abs/2312.16148": {
+      "title": "The Media Bias Taxonomy: A Systematic Literature Review on the Forms and Automated Detection of Media Bias",
+      "path": "papers/https%3A%2F%2Farxiv.org%2Fabs%2F2312.16148.pdf",
+      "source_path": "2312.16148v3.pdf",
+      "tei_md5": "3a8c82020c1911bff519078ea76c3c43",
+      "md5": "3a8c82020c1911bff519078ea76c3c43",
+      "sha256": "40f2567d84cbe76430c9e71c8da48b296b9cd94e05909be1ee3e20d8a928436a",
+      "status": "same_grobid_input"
+    },
+    "1901.00596v4": {
+      "title": "A Comprehensive Survey on Graph Neural Networks",
+      "path": "papers/1901.00596v4.pdf",
+      "source_path": "1901.00596v4.pdf",
+      "tei_md5": "255ff38ad5034a32201850b0e9ff1da2",
+      "md5": "255ff38ad5034a32201850b0e9ff1da2",
+      "sha256": "de24ede0f541343b8bce39289120c835a9a2cc6a29e24877430f87f205e84280",
+      "status": "same_grobid_input"
+    },
+    "a0f3d2bc4aeed2a2508486ba86fc46688eea8574": {
+      "title": "Ethnic Discrimination in Hiring Decisions: A Meta-Analysis of Correspondence Tests 1990-2015",
+      "path": "papers/a0f3d2bc4aeed2a2508486ba86fc46688eea8574.pdf",
+      "source_path": "paper_a0f3d2bc4aeed2a2508486ba86fc46688eea8574.pdf",
+      "tei_md5": "6b6eddfa58ea244bcc6ab97516bf3d7d",
+      "md5": "6b6eddfa58ea244bcc6ab97516bf3d7d",
+      "sha256": "062778c1130764b34979daaa690d3a0fcc21f9aeb076659565059a27e43602c5",
+      "status": "same_grobid_input"
+    },
+    "https://www.sciencedirect.com/science/article/pii/S0957417423021437": {
+      "title": "A systematic review on media bias detection: What is media bias, how it is expressed, and how to detect it",
+      "path": "papers/https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0957417423021437.pdf",
+      "source_path": "1-s2.0-S0957417423021437-main.pdf",
+      "tei_md5": "915ea7c7ec7c49bd2f9602f38e3f3a18",
+      "md5": "915ea7c7ec7c49bd2f9602f38e3f3a18",
+      "sha256": "ddd2324eac563adf40c45db6ffb3ac8acc9c30532746d3ccd934a78a91759504",
+      "status": "same_grobid_input"
+    },
+    "09116cf5a3160f310b7c82ec1dc8b86e3850829c": {
+      "title": "The Role of the Media in the Construction of Public Belief and Social Change",
+      "path": "papers/09116cf5a3160f310b7c82ec1dc8b86e3850829c.pdf",
+      "source_path": "paper_09116cf5a3160f310b7c82ec1dc8b86e3850829c.pdf",
+      "tei_md5": "0f7be1236740441fb58454dba9efb0ec",
+      "md5": "0f7be1236740441fb58454dba9efb0ec",
+      "sha256": "1a15b7e1a3b66b72fc39dd606e9bf05edab98a187a0f1d760f882150488af1ae",
+      "status": "same_grobid_input"
+    },
+    "c30d44f0b42f0ea441fd215b54c340d996f790e7": {
+      "title": "A Typology for the Case Study in Social Science Following a Review of Definition, Discourse, and Structure",
+      "path": "papers/c30d44f0b42f0ea441fd215b54c340d996f790e7.pdf",
+      "source_path": "paper_c30d44f0b42f0ea441fd215b54c340d996f790e7.pdf",
+      "tei_md5": "9e927aa18975496298e86e0076be47e6",
+      "md5": "9e927aa18975496298e86e0076be47e6",
+      "sha256": "1e4466e1a78f4818a2aefd85c2bdc6982f2fc21947dbd0de5d8cee178a8abd13",
+      "status": "same_grobid_input"
+    },
+    "icomputing.0124": {
+      "title": "A Survey of Task Planning with Large Language Models",
+      "path": "papers/icomputing.0124.pdf",
+      "source_path": "icomputing.0124.pdf",
+      "tei_md5": "54efaff4d1337cf6079873645241d2ef",
+      "md5": "54efaff4d1337cf6079873645241d2ef",
+      "sha256": "4c192bf5ec6a56d0e355dbb8ba43f0fa75dc28c5bea8b0b648e6f609cc6b3fa7",
+      "status": "same_grobid_input"
+    },
+    "8ff4cb3c4da8965b96c5d40f52298730ee097bae": {
+      "title": "Scepticism and Implicit Bias",
+      "path": "papers/8ff4cb3c4da8965b96c5d40f52298730ee097bae.pdf",
+      "source_path": "paper_8ff4cb3c4da8965b96c5d40f52298730ee097bae.pdf",
+      "tei_md5": "7618e542662ba48dc1d1ec6c9e357a15",
+      "md5": "7618e542662ba48dc1d1ec6c9e357a15",
+      "sha256": "aba5a8186fde4d726646e47f741cc52b2bb92a09d51470e8777abb1f8b7981e7",
+      "status": "same_grobid_input"
+    },
+    "22cb049f711570de72ea60a5f6b49fdf4459d589": {
+      "title": "\"From Protest to Agenda-Building: Description Bias in Media Coverage of Protest Events in Washington, D.C.\"",
+      "path": "papers/22cb049f711570de72ea60a5f6b49fdf4459d589.pdf",
+      "source_path": "paper_22cb049f711570de72ea60a5f6b49fdf4459d589.pdf",
+      "tei_md5": "69a49f29787cb2e7c77230718cb3786d",
+      "md5": "69a49f29787cb2e7c77230718cb3786d",
+      "sha256": "38de52715c923fcc9fadb2537a39be45aebea2e92fe5bdc3b6faa6d0599af0e4",
+      "status": "same_grobid_input"
+    },
+    "2106.16117v1": {
+      "title": "ENERGY SECURITY: KEY CONCEPTS, COMPONENTS, AND CHANGE OF THE PARADIGM",
+      "path": "papers/2106.16117v1.pdf",
+      "source_path": "2106.16117v1.pdf",
+      "tei_md5": "4178a38b9d2f94d3f459b38a7598f911",
+      "md5": "4178a38b9d2f94d3f459b38a7598f911",
+      "sha256": "3d59a4db68d1156626cda6eea138aab5f509273bf8b1037121cb6133d9b0c1b2",
+      "status": "same_grobid_input"
+    },
+    "016f7a076ac272db106fbcea056752c7307f676a": {
+      "title": "Racial and Ethnic Disparities in Crime and Criminal Justice in the United States",
+      "path": "papers/016f7a076ac272db106fbcea056752c7307f676a.pdf",
+      "source_path": "paper_016f7a076ac272db106fbcea056752c7307f676a.pdf",
+      "tei_md5": "26fa617482042f323a7fd6a52d04578b",
+      "md5": "26fa617482042f323a7fd6a52d04578b",
+      "sha256": "219f31a8889891302f5c48aa487f2f95b9cf5e8b9fb80293526c4f70bb59daf7",
+      "status": "same_grobid_input"
+    },
+    "3a03068318afdaa75a9dbdcbf960d63bf8035f0e": {
+      "title": "Local Does as Local Is: Information Content of the Geography of Individual Investors' Common Stock Investments",
+      "path": "papers/3a03068318afdaa75a9dbdcbf960d63bf8035f0e.pdf",
+      "source_path": "paper_3a03068318afdaa75a9dbdcbf960d63bf8035f0e.pdf",
+      "tei_md5": "7847ea1a512f6452e994bba404ad6f9c",
+      "md5": "7847ea1a512f6452e994bba404ad6f9c",
+      "sha256": "b123e211cf3d50b113556b7d3bcf637242d83c7e38637104573ebfdc7409a238",
+      "status": "same_grobid_input"
+    },
+    "a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d": {
+      "title": "Implicit bias in healthcare professionals: a systematic review",
+      "path": "papers/a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d.pdf",
+      "source_path": "paper_a3ce69ebd2b1823b488c1d5b9d7f4b28de950a9d.pdf",
+      "tei_md5": "f3662daf6e8eb6cbf422702bbde9fee3",
+      "md5": "f3662daf6e8eb6cbf422702bbde9fee3",
+      "sha256": "60802649c713a0fc4adc309ad2de0b0d15e11647bc7c7195fb9480da387ece00",
+      "status": "same_grobid_input"
+    },
+    "s10462-022-10338-7": {
+      "title": "A survey on narrative extraction from textual data",
+      "path": "papers/s10462-022-10338-7.pdf",
+      "source_path": "s10462-022-10338-7.pdf",
+      "tei_md5": "797e445999ef97f9d2980e7e61781405",
+      "md5": "797e445999ef97f9d2980e7e61781405",
+      "sha256": "a4c3725090f9a69158d09fbf2137d8f08c36e08898ffcb6a64554fab4cfdd8ea",
+      "status": "same_grobid_input"
+    },
+    "24589ef86242ff182e7bae495b94e7c11931f20c": {
+      "title": "Listening to Birds in the Anthropocene: The Anxious Semiotics of Sound in a Human-Dominated World",
+      "path": "papers/24589ef86242ff182e7bae495b94e7c11931f20c.pdf",
+      "source_path": "paper_24589ef86242ff182e7bae495b94e7c11931f20c.pdf",
+      "tei_md5": "bb34f0937ca1716354e3bcd182a05639",
+      "md5": "bb34f0937ca1716354e3bcd182a05639",
+      "sha256": "3ace67c07c60966f91cde76cc1d9397654ca0cff01743aa852a2f44e5ac5c447",
+      "status": "same_grobid_input"
+    },
+    "6924de9691e8f1bb5477da3907e2f5372ad0e565": {
+      "title": "Social Media, Political Polarization, and Political Disinformation: A Review of the Scientific Literature",
+      "path": "papers/6924de9691e8f1bb5477da3907e2f5372ad0e565.pdf",
+      "source_path": "paper_6924de9691e8f1bb5477da3907e2f5372ad0e565.pdf",
+      "tei_md5": "4588d3be7686a10421000a7f7d9f6456",
+      "md5": "4588d3be7686a10421000a7f7d9f6456",
+      "sha256": "a4b7b1ceebab716eb7312fb0bcbad359cc5d558043f9ca4f894a38ea6af713d9",
+      "status": "same_grobid_input"
+    },
+    "262153e94c3632ccf213dac45a93d8ff3cc3ff98": {
+      "title": "Stance, Style, and the Linguistic Individual",
+      "path": "papers/262153e94c3632ccf213dac45a93d8ff3cc3ff98.pdf",
+      "source_path": "paper_262153e94c3632ccf213dac45a93d8ff3cc3ff98.pdf",
+      "tei_md5": "95e757bbe7fda9c8435720aea3cf175e",
+      "md5": "95e757bbe7fda9c8435720aea3cf175e",
+      "sha256": "f625bd9b7b11f914aaaa8a65237c52ddf4f16064c207b56905a117ba33da1392",
+      "status": "same_grobid_input"
+    },
+    "574071efbb372d219ad5adfd5c55e1ffbf8bf71d": {
+      "title": "Conceptual framework for personal recovery in mental health: systematic review and narrative synthesis",
+      "path": "papers/574071efbb372d219ad5adfd5c55e1ffbf8bf71d.pdf",
+      "source_path": "paper_574071efbb372d219ad5adfd5c55e1ffbf8bf71d.pdf",
+      "tei_md5": "cde7ba5cf1dce7bc68a63d6e02ad6481",
+      "md5": "cde7ba5cf1dce7bc68a63d6e02ad6481",
+      "sha256": "2b0a137edcfc61cbcd8e378acf3001c195dc8a016b79c23427b52e9d5629ec9a",
+      "status": "same_grobid_input"
+    },
+    "33c79ac6167b5fa10758f3d4e21d8e1719e298b7": {
+      "title": "Political polarization",
+      "path": "papers/33c79ac6167b5fa10758f3d4e21d8e1719e298b7.pdf",
+      "source_path": "paper_33c79ac6167b5fa10758f3d4e21d8e1719e298b7.pdf",
+      "tei_md5": "63851495ed785c5d0b6b18d88d1b335e",
+      "md5": "63851495ed785c5d0b6b18d88d1b335e",
+      "sha256": "b657f4ad60a7a577c264b8f48a81509a4ad2d18df84e5b1e525e5ed1fcee1645",
+      "status": "same_grobid_input"
+    },
+    "264c3ad2d861782583e41130677fb6d7856f9dc3": {
+      "title": "Mandatory Non-financial Disclosure and Its Influence on CSR: An International Comparison",
+      "path": "papers/264c3ad2d861782583e41130677fb6d7856f9dc3.pdf",
+      "source_path": "paper_264c3ad2d861782583e41130677fb6d7856f9dc3.pdf",
+      "tei_md5": "66f629ecfe5c9a7d613564d72966fadb",
+      "md5": "66f629ecfe5c9a7d613564d72966fadb",
+      "sha256": "397c04cbffa36f8c2362d40be6c61de0303a2511dc941ad1961f9dce40d81a3b",
+      "status": "same_grobid_input"
+    },
+    "05b3fc81364c2ad10c3b58b3cefcf191f6feb120": {
+      "title": "Constructing a Climate Change Logic: An Institutional Perspective on the “Tragedy of the Commons”",
+      "path": "papers/05b3fc81364c2ad10c3b58b3cefcf191f6feb120.pdf",
+      "source_path": "paper_05b3fc81364c2ad10c3b58b3cefcf191f6feb120.pdf",
+      "tei_md5": "b67234dca9a0b9469305cb4342ab63c6",
+      "md5": "b67234dca9a0b9469305cb4342ab63c6",
+      "sha256": "fa641b74cc18e4f17d52f7f08668893cb791805956cc9b1d716f19f151e73189",
+      "status": "same_grobid_input"
+    },
+    "4181f571f985a2e8ed2dcf716e265675218ad68e": {
+      "title": "Mind the Hype: A Critical Evaluation and Prescriptive Agenda for Research on Mindfulness and Meditation",
+      "path": "papers/4181f571f985a2e8ed2dcf716e265675218ad68e.pdf",
+      "source_path": "paper_4181f571f985a2e8ed2dcf716e265675218ad68e.pdf",
+      "tei_md5": "98752f889719b9ff26be4ece6a68d3d6",
+      "md5": "98752f889719b9ff26be4ece6a68d3d6",
+      "sha256": "7c1a6e2d03ca621e2194e709e23e36d0b1cc09f1839d295353c0ede41a901a85",
+      "status": "same_grobid_input"
+    },
+    "2025.acl-long.1513": {
+      "title": "PolyNarrative: A Multilingual, Multilabel, Multi-domain Dataset for Narrative Extraction from News Articles",
+      "path": "papers/2025.acl-long.1513.pdf",
+      "source_path": "2025.acl-long.1513.pdf",
+      "tei_md5": "4e22b5d938e55eae90e56920ab6c5f85",
+      "md5": "4e22b5d938e55eae90e56920ab6c5f85",
+      "sha256": "cd63758a130623eafd2d273b40c39bcfd7836558fe603991b602a0400eda8ecf",
+      "status": "same_grobid_input"
+    },
+    "a7b52fa3ff2606013a6ab9ba294743d7de637e6a": {
+      "title": "Examining the Impact of Structural Racism on Food Insecurity",
+      "path": "papers/a7b52fa3ff2606013a6ab9ba294743d7de637e6a.pdf",
+      "source_path": "paper_a7b52fa3ff2606013a6ab9ba294743d7de637e6a.pdf",
+      "tei_md5": "68e9ef6c7294fc3b7f5b274b529222a4",
+      "md5": "68e9ef6c7294fc3b7f5b274b529222a4",
+      "sha256": "008bba27b0b6f0445b88047ea788f5c324fcb47ff2dcfea69938c0092ac76c6e",
+      "status": "same_grobid_input"
+    },
+    "707ea8cab9147bf5c56762a97cbf425b1d6b1a94": {
+      "title": "Discrimination and racial disparities in health: evidence and needed research",
+      "path": "papers/707ea8cab9147bf5c56762a97cbf425b1d6b1a94.pdf",
+      "source_path": "paper_707ea8cab9147bf5c56762a97cbf425b1d6b1a94.pdf",
+      "tei_md5": "64a431e2eaf031085e562808f7341d87",
+      "md5": "64a431e2eaf031085e562808f7341d87",
+      "sha256": "19fde8fbf8834badc3f898f70212087014386e456495c19cf2873ad39dcdc375",
+      "status": "same_grobid_input"
+    },
+    "1acbc58041a408e33ba33e2f0af5808f2bc56ff1": {
+      "title": "Crop variety management for climate adaptation supported by citizen science",
+      "path": "papers/1acbc58041a408e33ba33e2f0af5808f2bc56ff1.pdf",
+      "source_path": "paper_1acbc58041a408e33ba33e2f0af5808f2bc56ff1.pdf",
+      "tei_md5": "8d903aa4a01514c7e8978524919962aa",
+      "md5": "8d903aa4a01514c7e8978524919962aa",
+      "sha256": "46c559185a0d52a2702ee9a2f18ec61e974ec4170bb05c2570d7b5bc1cc6b2f0",
+      "status": "same_grobid_input"
+    },
+    "3fbb00b939c3e84989ed922a6366608d1155aeb3": {
+      "title": "Stigma, prejudice, discrimination and health ☆",
+      "path": "papers/3fbb00b939c3e84989ed922a6366608d1155aeb3.pdf",
+      "source_path": "paper_3fbb00b939c3e84989ed922a6366608d1155aeb3.pdf",
+      "tei_md5": "ac3d9166467e5b3f1d2f65e5331a0505",
+      "md5": "ac3d9166467e5b3f1d2f65e5331a0505",
+      "sha256": "e0eb4650712bc41e349b86891e01c5f2207ab25d9e6d6613f2a15e42d3af0447",
+      "status": "same_grobid_input"
+    },
+    "e14a6a3e9647b577751d3915f09301b1ce674d24": {
+      "title": "Crossing Boundaries: New Media and Networked Journalism",
+      "path": "papers/e14a6a3e9647b577751d3915f09301b1ce674d24.pdf",
+      "source_path": "paper_e14a6a3e9647b577751d3915f09301b1ce674d24.pdf",
+      "tei_md5": "1200c21244f7154a696f2bf714c75506",
+      "md5": "1200c21244f7154a696f2bf714c75506",
+      "sha256": "085757ff19b8ced2ee7c3e403a0b5c12e80c6317358d17fe5e99807a8e73b70d",
+      "status": "same_grobid_input"
+    },
+    "doi:10.1145/3677092": {
+      "title": "News Ninja: Gamified Annotation of Linguistic Bias in Online News",
+      "path": "papers/doi%3A10.1145%2F3677092.pdf",
+      "source_path": "3677092.pdf",
+      "tei_md5": "2baf4697c0d3796f72da864f80139e1c",
+      "md5": "2baf4697c0d3796f72da864f80139e1c",
+      "sha256": "dc2f2d4326ab49c65b793c5c85a5c93d1ad664a092e5531f92eabeaee19e52d3",
+      "status": "same_grobid_input"
+    },
+    "digital-05-00014-v3": {
+      "title": "A Survey on Digital Trust: Towards a Validated Definition",
+      "path": "papers/digital-05-00014-v3.pdf",
+      "source_path": "digital-05-00014-v3.pdf",
+      "tei_md5": "e9ba29da23e7b748425200313239fcd2",
+      "md5": "e9ba29da23e7b748425200313239fcd2",
+      "sha256": "01ab7b552144f37182a6960a6bf9f11dfc4eaa5788fa387c1cbe8b2e422cc9ca",
+      "status": "same_grobid_input"
+    },
+    "34ec13e4a17aff92546ab99472e3ce95524d9add": {
+      "title": "Should we worry about filter bubbles?",
+      "path": "papers/34ec13e4a17aff92546ab99472e3ce95524d9add.pdf",
+      "source_path": "paper_34ec13e4a17aff92546ab99472e3ce95524d9add.pdf",
+      "tei_md5": "0cd6c8994b3551f0799158be7c401407",
+      "md5": "0cd6c8994b3551f0799158be7c401407",
+      "sha256": "51c318a4148a4d54737c889bb6a4325b7e86343a4ebb5d7e6d920a3f4262de7a",
+      "status": "same_grobid_input"
+    },
+    "44b1f4501cef2f9ec85d46e837da6737ebbb98c7": {
+      "title": "Mapping Journalism Cultures across Nations: A Comparative Study of 18 Countries",
+      "path": "papers/44b1f4501cef2f9ec85d46e837da6737ebbb98c7.pdf",
+      "source_path": "paper_44b1f4501cef2f9ec85d46e837da6737ebbb98c7.pdf",
+      "tei_md5": "e1412f39ec666d154b593c1ccef2b345",
+      "md5": "e1412f39ec666d154b593c1ccef2b345",
+      "sha256": "5507855c1472c13185da9888142c2d1ef39cb6bb271f08c817649e9b3650a4c3",
+      "status": "same_grobid_input"
+    },
+    "71b7769129e41a3341bb4c6523b0cd99cfcd3388": {
+      "title": "Field Experiments of Discrimination in the Market Place",
+      "path": "papers/71b7769129e41a3341bb4c6523b0cd99cfcd3388.pdf",
+      "source_path": "paper_71b7769129e41a3341bb4c6523b0cd99cfcd3388.pdf",
+      "tei_md5": "ac3454b1a6b192cfb7668abf2c7344c2",
+      "md5": "ac3454b1a6b192cfb7668abf2c7344c2",
+      "sha256": "c01383a4135b198091f136abbb4192ff5e17ab7c76361d9a6e2505636f3a399a",
+      "status": "same_grobid_input"
+    },
+    "3584741": {
+      "title": "A Survey on Event-Based News Narrative Extraction",
+      "path": "papers/3584741.pdf",
+      "source_path": "3584741.pdf",
+      "tei_md5": "75afdd9812ddb6d20b16e9f0521ae86c",
+      "md5": "75afdd9812ddb6d20b16e9f0521ae86c",
+      "sha256": "69f29e28fa9c29031d32d3883c2b7e078fad3f6732dbbe830ca78712d17dae31",
+      "status": "same_grobid_input"
+    },
+    "0d23df558a30492946059c017343a431dc3dc172": {
+      "title": "Intermedia Agenda Setting in the Social Media Age: How Traditional Players Dominate the News Agenda in Election Times",
+      "path": "papers/0d23df558a30492946059c017343a431dc3dc172.pdf",
+      "source_path": "paper_0d23df558a30492946059c017343a431dc3dc172.pdf",
+      "tei_md5": "c480ac250f6d6fad8bc3c7a14bcf20f7",
+      "md5": "c480ac250f6d6fad8bc3c7a14bcf20f7",
+      "sha256": "4e2ebcfaf9197b166c8d2de23b5fced50c20070a7fe6d438cb97587fb7826f18",
+      "status": "same_grobid_input"
+    },
+    "applsci-13-11877-v2": {
+      "title": "Fake News Detection on Social Networks: A Survey",
+      "path": "papers/applsci-13-11877-v2.pdf",
+      "source_path": "applsci-13-11877-v2.pdf",
+      "tei_md5": "0f26ab3c142d7c0ad5cdb73b4206d180",
+      "md5": "0f26ab3c142d7c0ad5cdb73b4206d180",
+      "sha256": "6b5b0a2f755d135b40fde88a009c590bda25313d03ec3aa17cd0b2b9e6d8f752",
+      "status": "same_grobid_input"
+    },
+    "14bf8b0a9961f5c95b62861c9b7f3d5fcf778dcf": {
+      "title": "Unified BHPS work-life histories: combining multiple sources into a user-friendly format",
+      "path": "papers/14bf8b0a9961f5c95b62861c9b7f3d5fcf778dcf.pdf",
+      "source_path": "paper_14bf8b0a9961f5c95b62861c9b7f3d5fcf778dcf.pdf",
+      "tei_md5": "87efc8a7810d7c2a41cf20ad3912d191",
+      "md5": "87efc8a7810d7c2a41cf20ad3912d191",
+      "sha256": "00a6082a40f4dc7cdadfb9c05d299ba1271c434d47be414fcb56e1dcc1c4ff8d",
+      "status": "same_grobid_input"
+    },
+    "261a5f3b2fe61904107a2e80d4a9426532cd4b06": {
+      "title": "Refugees as People: The Portrayal of Refugees in American Human Interest Stories",
+      "path": "papers/261a5f3b2fe61904107a2e80d4a9426532cd4b06.pdf",
+      "source_path": "paper_261a5f3b2fe61904107a2e80d4a9426532cd4b06.pdf",
+      "tei_md5": "99be521cf8cdb6626cb60720c5dcbdf5",
+      "md5": "99be521cf8cdb6626cb60720c5dcbdf5",
+      "sha256": "b364e2b982a1407207c488f70abcb553a599d6906ac6d4793714385e957a6f67",
+      "status": "same_grobid_input"
+    },
+    "32e71a5d430dafa32b3ac8df7d2b5554b55c3f29": {
+      "title": "The Fox News Effect: Media Bias and Voting",
+      "path": "papers/32e71a5d430dafa32b3ac8df7d2b5554b55c3f29.pdf",
+      "source_path": "paper_32e71a5d430dafa32b3ac8df7d2b5554b55c3f29.pdf",
+      "tei_md5": "192699f3f2eef409e4b78458c6d21fee",
+      "md5": "192699f3f2eef409e4b78458c6d21fee",
+      "sha256": "0a86f55aa45fed627baee7771478ab1173aa0e8656acc876f9ccefd00305d5df",
+      "status": "same_grobid_input"
+    },
+    "dx.doi.org/https://doi.org/10.1016/j.ipm.2021.102505": {
+      "title": "Automated identification of bias inducing words in news articles using linguistic and context-oriented features",
+      "path": "papers/dx.doi.org%2Fhttps%3A%2F%2Fdoi.org%2F10.1016%2Fj.ipm.2021.102505.pdf",
+      "source_path": "1-s2.0-S0306457321000157-main.pdf",
+      "tei_md5": "820bcbcfe475dd5bf1b04d4dd7cd71c1",
+      "md5": "820bcbcfe475dd5bf1b04d4dd7cd71c1",
+      "sha256": "6dd22c66730ad74e8c92a32b1c30b30bdc45db152ebe708e956f40dd813ca124",
+      "status": "same_grobid_input"
+    },
+    "22170e94588cf3b970ff8855c946a130aaa065c2": {
+      "title": "Explaining Bargaining Impasse: The Role of Self-Serving Biases",
+      "path": "papers/22170e94588cf3b970ff8855c946a130aaa065c2.pdf",
+      "source_path": "paper_22170e94588cf3b970ff8855c946a130aaa065c2.pdf",
+      "tei_md5": "e7149c1005820b2b44da28177da49a61",
+      "md5": "e7149c1005820b2b44da28177da49a61",
+      "sha256": "a313e38199425d10376cca2fef18720aef36447f3a457158fe7d9d488657ed29",
+      "status": "same_grobid_input"
+    },
+    "235c4f33d5bfc81bfa09a2458fcc0e42ef4454dc": {
+      "title": "Understanding Propaganda: The Epistemic Merit Model and Its Application to Art",
+      "path": "papers/235c4f33d5bfc81bfa09a2458fcc0e42ef4454dc.pdf",
+      "source_path": "paper_235c4f33d5bfc81bfa09a2458fcc0e42ef4454dc.pdf",
+      "tei_md5": "f1c39cc1a805c98940d9fe451894a494",
+      "md5": "f1c39cc1a805c98940d9fe451894a494",
+      "sha256": "f9e1a86a373c142c2329ceabd82c29f22b4eefc96164658d2e3129d094a20aef",
+      "status": "same_grobid_input"
+    },
+    "c4407243496b7e9da554a56550ff51da626de0d8": {
+      "title": "Responsibility for implicit bias",
+      "path": "papers/c4407243496b7e9da554a56550ff51da626de0d8.pdf",
+      "source_path": "paper_c4407243496b7e9da554a56550ff51da626de0d8.pdf",
+      "tei_md5": "0e1a1513e70061a7b9d7ba975729a73d",
+      "md5": "0e1a1513e70061a7b9d7ba975729a73d",
+      "sha256": "ac3c686886f82d2e4d2ff10a6dcf97c8b685bc7daa43cde91bdc11873b053e6c",
+      "status": "same_grobid_input"
+    },
+    "3457607": {
+      "title": "A Survey on Bias and Fairness in Machine Learning",
+      "path": "papers/3457607.pdf",
+      "source_path": "3457607.pdf",
+      "tei_md5": "33e2b5c70027e36c14d1f5c3c3a4c75d",
+      "md5": "33e2b5c70027e36c14d1f5c3c3a4c75d",
+      "sha256": "1286447b719a2bb0e2c411b3bea4eee87ecc27c1ae197de0c35cae3bb1fc2fce",
+      "status": "same_grobid_input"
+    },
+    "f5c282326822c5c1cca05a49940024480948e09c": {
+      "title": "Racism and Health: Evidence and Needed Research",
+      "path": "papers/f5c282326822c5c1cca05a49940024480948e09c.pdf",
+      "source_path": "paper_f5c282326822c5c1cca05a49940024480948e09c.pdf",
+      "tei_md5": "5d0c9d866a78e2a88eb869e89ee22749",
+      "md5": "5d0c9d866a78e2a88eb869e89ee22749",
+      "sha256": "deea668395cf68bd6ad3e4d84a3979eae52389fd04a1aa502b537840791fa4ca",
+      "status": "same_grobid_input"
+    },
+    "79ddbeff892277592aa387045692e0a738ef9edf": {
+      "title": "The COVID-19 social media infodemic",
+      "path": "papers/79ddbeff892277592aa387045692e0a738ef9edf.pdf",
+      "source_path": "paper_79ddbeff892277592aa387045692e0a738ef9edf.pdf",
+      "tei_md5": "6cca41ad240776ce0d8f057c482c86fc",
+      "md5": "6cca41ad240776ce0d8f057c482c86fc",
+      "sha256": "520434d5296be5a1341de864636b25018a9c62c7a21921db411b52cd2a1fe183",
+      "status": "same_grobid_input"
+    },
+    "Rosen_gjcpi_2018_3": {
+      "title": "Issues, Concepts and Applications for Sustainability",
+      "path": "papers/Rosen_gjcpi_2018_3.pdf",
+      "source_path": "Rosen_gjcpi_2018_3.pdf",
+      "tei_md5": "5b3ef4306c7ff18fe00fabdeb6766174",
+      "md5": "5b3ef4306c7ff18fe00fabdeb6766174",
+      "sha256": "c818ab04ea609f3b986c2688a16becba6bd8517267a71de06f7ad19107c43d10",
+      "status": "same_grobid_input"
+    },
+    "44dc95dd0b145d265750d87a0cec5f136ec065b6": {
+      "title": "Stop talking about fake news!",
+      "path": "papers/44dc95dd0b145d265750d87a0cec5f136ec065b6.pdf",
+      "source_path": "paper_44dc95dd0b145d265750d87a0cec5f136ec065b6.pdf",
+      "tei_md5": "413931cf36d2f52e49d46aa5bbecf5df",
+      "md5": "413931cf36d2f52e49d46aa5bbecf5df",
+      "sha256": "669265288d63975e1261f15b68a635fe1ce117e10410eca0e917cc776ced6cc9",
+      "status": "same_grobid_input"
+    },
+    "906e2f13fafbb3105cfc39444af00e004e86221a": {
+      "title": "The Id, the Ego, and Equal Protection: Reckoning with Unconscious Racism",
+      "path": "papers/906e2f13fafbb3105cfc39444af00e004e86221a.pdf",
+      "source_path": "paper_906e2f13fafbb3105cfc39444af00e004e86221a.pdf",
+      "tei_md5": "fdb39d1f3857a1118036a5cc0273ac2d",
+      "md5": "fdb39d1f3857a1118036a5cc0273ac2d",
+      "sha256": "c419588ebe6405672410eb8cc19687391b1c5a9fa5599da1efbacc9bd6bd9fcd",
+      "status": "same_grobid_input"
+    },
+    "https://aclanthology.org/2024.lrec-main.952": {
+      "title": "MAGPIE: Multi-Task Analysis of Media-Bias Generalization with Pre-Trained Identification of Expressions",
+      "path": "papers/https%3A%2F%2Faclanthology.org%2F2024.lrec-main.952.pdf",
+      "source_path": "2024.lrec-main.952v2.pdf",
+      "tei_md5": "0cc460419919380d1f4c42887a930abe",
+      "md5": "0cc460419919380d1f4c42887a930abe",
+      "sha256": "67be0b4e56c90b950b230849e68fc7e4b2aeeec4502c19718cb943f5c161f2da",
+      "status": "same_grobid_input"
+    },
+    "05bfced33d92944b7a0672490c371342d28ee076": {
+      "title": "Labor-Market Competition and Individual Preferences Over Immigration Policy",
+      "path": "papers/05bfced33d92944b7a0672490c371342d28ee076.pdf",
+      "source_path": "paper_05bfced33d92944b7a0672490c371342d28ee076.pdf",
+      "tei_md5": "98a7103e0dcc8622379d41cbd94c2fff",
+      "md5": "98a7103e0dcc8622379d41cbd94c2fff",
+      "sha256": "837374e533875d1b436d59a3f6e5f921eed6cf37c3e636ed8e715f1fc7177d1d",
+      "status": "same_grobid_input"
+    },
+    "1292dfb275a4d68cf877b3fdb37d142cae85b885": {
+      "title": "Rethinking Environmental Racism: White Privilege and Urban Development in Southern California",
+      "path": "papers/1292dfb275a4d68cf877b3fdb37d142cae85b885.pdf",
+      "source_path": "paper_1292dfb275a4d68cf877b3fdb37d142cae85b885.pdf",
+      "tei_md5": "b7a388e872fb2afc99499cef341ea056",
+      "md5": "b7a388e872fb2afc99499cef341ea056",
+      "sha256": "c9ac1b8a740b9480dd6848b328854df307c02ce3a45a8c2cb222c8116f6b9597",
+      "status": "same_grobid_input"
+    },
+    "c1e92f1be2387d14dcfaa5e1640a9939724a312a": {
+      "title": "An empirical examination of echo chambers in US climate policy networks",
+      "path": "papers/c1e92f1be2387d14dcfaa5e1640a9939724a312a.pdf",
+      "source_path": "paper_c1e92f1be2387d14dcfaa5e1640a9939724a312a.pdf",
+      "tei_md5": "84e9a58face7f8822f63576aedac8ea3",
+      "md5": "84e9a58face7f8822f63576aedac8ea3",
+      "sha256": "d79c2d68cf93ca124497cfeab4d188f644eb290894777c70e4a157192475d4b5",
+      "status": "same_grobid_input"
+    },
+    "d53723df40b36633ab301ff680df4687b6eb4c82": {
+      "title": "Implicit Social Cognition: Attitudes, Self-Esteem, and Stereotypes",
+      "path": "papers/d53723df40b36633ab301ff680df4687b6eb4c82.pdf",
+      "source_path": "paper_d53723df40b36633ab301ff680df4687b6eb4c82.pdf",
+      "tei_md5": "1d48f009d45a4e875f4854476ce93734",
+      "md5": "1d48f009d45a4e875f4854476ce93734",
+      "sha256": "ef65a40cf6cacaa04f9d8240e98b477209d380a89071407c62b802b093611194",
+      "status": "same_grobid_input"
+    },
+    "0c68d7d153bb56e4637d6aee051d87580e05fd5b": {
+      "title": "Detecting East Asian Prejudice on Social Media",
+      "path": "papers/0c68d7d153bb56e4637d6aee051d87580e05fd5b.pdf",
+      "source_path": "paper_0c68d7d153bb56e4637d6aee051d87580e05fd5b.pdf",
+      "tei_md5": "0f421251d58a8eb04206fc20bfa43381",
+      "md5": "0f421251d58a8eb04206fc20bfa43381",
+      "sha256": "8ff466692e12fb28c52d97a38dedcf31925af0ea550ba48e2276049278e80a64",
+      "status": "same_grobid_input"
+    },
+    "c466bae6fedff252335dd70f5128a4c8882c476f": {
+      "title": "Do Tabloids Poison the Well of Social Media? Explaining Democratically-Dysfunctional News Sharing",
+      "path": "papers/c466bae6fedff252335dd70f5128a4c8882c476f.pdf",
+      "source_path": "paper_c466bae6fedff252335dd70f5128a4c8882c476f.pdf",
+      "tei_md5": "aaf54cd7c71bead0c0bc122249cd4e61",
+      "md5": "aaf54cd7c71bead0c0bc122249cd4e61",
+      "sha256": "efa0ab7501d1ae55e76e1650f494f176092213d801a890af2960eaab8bfbd898",
+      "status": "same_grobid_input"
+    },
+    "eb29476dd81aefedf2896db42f039f003a0ec5bf": {
+      "title": "Organic or Local? Investigating Consumer Preference for Fresh Produce Using a Choice Experiment with Real Economic Incentives",
+      "path": "papers/eb29476dd81aefedf2896db42f039f003a0ec5bf.pdf",
+      "source_path": "paper_eb29476dd81aefedf2896db42f039f003a0ec5bf.pdf",
+      "tei_md5": "3dd305d20efcb284272622436826dc76",
+      "md5": "3dd305d20efcb284272622436826dc76",
+      "sha256": "743eb540f6da625fa2aeb8d21f7f5b13bb4dfa62f46f1c0fcbb9fe613ebebf81",
+      "status": "same_grobid_input"
+    },
+    "304b9778edf07175e6964dfa3f37cacec6006197": {
+      "title": "Secured and Sorted Mobilities: Examples from the Airport",
+      "path": "papers/304b9778edf07175e6964dfa3f37cacec6006197.pdf",
+      "source_path": "paper_304b9778edf07175e6964dfa3f37cacec6006197.pdf",
+      "tei_md5": "c9abcf137e101ad134c81607a4b07537",
+      "md5": "c9abcf137e101ad134c81607a4b07537",
+      "sha256": "35b59ed9835864ac698542edd81a6d2567c83c5c6b46d8bd9c8387fb1d65deeb",
+      "status": "same_grobid_input"
+    },
+    "5fb808edfaae574ee7f4553ad7090ca1fed9b585": {
+      "title": "Fairness Beyond Disparate Treatment & Disparate Impact: Learning Classification without Disparate Mistreatment",
+      "path": "papers/5fb808edfaae574ee7f4553ad7090ca1fed9b585.pdf",
+      "source_path": "paper_5fb808edfaae574ee7f4553ad7090ca1fed9b585.pdf",
+      "tei_md5": "562caa418b0f5a79629787f052a41e2e",
+      "md5": "562caa418b0f5a79629787f052a41e2e",
+      "sha256": "4f9174ab259877e008c08861d1df66aeb36dc1f95687665c9a28ba00c37d4135",
+      "status": "same_grobid_input"
+    },
+    "e4634a7c9aee3dce3d8d71f96a17c82ed95fd413": {
+      "title": "SECOND GENERATION EMPLOYMENT DISCRIMINATION: A STRUCTURAL APPROACH",
+      "path": "papers/e4634a7c9aee3dce3d8d71f96a17c82ed95fd413.pdf",
+      "source_path": "paper_e4634a7c9aee3dce3d8d71f96a17c82ed95fd413.pdf",
+      "tei_md5": "248f93634442847ad605151fb407827b",
+      "md5": "248f93634442847ad605151fb407827b",
+      "sha256": "9ed0812950c5690cd1d72f7deda3900e451ace2f8bb97e150b2323101aeecca4",
+      "status": "same_grobid_input"
+    },
+    "56c569beddfd96bc0729bbb9d6f2629065b11419": {
+      "title": "A Survey of Systemic Risk Analytics",
+      "path": "papers/56c569beddfd96bc0729bbb9d6f2629065b11419.pdf",
+      "source_path": "paper_56c569beddfd96bc0729bbb9d6f2629065b11419.pdf",
+      "tei_md5": "e44c146c1e3fa73c09e5f4d481468bff",
+      "md5": "e44c146c1e3fa73c09e5f4d481468bff",
+      "sha256": "545c230a2a862f7ea1e5bd0c9d0a0797abe9ada056a2048a80fdb08f76045e2c",
+      "status": "same_grobid_input"
+    },
+    "90d898ff33b4c6c3fc7bfa74fb8126c6cf0828b9": {
+      "title": "Partisan Control, Media Bias, and Viewer Responses: Evidence from Berlusconi's Italy",
+      "path": "papers/90d898ff33b4c6c3fc7bfa74fb8126c6cf0828b9.pdf",
+      "source_path": "paper_90d898ff33b4c6c3fc7bfa74fb8126c6cf0828b9.pdf",
+      "tei_md5": "c5179d51576520b9c10c4a42b6abe52e",
+      "md5": "c5179d51576520b9c10c4a42b6abe52e",
+      "sha256": "e72d9254fec49c67b406b9ac90e16c92d1e35fc3be854be076df8457b2d3d22b",
+      "status": "same_grobid_input"
+    },
+    "5710917bcf01f63c64bc8980cbaa60e7348f5ab8": {
+      "title": "Testing for Statistical Discrimination in Health Care",
+      "path": "papers/5710917bcf01f63c64bc8980cbaa60e7348f5ab8.pdf",
+      "source_path": "paper_5710917bcf01f63c64bc8980cbaa60e7348f5ab8.pdf",
+      "tei_md5": "527af24b580b2ede967dc3b6083cd14e",
+      "md5": "527af24b580b2ede967dc3b6083cd14e",
+      "sha256": "841de3b513d8c6aa09a11ab8da5e79b9d626b870691c1fc062f2bf82239d0b2d",
+      "status": "same_grobid_input"
+    },
+    "3b50e1808471dd5a8d19a50ef227b03774b80cae": {
+      "title": "Transport and social exclusion: investigating the possibility of promoting inclusion through virtual mobility",
+      "path": "papers/3b50e1808471dd5a8d19a50ef227b03774b80cae.pdf",
+      "source_path": "paper_3b50e1808471dd5a8d19a50ef227b03774b80cae.pdf",
+      "tei_md5": "b2d226c69d56516c66fc45c009fe5ffb",
+      "md5": "b2d226c69d56516c66fc45c009fe5ffb",
+      "sha256": "ca27858bbe05f097b05de7ef9595bce05c4a5d46821898f8a38a04f7fbf87492",
+      "status": "same_grobid_input"
+    },
+    "2d1201d181da2166ccbf1e922634b8b74a58f141": {
+      "title": "Twisting Tongues and Twisting Arms: The Power of Political Rhetoric",
+      "path": "papers/2d1201d181da2166ccbf1e922634b8b74a58f141.pdf",
+      "source_path": "paper_2d1201d181da2166ccbf1e922634b8b74a58f141.pdf",
+      "tei_md5": "aaefef3eea1413f6c921b7b334f3b058",
+      "md5": "aaefef3eea1413f6c921b7b334f3b058",
+      "sha256": "d2ab242f9a890a40e3685cb77096f5f913993085966b0107f2836a1c46298b3b",
+      "status": "same_grobid_input"
+    },
+    "334b86c9a3c4bda5f1a127dfe72be72796f2364d": {
+      "title": "The spread of low-credibility content by social bots",
+      "path": "papers/334b86c9a3c4bda5f1a127dfe72be72796f2364d.pdf",
+      "source_path": "paper_334b86c9a3c4bda5f1a127dfe72be72796f2364d.pdf",
+      "tei_md5": "83bcfd02064ca36c47365d70d3d01110",
+      "md5": "83bcfd02064ca36c47365d70d3d01110",
+      "sha256": "b3558af6a0ded121c5aec42e01e01efaef589a652b75221cb098716ee8973494",
+      "status": "same_grobid_input"
+    },
+    "21e5b0bc1511e0892ad361689bd686d6bc53821e": {
+      "title": "Resilience to Online Disinformation: A Framework for Cross-National Comparative Research",
+      "path": "papers/21e5b0bc1511e0892ad361689bd686d6bc53821e.pdf",
+      "source_path": "paper_21e5b0bc1511e0892ad361689bd686d6bc53821e.pdf",
+      "tei_md5": "019069eb2841950c6672dde359aa7523",
+      "md5": "019069eb2841950c6672dde359aa7523",
+      "sha256": "e0baf4bb479a357d02d9d095021d4a8b3f4ef151810e7f65ab7422a4f80b1d82",
+      "status": "same_grobid_input"
+    },
+    "5529d09545f03ad4fc611579cd8bae3d09aaa4b2": {
+      "title": "Partisan Stereotypes and Policy Attitudes",
+      "path": "papers/5529d09545f03ad4fc611579cd8bae3d09aaa4b2.pdf",
+      "source_path": "paper_5529d09545f03ad4fc611579cd8bae3d09aaa4b2.pdf",
+      "tei_md5": "caf78c5a61436276800fc160a9e694e2",
+      "md5": "caf78c5a61436276800fc160a9e694e2",
+      "sha256": "9a56e7fd49ef5067416de3fe39a82f57f9e905271cfda9d94c5b8fc6914ec007",
+      "status": "same_grobid_input"
+    },
+    "ac445a30aad717c7fba9a412ba8ca195a1d1603f": {
+      "title": "Race and racism in Internet Studies: A review and critique",
+      "path": "papers/ac445a30aad717c7fba9a412ba8ca195a1d1603f.pdf",
+      "source_path": "paper_ac445a30aad717c7fba9a412ba8ca195a1d1603f.pdf",
+      "tei_md5": "3ecaf6896abcaeda906933c14f5d50a6",
+      "md5": "3ecaf6896abcaeda906933c14f5d50a6",
+      "sha256": "ce75b5cb08f697c93e8a6cc925383f2f5959e7a7d3be96f87ee03ec6e821d324",
+      "status": "same_grobid_input"
+    },
+    "6ce27e8ceb8e7aa4e40d99312b6c98ac3f5260fb": {
+      "title": "Media Bias and Reputation",
+      "path": "papers/6ce27e8ceb8e7aa4e40d99312b6c98ac3f5260fb.pdf",
+      "source_path": "paper_6ce27e8ceb8e7aa4e40d99312b6c98ac3f5260fb.pdf",
+      "tei_md5": "26e18046f3dc2fc671cb7e688e9d84c8",
+      "md5": "26e18046f3dc2fc671cb7e688e9d84c8",
+      "sha256": "9485b5b413738baecef6ee9cf5d2107248d47a41489f6e93c5e40d36e3639a2b",
+      "status": "same_grobid_input"
+    },
+    "118e1a32747f15bf92ddfd88abe5f00f893e4255": {
+      "title": "MODELING PERCEIVED INFLUENCES ON JOURNALISM: EVIDENCE FROM A CROSS-NATIONAL SURVEY OF JOURNALISTS",
+      "path": "papers/118e1a32747f15bf92ddfd88abe5f00f893e4255.pdf",
+      "source_path": "paper_118e1a32747f15bf92ddfd88abe5f00f893e4255.pdf",
+      "tei_md5": "44cab234abf49b04c7d05ac3b89eb42b",
+      "md5": "44cab234abf49b04c7d05ac3b89eb42b",
+      "sha256": "bce134cc9a0513c76ac32c299a2a011af2c36b5ccff57a9ec7d527341c30ea2b",
+      "status": "same_grobid_input"
+    },
+    "daw084": {
+      "title": "Just a subtle difference? Findings from a systematic review on definitions of nutrition literacy and food literacy",
+      "path": "papers/daw084.pdf",
+      "source_path": "daw084.pdf",
+      "tei_md5": "17b25f48ea260e17d3cca5e8e43e4392",
+      "md5": "17b25f48ea260e17d3cca5e8e43e4392",
+      "sha256": "211a6fb39d2ccea64cbe0764b500473674e985624a6b118dbcaabc2d3f3ca9ce",
+      "status": "same_grobid_input"
+    },
+    "https://aclanthology.org/2021.findings-emnlp.101": {
+      "title": "Neural Media Bias Detection Using Distant Supervision With BABE -Bias Annotations By Experts",
+      "path": "papers/https%3A%2F%2Faclanthology.org%2F2021.findings-emnlp.101.pdf",
+      "source_path": "2021.findings-emnlp.101.pdf",
+      "tei_md5": "b5819f0938ab852f2b4878c912195f1b",
+      "md5": "b5819f0938ab852f2b4878c912195f1b",
+      "sha256": "f517652bab9a940b8dbb21f4a7beeae39bd72a42861c1e8f2ee99fd2891accce",
+      "status": "same_grobid_input"
+    },
+    "3dffde1e26f12b0f30abe8b5a046932fa6004ae0": {
+      "title": "Fake News or Truth? Using Satirical Cues to Detect Potentially Misleading News",
+      "path": "papers/3dffde1e26f12b0f30abe8b5a046932fa6004ae0.pdf",
+      "source_path": "paper_3dffde1e26f12b0f30abe8b5a046932fa6004ae0.pdf",
+      "tei_md5": "2d91308e35dc173662e1438438a56464",
+      "md5": "2d91308e35dc173662e1438438a56464",
+      "sha256": "3f0e87549e4024f8fa7f9357fef587ec95619fda856bb6e48d5bd7d4ee9bd208",
+      "status": "same_grobid_input"
+    },
+    "hash_4105881299835d6b": {
+      "title": "Media Framing: A Typology and Survey of Computational Approaches Across Disciplines",
+      "path": "papers/hash_4105881299835d6b.pdf",
+      "source_path": "hash_4105881299835d6b__hash_4105881299835d6b.pdf",
+      "tei_md5": "7e11a9ced03ce84a4fd957d7b9a40a4d",
+      "md5": "7e11a9ced03ce84a4fd957d7b9a40a4d",
+      "sha256": "0458e55647d150481b0d5955190518a4e46e140abbc1defc036a16838e4c890b",
+      "status": "same_grobid_input"
+    },
+    "c84a169e6df175c4662012d3ba7dbf8fa1b5abc9": {
+      "title": "‘Fake news’ is the invention of a liar: How false information circulates within the hybrid news system",
+      "path": "papers/c84a169e6df175c4662012d3ba7dbf8fa1b5abc9.pdf",
+      "source_path": "paper_c84a169e6df175c4662012d3ba7dbf8fa1b5abc9.pdf",
+      "tei_md5": "5d7a32d0fbd0a7114090ed8a03d0c7f9",
+      "md5": "5d7a32d0fbd0a7114090ed8a03d0c7f9",
+      "sha256": "36e890d284849e3bb7244a3fbfffbbcc2fdd91fb4b06bcb818c4782022227d4b",
+      "status": "same_grobid_input"
+    },
+    "e049ae6d7d3e07536d096ebcd4ddf82e7c54a0ec": {
+      "title": "Disinformation Warfare: Understanding State-Sponsored Trolls on Twitter and Their Influence on the Web",
+      "path": "papers/e049ae6d7d3e07536d096ebcd4ddf82e7c54a0ec.pdf",
+      "source_path": "paper_e049ae6d7d3e07536d096ebcd4ddf82e7c54a0ec.pdf",
+      "tei_md5": "8c6d26a5f7307abd753404211365b21e",
+      "md5": "8c6d26a5f7307abd753404211365b21e",
+      "sha256": "b4e826af877bdc980a605d2fc4696c9ec0c1fae4d5b43b87837aefeb5e24f21d",
+      "status": "same_grobid_input"
+    },
+    "04fce15680b781fd81dc2062b1583cc9ecd55bc0": {
+      "title": "Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations: Conceptual Issues and Research Evidence",
+      "path": "papers/04fce15680b781fd81dc2062b1583cc9ecd55bc0.pdf",
+      "source_path": "paper_04fce15680b781fd81dc2062b1583cc9ecd55bc0.pdf",
+      "tei_md5": "534e4f1896025453e60e97069315379d",
+      "md5": "534e4f1896025453e60e97069315379d",
+      "sha256": "e118eb2d1e85ecfa0fb3a0cf7bd58adfe82ed5b68c4ec89cc6af9e0b1b33b2d3",
+      "status": "same_grobid_input"
+    },
+    "1ccc69b50a7495af1547833415f89536619c93e9": {
+      "title": "The Dynamics of Public Attention: Agenda-Setting Theory Meets Big Data",
+      "path": "papers/1ccc69b50a7495af1547833415f89536619c93e9.pdf",
+      "source_path": "paper_1ccc69b50a7495af1547833415f89536619c93e9.pdf",
+      "tei_md5": "c2da48263666bfd2a4b0cc952f465e41",
+      "md5": "c2da48263666bfd2a4b0cc952f465e41",
+      "sha256": "67e43b4af613a6149346f85e201e5e0cdb754f3a8666a7fb125dcc1c9a98193d",
+      "status": "same_grobid_input"
+    },
+    "6b7fb77e515e432fc12cf7779c796aa98e18c68d": {
+      "title": "Talking about Poverty: News Framing of Who is Responsible for Causing and Fixing the Problem",
+      "path": "papers/6b7fb77e515e432fc12cf7779c796aa98e18c68d.pdf",
+      "source_path": "paper_6b7fb77e515e432fc12cf7779c796aa98e18c68d.pdf",
+      "tei_md5": "1c1176731630e628e06409ebd9576163",
+      "md5": "1c1176731630e628e06409ebd9576163",
+      "sha256": "10f8750e6dc9384fc85a817222fa9e2c7c9f3c07a7481de812fff189682a4c77",
+      "status": "same_grobid_input"
+    },
+    "383057f972b11b99cbc8c0d3e6c47170e9d95c1c": {
+      "title": "Blockchain and IoT Integration: A Systematic Survey",
+      "path": "papers/383057f972b11b99cbc8c0d3e6c47170e9d95c1c.pdf",
+      "source_path": "paper_383057f972b11b99cbc8c0d3e6c47170e9d95c1c.pdf",
+      "tei_md5": "970a3e208a3dc786bc4be752533d726e",
+      "md5": "970a3e208a3dc786bc4be752533d726e",
+      "sha256": "ae67be171f78b603231b06c4128380407737ece28e25f05a0b1ca475b25d2d87",
+      "status": "same_grobid_input"
+    },
+    "09c660d438e8b372f3e77504c069255b85c00256": {
+      "title": "Construal-level theory of psychological distance.",
+      "path": "papers/09c660d438e8b372f3e77504c069255b85c00256.pdf",
+      "source_path": "paper_09c660d438e8b372f3e77504c069255b85c00256.pdf",
+      "tei_md5": "5390dcea1bc958efb0df6ffd8863e209",
+      "md5": "5390dcea1bc958efb0df6ffd8863e209",
+      "sha256": "e514cc51d3e170f88acd7c803d22614ab14e843e58740de6f094a8c5ac74b3a1",
+      "status": "same_grobid_input"
+    },
+    "hash_32ab4976acec6dfb": {
+      "title": "Fake News: A Definition",
+      "path": "papers/hash_32ab4976acec6dfb.pdf",
+      "source_path": "hash_32ab4976acec6dfb__hash_32ab4976acec6dfb.pdf",
+      "tei_md5": "af16e80c7032edef4c16f98df3b9dd4c",
+      "md5": "af16e80c7032edef4c16f98df3b9dd4c",
+      "sha256": "e8a01d857753f06fcac05328254b016bbde258e66453dd01ec6229daeccaf48b",
+      "status": "same_grobid_input"
+    },
+    "1538c4777271ae6abb542801dac01423f4d566ad": {
+      "title": "Understanding the Role and Methods of Meta-Analysis in IS Research",
+      "path": "papers/1538c4777271ae6abb542801dac01423f4d566ad.pdf",
+      "source_path": "paper_1538c4777271ae6abb542801dac01423f4d566ad.pdf",
+      "tei_md5": "43acb665a7ed077f8c22ae46c22ad9ef",
+      "md5": "43acb665a7ed077f8c22ae46c22ad9ef",
+      "sha256": "de3e64b6cf7a0c6336fa195b243a94ed8465f7448a8da4466d60dfda3044ea63",
+      "status": "same_grobid_input"
+    },
+    "a0f390307705585eae44a74d28eb6d3819979e6d": {
+      "title": "The web and its journalisms: considering the consequences of different types of newsmedia online",
+      "path": "papers/a0f390307705585eae44a74d28eb6d3819979e6d.pdf",
+      "source_path": "paper_a0f390307705585eae44a74d28eb6d3819979e6d.pdf",
+      "tei_md5": "6b474e68c8c1e94ecf386398bc7f2f62",
+      "md5": "6b474e68c8c1e94ecf386398bc7f2f62",
+      "sha256": "e9db8d902c01f193edf9db3b751e7754d86a4591e4e65510c915e856e0544695",
+      "status": "same_grobid_input"
+    },
+    "bff1326ea0f792e3557fc8ad0731733ba7f8b091": {
+      "title": "PRIOR ALLIANCES WITH TARGETS AND ACQUISITION PERFORMANCE IN KNOWLEDGE-INTENSIVE INDUSTRIES",
+      "path": "papers/bff1326ea0f792e3557fc8ad0731733ba7f8b091.pdf",
+      "source_path": "paper_bff1326ea0f792e3557fc8ad0731733ba7f8b091.pdf",
+      "tei_md5": "49bc2eca43acd9572256d7a4a6181081",
+      "md5": "49bc2eca43acd9572256d7a4a6181081",
+      "sha256": "b6aa5e4fd9d64accda9f57dd3ed927f3ed3a15ffa6650356846aa8d4c1cd51ff",
+      "status": "same_grobid_input"
+    },
+    "9a7ae269358c6366cc46dc924d63b47ba405d082": {
+      "title": "Political Polarization on Twitter",
+      "path": "papers/9a7ae269358c6366cc46dc924d63b47ba405d082.pdf",
+      "source_path": "paper_9a7ae269358c6366cc46dc924d63b47ba405d082.pdf",
+      "tei_md5": "46bfa27918e4bf493cabca119a762cec",
+      "md5": "46bfa27918e4bf493cabca119a762cec",
+      "sha256": "1f62d95220e7782ccf0d982f20c6b1dea98b782f2d246597bf19322f1c8f1ff8",
+      "status": "same_grobid_input"
+    },
+    "92427eb200269686224441fd9877de58a0a3c506": {
+      "title": "THE JOURNALISTIC GUT FEELING",
+      "path": "papers/92427eb200269686224441fd9877de58a0a3c506.pdf",
+      "source_path": "paper_92427eb200269686224441fd9877de58a0a3c506.pdf",
+      "tei_md5": "1c4b0c147490305c2da5b50a741835b9",
+      "md5": "1c4b0c147490305c2da5b50a741835b9",
+      "sha256": "31eead54cf6b4ad6466e11b9e3bb42e1eb4abe4fe0670ff4e88c11b6121b44c1",
+      "status": "same_grobid_input"
+    },
+    "4d65bab6f9b1fd61885fe187e6014a89592df187": {
+      "title": "Transparency, Reproducibility, and the Credibility of Economics Research",
+      "path": "papers/4d65bab6f9b1fd61885fe187e6014a89592df187.pdf",
+      "source_path": "paper_4d65bab6f9b1fd61885fe187e6014a89592df187.pdf",
+      "tei_md5": "bc8e5f57cd97d5488d676fd3737cdf28",
+      "md5": "bc8e5f57cd97d5488d676fd3737cdf28",
+      "sha256": "a31257f2c418920e17e852e8ca2c67be876154b65ba309c490c3d70e70f9332f",
+      "status": "same_grobid_input"
+    }
+  },
+  "navigation_index_check": {
+    "pdfs": 150,
+    "pages": 4153,
+    "pdfs_with_unreadable_text_layer_characters": 36,
+    "failures": 0,
+    "meaning": "This checks the independent PDF text index used for navigation. Unreadable glyphs are kept as unknown markers, never used to fabricate full matches. These counts do not measure GROBID errors or establish correctness of GT fields. The page image remains authoritative."
+  }
+}

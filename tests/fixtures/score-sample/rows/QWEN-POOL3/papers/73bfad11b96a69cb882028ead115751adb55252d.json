@@ -1,0 +1,366 @@
+{
+  "definition_records": [
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "We define fake news to be fabricated information that mimics the output of the news media in form, but not in organizational process or intent."
+        }
+      ],
+      "description": [
+        {
+          "citation": [],
+          "text": "Most notably, fake news outlets lack the news media's editorial norms and processes for ensuring the accuracy and credibility of information."
+        },
+        {
+          "citation": [],
+          "text": "Fake news is a subcategory of misinformation-incorrect or misleading information about the state of the world."
+        },
+        {
+          "citation": [],
+          "text": "It is particularly pernicious in that it undermines the credibility of standard news outlets."
+        },
+        {
+          "citation": [],
+          "text": "even if fake news does not alter most people's beliefs, it may nonetheless reinforce existing false beliefs, increase their salience, or shape the news agenda, with potentially harmful effects for society."
+        }
+      ],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "misinformation"
+        },
+        {
+          "citation": [],
+          "text": "social manipulations"
+        },
+        {
+          "citation": [],
+          "text": "propaganda"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [
+        {
+          "citation": [],
+          "text": "misinformation"
+        }
+      ],
+      "synonyms": [],
+      "term": "fake news"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "incorrect or misleading information about the state of the world."
+        },
+        {
+          "citation": [],
+          "text": "incorrect or misleading information about the state of the world"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "fake news"
+        }
+      ],
+      "subtypes": [
+        {
+          "citation": [],
+          "text": "fake news"
+        }
+      ],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "misinformation"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "the direct identification of content that is factually incorrect."
+        },
+        {
+          "citation": [],
+          "text": "the direct identification of content that is factually incorrect"
+        }
+      ],
+      "description": [
+        {
+          "citation": [],
+          "text": "There are many forms of fact checking, from stand-alone websites that evaluate the factual claims of news reports, such as Politifact and Snopes, to evaluations of news reports by credible news media, such as the Washington Post, to warnings on content placed by informational intermediaries, such as Facebook."
+        }
+      ],
+      "examples": [
+        {
+          "citation": [],
+          "text": "stand-alone websites that evaluate the factual claims of news reports, such as Politifact and Snopes"
+        },
+        {
+          "citation": [],
+          "text": "evaluations of news reports by credible news media, such as the Washington Post"
+        },
+        {
+          "citation": [],
+          "text": "warnings on content placed by informational intermediaries, such as Facebook"
+        }
+      ],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "education"
+        },
+        {
+          "citation": [],
+          "text": "critical information skills"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "fact checking"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "people prefer information that confirms their pre-existing attitudes"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "confirmation bias"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "selective exposure"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "view information consistent with their pre-existing beliefs as more persuasive than dissonant information"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "selective exposure"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "confirmation bias"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "automated accounts impersonating humans"
+        }
+      ],
+      "description": [
+        {
+          "citation": [],
+          "text": "Bots are numerous and commoditized."
+        },
+        {
+          "citation": [],
+          "text": "By liking, sharing, and searching for information, social bots (automated accounts impersonating humans) and extreme partisans can amplify the reach of fake news. Bots are numerous and commoditized."
+        },
+        {
+          "citation": [],
+          "text": "By liking, sharing, and searching for information, social bots (automated accounts impersonating humans) and extreme partisans can amplify the reach of fake news."
+        }
+      ],
+      "examples": [
+        {
+          "citation": [
+            "(9)"
+          ],
+          "text": "They were responsible for a significant portion of political content posted during the 2016 campaign, and some of the same bots later attempted to influence the 2017 French election"
+        }
+      ],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "cyborgs"
+        },
+        {
+          "citation": [],
+          "text": "extreme partisans"
+        },
+        {
+          "citation": [],
+          "text": "fake news"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "social bots"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "humans aided by automated posting to their accounts"
+        }
+      ],
+      "description": [
+        {
+          "citation": [],
+          "text": "the automated spread of news content by bots and cyborgs (humans aided by automated posting to their accounts) could be curbed."
+        },
+        {
+          "citation": [],
+          "text": "More generally, the automated spread of news content by bots and cyborgs (humans aided by automated posting to their accounts) could be curbed."
+        }
+      ],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "bots"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "cyborgs"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "the ease of information recall"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "familiarity bias"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "fluency"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "people tend to remember information, or how they feel about it, while forgetting the context within which they encountered it. They are also more likely to accept familiar information as true."
+        }
+      ],
+      "description": [
+        {
+          "citation": [],
+          "text": "The literature presents contradictory evidence about the effectiveness of claim repetition in fact checking. Experimental and survey research has confirmed the basic familiarity effect, though recent experiments suggest that retractions are more effective in reducing misinformation effects when they explicitly repeat the misinformation."
+        }
+      ],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "fluency"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "familiarity bias"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "changing what we think about"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "priming"
+        },
+        {
+          "citation": [],
+          "text": "agenda setting"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "framing"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "changing what we think about"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "priming"
+        },
+        {
+          "citation": [],
+          "text": "framing"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "agenda setting"
+    },
+    {
+      "definitions": [
+        {
+          "citation": [],
+          "text": "changing what we think about"
+        }
+      ],
+      "description": [],
+      "examples": [],
+      "related_terms": [
+        {
+          "citation": [],
+          "text": "framing"
+        },
+        {
+          "citation": [],
+          "text": "agenda setting"
+        }
+      ],
+      "subtypes": [],
+      "supertypes": [],
+      "synonyms": [],
+      "term": "priming"
+    }
+  ],
+  "paper_id": "73bfad11b96a69cb882028ead115751adb55252d",
+  "row": "QWEN-POOL3",
+  "stage": "final"
+}

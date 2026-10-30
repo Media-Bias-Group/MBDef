@@ -1,0 +1,101 @@
+/* relevance tab: every class starts with rl- so nothing collides with the other tabs */
+/* the stage: head, numbers, the 3D view and its worked example on the dark band. Inside it the page tokens take their
+   stage values, so the shared components (seg, pill, btn, glossary, more) read on dark in both themes. Strict and kept
+   take the dark theme's values: the stage is dark in both themes (base.css has no stage token for them). */
+.rl-stage {
+  --ink: var(--stage-ink); --ink-2: color-mix(in srgb, var(--stage-ink) 80%, var(--stage-muted)); --muted: var(--stage-muted);
+  --rule: var(--stage-rule); --grid: var(--stage-rule); --surface: var(--stage-2); --surface-2: var(--stage-3);
+  --accent: var(--stage-accent); --accent-wash: color-mix(in srgb, var(--stage-accent) 16%, var(--stage-2));
+  --strict: #a891f2; --kept: #3cc39d; --rl-bg: var(--stage);
+  color: var(--stage-ink); border: 1px solid var(--stage-rule); padding: clamp(14px, 2.2vw, 26px); display: flex; flex-direction: column; gap: 16px; min-width: 0;
+}
+.rl-hero { display: flex; flex-direction: column; gap: 6px; max-width: 80ch; }
+.rl-title { font-size: clamp(1.7rem, 3.2vw, 2.4rem); letter-spacing: -.01em; }
+.rl-line { color: var(--ink-2); font-size: 15px; }
+.rl-stats { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 1080px) { .rl-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .rl-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.rl-stats .stat { padding: 10px 13px; }
+.rl-stats .stat .sv { font-size: clamp(1.5rem, 2.4vw, 2rem); }
+.rl-stats .stat .sl { font-size: 12.5px; }
+.rl-stats .stat .ss { font-size: 12px; }
+.rl-stats .stat.rl-st .sv { color: var(--strict); }
+.rl-stats .stat.rl-kp .sv { color: var(--kept); }
+
+.rl-lbl { font: 600 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); min-width: 4.4em; }
+.rl-ctls { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; }
+.rl-ctls .ctl { gap: 6px 8px; }
+.rl-chk { display: inline-flex; align-items: center; gap: 5px; color: var(--ink-2); cursor: pointer; }
+.rl-chk input { accent-color: var(--accent); margin: 0; }
+.rl-chk.off { opacity: .45; cursor: not-allowed; }
+.rl-sp { flex: 1 1 0; }
+
+/* the 3D view: plot left, its worked example right; stacked on narrow screens */
+.rl-3dgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(270px, 330px); gap: 16px; align-items: start; }
+@media (max-width: 920px) { .rl-3dgrid { grid-template-columns: minmax(0, 1fr); } }
+.rl-plotcol { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.rl-box { position: relative; height: clamp(380px, 62vh, 600px); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: var(--rl-bg); }
+.rl-box canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+.rl-box canvas:active { cursor: grabbing; }
+.rl-hint { position: absolute; right: 10px; bottom: 8px; font: 11px var(--f-mono); color: var(--muted); pointer-events: none; }
+.rl-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.rl-labels span { position: absolute; left: 0; top: 0; white-space: nowrap; font: 11px var(--f-mono); color: var(--muted); will-change: transform;
+  text-shadow: 0 0 3px var(--rl-bg), 0 0 3px var(--rl-bg), 0 0 2px var(--rl-bg); }
+.rl-labels span.ax { font: 600 12.5px var(--f-body); color: var(--ink); background: color-mix(in srgb, var(--rl-bg) 82%, transparent); border: 1px solid var(--rule); border-radius: 6px; padding: 0 6px; text-shadow: none; }
+.rl-labels span.pl { font: 600 11.5px var(--f-body); color: var(--accent); }
+.rl-labels span.pl.st { color: var(--strict); }
+.rl-legend { position: absolute; left: 8px; top: 8px; z-index: 2; max-width: calc(100% - 16px); pointer-events: none; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px;
+  font-size: 12px; color: var(--ink-2); background: color-mix(in srgb, var(--rl-bg) 78%, transparent); border-radius: 8px; padding: 4px 9px; }
+.rl-legend:empty { display: none; }
+.rl-aside { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.rl-legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.rl-legend .ramp { display: block; width: 180px; max-width: 100%; height: 8px; border-radius: 4px; position: relative; }
+.rl-legend .ramp b { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); }
+.rl-legend .ends { display: flex; justify-content: space-between; width: 180px; max-width: 100%; font-size: 11px; color: var(--muted); }
+.rl-cap { font-size: 13px; color: var(--ink-2); max-width: 90ch; }
+.rl-cap:empty { display: none; }
+.rl-load { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 16px; background: var(--rl-bg); color: var(--ink-2); }
+.rl-tip { position: absolute; z-index: 5; pointer-events: none; max-width: min(300px, calc(100% - 16px)); background: var(--surface); color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 8px; padding: 6px 9px; font-size: 12.5px; line-height: 1.4; box-shadow: 0 6px 20px rgba(0, 0, 0, .18); display: flex; flex-direction: column; gap: 2px; }
+.rl-tip b { font-weight: 700; overflow-wrap: anywhere; }
+.rl-tip .mono { color: var(--ink-2); }
+.rl-tip .pill { align-self: flex-start; }
+
+/* the worked example beside the 3D view */
+.rl-explain { display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; color: var(--ink-2); min-width: 0; }
+.rl-explain .ex { border: 1px solid var(--rule); border-radius: 12px; padding: 12px 14px; background: var(--stage-2); display: flex; flex-direction: column; gap: 8px; }
+.rl-explain .ex .t { font: 600 1.35rem/1.15 var(--f-display); color: var(--ink); overflow-wrap: anywhere; }
+.rl-verdict { font-size: 13.5px; color: var(--ink); }
+.rl-verdict b { font-variant-numeric: tabular-nums; }
+.rl-tab { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+.rl-tab th, .rl-tab td { padding: 3px 5px; border-bottom: 1px solid var(--grid); text-align: right; position: static; background: none; white-space: nowrap; }
+.rl-tab th { font-size: 11px; color: var(--muted); font-weight: 600; }
+.rl-tab th:first-child, .rl-tab td:first-child { text-align: left; }
+.rl-tab tr.sum td { border-bottom: 0; font-weight: 700; color: var(--ink); }
+.rl-tab td { font-family: var(--f-mono); font-size: 12px; }
+.rl-tab td:first-child { font-family: var(--f-body); font-size: 12.5px; }
+.rl-side { font-weight: 600; }
+.rl-side.kept { color: var(--kept); } .rl-side.strict { color: var(--strict); }
+.rl-explain .btnrow { display: flex; flex-wrap: wrap; gap: 6px; }
+/* the s-scale under the example: where its score sits between the cut and the strict cut */
+.rl-scale { position: relative; height: 26px; margin: 2px 0 0; }
+.rl-scale .bar { position: absolute; left: 0; right: 0; top: 8px; height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--stage-3) 0 var(--c), color-mix(in srgb, var(--kept) 55%, var(--stage-3)) var(--c) var(--b), color-mix(in srgb, var(--strict) 60%, var(--stage-3)) var(--b)); }
+.rl-scale .mk { position: absolute; top: 2px; width: 2px; height: 18px; background: var(--ink); border-radius: 1px; transform: translateX(-1px); }
+.rl-scale .tk { position: absolute; top: 17px; font: 10px var(--f-mono); color: var(--muted); transform: translateX(-50%); white-space: nowrap; }
+
+/* the panels below the stage */
+.rl-xps .rl-wide { grid-column: 1 / -1; }
+.rl-xps .rl-pair { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; justify-content: space-between; }
+.rl-chart2 canvas { touch-action: manipulation; }
+.rl-strip { position: relative; height: 126px; border-radius: 8px; cursor: ew-resize; touch-action: none; outline-offset: 3px; }
+.rl-strip canvas { display: block; width: 100%; height: 100%; }
+.rl-dcards { max-height: 640px; overflow: auto; padding-right: 4px; }
+.rl-members { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 165px), 1fr)); gap: 10px; }
+.rl-member { border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; background: var(--surface-2); }
+.rl-member .w { font: 600 1.5rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+.rl-member .nm { font-weight: 700; }
+.rl-formula { font: 13px var(--f-mono); color: var(--ink); background: var(--surface-2); border-radius: 8px; padding: 8px 10px; overflow-x: auto; }
+.rl-checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 8px; }
+.rl-checks .tile .tv { font-size: 1.45rem; }
+@media (max-width: 640px) { .rl-box { height: 380px; } .rl-hint { display: none; } }
+@media (max-width: 600px) { .rl-xps .xp-m { white-space: normal; text-align: right; } }

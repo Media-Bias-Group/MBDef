@@ -1,0 +1,3526 @@
+{
+  "dataset": "SciDef DefSim",
+  "source": "adjacent:../Redefining_Media_Bias/hf_repo/DefSim/data/defsim.csv",
+  "source_sha256": "45fdd4602d5437198217a1232ecfb2445cca6d1d6862e498e89b464d5ccb5726",
+  "pairs": 60,
+  "human_target": "(def_rating_mean - 1) / 4",
+  "human_rating_range": [
+    1,
+    5
+  ],
+  "human_scale_assumption": "Pearson and MAE treat the 1-5 ratings as equally spaced; Spearman uses only their ordering. Public DefSim provides aggregate ratings, so this benchmark does not estimate annotator uncertainty.",
+  "metric_families": {
+    "no_defsim_label_fit": "No DefSim human labels are used to fit these scores. The neural models themselves are pretrained.",
+    "defsim_calibrated_oof": "Affine transformations are fitted on DefSim training folds and evaluated only on paper-disjoint held-out folds. These are exploratory DefSim-trained metrics, not zero-shot metrics."
+  },
+  "combination_formulas": {
+    "equal_max_lex_bge_plus_nli": "(max(LexF1, BGE) + NLI) / 2",
+    "equal_max_lex_nli_plus_bge": "(max(LexF1, NLI) + BGE) / 2",
+    "max_lex_mean_bge_nli": "max(LexF1, (BGE + NLI) / 2)",
+    "max_lex_bge_nli": "max(LexF1, BGE, NLI)",
+    "mean_lex_bge_nli": "(LexF1 + BGE + NLI) / 3"
+  },
+  "calibration": {
+    "folds": 5,
+    "assignment": "Paper-connected components assigned without human ratings; no paper occurs in both train and test within a fold.",
+    "fold_summary": [
+      {
+        "fold": 0,
+        "rows": 20,
+        "papers": 12,
+        "pair_kinds": {
+          "GTGT": 5,
+          "GTP": 8,
+          "PP": 7
+        }
+      },
+      {
+        "fold": 1,
+        "rows": 12,
+        "papers": 7,
+        "pair_kinds": {
+          "GTGT": 2,
+          "GTP": 6,
+          "PP": 4
+        }
+      },
+      {
+        "fold": 2,
+        "rows": 9,
+        "papers": 8,
+        "pair_kinds": {
+          "GTGT": 2,
+          "GTP": 5,
+          "PP": 2
+        }
+      },
+      {
+        "fold": 3,
+        "rows": 10,
+        "papers": 10,
+        "pair_kinds": {
+          "GTGT": 4,
+          "GTP": 5,
+          "PP": 1
+        }
+      },
+      {
+        "fold": 4,
+        "rows": 9,
+        "papers": 11,
+        "pair_kinds": {
+          "GTGT": 2,
+          "GTP": 6,
+          "PP": 1
+        }
+      }
+    ],
+    "SciDef_NLI": {
+      "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+      "formula": "clip(slope * raw_score + intercept, 0, 1)",
+      "fold_parameters": [
+        {
+          "fold": 0,
+          "train_rows": 40,
+          "test_rows": 20,
+          "slope": 1.2272395275559793,
+          "intercept": -0.035454780219086324
+        },
+        {
+          "fold": 1,
+          "train_rows": 48,
+          "test_rows": 12,
+          "slope": 1.128205515910596,
+          "intercept": -0.04055839322196364
+        },
+        {
+          "fold": 2,
+          "train_rows": 51,
+          "test_rows": 9,
+          "slope": 1.208710830716831,
+          "intercept": -0.03799542068421108
+        },
+        {
+          "fold": 3,
+          "train_rows": 50,
+          "test_rows": 10,
+          "slope": 1.216062103427365,
+          "intercept": -0.030137054228670412
+        },
+        {
+          "fold": 4,
+          "train_rows": 51,
+          "test_rows": 9,
+          "slope": 1.195834710449412,
+          "intercept": -0.039208450932571304
+        }
+      ],
+      "full_data_fit_for_future_external_evaluation_only": {
+        "slope": 1.1953718143891137,
+        "intercept": -0.036631082544676064
+      }
+    }
+  },
+  "hardware": {
+    "platform": "Linux-7.1.5-1-cachyos-x86_64-with-glibc2.44",
+    "processor": "",
+    "logical_cpus": 24
+  },
+  "packages": {
+    "torch": "2.11.0",
+    "transformers": "5.14.1",
+    "huggingface-hub": "1.25.1"
+  },
+  "gates": {
+    "none": {
+      "passed": 60,
+      "by_pair_kind": {
+        "GTGT": 15,
+        "GTP": 30,
+        "PP": 15
+      }
+    },
+    "canonical_exact_term": {
+      "passed": 23,
+      "by_pair_kind": {
+        "GTGT": 0,
+        "GTP": 23,
+        "PP": 0
+      }
+    },
+    "legacy_fuzzy_0.84": {
+      "passed": 23,
+      "by_pair_kind": {
+        "GTGT": 0,
+        "GTP": 23,
+        "PP": 0
+      }
+    }
+  },
+  "lexical_timing": {
+    "score_seconds": 0.0005479079991346225,
+    "definition_pairs_per_second": 109507.43572783253
+  },
+  "nli": {
+    "model": "tasksource/ModernBERT-large-nli",
+    "definition": "Arithmetic mean of entailment(left, right) and entailment(right, left), as used by SciDef.",
+    "timing": {
+      "device": "cpu",
+      "snapshot": "ca476cb923a8637073d4ceb0f19f7fc236e260d4",
+      "parameters": 395834371,
+      "directional_pairs": 120,
+      "cached_load_seconds": 1.6777354620026017,
+      "score_seconds": 10.36619008100024,
+      "definition_pairs_per_second": 5.788047443773148
+    },
+    "stored_vs_recomputed_max_absolute_difference": 0.0006435513496398926
+  },
+  "bge_models": {
+    "BAAI/bge-small-en-v1.5": {
+      "timing": {
+        "device": "cpu",
+        "snapshot": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+        "torch_threads": 24,
+        "parameters": 33360000,
+        "embedding_dimension": 384,
+        "unique_texts": 108,
+        "cached_load_seconds": 0.04922531800184515,
+        "score_seconds": 0.2636574419993849,
+        "definition_pairs_per_second": 227.56801228519836
+      },
+      "raw_cosine_range": [
+        0.43910637497901917,
+        1.0
+      ],
+      "clip_0_1_changes_any_score": false,
+      "parameter_free_mapping": "(clip(raw_cosine, -1, 1) + 1) / 2",
+      "calibration": {
+        "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+        "formula": "clip(slope * raw_score + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "slope": 2.081599519724677,
+            "intercept": -1.1463637401644444
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "slope": 2.0442410289469124,
+            "intercept": -1.1374112918647177
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 2.1162042274395625,
+            "intercept": -1.1796923812055462
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "slope": 2.105712078775819,
+            "intercept": -1.1655402048538672
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 2.1531602230646842,
+            "intercept": -1.2036476992077498
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "slope": 2.1052020716582374,
+          "intercept": -1.1700827577195634
+        }
+      },
+      "final_combination_calibration": {
+        "equal_max_lex_bge_plus_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.6461300948814996,
+              "intercept": -0.5003603509537585
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.5352695199056547,
+              "intercept": -0.47039536102325
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.6153374072761093,
+              "intercept": -0.49207622726660444
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.6086223208009418,
+              "intercept": -0.4800499730042132
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.6083031608480995,
+              "intercept": -0.4898016841576816
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.6030442740867596,
+            "intercept": -0.4865332560225281
+          }
+        },
+        "equal_max_lex_nli_plus_bge": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.511128143711508,
+              "intercept": -0.49775583874762386
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.5054962182187375,
+              "intercept": -0.5054166571148537
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5008738457080752,
+              "intercept": -0.49494165795171924
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.5163543349652542,
+              "intercept": -0.5014985331361093
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5134274861356583,
+              "intercept": -0.5092283760351493
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.510121955250437,
+            "intercept": -0.5022562296596786
+          }
+        },
+        "max_lex_mean_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.488448299830634,
+              "intercept": -0.44900239542177556
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4620799824628519,
+              "intercept": -0.4478675103343293
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4785241854646833,
+              "intercept": -0.45219471526220506
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.4799181201070852,
+              "intercept": -0.4435364910494107
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4878778018491392,
+              "intercept": -0.45438865044700555
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4802499435062193,
+            "intercept": -0.4498975575623993
+          }
+        },
+        "max_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 2.071186847574611,
+              "intercept": -1.143273954644279
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 2.029109341498569,
+              "intercept": -1.131143515799886
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 2.1045868418559572,
+              "intercept": -1.1754589291292394
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 2.093849480968632,
+              "intercept": -1.1612243319831654
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 2.148840326736974,
+              "intercept": -1.2012297011848116
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 2.0943449580967335,
+            "intercept": -1.1658480978269898
+          }
+        },
+        "mean_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.4645004866840543,
+              "intercept": -0.32869303154917306
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4014565951275104,
+              "intercept": -0.31991358095718975
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4291056632436587,
+              "intercept": -0.321270864924776
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.4206114436354271,
+              "intercept": -0.316183002388634
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4350841172565032,
+              "intercept": -0.3308245207372204
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4296539299676996,
+            "intercept": -0.32330397859056065
+          }
+        }
+      },
+      "three_score_linear_combination": {
+        "method": "five-fold paper-disjoint out-of-fold ordinary least squares",
+        "formula": "clip(sum(coefficient_i * score_i) + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "coefficients": {
+              "LexF1": 0.6117108996966976,
+              "BGE": 0.3126964359341366,
+              "NLI": 0.44169123969710805,
+              "intercept": -0.23277440666473653
+            }
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "coefficients": {
+              "LexF1": 0.562463955385532,
+              "BGE": 0.1569485340208346,
+              "NLI": 0.5268178338159364,
+              "intercept": -0.15161069614934528
+            }
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.7483790536021198,
+              "BGE": 0.21037637339426007,
+              "NLI": 0.3010601473190159,
+              "intercept": -0.17454542195596423
+            }
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "coefficients": {
+              "LexF1": 0.5349219022710263,
+              "BGE": 0.2698888821744497,
+              "NLI": 0.515905099111077,
+              "intercept": -0.20627947554814158
+            }
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.6426819403002255,
+              "BGE": 0.16357604676206852,
+              "NLI": 0.46537652629481746,
+              "intercept": -0.1625797401838465
+            }
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "LexF1": 0.6243852238709827,
+          "BGE": 0.23145466147796198,
+          "NLI": 0.4424334857088746,
+          "intercept": -0.1910359695992936
+        }
+      }
+    },
+    "BAAI/bge-base-en-v1.5": {
+      "timing": {
+        "device": "cpu",
+        "snapshot": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+        "torch_threads": 24,
+        "parameters": 109482240,
+        "embedding_dimension": 768,
+        "unique_texts": 108,
+        "cached_load_seconds": 0.04096396599925356,
+        "score_seconds": 0.63100807599767,
+        "definition_pairs_per_second": 95.08594625375532
+      },
+      "raw_cosine_range": [
+        0.3753344416618347,
+        1.0
+      ],
+      "clip_0_1_changes_any_score": false,
+      "parameter_free_mapping": "(clip(raw_cosine, -1, 1) + 1) / 2",
+      "calibration": {
+        "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+        "formula": "clip(slope * raw_score + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "slope": 1.9269554725760052,
+            "intercept": -0.9867519336860627
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "slope": 1.8992179632591635,
+            "intercept": -0.9747692371267047
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 1.9913033691840254,
+            "intercept": -1.033614509459674
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "slope": 1.9527397288771935,
+            "intercept": -0.9995207806737543
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 1.9996054434564923,
+            "intercept": -1.0312286042707528
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "slope": 1.9585187299585192,
+          "intercept": -1.0080110470279808
+        }
+      },
+      "final_combination_calibration": {
+        "equal_max_lex_bge_plus_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.599083656975515,
+              "intercept": -0.45606470333776405
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4874111201493423,
+              "intercept": -0.4228934613271706
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5708354475142134,
+              "intercept": -0.4471729493007259
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.557656830661496,
+              "intercept": -0.43167259844325884
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5601540234770297,
+              "intercept": -0.44074045765406805
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.5550602272972656,
+            "intercept": -0.4394163104991307
+          }
+        },
+        "equal_max_lex_nli_plus_bge": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.4722790510724824,
+              "intercept": -0.4573926810333382
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4643981600777487,
+              "intercept": -0.460038171346083
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4614775297452964,
+              "intercept": -0.4525000491300854
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.4703161015882504,
+              "intercept": -0.45470365922002015
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4704553655376598,
+              "intercept": -0.46227863258560337
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4680949021316259,
+            "intercept": -0.45757584135349577
+          }
+        },
+        "max_lex_mean_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.4471051587691035,
+              "intercept": -0.40906095350941274
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4155006709370794,
+              "intercept": -0.40229353796888606
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4372516975357597,
+              "intercept": -0.4105340058377412
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.434641273383333,
+              "intercept": -0.39919172534959363
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.442782969617714,
+              "intercept": -0.4084822777636114
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4360986562588964,
+            "intercept": -0.4061561214232408
+          }
+        },
+        "max_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.9160391052694694,
+              "intercept": -0.9846216452861493
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.8843100767357375,
+              "intercept": -0.9696841520856454
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.9802824289106615,
+              "intercept": -1.030655929232022
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.9416847271577449,
+              "intercept": -0.9958372166722775
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.9973085581469285,
+              "intercept": -1.0308072950381435
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.9483113503563452,
+            "intercept": -1.004985099255305
+          }
+        },
+        "mean_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.4383583372344941,
+              "intercept": -0.3045095538150616
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.375327124266941,
+              "intercept": -0.29377650513465065
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4040457207515082,
+              "intercept": -0.29655552193598783
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.3924464180514484,
+              "intercept": -0.289777177169843
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4072142446523743,
+              "intercept": -0.3032763004167101
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4028410596332237,
+            "intercept": -0.2973741431607951
+          }
+        }
+      },
+      "three_score_linear_combination": {
+        "method": "five-fold paper-disjoint out-of-fold ordinary least squares",
+        "formula": "clip(sum(coefficient_i * score_i) + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "coefficients": {
+              "LexF1": 0.5665768459216074,
+              "BGE": 0.4055133173202914,
+              "NLI": 0.42098831539973447,
+              "intercept": -0.26645542567873537
+            }
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "coefficients": {
+              "LexF1": 0.5169651060357032,
+              "BGE": 0.29992141007511103,
+              "NLI": 0.4873126497819697,
+              "intercept": -0.21549895818753406
+            }
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.6913312664569886,
+              "BGE": 0.35387879817630763,
+              "NLI": 0.27083647046131887,
+              "intercept": -0.2374649363098366
+            }
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "coefficients": {
+              "LexF1": 0.47269917131839484,
+              "BGE": 0.4163174375344363,
+              "NLI": 0.4836863341835787,
+              "intercept": -0.26608448184167305
+            }
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.5383756812463316,
+              "BGE": 0.43665998442964093,
+              "NLI": 0.40958663264298967,
+              "intercept": -0.28813542984301255
+            }
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "LexF1": 0.5622354387776669,
+          "BGE": 0.3888489030213657,
+          "NLI": 0.40663833455854614,
+          "intercept": -0.2586374765206896
+        }
+      }
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "timing": {
+        "device": "cpu",
+        "snapshot": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+        "torch_threads": 24,
+        "parameters": 335141888,
+        "embedding_dimension": 1024,
+        "unique_texts": 108,
+        "cached_load_seconds": 0.07404131300063455,
+        "score_seconds": 2.2609912660009286,
+        "definition_pairs_per_second": 26.537033071394163
+      },
+      "raw_cosine_range": [
+        0.333511084318161,
+        1.0
+      ],
+      "clip_0_1_changes_any_score": false,
+      "parameter_free_mapping": "(clip(raw_cosine, -1, 1) + 1) / 2",
+      "calibration": {
+        "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+        "formula": "clip(slope * raw_score + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "slope": 1.9332911249480806,
+            "intercept": -0.9968862013408418
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "slope": 1.877887340609224,
+            "intercept": -0.9578875216528053
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 1.9665922891465608,
+            "intercept": -1.0171650436879611
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "slope": 1.9737042992466416,
+            "intercept": -1.0099960600808677
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "slope": 1.9901055557173892,
+            "intercept": -1.0260619659116728
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "slope": 1.9521006089011816,
+          "intercept": -1.0035986463077775
+        }
+      },
+      "final_combination_calibration": {
+        "equal_max_lex_bge_plus_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.597481911296816,
+              "intercept": -0.4575887421941348
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4768637112142882,
+              "intercept": -0.4168018505024271
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5632819916078393,
+              "intercept": -0.4435633801951206
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.5632050708316663,
+              "intercept": -0.4327096472393413
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.5589211773709852,
+              "intercept": -0.4407035093472806
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.55186476136655,
+            "intercept": -0.43778607716353385
+          }
+        },
+        "equal_max_lex_nli_plus_bge": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.479500816849101,
+              "intercept": -0.46346550939186437
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.4575795192558942,
+              "intercept": -0.4555167995844926
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4628797699645344,
+              "intercept": -0.45328111331460735
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.4806966477850043,
+              "intercept": -0.4587683665900441
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4779990259233244,
+              "intercept": -0.4666349695877377
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4721504112194705,
+            "intercept": -0.4596210764218353
+          }
+        },
+        "max_lex_mean_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.4425684325432344,
+              "intercept": -0.41046763533105024
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.402951491427947,
+              "intercept": -0.39627778017158494
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.427161294802678,
+              "intercept": -0.4071240277762081
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.434880472189109,
+              "intercept": -0.39934726581114616
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4373989712214486,
+              "intercept": -0.40813111244352734
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4295867996945892,
+            "intercept": -0.4043685520283454
+          }
+        },
+        "max_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.920771225983787,
+              "intercept": -0.9924418639600637
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.8641177698248017,
+              "intercept": -0.952367290430908
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.9559894982998047,
+              "intercept": -1.0133371644632674
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.963245515565592,
+              "intercept": -1.0061326868042901
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.9879157747540455,
+              "intercept": -1.0249735426310633
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.942114037283159,
+            "intercept": -0.9997530743970953
+          }
+        },
+        "mean_lex_bge_nli": {
+          "method": "five-fold paper-disjoint out-of-fold clipped affine calibration",
+          "formula": "clip(slope * raw_score + intercept, 0, 1)",
+          "fold_parameters": [
+            {
+              "fold": 0,
+              "train_rows": 40,
+              "test_rows": 20,
+              "slope": 1.448349387890952,
+              "intercept": -0.31034869331699433
+            },
+            {
+              "fold": 1,
+              "train_rows": 48,
+              "test_rows": 12,
+              "slope": 1.3751778017199492,
+              "intercept": -0.2929726920379839
+            },
+            {
+              "fold": 2,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.407142246810133,
+              "intercept": -0.29791529618889484
+            },
+            {
+              "fold": 3,
+              "train_rows": 50,
+              "test_rows": 10,
+              "slope": 1.3985912986655993,
+              "intercept": -0.29158377093280524
+            },
+            {
+              "fold": 4,
+              "train_rows": 51,
+              "test_rows": 9,
+              "slope": 1.4136550877121583,
+              "intercept": -0.3063247109914537
+            }
+          ],
+          "full_data_fit_for_future_external_evaluation_only": {
+            "slope": 1.4076701546346588,
+            "intercept": -0.29940023549397093
+          }
+        }
+      },
+      "three_score_linear_combination": {
+        "method": "five-fold paper-disjoint out-of-fold ordinary least squares",
+        "formula": "clip(sum(coefficient_i * score_i) + intercept, 0, 1)",
+        "fold_parameters": [
+          {
+            "fold": 0,
+            "train_rows": 40,
+            "test_rows": 20,
+            "coefficients": {
+              "LexF1": 0.6284668838882397,
+              "BGE": 0.30126551200293,
+              "NLI": 0.4197526232521126,
+              "intercept": -0.21696659668256982
+            }
+          },
+          {
+            "fold": 1,
+            "train_rows": 48,
+            "test_rows": 12,
+            "coefficients": {
+              "LexF1": 0.563003852854995,
+              "BGE": 0.18519521539944642,
+              "NLI": 0.5031425228620299,
+              "intercept": -0.15827611551205842
+            }
+          },
+          {
+            "fold": 2,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.7227274129308385,
+              "BGE": 0.33071449010995896,
+              "NLI": 0.25093949286696426,
+              "intercept": -0.22661479500883194
+            }
+          },
+          {
+            "fold": 3,
+            "train_rows": 50,
+            "test_rows": 10,
+            "coefficients": {
+              "LexF1": 0.5163539159358165,
+              "BGE": 0.34254541817717654,
+              "NLI": 0.4827773805734502,
+              "intercept": -0.23064642656195106
+            }
+          },
+          {
+            "fold": 4,
+            "train_rows": 51,
+            "test_rows": 9,
+            "coefficients": {
+              "LexF1": 0.6158732111522722,
+              "BGE": 0.2702355361380551,
+              "NLI": 0.42684073191222155,
+              "intercept": -0.2084693980975334
+            }
+          }
+        ],
+        "full_data_fit_for_future_external_evaluation_only": {
+          "LexF1": 0.6146931566583301,
+          "BGE": 0.29340973400283066,
+          "NLI": 0.4076858343470666,
+          "intercept": -0.21238125569241798
+        }
+      }
+    }
+  },
+  "results": {
+    "no_defsim_label_fit": {
+      "none": {
+        "LexF1": {
+          "pearson": 0.9632996430739882,
+          "spearman": 0.7956353523678906,
+          "mae": 0.08455452934299665
+        },
+        "SciDef_NLI": {
+          "pearson": 0.9374342261304958,
+          "spearman": 0.8710655107889661,
+          "mae": 0.09950753402081315
+        },
+        "max_LexF1_SciDef_NLI": {
+          "pearson": 0.964771659623475,
+          "spearman": 0.8949043290321592,
+          "mae": 0.09330952516310834
+        },
+        "bge_small_raw_cosine": {
+          "pearson": 0.9271765964402067,
+          "spearman": 0.8617033841950815,
+          "mae": 0.4055544113119443
+        },
+        "max_LexF1_bge_small_raw_cosine": {
+          "pearson": 0.9322093790702075,
+          "spearman": 0.863202350943816,
+          "mae": 0.40417653309148655
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9598574766718128,
+          "spearman": 0.8963151012044623,
+          "mae": 0.23563491019979596
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9685354680080039,
+          "spearman": 0.8957227661160342,
+          "mae": 0.24023095966377897
+        },
+        "bge_small_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9739084983770442,
+          "spearman": 0.8994035006207745,
+          "mae": 0.2210111688770581
+        },
+        "bge_small_raw_max_lex_bge_nli": {
+          "pearson": 0.9325873278613849,
+          "spearman": 0.863202350943816,
+          "mae": 0.4039563142939618
+        },
+        "bge_small_raw_mean_lex_bge_nli": {
+          "pearson": 0.977647571602881,
+          "spearman": 0.9009114338309958,
+          "mae": 0.174360238996894
+        },
+        "bge_small_fixed_range_0_1": {
+          "pearson": 0.9271765964402067,
+          "spearman": 0.8617033841950815,
+          "mae": 0.5527772056559722
+        },
+        "max_LexF1_bge_small_fixed_range_0_1": {
+          "pearson": 0.9293422492273299,
+          "spearman": 0.8618111622344258,
+          "mae": 0.5525268630369714
+        },
+        "equal_bge_small_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9536385651269984,
+          "spearman": 0.8921723540344947,
+          "mae": 0.30603438716009734
+        },
+        "bge_base_raw_cosine": {
+          "pearson": 0.943904592051212,
+          "spearman": 0.8815404637863216,
+          "mae": 0.37544137934843697
+        },
+        "max_LexF1_bge_base_raw_cosine": {
+          "pearson": 0.9484809097734681,
+          "spearman": 0.883041911669033,
+          "mae": 0.37392978704812235
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9645744208252885,
+          "spearman": 0.9020605169876292,
+          "mae": 0.22091131347790835
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9726947223039365,
+          "spearman": 0.9037362205240809,
+          "mae": 0.22528580611853752
+        },
+        "bge_base_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9775265253917409,
+          "spearman": 0.9051497148552123,
+          "mae": 0.20601188924886077
+        },
+        "bge_base_raw_max_lex_bge_nli": {
+          "pearson": 0.9481610251693239,
+          "spearman": 0.8863081808128187,
+          "mae": 0.37416934904299287
+        },
+        "bge_base_raw_mean_lex_bge_nli": {
+          "pearson": 0.9796138113192556,
+          "spearman": 0.9076244985881697,
+          "mae": 0.16450918580533813
+        },
+        "bge_base_fixed_range_0_1": {
+          "pearson": 0.943904592051212,
+          "spearman": 0.8815404637863216,
+          "mae": 0.5377206896742185
+        },
+        "max_LexF1_bge_base_fixed_range_0_1": {
+          "pearson": 0.9461575721593697,
+          "spearman": 0.8816507229596428,
+          "mae": 0.5374034900152893
+        },
+        "equal_bge_base_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9568251299964218,
+          "spearman": 0.8975246624219712,
+          "mae": 0.29867258879915354
+        },
+        "bge_large_raw_cosine": {
+          "pearson": 0.9289253218875364,
+          "spearman": 0.8891305658860185,
+          "mae": 0.37678315871291695
+        },
+        "max_LexF1_bge_large_raw_cosine": {
+          "pearson": 0.933096869151564,
+          "spearman": 0.8926290164707004,
+          "mae": 0.3753498359894787
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9582476297565717,
+          "spearman": 0.9052053761531521,
+          "mae": 0.22422056372133825
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9691601745163044,
+          "spearman": 0.9076673491016132,
+          "mae": 0.22780811673312337
+        },
+        "bge_large_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9730882962192255,
+          "spearman": 0.9082950110677467,
+          "mae": 0.2084712833823617
+        },
+        "bge_large_raw_max_lex_bge_nli": {
+          "pearson": 0.9331217999514808,
+          "spearman": 0.8926290164707004,
+          "mae": 0.37532938811938316
+        },
+        "bge_large_raw_mean_lex_bge_nli": {
+          "pearson": 0.9782153437909641,
+          "spearman": 0.9034212733573266,
+          "mae": 0.1666137913014021
+        },
+        "bge_large_fixed_range_0_1": {
+          "pearson": 0.9289253218875364,
+          "spearman": 0.8891305658860185,
+          "mae": 0.5383287732799847
+        },
+        "max_LexF1_bge_large_fixed_range_0_1": {
+          "pearson": 0.9304678221254542,
+          "spearman": 0.8897559093534815,
+          "mae": 0.5381092631503156
+        },
+        "equal_bge_large_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9528023182843297,
+          "spearman": 0.898945896852544,
+          "mae": 0.3003564912912794
+        }
+      },
+      "canonical_exact_term": {
+        "LexF1": {
+          "pearson": 0.9829156201163599,
+          "spearman": 0.9279964535453321,
+          "mae": 0.03848463503052573
+        },
+        "SciDef_NLI": {
+          "pearson": 0.9399088485591508,
+          "spearman": 0.9191580024577358,
+          "mae": 0.08120184385010766
+        },
+        "max_LexF1_SciDef_NLI": {
+          "pearson": 0.9715193449358461,
+          "spearman": 0.9325637506299868,
+          "mae": 0.03828429157947413
+        },
+        "bge_small_raw_cosine": {
+          "pearson": 0.9344826671651717,
+          "spearman": 0.9310289828156966,
+          "mae": 0.07495928274260627
+        },
+        "max_LexF1_bge_small_raw_cosine": {
+          "pearson": 0.9361504669845759,
+          "spearman": 0.9327711483283365,
+          "mae": 0.0735814045221485
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9532678283203395,
+          "spearman": 0.9290767250741206,
+          "mae": 0.06285423061017993
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9638170967142241,
+          "spearman": 0.932307726360898,
+          "mae": 0.048281498462097214
+        },
+        "bge_small_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9638920753772044,
+          "spearman": 0.9326328831961034,
+          "mae": 0.04823048928744208
+        },
+        "bge_small_raw_max_lex_bge_nli": {
+          "pearson": 0.9363463794136797,
+          "spearman": 0.9327711483283365,
+          "mae": 0.07336118572462372
+        },
+        "bge_small_raw_mean_lex_bge_nli": {
+          "pearson": 0.9756006950274111,
+          "spearman": 0.9321180058763571,
+          "mae": 0.046705115897677424
+        },
+        "bge_small_fixed_range_0_1": {
+          "pearson": 0.9065254247790551,
+          "spearman": 0.9310289828156966,
+          "mae": 0.0930351969268587
+        },
+        "max_LexF1_bge_small_fixed_range_0_1": {
+          "pearson": 0.9068504262239814,
+          "spearman": 0.9311810993076546,
+          "mae": 0.09278485430785786
+        },
+        "equal_bge_small_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9407251344451716,
+          "spearman": 0.9255861641533719,
+          "mae": 0.06868026749059361
+        },
+        "bge_base_raw_cosine": {
+          "pearson": 0.9403946402989085,
+          "spearman": 0.9302686488158471,
+          "mae": 0.0710381653573778
+        },
+        "max_LexF1_bge_base_raw_cosine": {
+          "pearson": 0.9421626455192058,
+          "spearman": 0.9320106901010539,
+          "mae": 0.06952657305706314
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9560067548933674,
+          "spearman": 0.9292149651105859,
+          "mae": 0.061226591177431774
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9661510558901862,
+          "spearman": 0.9324459689063251,
+          "mae": 0.04643230220599518
+        },
+        "bge_base_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9662636999219029,
+          "spearman": 0.9327711483283365,
+          "mae": 0.04632716694838415
+        },
+        "bge_base_raw_max_lex_bge_nli": {
+          "pearson": 0.9413675186636782,
+          "spearman": 0.9320106901010539,
+          "mae": 0.06976613505193364
+        },
+        "bge_base_raw_mean_lex_bge_nli": {
+          "pearson": 0.976605904152515,
+          "spearman": 0.9333276061954284,
+          "mae": 0.04558470089888118
+        },
+        "bge_base_fixed_range_0_1": {
+          "pearson": 0.9101156871663587,
+          "spearman": 0.9302686488158471,
+          "mae": 0.09107463823424446
+        },
+        "max_LexF1_bge_base_fixed_range_0_1": {
+          "pearson": 0.9105198306716903,
+          "spearman": 0.9304206410803719,
+          "mae": 0.0907574385753152
+        },
+        "equal_bge_base_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.942389000847305,
+          "spearman": 0.9277634447277003,
+          "mae": 0.06786644777421953
+        },
+        "bge_large_raw_cosine": {
+          "pearson": 0.9337377708926227,
+          "spearman": 0.9288171020888617,
+          "mae": 0.07204762299855551
+        },
+        "max_LexF1_bge_large_raw_cosine": {
+          "pearson": 0.9353782317050057,
+          "spearman": 0.9328402808944531,
+          "mae": 0.07061430027511727
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.952392837313473,
+          "spearman": 0.9292840851288185,
+          "mae": 0.06436968055921054
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9632426411545627,
+          "spearman": 0.93282613590625,
+          "mae": 0.04878845195892996
+        },
+        "bge_large_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9636166909154025,
+          "spearman": 0.9328402808944531,
+          "mae": 0.048514923951127664
+        },
+        "bge_large_raw_max_lex_bge_nli": {
+          "pearson": 0.9353947643358259,
+          "spearman": 0.9328402808944531,
+          "mae": 0.07059385240502171
+        },
+        "bge_large_raw_mean_lex_bge_nli": {
+          "pearson": 0.9751246179138132,
+          "spearman": 0.9324981659766366,
+          "mae": 0.047578532487177735
+        },
+        "bge_large_fixed_range_0_1": {
+          "pearson": 0.9059879623834941,
+          "spearman": 0.9288171020888617,
+          "mae": 0.09151656097835965
+        },
+        "max_LexF1_bge_large_fixed_range_0_1": {
+          "pearson": 0.9062676844326124,
+          "spearman": 0.9295564840039143,
+          "mae": 0.09129705084869039
+        },
+        "equal_bge_large_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9402711967125593,
+          "spearman": 0.9273487246183044,
+          "mae": 0.06946726983551982
+        }
+      },
+      "legacy_fuzzy_0.84": {
+        "LexF1": {
+          "pearson": 0.9829156201163599,
+          "spearman": 0.9279964535453321,
+          "mae": 0.03848463503052573
+        },
+        "SciDef_NLI": {
+          "pearson": 0.9399088485591508,
+          "spearman": 0.9191580024577358,
+          "mae": 0.08120184385010766
+        },
+        "max_LexF1_SciDef_NLI": {
+          "pearson": 0.9715193449358461,
+          "spearman": 0.9325637506299868,
+          "mae": 0.03828429157947413
+        },
+        "bge_small_raw_cosine": {
+          "pearson": 0.9344826671651717,
+          "spearman": 0.9310289828156966,
+          "mae": 0.07495928274260627
+        },
+        "max_LexF1_bge_small_raw_cosine": {
+          "pearson": 0.9361504669845759,
+          "spearman": 0.9327711483283365,
+          "mae": 0.0735814045221485
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9532678283203395,
+          "spearman": 0.9290767250741206,
+          "mae": 0.06285423061017993
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9638170967142241,
+          "spearman": 0.932307726360898,
+          "mae": 0.048281498462097214
+        },
+        "bge_small_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9638920753772044,
+          "spearman": 0.9326328831961034,
+          "mae": 0.04823048928744208
+        },
+        "bge_small_raw_max_lex_bge_nli": {
+          "pearson": 0.9363463794136797,
+          "spearman": 0.9327711483283365,
+          "mae": 0.07336118572462372
+        },
+        "bge_small_raw_mean_lex_bge_nli": {
+          "pearson": 0.9756006950274111,
+          "spearman": 0.9321180058763571,
+          "mae": 0.046705115897677424
+        },
+        "bge_small_fixed_range_0_1": {
+          "pearson": 0.9065254247790551,
+          "spearman": 0.9310289828156966,
+          "mae": 0.0930351969268587
+        },
+        "max_LexF1_bge_small_fixed_range_0_1": {
+          "pearson": 0.9068504262239814,
+          "spearman": 0.9311810993076546,
+          "mae": 0.09278485430785786
+        },
+        "equal_bge_small_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9407251344451716,
+          "spearman": 0.9255861641533719,
+          "mae": 0.06868026749059361
+        },
+        "bge_base_raw_cosine": {
+          "pearson": 0.9403946402989085,
+          "spearman": 0.9302686488158471,
+          "mae": 0.0710381653573778
+        },
+        "max_LexF1_bge_base_raw_cosine": {
+          "pearson": 0.9421626455192058,
+          "spearman": 0.9320106901010539,
+          "mae": 0.06952657305706314
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9560067548933674,
+          "spearman": 0.9292149651105859,
+          "mae": 0.061226591177431774
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9661510558901862,
+          "spearman": 0.9324459689063251,
+          "mae": 0.04643230220599518
+        },
+        "bge_base_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9662636999219029,
+          "spearman": 0.9327711483283365,
+          "mae": 0.04632716694838415
+        },
+        "bge_base_raw_max_lex_bge_nli": {
+          "pearson": 0.9413675186636782,
+          "spearman": 0.9320106901010539,
+          "mae": 0.06976613505193364
+        },
+        "bge_base_raw_mean_lex_bge_nli": {
+          "pearson": 0.976605904152515,
+          "spearman": 0.9333276061954284,
+          "mae": 0.04558470089888118
+        },
+        "bge_base_fixed_range_0_1": {
+          "pearson": 0.9101156871663587,
+          "spearman": 0.9302686488158471,
+          "mae": 0.09107463823424446
+        },
+        "max_LexF1_bge_base_fixed_range_0_1": {
+          "pearson": 0.9105198306716903,
+          "spearman": 0.9304206410803719,
+          "mae": 0.0907574385753152
+        },
+        "equal_bge_base_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.942389000847305,
+          "spearman": 0.9277634447277003,
+          "mae": 0.06786644777421953
+        },
+        "bge_large_raw_cosine": {
+          "pearson": 0.9337377708926227,
+          "spearman": 0.9288171020888617,
+          "mae": 0.07204762299855551
+        },
+        "max_LexF1_bge_large_raw_cosine": {
+          "pearson": 0.9353782317050057,
+          "spearman": 0.9328402808944531,
+          "mae": 0.07061430027511727
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.952392837313473,
+          "spearman": 0.9292840851288185,
+          "mae": 0.06436968055921054
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9632426411545627,
+          "spearman": 0.93282613590625,
+          "mae": 0.04878845195892996
+        },
+        "bge_large_raw_max_lex_mean_bge_nli": {
+          "pearson": 0.9636166909154025,
+          "spearman": 0.9328402808944531,
+          "mae": 0.048514923951127664
+        },
+        "bge_large_raw_max_lex_bge_nli": {
+          "pearson": 0.9353947643358259,
+          "spearman": 0.9328402808944531,
+          "mae": 0.07059385240502171
+        },
+        "bge_large_raw_mean_lex_bge_nli": {
+          "pearson": 0.9751246179138132,
+          "spearman": 0.9324981659766366,
+          "mae": 0.047578532487177735
+        },
+        "bge_large_fixed_range_0_1": {
+          "pearson": 0.9059879623834941,
+          "spearman": 0.9288171020888617,
+          "mae": 0.09151656097835965
+        },
+        "max_LexF1_bge_large_fixed_range_0_1": {
+          "pearson": 0.9062676844326124,
+          "spearman": 0.9295564840039143,
+          "mae": 0.09129705084869039
+        },
+        "equal_bge_large_fixed_range_0_1_semantic_plus_SciDef_NLI": {
+          "pearson": 0.9402711967125593,
+          "spearman": 0.9273487246183044,
+          "mae": 0.06946726983551982
+        }
+      }
+    },
+    "defsim_calibrated_oof": {
+      "none": {
+        "SciDef_NLI_OOF_affine": {
+          "pearson": 0.9369188501865546,
+          "spearman": 0.8721231708062465,
+          "mae": 0.07859750007198435
+        },
+        "max_LexF1_SciDef_NLI_OOF_affine": {
+          "pearson": 0.9588555321870301,
+          "spearman": 0.897915927451553,
+          "mae": 0.09254040812032123
+        },
+        "bge_small_OOF_affine": {
+          "pearson": 0.9545888197777587,
+          "spearman": 0.8665552860912084,
+          "mae": 0.10085994501448242
+        },
+        "max_LexF1_bge_small_OOF_affine": {
+          "pearson": 0.964611587480773,
+          "spearman": 0.8649991039989926,
+          "mae": 0.10408754647730424
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9726963091036419,
+          "spearman": 0.9017883657136897,
+          "mae": 0.09652613423744298
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9730925715242625,
+          "spearman": 0.8945914764695123,
+          "mae": 0.0938787208325025
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9746247073881712,
+          "spearman": 0.9004922570020364,
+          "mae": 0.09245488204899766
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.9578459290665939,
+          "spearman": 0.8859452620190648,
+          "mae": 0.11589676884413164
+        },
+        "bge_small_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9786576795840738,
+          "spearman": 0.9017581266832521,
+          "mae": 0.08789052499273124
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.972749027235889,
+          "spearman": 0.8970575899530939,
+          "mae": 0.08476764397604807
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9709049770030719,
+          "spearman": 0.8962369839627176,
+          "mae": 0.09315892083207626
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.973052329597468,
+          "spearman": 0.8995387422577505,
+          "mae": 0.09146766208151003
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9521152351385291,
+          "spearman": 0.8918562707831952,
+          "mae": 0.11398235449863638
+        },
+        "bge_small_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9793887675055636,
+          "spearman": 0.8985362686906803,
+          "mae": 0.07953703613067463
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9655365377625249,
+          "spearman": 0.9007982153751639,
+          "mae": 0.0687730597483676
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9764987156731487,
+          "spearman": 0.8996415108768432,
+          "mae": 0.057998046180807714
+        },
+        "bge_small_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.978186704536824,
+          "spearman": 0.90381183470884,
+          "mae": 0.052999158705817666
+        },
+        "bge_small_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9597337048911565,
+          "spearman": 0.8683352133977177,
+          "mae": 0.09814580814016867
+        },
+        "bge_small_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.983365165369227,
+          "spearman": 0.9056657731881045,
+          "mae": 0.05565157091697035
+        },
+        "bge_small_raw_three_score_OOF_linear": {
+          "pearson": 0.9789449116811487,
+          "spearman": 0.8910360923409469,
+          "mae": 0.06079376334667104
+        },
+        "bge_base_OOF_affine": {
+          "pearson": 0.9654190612759376,
+          "spearman": 0.886241600629389,
+          "mae": 0.08673835635111575
+        },
+        "max_LexF1_bge_base_OOF_affine": {
+          "pearson": 0.9697031447657051,
+          "spearman": 0.86015214755574,
+          "mae": 0.09557827525503043
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9759711642895468,
+          "spearman": 0.9004578483744301,
+          "mae": 0.09235445682262121
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9781985422900537,
+          "spearman": 0.9054472883966539,
+          "mae": 0.0870801583905382
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9769932368336419,
+          "spearman": 0.9005600493852977,
+          "mae": 0.08906412062179475
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.965215004830751,
+          "spearman": 0.896076745011363,
+          "mae": 0.10792062917009337
+        },
+        "bge_base_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9816262655118113,
+          "spearman": 0.9065056544619741,
+          "mae": 0.08277782981721132
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9757066951691462,
+          "spearman": 0.8970217129531942,
+          "mae": 0.08062674996565342
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9758789761557531,
+          "spearman": 0.9056082619975081,
+          "mae": 0.08636035839011195
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9750610951895432,
+          "spearman": 0.9011735320076053,
+          "mae": 0.08820204266337654
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9573152981760139,
+          "spearman": 0.8978121064959224,
+          "mae": 0.10735627786059825
+        },
+        "bge_base_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.982308556486708,
+          "spearman": 0.9032187144792114,
+          "mae": 0.07442434095515472
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9703219131557749,
+          "spearman": 0.908839784425802,
+          "mae": 0.06373060631279728
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9798520697445928,
+          "spearman": 0.9097414300870578,
+          "mae": 0.052806017778573064
+        },
+        "bge_base_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9816103631914463,
+          "spearman": 0.9131382685799694,
+          "mae": 0.04906650042318765
+        },
+        "bge_base_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9693400913826999,
+          "spearman": 0.8916710499880295,
+          "mae": 0.08493800575795488
+        },
+        "bge_base_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.984984596972325,
+          "spearman": 0.9141138110830429,
+          "mae": 0.05218731722380674
+        },
+        "bge_base_raw_three_score_OOF_linear": {
+          "pearson": 0.9809303850865781,
+          "spearman": 0.90058869416419,
+          "mae": 0.05696602078835962
+        },
+        "bge_large_OOF_affine": {
+          "pearson": 0.9565561077310818,
+          "spearman": 0.8979144255451292,
+          "mae": 0.09756469100889115
+        },
+        "max_LexF1_bge_large_OOF_affine": {
+          "pearson": 0.9658944599224747,
+          "spearman": 0.8825013292210621,
+          "mae": 0.10193336438974296
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9727470081836759,
+          "spearman": 0.9076244985881697,
+          "mae": 0.0954040438629938
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9743133401241105,
+          "spearman": 0.9070801960402908,
+          "mae": 0.09218609449903832
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9743285677395945,
+          "spearman": 0.8986421558495418,
+          "mae": 0.09187156856134902
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.963045824951187,
+          "spearman": 0.9041944981272044,
+          "mae": 0.11400324970661758
+        },
+        "bge_large_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9797895591034225,
+          "spearman": 0.9047215516661485,
+          "mae": 0.08500852718068828
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9727091660080269,
+          "spearman": 0.905741623019392,
+          "mae": 0.08360822854259936
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.972056816214632,
+          "spearman": 0.9071283326741197,
+          "mae": 0.09146884850279546
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9726298504149291,
+          "spearman": 0.898383678430996,
+          "mae": 0.09107504796495282
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9565849191050384,
+          "spearman": 0.9075749640271442,
+          "mae": 0.11273833175191496
+        },
+        "bge_large_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9805974678939876,
+          "spearman": 0.9032861068787084,
+          "mae": 0.07718680701667296
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9655795379064743,
+          "spearman": 0.9115530120124751,
+          "mae": 0.06907351552125074
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9775572922179092,
+          "spearman": 0.9125720073034544,
+          "mae": 0.053156100824566205
+        },
+        "bge_large_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9784530438154158,
+          "spearman": 0.9167355815600527,
+          "mae": 0.052285895426054725
+        },
+        "bge_large_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9601113671311635,
+          "spearman": 0.9006747770619179,
+          "mae": 0.09550944408312831
+        },
+        "bge_large_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9843822808253091,
+          "spearman": 0.910295682366143,
+          "mae": 0.051383923681151085
+        },
+        "bge_large_raw_three_score_OOF_linear": {
+          "pearson": 0.9798919607005886,
+          "spearman": 0.8953521886234229,
+          "mae": 0.05786619345386989
+        }
+      },
+      "canonical_exact_term": {
+        "SciDef_NLI_OOF_affine": {
+          "pearson": 0.9377014771715846,
+          "spearman": 0.9170371650979409,
+          "mae": 0.06929941612183987
+        },
+        "max_LexF1_SciDef_NLI_OOF_affine": {
+          "pearson": 0.9656612359713727,
+          "spearman": 0.9330096880112396,
+          "mae": 0.03989234990150634
+        },
+        "bge_small_OOF_affine": {
+          "pearson": 0.973824890893817,
+          "spearman": 0.9313231256666816,
+          "mae": 0.05848264951027932
+        },
+        "max_LexF1_bge_small_OOF_affine": {
+          "pearson": 0.9802944028459613,
+          "spearman": 0.9345340287643101,
+          "mae": 0.04051567004154493
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9734442248412162,
+          "spearman": 0.9299061652929124,
+          "mae": 0.0561823055718142
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9786214325218495,
+          "spearman": 0.9314268056940306,
+          "mae": 0.04517745628858385
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9805994485306333,
+          "spearman": 0.9332896425742111,
+          "mae": 0.03648595776704496
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.9663129996743933,
+          "spearman": 0.931008267892363,
+          "mae": 0.045839363336154605
+        },
+        "bge_small_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9806196649528861,
+          "spearman": 0.9320488858581244,
+          "mae": 0.0539280087682475
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9723900542282462,
+          "spearman": 0.9292453874563895,
+          "mae": 0.049865066824220504
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9763395908317224,
+          "spearman": 0.9313231256666816,
+          "mae": 0.04564624397056726
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9787514128331696,
+          "spearman": 0.9332896425742111,
+          "mae": 0.037422223459611416
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9613503239345306,
+          "spearman": 0.9316959307153406,
+          "mae": 0.04616306997183988
+        },
+        "bge_small_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9802339861774229,
+          "spearman": 0.9299061652929124,
+          "mae": 0.049506942561864484
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.963977854553481,
+          "spearman": 0.9289646984422874,
+          "mae": 0.055343672884982445
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9779235192064376,
+          "spearman": 0.9330822448758613,
+          "mae": 0.038994978520995156
+        },
+        "bge_small_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.975490832125061,
+          "spearman": 0.9336319940987707,
+          "mae": 0.041651113345877504
+        },
+        "bge_small_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9774208525400429,
+          "spearman": 0.9333445454516018,
+          "mae": 0.05685152547064327
+        },
+        "bge_small_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9815978212348784,
+          "spearman": 0.9323528093632901,
+          "mae": 0.04298743176782709
+        },
+        "bge_small_raw_three_score_OOF_linear": {
+          "pearson": 0.9795411038824038,
+          "spearman": 0.9325256721653821,
+          "mae": 0.04599938807509562
+        },
+        "bge_base_OOF_affine": {
+          "pearson": 0.9733761319617842,
+          "spearman": 0.9295260051926328,
+          "mae": 0.05607577468367753
+        },
+        "max_LexF1_bge_base_OOF_affine": {
+          "pearson": 0.9792862664616744,
+          "spearman": 0.9338772693862023,
+          "mae": 0.04088887127340437
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9736376461874556,
+          "spearman": 0.9298370452746797,
+          "mae": 0.05663193714590484
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9793187857541003,
+          "spearman": 0.9312885656575653,
+          "mae": 0.04441632352684776
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9810657386594681,
+          "spearman": 0.9332205100080945,
+          "mae": 0.036743252682024066
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.9668370116344078,
+          "spearman": 0.9315613284212959,
+          "mae": 0.0450084536568467
+        },
+        "bge_base_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.980923029239936,
+          "spearman": 0.9322562459128223,
+          "mae": 0.05331699797783951
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.972556434220391,
+          "spearman": 0.9293836525886228,
+          "mae": 0.05034548180273825
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9769939778935518,
+          "spearman": 0.9311848856302163,
+          "mae": 0.044885111208831166
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9790900389236816,
+          "spearman": 0.9334279077064443,
+          "mae": 0.03771030177901764
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9607983179646545,
+          "spearman": 0.9315922130340855,
+          "mae": 0.046600521025295154
+        },
+        "bge_base_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9806192640921143,
+          "spearman": 0.9307010455025878,
+          "mae": 0.0488959317714565
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9659262549793732,
+          "spearman": 0.9288955533214506,
+          "mae": 0.05449297318379804
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9789038853832317,
+          "spearman": 0.9325983169130451,
+          "mae": 0.03893920549564968
+        },
+        "bge_base_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9764800849534916,
+          "spearman": 0.9337702843404443,
+          "mae": 0.04149394780166583
+        },
+        "bge_base_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9759214764256473,
+          "spearman": 0.93196211999733,
+          "mae": 0.055602433760213434
+        },
+        "bge_base_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9819565302421497,
+          "spearman": 0.9338740020216996,
+          "mae": 0.04285028736562956
+        },
+        "bge_base_raw_three_score_OOF_linear": {
+          "pearson": 0.980275516714669,
+          "spearman": 0.9329059703299845,
+          "mae": 0.044618631333964515
+        },
+        "bge_large_OOF_affine": {
+          "pearson": 0.9695836882843069,
+          "spearman": 0.9295605652017491,
+          "mae": 0.06130955485984347
+        },
+        "max_LexF1_bge_large_OOF_affine": {
+          "pearson": 0.9760600686870619,
+          "spearman": 0.9338081368200857,
+          "mae": 0.04214939917047764
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.970361344044452,
+          "spearman": 0.9307701655208205,
+          "mae": 0.05695417080561202
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9759037948839988,
+          "spearman": 0.932325365931055,
+          "mae": 0.0465459096326974
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9779752316057986,
+          "spearman": 0.9333242088572694,
+          "mae": 0.03718703626688078
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.966176444595307,
+          "spearman": 0.9316995935535292,
+          "mae": 0.04477860260085837
+        },
+        "bge_large_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9792623649402941,
+          "spearman": 0.9329128860860325,
+          "mae": 0.054176404876497504
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9693529677910774,
+          "spearman": 0.9293836525886228,
+          "mae": 0.05059960699901879
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9734804685082177,
+          "spearman": 0.9312885656575653,
+          "mae": 0.04701725131886418
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9760091952404364,
+          "spearman": 0.9333242088572694,
+          "mae": 0.0380859769004477
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9610220345897892,
+          "spearman": 0.9323873819237085,
+          "mae": 0.04567337797878439
+        },
+        "bge_large_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9790172519019428,
+          "spearman": 0.9303208854023083,
+          "mae": 0.04998218572168297
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9620652792997508,
+          "spearman": 0.9294487142881449,
+          "mae": 0.05665111107206818
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9765034581725425,
+          "spearman": 0.9333242088572694,
+          "mae": 0.039275901486955166
+        },
+        "bge_large_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9739361148147746,
+          "spearman": 0.9343234453071386,
+          "mae": 0.04216234461788912
+        },
+        "bge_large_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.972092258994353,
+          "spearman": 0.9326878933608228,
+          "mae": 0.060084433262667276
+        },
+        "bge_large_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9812362169777713,
+          "spearman": 0.933562848977934,
+          "mae": 0.042885887836840546
+        },
+        "bge_large_raw_three_score_OOF_linear": {
+          "pearson": 0.9797481192306658,
+          "spearman": 0.9327331075278925,
+          "mae": 0.04490868370334288
+        }
+      },
+      "legacy_fuzzy_0.84": {
+        "SciDef_NLI_OOF_affine": {
+          "pearson": 0.9377014771715846,
+          "spearman": 0.9170371650979409,
+          "mae": 0.06929941612183987
+        },
+        "max_LexF1_SciDef_NLI_OOF_affine": {
+          "pearson": 0.9656612359713727,
+          "spearman": 0.9330096880112396,
+          "mae": 0.03989234990150634
+        },
+        "bge_small_OOF_affine": {
+          "pearson": 0.973824890893817,
+          "spearman": 0.9313231256666816,
+          "mae": 0.05848264951027932
+        },
+        "max_LexF1_bge_small_OOF_affine": {
+          "pearson": 0.9802944028459613,
+          "spearman": 0.9345340287643101,
+          "mae": 0.04051567004154493
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9734442248412162,
+          "spearman": 0.9299061652929124,
+          "mae": 0.0561823055718142
+        },
+        "bge_small_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9786214325218495,
+          "spearman": 0.9314268056940306,
+          "mae": 0.04517745628858385
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9805994485306333,
+          "spearman": 0.9332896425742111,
+          "mae": 0.03648595776704496
+        },
+        "bge_small_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.9663129996743933,
+          "spearman": 0.931008267892363,
+          "mae": 0.045839363336154605
+        },
+        "bge_small_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9806196649528861,
+          "spearman": 0.9320488858581244,
+          "mae": 0.0539280087682475
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9723900542282462,
+          "spearman": 0.9292453874563895,
+          "mae": 0.049865066824220504
+        },
+        "bge_small_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9763395908317224,
+          "spearman": 0.9313231256666816,
+          "mae": 0.04564624397056726
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9787514128331696,
+          "spearman": 0.9332896425742111,
+          "mae": 0.037422223459611416
+        },
+        "bge_small_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9613503239345306,
+          "spearman": 0.9316959307153406,
+          "mae": 0.04616306997183988
+        },
+        "bge_small_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9802339861774229,
+          "spearman": 0.9299061652929124,
+          "mae": 0.049506942561864484
+        },
+        "bge_small_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.963977854553481,
+          "spearman": 0.9289646984422874,
+          "mae": 0.055343672884982445
+        },
+        "bge_small_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9779235192064376,
+          "spearman": 0.9330822448758613,
+          "mae": 0.038994978520995156
+        },
+        "bge_small_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.975490832125061,
+          "spearman": 0.9336319940987707,
+          "mae": 0.041651113345877504
+        },
+        "bge_small_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9774208525400429,
+          "spearman": 0.9333445454516018,
+          "mae": 0.05685152547064327
+        },
+        "bge_small_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9815978212348784,
+          "spearman": 0.9323528093632901,
+          "mae": 0.04298743176782709
+        },
+        "bge_small_raw_three_score_OOF_linear": {
+          "pearson": 0.9795411038824038,
+          "spearman": 0.9325256721653821,
+          "mae": 0.04599938807509562
+        },
+        "bge_base_OOF_affine": {
+          "pearson": 0.9733761319617842,
+          "spearman": 0.9295260051926328,
+          "mae": 0.05607577468367753
+        },
+        "max_LexF1_bge_base_OOF_affine": {
+          "pearson": 0.9792862664616744,
+          "spearman": 0.9338772693862023,
+          "mae": 0.04088887127340437
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9736376461874556,
+          "spearman": 0.9298370452746797,
+          "mae": 0.05663193714590484
+        },
+        "bge_base_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9793187857541003,
+          "spearman": 0.9312885656575653,
+          "mae": 0.04441632352684776
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9810657386594681,
+          "spearman": 0.9332205100080945,
+          "mae": 0.036743252682024066
+        },
+        "bge_base_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.9668370116344078,
+          "spearman": 0.9315613284212959,
+          "mae": 0.0450084536568467
+        },
+        "bge_base_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.980923029239936,
+          "spearman": 0.9322562459128223,
+          "mae": 0.05331699797783951
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.972556434220391,
+          "spearman": 0.9293836525886228,
+          "mae": 0.05034548180273825
+        },
+        "bge_base_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9769939778935518,
+          "spearman": 0.9311848856302163,
+          "mae": 0.044885111208831166
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9790900389236816,
+          "spearman": 0.9334279077064443,
+          "mae": 0.03771030177901764
+        },
+        "bge_base_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9607983179646545,
+          "spearman": 0.9315922130340855,
+          "mae": 0.046600521025295154
+        },
+        "bge_base_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9806192640921143,
+          "spearman": 0.9307010455025878,
+          "mae": 0.0488959317714565
+        },
+        "bge_base_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9659262549793732,
+          "spearman": 0.9288955533214506,
+          "mae": 0.05449297318379804
+        },
+        "bge_base_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9789038853832317,
+          "spearman": 0.9325983169130451,
+          "mae": 0.03893920549564968
+        },
+        "bge_base_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9764800849534916,
+          "spearman": 0.9337702843404443,
+          "mae": 0.04149394780166583
+        },
+        "bge_base_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9759214764256473,
+          "spearman": 0.93196211999733,
+          "mae": 0.055602433760213434
+        },
+        "bge_base_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9819565302421497,
+          "spearman": 0.9338740020216996,
+          "mae": 0.04285028736562956
+        },
+        "bge_base_raw_three_score_OOF_linear": {
+          "pearson": 0.980275516714669,
+          "spearman": 0.9329059703299845,
+          "mae": 0.044618631333964515
+        },
+        "bge_large_OOF_affine": {
+          "pearson": 0.9695836882843069,
+          "spearman": 0.9295605652017491,
+          "mae": 0.06130955485984347
+        },
+        "max_LexF1_bge_large_OOF_affine": {
+          "pearson": 0.9760600686870619,
+          "spearman": 0.9338081368200857,
+          "mae": 0.04214939917047764
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.970361344044452,
+          "spearman": 0.9307701655208205,
+          "mae": 0.05695417080561202
+        },
+        "bge_large_OOF_BGE_raw_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9759037948839988,
+          "spearman": 0.932325365931055,
+          "mae": 0.0465459096326974
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9779752316057986,
+          "spearman": 0.9333242088572694,
+          "mae": 0.03718703626688078
+        },
+        "bge_large_OOF_BGE_raw_NLI_max_lex_bge_nli": {
+          "pearson": 0.966176444595307,
+          "spearman": 0.9316995935535292,
+          "mae": 0.04477860260085837
+        },
+        "bge_large_OOF_BGE_raw_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9792623649402941,
+          "spearman": 0.9329128860860325,
+          "mae": 0.054176404876497504
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_bge_plus_nli": {
+          "pearson": 0.9693529677910774,
+          "spearman": 0.9293836525886228,
+          "mae": 0.05059960699901879
+        },
+        "bge_large_OOF_BGE_OOF_NLI_equal_max_lex_nli_plus_bge": {
+          "pearson": 0.9734804685082177,
+          "spearman": 0.9312885656575653,
+          "mae": 0.04701725131886418
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_mean_bge_nli": {
+          "pearson": 0.9760091952404364,
+          "spearman": 0.9333242088572694,
+          "mae": 0.0380859769004477
+        },
+        "bge_large_OOF_BGE_OOF_NLI_max_lex_bge_nli": {
+          "pearson": 0.9610220345897892,
+          "spearman": 0.9323873819237085,
+          "mae": 0.04567337797878439
+        },
+        "bge_large_OOF_BGE_OOF_NLI_mean_lex_bge_nli": {
+          "pearson": 0.9790172519019428,
+          "spearman": 0.9303208854023083,
+          "mae": 0.04998218572168297
+        },
+        "bge_large_raw_equal_max_lex_bge_plus_nli_OOF_affine_final": {
+          "pearson": 0.9620652792997508,
+          "spearman": 0.9294487142881449,
+          "mae": 0.05665111107206818
+        },
+        "bge_large_raw_equal_max_lex_nli_plus_bge_OOF_affine_final": {
+          "pearson": 0.9765034581725425,
+          "spearman": 0.9333242088572694,
+          "mae": 0.039275901486955166
+        },
+        "bge_large_raw_max_lex_mean_bge_nli_OOF_affine_final": {
+          "pearson": 0.9739361148147746,
+          "spearman": 0.9343234453071386,
+          "mae": 0.04216234461788912
+        },
+        "bge_large_raw_max_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.972092258994353,
+          "spearman": 0.9326878933608228,
+          "mae": 0.060084433262667276
+        },
+        "bge_large_raw_mean_lex_bge_nli_OOF_affine_final": {
+          "pearson": 0.9812362169777713,
+          "spearman": 0.933562848977934,
+          "mae": 0.042885887836840546
+        },
+        "bge_large_raw_three_score_OOF_linear": {
+          "pearson": 0.9797481192306658,
+          "spearman": 0.9327331075278925,
+          "mae": 0.04490868370334288
+        }
+      }
+    }
+  },
+  "unseen_paper_evaluation": {
+    "method": "Five paper-disjoint folds. Raw metrics use no DefSim labels. Every calibrated score for a row is fitted only on the other folds. Pooled statistics concatenate the five unseen-fold predictions; fold distributions show small-sample variability.",
+    "scorer_training": {
+      "LexF1": "none",
+      "Original_SciDef_NLI": "none",
+      "Raw_bge-small_cosine": "none",
+      "Raw_bge-base_cosine": "none",
+      "Raw_bge-large_cosine": "none",
+      "M1_raw_base_equal_mean": "none",
+      "M2_raw_large_lexical_floor": "none",
+      "Calibrated_SciDef_NLI": "four other paper-disjoint folds",
+      "Calibrated_bge-small": "four other paper-disjoint folds",
+      "Calibrated_bge-base": "four other paper-disjoint folds",
+      "Calibrated_bge-large": "four other paper-disjoint folds",
+      "M3_calibrated_base_equal_mean": "four other paper-disjoint folds",
+      "M4_calibrated_large_lexical_floor": "four other paper-disjoint folds",
+      "M5_calibrated_base_lexical_floor": "four other paper-disjoint folds"
+    },
+    "pooled": {
+      "LexF1": {
+        "pearson": 0.9632996430739882,
+        "spearman": 0.7956353523678906,
+        "mae": 0.08455452934299665
+      },
+      "Original_SciDef_NLI": {
+        "pearson": 0.9374342261304958,
+        "spearman": 0.8710655107889661,
+        "mae": 0.09950753402081315
+      },
+      "Calibrated_SciDef_NLI": {
+        "pearson": 0.9369188501865546,
+        "spearman": 0.8721231708062465,
+        "mae": 0.07859750007198435
+      },
+      "Raw_bge-small_cosine": {
+        "pearson": 0.9271765964402067,
+        "spearman": 0.8617033841950815,
+        "mae": 0.4055544113119443
+      },
+      "Calibrated_bge-small": {
+        "pearson": 0.9545888197777587,
+        "spearman": 0.8665552860912084,
+        "mae": 0.10085994501448242
+      },
+      "Raw_bge-base_cosine": {
+        "pearson": 0.943904592051212,
+        "spearman": 0.8815404637863216,
+        "mae": 0.37544137934843697
+      },
+      "Calibrated_bge-base": {
+        "pearson": 0.9654190612759376,
+        "spearman": 0.886241600629389,
+        "mae": 0.08673835635111575
+      },
+      "M1_raw_base_equal_mean": {
+        "pearson": 0.9796138113192556,
+        "spearman": 0.9076244985881697,
+        "mae": 0.16450918580533813
+      },
+      "M3_calibrated_base_equal_mean": {
+        "pearson": 0.984984596972325,
+        "spearman": 0.9141138110830429,
+        "mae": 0.05218731722380674
+      },
+      "M5_calibrated_base_lexical_floor": {
+        "pearson": 0.9816103631914463,
+        "spearman": 0.9131382685799694,
+        "mae": 0.04906650042318765
+      },
+      "Raw_bge-large_cosine": {
+        "pearson": 0.9289253218875364,
+        "spearman": 0.8891305658860185,
+        "mae": 0.37678315871291695
+      },
+      "Calibrated_bge-large": {
+        "pearson": 0.9565561077310818,
+        "spearman": 0.8979144255451292,
+        "mae": 0.09756469100889115
+      },
+      "M2_raw_large_lexical_floor": {
+        "pearson": 0.9730882962192255,
+        "spearman": 0.9082950110677467,
+        "mae": 0.2084712833823617
+      },
+      "M4_calibrated_large_lexical_floor": {
+        "pearson": 0.9784530438154158,
+        "spearman": 0.9167355815600527,
+        "mae": 0.052285895426054725
+      }
+    },
+    "fold_distribution": {
+      "LexF1": {
+        "pearson": {
+          "mean": 0.9467198383925997,
+          "standard_deviation": 0.057888093893898575,
+          "minimum": 0.8346408757267838,
+          "maximum": 0.9897742846027513
+        },
+        "spearman": {
+          "mean": 0.7564333505183788,
+          "standard_deviation": 0.1479212179537925,
+          "minimum": 0.6208039573946187,
+          "maximum": 0.9426785425297586
+        },
+        "mae": {
+          "mean": 0.08929977108857926,
+          "standard_deviation": 0.04642659438376392,
+          "minimum": 0.04820370009157191,
+          "maximum": 0.17495382413524038
+        }
+      },
+      "Original_SciDef_NLI": {
+        "pearson": {
+          "mean": 0.9265499924990086,
+          "standard_deviation": 0.06893182958478256,
+          "minimum": 0.7946586839192852,
+          "maximum": 0.9812851494639019
+        },
+        "spearman": {
+          "mean": 0.8521932192360456,
+          "standard_deviation": 0.04219989952863219,
+          "minimum": 0.799861744527399,
+          "maximum": 0.9093466418174697
+        },
+        "mae": {
+          "mean": 0.10276259575164186,
+          "standard_deviation": 0.04133793617090583,
+          "minimum": 0.05742305158464995,
+          "maximum": 0.16116715768132253
+        }
+      },
+      "Calibrated_SciDef_NLI": {
+        "pearson": {
+          "mean": 0.930924269500961,
+          "standard_deviation": 0.07159906731799232,
+          "minimum": 0.7946586839192853,
+          "maximum": 0.9881491324512021
+        },
+        "spearman": {
+          "mean": 0.8616076629186816,
+          "standard_deviation": 0.0410394860833292,
+          "minimum": 0.799861744527399,
+          "maximum": 0.9131594327193981
+        },
+        "mae": {
+          "mean": 0.08430610830802907,
+          "standard_deviation": 0.04126536859063662,
+          "minimum": 0.03557119421784226,
+          "maximum": 0.13567012632467748
+        }
+      },
+      "Raw_bge-small_cosine": {
+        "pearson": {
+          "mean": 0.9058824738628009,
+          "standard_deviation": 0.045188171276337445,
+          "minimum": 0.8556476360488476,
+          "maximum": 0.9784292111751607
+        },
+        "spearman": {
+          "mean": 0.8455634846535819,
+          "standard_deviation": 0.05891256559712674,
+          "minimum": 0.7607034407511525,
+          "maximum": 0.9093466418174697
+        },
+        "mae": {
+          "mean": 0.40429052659758813,
+          "standard_deviation": 0.055765179510090246,
+          "minimum": 0.2964758045143551,
+          "maximum": 0.4484057913223903
+        }
+      },
+      "Calibrated_bge-small": {
+        "pearson": {
+          "mean": 0.9376258806445612,
+          "standard_deviation": 0.038615083492726986,
+          "minimum": 0.8922602438610152,
+          "maximum": 0.9917113008287682
+        },
+        "spearman": {
+          "mean": 0.8527391355208704,
+          "standard_deviation": 0.06100417124396284,
+          "minimum": 0.7638929869864196,
+          "maximum": 0.9248921549348574
+        },
+        "mae": {
+          "mean": 0.10335883428958455,
+          "standard_deviation": 0.018400273647210502,
+          "minimum": 0.0724468888296046,
+          "maximum": 0.12367881624753647
+        }
+      },
+      "Raw_bge-base_cosine": {
+        "pearson": {
+          "mean": 0.9195823333305224,
+          "standard_deviation": 0.05225238336430951,
+          "minimum": 0.8503663740293916,
+          "maximum": 0.9926684499415409
+        },
+        "spearman": {
+          "mean": 0.8683998301637319,
+          "standard_deviation": 0.0544256307503966,
+          "minimum": 0.7948417446352314,
+          "maximum": 0.9473016974356754
+        },
+        "mae": {
+          "mean": 0.3758730114720486,
+          "standard_deviation": 0.052686919186969064,
+          "minimum": 0.27701259818342,
+          "maximum": 0.4192974666754405
+        }
+      },
+      "Calibrated_bge-base": {
+        "pearson": {
+          "mean": 0.9504155341472185,
+          "standard_deviation": 0.043961787516520294,
+          "minimum": 0.8861142709673179,
+          "maximum": 0.9968466178041471
+        },
+        "spearman": {
+          "mean": 0.8736520122338323,
+          "standard_deviation": 0.05054441373494088,
+          "minimum": 0.8121229330046844,
+          "maximum": 0.9489857906716885
+        },
+        "mae": {
+          "mean": 0.09247275440628341,
+          "standard_deviation": 0.027572504337862763,
+          "minimum": 0.05712624937180164,
+          "maximum": 0.1369108902604194
+        }
+      },
+      "M1_raw_base_equal_mean": {
+        "pearson": {
+          "mean": 0.9725543857975097,
+          "standard_deviation": 0.017508686771504963,
+          "minimum": 0.9481104335148075,
+          "maximum": 0.9916657679771802
+        },
+        "spearman": {
+          "mean": 0.9068525782881022,
+          "standard_deviation": 0.04972586390461552,
+          "minimum": 0.8087863366463758,
+          "maximum": 0.9473016974356754
+        },
+        "mae": {
+          "mean": 0.1631053134076727,
+          "standard_deviation": 0.011556183982352064,
+          "minimum": 0.1469382532338737,
+          "maximum": 0.17512967430463505
+        }
+      },
+      "M3_calibrated_base_equal_mean": {
+        "pearson": {
+          "mean": 0.9785327220169886,
+          "standard_deviation": 0.015792584186246104,
+          "minimum": 0.9572087513363208,
+          "maximum": 0.9965469326836646
+        },
+        "spearman": {
+          "mean": 0.9157295038262909,
+          "standard_deviation": 0.05161699297814118,
+          "minimum": 0.8161839266635622,
+          "maximum": 0.9645581560128214
+        },
+        "mae": {
+          "mean": 0.057965137812247394,
+          "standard_deviation": 0.020078110759181554,
+          "minimum": 0.027492668253533137,
+          "maximum": 0.08180192605544477
+        }
+      },
+      "M5_calibrated_base_lexical_floor": {
+        "pearson": {
+          "mean": 0.9729623138548732,
+          "standard_deviation": 0.03438557849863211,
+          "minimum": 0.9046540318069257,
+          "maximum": 0.9957063435339588
+        },
+        "spearman": {
+          "mean": 0.9125864358945728,
+          "standard_deviation": 0.05747536369765858,
+          "minimum": 0.8276710518549867,
+          "maximum": 0.9693581239221102
+        },
+        "mae": {
+          "mean": 0.05344054911392313,
+          "standard_deviation": 0.026144605589582093,
+          "minimum": 0.02749668712776947,
+          "maximum": 0.10382113916839127
+        }
+      },
+      "Raw_bge-large_cosine": {
+        "pearson": {
+          "mean": 0.9004899984304877,
+          "standard_deviation": 0.05624160489662895,
+          "minimum": 0.8343396090255832,
+          "maximum": 0.9740674460690666
+        },
+        "spearman": {
+          "mean": 0.8674595669844803,
+          "standard_deviation": 0.08197936823702061,
+          "minimum": 0.7251187845795093,
+          "maximum": 0.9473016974356754
+        },
+        "mae": {
+          "mean": 0.37819218982149055,
+          "standard_deviation": 0.0503063310475424,
+          "minimum": 0.2875840879148907,
+          "maximum": 0.4337489316860835
+        }
+      },
+      "Calibrated_bge-large": {
+        "pearson": {
+          "mean": 0.938485746440259,
+          "standard_deviation": 0.04235928481919561,
+          "minimum": 0.8830152787762835,
+          "maximum": 0.9853002100694117
+        },
+        "spearman": {
+          "mean": 0.8769882785040043,
+          "standard_deviation": 0.07845050655091682,
+          "minimum": 0.7408840792323437,
+          "maximum": 0.9515717363272092
+        },
+        "mae": {
+          "mean": 0.1042779020624581,
+          "standard_deviation": 0.020182395209693366,
+          "minimum": 0.0686733677744619,
+          "maximum": 0.12556128975729275
+        }
+      },
+      "M2_raw_large_lexical_floor": {
+        "pearson": {
+          "mean": 0.9599186214428468,
+          "standard_deviation": 0.04432675052508592,
+          "minimum": 0.8728993557656984,
+          "maximum": 0.9903787647815264
+        },
+        "spearman": {
+          "mean": 0.9044757211793121,
+          "standard_deviation": 0.05940572906907834,
+          "minimum": 0.8090905632272485,
+          "maximum": 0.9530652303663865
+        },
+        "mae": {
+          "mean": 0.20876043587062693,
+          "standard_deviation": 0.027258757431531253,
+          "minimum": 0.1654086629477872,
+          "maximum": 0.2508196409569128
+        }
+      },
+      "M4_calibrated_large_lexical_floor": {
+        "pearson": {
+          "mean": 0.9676309037638593,
+          "standard_deviation": 0.039180551087038516,
+          "minimum": 0.8910973414802378,
+          "maximum": 0.9964251444695277
+        },
+        "spearman": {
+          "mean": 0.9125864358945728,
+          "standard_deviation": 0.05747536369765858,
+          "minimum": 0.8276710518549867,
+          "maximum": 0.9693581239221102
+        },
+        "mae": {
+          "mean": 0.05750945797949225,
+          "standard_deviation": 0.027548682995169087,
+          "minimum": 0.025672496789757526,
+          "maximum": 0.10866697834216033
+        }
+      }
+    },
+    "per_fold": [
+      {
+        "fold": 0,
+        "test_rows": 20,
+        "metrics": {
+          "LexF1": {
+            "pearson": 0.9840903812971884,
+            "spearman": 0.6468232056841952,
+            "mae": 0.07382505199550454
+          },
+          "Original_SciDef_NLI": {
+            "pearson": 0.9801522862313298,
+            "spearman": 0.8087863366463758,
+            "mae": 0.06557450958061961
+          },
+          "Calibrated_SciDef_NLI": {
+            "pearson": 0.9863245847680037,
+            "spearman": 0.8369486793032411,
+            "mae": 0.03557119421784226
+          },
+          "Raw_bge-small_cosine": {
+            "pearson": 0.9368298605562791,
+            "spearman": 0.7948417446352314,
+            "mae": 0.4365779797236125
+          },
+          "Calibrated_bge-small": {
+            "pearson": 0.9685660763783296,
+            "spearman": 0.8055112387452502,
+            "mae": 0.09830142726121484
+          },
+          "Raw_bge-base_cosine": {
+            "pearson": 0.9658327451364315,
+            "spearman": 0.7948417446352314,
+            "mae": 0.39653290758530296
+          },
+          "Calibrated_bge-base": {
+            "pearson": 0.9848105607431845,
+            "spearman": 0.8121229330046844,
+            "mae": 0.07036598650076407
+          },
+          "M1_raw_base_equal_mean": {
+            "pearson": 0.9916657679771802,
+            "spearman": 0.8087863366463758,
+            "mae": 0.17407887372443281
+          },
+          "M3_calibrated_base_equal_mean": {
+            "pearson": 0.9965469326836646,
+            "spearman": 0.8161839266635622,
+            "mae": 0.027492668253533137
+          },
+          "M5_calibrated_base_lexical_floor": {
+            "pearson": 0.9957063435339588,
+            "spearman": 0.8276710518549867,
+            "mae": 0.02749668712776947
+          },
+          "Raw_bge-large_cosine": {
+            "pearson": 0.9612489813181213,
+            "spearman": 0.7251187845795093,
+            "mae": 0.3901672532161077
+          },
+          "Calibrated_bge-large": {
+            "pearson": 0.9853002100694117,
+            "spearman": 0.7408840792323437,
+            "mae": 0.0686733677744619
+          },
+          "M2_raw_large_lexical_floor": {
+            "pearson": 0.9903787647815264,
+            "spearman": 0.8090905632272485,
+            "mae": 0.21518288717847409
+          },
+          "M4_calibrated_large_lexical_floor": {
+            "pearson": 0.9964251444695277,
+            "spearman": 0.8276710518549867,
+            "mae": 0.025672496789757526
+          }
+        }
+      },
+      {
+        "fold": 1,
+        "test_rows": 12,
+        "metrics": {
+          "LexF1": {
+            "pearson": 0.9897742846027513,
+            "spearman": 0.931817944986438,
+            "mae": 0.04820370009157191
+          },
+          "Original_SciDef_NLI": {
+            "pearson": 0.9487224242838835,
+            "spearman": 0.799861744527399,
+            "mae": 0.16116715768132253
+          },
+          "Calibrated_SciDef_NLI": {
+            "pearson": 0.9575854315177155,
+            "spearman": 0.799861744527399,
+            "mae": 0.13567012632467748
+          },
+          "Raw_bge-small_cosine": {
+            "pearson": 0.9784292111751607,
+            "spearman": 0.9030697115631925,
+            "mae": 0.2964758045143551
+          },
+          "Calibrated_bge-small": {
+            "pearson": 0.9917113008287682,
+            "spearman": 0.9095434124369615,
+            "mae": 0.0724468888296046
+          },
+          "Raw_bge-base_cosine": {
+            "pearson": 0.9926684499415409,
+            "spearman": 0.9473016974356754,
+            "mae": 0.27701259818342
+          },
+          "Calibrated_bge-base": {
+            "pearson": 0.9968466178041471,
+            "spearman": 0.9489857906716885,
+            "mae": 0.05712624937180164
+          },
+          "M1_raw_base_equal_mean": {
+            "pearson": 0.990672234606018,
+            "spearman": 0.9473016974356754,
+            "mae": 0.1469382532338737
+          },
+          "M3_calibrated_base_equal_mean": {
+            "pearson": 0.9957019199049044,
+            "spearman": 0.9645581560128214,
+            "mae": 0.04747066837933892
+          },
+          "M5_calibrated_base_lexical_floor": {
+            "pearson": 0.9922787074926634,
+            "spearman": 0.9489857906716885,
+            "mae": 0.044293539230287636
+          },
+          "Raw_bge-large_cosine": {
+            "pearson": 0.9740674460690666,
+            "spearman": 0.9473016974356754,
+            "mae": 0.2875840879148907
+          },
+          "Calibrated_bge-large": {
+            "pearson": 0.9851786195801372,
+            "spearman": 0.9489857906716885,
+            "mae": 0.09633096021882354
+          },
+          "M2_raw_large_lexical_floor": {
+            "pearson": 0.9884624024245495,
+            "spearman": 0.9473016974356754,
+            "mae": 0.1654086629477872
+          },
+          "M4_calibrated_large_lexical_floor": {
+            "pearson": 0.9907375975479644,
+            "spearman": 0.9489857906716885,
+            "mae": 0.052721224485546225
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "test_rows": 9,
+        "metrics": {
+          "LexF1": {
+            "pearson": 0.8346408757267838,
+            "spearman": 0.6208039573946187,
+            "mae": 0.17495382413524038
+          },
+          "Original_SciDef_NLI": {
+            "pearson": 0.9812851494639019,
+            "spearman": 0.9093466418174697,
+            "mae": 0.05742305158464995
+          },
+          "Calibrated_SciDef_NLI": {
+            "pearson": 0.9881491324512021,
+            "spearman": 0.9131594327193981,
+            "mae": 0.04027463554661226
+          },
+          "Raw_bge-small_cosine": {
+            "pearson": 0.8743912689990166,
+            "spearman": 0.7607034407511525,
+            "mae": 0.4051175382402208
+          },
+          "Calibrated_bge-small": {
+            "pearson": 0.8987092857747142,
+            "spearman": 0.7638929869864196,
+            "mae": 0.12367881624753647
+          },
+          "Raw_bge-base_cosine": {
+            "pearson": 0.8866482931078596,
+            "spearman": 0.8306531824294194,
+            "mae": 0.36887893742985195
+          },
+          "Calibrated_bge-base": {
+            "pearson": 0.9101129585182243,
+            "spearman": 0.8341360202725271,
+            "mae": 0.10033781273805085
+          },
+          "M1_raw_base_equal_mean": {
+            "pearson": 0.9481104335148075,
+            "spearman": 0.9268340772370364,
+            "mae": 0.16737163054782292
+          },
+          "M3_calibrated_base_equal_mean": {
+            "pearson": 0.9572087513363208,
+            "spearman": 0.930720191040925,
+            "mae": 0.08180192605544477
+          },
+          "M5_calibrated_base_lexical_floor": {
+            "pearson": 0.9837485462886327,
+            "spearman": 0.9693581239221102,
+            "mae": 0.04750721672109731
+          },
+          "Raw_bge-large_cosine": {
+            "pearson": 0.8641886205758028,
+            "spearman": 0.8306531824294194,
+            "mae": 0.36796344651116264
+          },
+          "Calibrated_bge-large": {
+            "pearson": 0.8830152787762835,
+            "spearman": 0.8448534107578025,
+            "mae": 0.11384795101440938
+          },
+          "M2_raw_large_lexical_floor": {
+            "pearson": 0.9662792658703427,
+            "spearman": 0.9530652303663865,
+            "mae": 0.20370144095838247
+          },
+          "M4_calibrated_large_lexical_floor": {
+            "pearson": 0.9712357025762612,
+            "spearman": 0.9693581239221102,
+            "mae": 0.054453061260313046
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "test_rows": 10,
+        "metrics": {
+          "LexF1": {
+            "pearson": 0.9476768324837733,
+            "spearman": 0.6400431019968835,
+            "mae": 0.09809538936846667
+          },
+          "Original_SciDef_NLI": {
+            "pearson": 0.7946586839192852,
+            "spearman": 0.8598558845008637,
+            "mae": 0.14131415399412312
+          },
+          "Calibrated_SciDef_NLI": {
+            "pearson": 0.7946586839192853,
+            "spearman": 0.8598558845008637,
+            "mae": 0.12378161508745625
+          },
+          "Raw_bge-small_cosine": {
+            "pearson": 0.8841143925347,
+            "spearman": 0.8598558845008637,
+            "mae": 0.4484057913223903
+          },
+          "Calibrated_bge-small": {
+            "pearson": 0.936882496379979,
+            "spearman": 0.8598558845008637,
+            "mae": 0.10179279147546401
+          },
+          "Raw_bge-base_cosine": {
+            "pearson": 0.9023958044373886,
+            "spearman": 0.8598558845008637,
+            "mae": 0.4192974666754405
+          },
+          "Calibrated_bge-base": {
+            "pearson": 0.974193262703219,
+            "spearman": 0.8598558845008637,
+            "mae": 0.09762283316038116
+          },
+          "M1_raw_base_equal_mean": {
+            "pearson": 0.9572166162316166,
+            "spearman": 0.9245067028843873,
+            "mae": 0.17512967430463505
+          },
+          "M3_calibrated_base_equal_mean": {
+            "pearson": 0.965398903642558,
+            "spearman": 0.9245067028843873,
+            "mae": 0.0779764759503903
+          },
+          "M5_calibrated_base_lexical_floor": {
+            "pearson": 0.9046540318069257,
+            "spearman": 0.8598558845008637,
+            "mae": 0.10382113916839127
+          },
+          "Raw_bge-large_cosine": {
+            "pearson": 0.8343396090255832,
+            "spearman": 0.8986463755309779,
+            "mae": 0.4337489316860835
+          },
+          "Calibrated_bge-large": {
+            "pearson": 0.9394592122039708,
+            "spearman": 0.8986463755309779,
+            "mae": 0.11697594154730293
+          },
+          "M2_raw_large_lexical_floor": {
+            "pearson": 0.8728993557656984,
+            "spearman": 0.8598558845008637,
+            "mae": 0.2508196409569128
+          },
+          "M4_calibrated_large_lexical_floor": {
+            "pearson": 0.8910973414802378,
+            "spearman": 0.8598558845008637,
+            "mae": 0.10866697834216033
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "test_rows": 9,
+        "metrics": {
+          "LexF1": {
+            "pearson": 0.9774168178525018,
+            "spearman": 0.9426785425297586,
+            "mae": 0.05142088985211282
+          },
+          "Original_SciDef_NLI": {
+            "pearson": 0.9279314185966426,
+            "spearman": 0.8831154886881196,
+            "mae": 0.08833410591749405
+          },
+          "Calibrated_SciDef_NLI": {
+            "pearson": 0.9279035148485989,
+            "spearman": 0.8982125735425058,
+            "mae": 0.08623297036355708
+          },
+          "Raw_bge-small_cosine": {
+            "pearson": 0.8556476360488476,
+            "spearman": 0.9093466418174697,
+            "mae": 0.4348755191873621
+          },
+          "Calibrated_bge-small": {
+            "pearson": 0.8922602438610152,
+            "spearman": 0.9248921549348574,
+            "mae": 0.12057424763410281
+          },
+          "Raw_bge-base_cosine": {
+            "pearson": 0.8503663740293916,
+            "spearman": 0.9093466418174697,
+            "mae": 0.41764314748622755
+          },
+          "Calibrated_bge-base": {
+            "pearson": 0.8861142709673179,
+            "spearman": 0.9131594327193981,
+            "mae": 0.1369108902604194
+          },
+          "M1_raw_base_equal_mean": {
+            "pearson": 0.9751068766579263,
+            "spearman": 0.9268340772370364,
+            "mae": 0.15200813522759896
+          },
+          "M3_calibrated_base_equal_mean": {
+            "pearson": 0.9778071025174951,
+            "spearman": 0.9426785425297586,
+            "mae": 0.05508395042252984
+          },
+          "M5_calibrated_base_lexical_floor": {
+            "pearson": 0.9884239401521853,
+            "spearman": 0.9570613285232153,
+            "mae": 0.04408416332206997
+          },
+          "Raw_bge-large_cosine": {
+            "pearson": 0.8686053351638651,
+            "spearman": 0.9355777949468197,
+            "mae": 0.41149722977920816
+          },
+          "Calibrated_bge-large": {
+            "pearson": 0.8994754115714914,
+            "spearman": 0.9515717363272092,
+            "mae": 0.12556128975729275
+          },
+          "M2_raw_large_lexical_floor": {
+            "pearson": 0.9815733183721168,
+            "spearman": 0.9530652303663865,
+            "mae": 0.20868954731157816
+          },
+          "M4_calibrated_large_lexical_floor": {
+            "pearson": 0.9886587327453051,
+            "spearman": 0.9570613285232153,
+            "mae": 0.04603352901968414
+          }
+        }
+      }
+    ],
+    "M3_stability": {
+      "in_sample_full_data_fit": {
+        "pearson": 0.9858813473030192,
+        "spearman": 0.9136745888917798,
+        "mae": 0.050067672524336644
+      },
+      "paper_disjoint_out_of_fold": {
+        "pearson": 0.984984596972325,
+        "spearman": 0.9141138110830429,
+        "mae": 0.05218731722380674
+      },
+      "full_data_parameters": {
+        "slope": 1.4028410596332237,
+        "intercept": -0.2973741431607951
+      },
+      "training_fold_parameters": [
+        {
+          "fold": 0,
+          "train_rows": 40,
+          "test_rows": 20,
+          "slope": 1.4383583372344941,
+          "intercept": -0.3045095538150616
+        },
+        {
+          "fold": 1,
+          "train_rows": 48,
+          "test_rows": 12,
+          "slope": 1.375327124266941,
+          "intercept": -0.29377650513465065
+        },
+        {
+          "fold": 2,
+          "train_rows": 51,
+          "test_rows": 9,
+          "slope": 1.4040457207515082,
+          "intercept": -0.29655552193598783
+        },
+        {
+          "fold": 3,
+          "train_rows": 50,
+          "test_rows": 10,
+          "slope": 1.3924464180514484,
+          "intercept": -0.289777177169843
+        },
+        {
+          "fold": 4,
+          "train_rows": 51,
+          "test_rows": 9,
+          "slope": 1.4072142446523743,
+          "intercept": -0.3032763004167101
+        }
+      ],
+      "parameter_distribution": {
+        "slope": {
+          "mean": 1.4034783689913533,
+          "standard_deviation": 0.020712736954304693,
+          "minimum": 1.375327124266941,
+          "maximum": 1.4383583372344941
+        },
+        "intercept": {
+          "mean": -0.29757901169445067,
+          "standard_deviation": 0.005601191341896961,
+          "minimum": -0.3045095538150616,
+          "maximum": -0.289777177169843
+        }
+      }
+    },
+    "retrospective_40_train_20_test": {
+      "warning": "This is an illustrative 40-row train / 20-row test split using outer fold 0. It is paper-disjoint, and all calibrated scores on its test rows use only its training rows. It is not a pristine holdout because the formula family was previously inspected on all DefSim rows.",
+      "train_rows": 40,
+      "test_rows": 20,
+      "test_fold": 0,
+      "metrics": {
+        "LexF1": {
+          "pearson": 0.9840903812971884,
+          "spearman": 0.6468232056841952,
+          "mae": 0.07382505199550454
+        },
+        "Original_SciDef_NLI": {
+          "pearson": 0.9801522862313298,
+          "spearman": 0.8087863366463758,
+          "mae": 0.06557450958061961
+        },
+        "Calibrated_SciDef_NLI": {
+          "pearson": 0.9863245847680037,
+          "spearman": 0.8369486793032411,
+          "mae": 0.03557119421784226
+        },
+        "Raw_bge-small_cosine": {
+          "pearson": 0.9368298605562791,
+          "spearman": 0.7948417446352314,
+          "mae": 0.4365779797236125
+        },
+        "Calibrated_bge-small": {
+          "pearson": 0.9685660763783296,
+          "spearman": 0.8055112387452502,
+          "mae": 0.09830142726121484
+        },
+        "Raw_bge-base_cosine": {
+          "pearson": 0.9658327451364315,
+          "spearman": 0.7948417446352314,
+          "mae": 0.39653290758530296
+        },
+        "Calibrated_bge-base": {
+          "pearson": 0.9848105607431845,
+          "spearman": 0.8121229330046844,
+          "mae": 0.07036598650076407
+        },
+        "M1_raw_base_equal_mean": {
+          "pearson": 0.9916657679771802,
+          "spearman": 0.8087863366463758,
+          "mae": 0.17407887372443281
+        },
+        "M3_calibrated_base_equal_mean": {
+          "pearson": 0.9965469326836646,
+          "spearman": 0.8161839266635622,
+          "mae": 0.027492668253533137
+        },
+        "M5_calibrated_base_lexical_floor": {
+          "pearson": 0.9957063435339588,
+          "spearman": 0.8276710518549867,
+          "mae": 0.02749668712776947
+        },
+        "Raw_bge-large_cosine": {
+          "pearson": 0.9612489813181213,
+          "spearman": 0.7251187845795093,
+          "mae": 0.3901672532161077
+        },
+        "Calibrated_bge-large": {
+          "pearson": 0.9853002100694117,
+          "spearman": 0.7408840792323437,
+          "mae": 0.0686733677744619
+        },
+        "M2_raw_large_lexical_floor": {
+          "pearson": 0.9903787647815264,
+          "spearman": 0.8090905632272485,
+          "mae": 0.21518288717847409
+        },
+        "M4_calibrated_large_lexical_floor": {
+          "pearson": 0.9964251444695277,
+          "spearman": 0.8276710518549867,
+          "mae": 0.025672496789757526
+        }
+      },
+      "M3_training_fit": {
+        "fold": 0,
+        "train_rows": 40,
+        "test_rows": 20,
+        "slope": 1.4383583372344941,
+        "intercept": -0.3045095538150616
+      }
+    },
+    "selection_caveat": "Out-of-fold calibration prevents paper leakage but does not undo the fact that M1-M5 and the choice of M3 were developed after viewing DefSim. Only a new frozen human-rated dataset can provide a clean final confirmation of metric selection."
+  },
+  "limitations": [
+    "DefSim contains only 60 pairs.",
+    "Pearson and MAE assume the five rating categories are equally spaced; Spearman does not.",
+    "Only aggregate human ratings are available here, so annotator-level uncertainty is not estimated.",
+    "Raw metrics and DefSim-calibrated metrics are separate experimental families and must not be presented as equally label-free.",
+    "Out-of-fold calibration prevents row and paper leakage, but metric selection on the same 60 pairs remains exploratory until evaluated on new frozen human judgments.",
+    "DefSim pairs include outputs from extractors selected using NLI, which may favor the SciDef NLI metric.",
+    "All canonical exact-term matches are GT-prediction pairs; no GT-GT or prediction-prediction pair passes the gate.",
+    "Therefore DefSim evaluates definition similarity, not general concept-identity matching.",
+    "Timing is local CPU wall time and should be compared only within this run."
+  ]
+}

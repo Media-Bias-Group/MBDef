@@ -1,0 +1,152 @@
+{
+ "clustering": {
+  "settings": {
+   "kwargs": {
+    "dims": 20,
+    "k": 100,
+    "a": 2.0,
+    "neighbours": 15
+   }
+  },
+  "evidence": "clustering sweep 15 Oct (nested CV, train+dev): PCA-20 + k-means k=100 chosen by every fold; a=2 in 4 of 5",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "clustering@group": {
+  "settings": {
+   "kwargs": {
+    "dims": 20,
+    "k": 100,
+    "a": 2.0,
+    "neighbours": 15
+   },
+   "member": "all"
+  },
+  "evidence": "Label Group setting of the frozen clustering path",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "representative": {
+  "settings": {
+   "kwargs": {
+    "direction": "representative_to_definition"
+   }
+  },
+  "evidence": "best of four direction combinations on train+dev (AUC 0.664)",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "representative@group": {
+  "settings": {
+   "kwargs": {
+    "direction": "representative_to_definition"
+   },
+   "member": "representative"
+  },
+  "evidence": "Label Group setting: each group scored by its Representative Definition",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "zero-shot": {
+  "settings": {
+   "kwargs": {
+    "hypothesis": "This text is about media bias."
+   }
+  },
+  "evidence": "best of five predeclared hypotheses on train+dev (AUC 0.781)",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "zero-shot@group": {
+  "settings": {
+   "kwargs": {
+    "hypothesis": "This text is about media bias."
+   },
+   "member": "representative"
+  },
+  "evidence": "Label Group setting: each group scored by its Representative Definition",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "keyword": {
+  "settings": {
+   "kwargs": {}
+  },
+  "evidence": "comparison row",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "neighbours": {
+  "settings": {
+   "kwargs": {
+    "neighbours": 15
+   }
+  },
+  "evidence": "comparison row",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  }
+ },
+ "classifier": {
+  "settings": {
+   "kwargs": {}
+  },
+  "evidence": "comparison row (C chosen by inner CV at fit time)",
+  "frozen_at": "2026-10-15T08:27:50+00:00",
+  "provenance": {
+   "commit": "617c95f9562038da07dedc11a33e17bdc8f4fd34",
+   "src_step5_dirty": false,
+   "run_at": "2026-10-15T08:27:50+00:00"
+  },
+  "role": {
+   "role": "candidate path",
+   "since": "2026-10-16",
+   "decided_by": "the maintainers",
+   "note": "was a comparison row when frozen on 15 Oct; settings unchanged; also best out of fold on train + dev (0.913)"
+  }
+ },
+ "extractor-filter": {
+  "settings": {
+   "artifact": "artifacts/experiments/semantic-title-relevance-v2",
+   "production_cutoff": 0.2371840437933272
+  },
+  "evidence": "comparison row: the extraction run's own relevance filter, frozen before Step 5 began; replayed to within 3.2e-07 of its saved probabilities",
+  "frozen_at": "2026-10-15T10:28:32+00:00",
+  "provenance": {
+   "commit": "fb77fa90dec2146b26270a4ef69ded1c02934868",
+   "src_step5_dirty": true,
+   "run_at": "2026-10-15T10:28:32+00:00"
+  }
+ }
+}

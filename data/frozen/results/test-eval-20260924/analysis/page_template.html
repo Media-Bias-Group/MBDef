@@ -1,0 +1,103 @@
+<title>Extractor TEST Results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>{{CSS}}</style>
+<main class="wrap">
+<header>
+<h1>Did 80% definition recall hold up on unseen papers?</h1>
+<p class="lede">Almost. On 29 papers no setup had ever seen, the best self-hosted option, <b>Qwen with three pooled passes</b>, found 79.7% of the reference definitions: one match short of 80%. The original single-pass Qwen setup, which scored 83.5% on the development papers, found 69.0%. Opus with a plain prompt tied the pooled Qwen at 79.5%, at a cost of $41 for these 29 papers.</p>
+<p class="meta">29 TEST papers (14 original + 15 new) · 365 reference definitions · 80% = 292 matches · run 24 Sep 2026 on the ZIB cluster, one attempt per setup · finalists and pick rule frozen before any result (plan SHA-256 7cb89ade…) · OpenRouter spend $56</p>
+<div class="figs">
+<div class="fig pickfig"><b>79.7%</b><span>Pooled Qwen, the pick: 291 of 365 matched, 24.8% precision, $0</span></div>
+<div class="fig"><b>79.5%</b><span>Opus, plain Bootstrap prompt + verifier: 290 of 365, 28.9% precision, $41</span></div>
+<div class="fig"><b>69.0%</b><span>Original single-pass Qwen: 252 of 365, 37.2% precision (83.5% on DEV)</span></div>
+</div>
+</header>
+
+<h2 id="setups">Every setup at a glance</h2>
+<p>Each row is one frozen setup, run once on TEST. Open a row for its model, prompt (full text), windows, decoding, verifier, filter, stage-by-stage numbers, failures and cost. Recall = matched / 365 reference definitions; precision = matched / everything the setup predicted. A row could be picked only if every paper produced output and at most 5% of its windows or verifier batches failed.</p>
+<div class="setups">
+<div class="shead"><span>Setup</span><span>Matched / predicted</span><span>TEST recall</span><span>Precision</span><span>F1</span><span>DEV recall</span></div>
+{{ROWS}}
+</div>
+<p class="meta">Pick rule, frozen beforehand: among eligible setups reaching 80% recall take the highest precision, preferring self-hosted Qwen within 2 matches of the leader; if none reaches 80%, take the highest recall with precision of at least 15%. No setup reached 80%, so the rule picked the highest recall: pooled Qwen (291) over Opus (290).</p>
+
+<h2 id="pooled">What "pooled Qwen" is</h2>
+<p>Pooled Qwen is the ordinary single-pass Qwen pipeline run three times over each paper, followed by one merge. Every pass is the same model, the same two prompts, the same verifier and the same filter. Only the format in which the model writes its answer changes: the original chat format, and a strict JSON format at two output lengths.</p>
+<div class="flow" aria-label="Pipeline for one pass">
+<div class="step"><b>1 · Cut the paper</b>into overlapping text windows, twice: 16,000 characters (overlap 2,000) and 32,000 characters (overlap 4,000)</div><span class="arrow">→</span>
+<div class="step"><b>2 · Two prompts</b>prompt A reads the 16k windows, prompt B the 32k windows; each lists terms with quoted definitions</div><span class="arrow">→</span>
+<div class="step"><b>3 · Combine</b>merge both lists per paper, dropping exact duplicates only</div><span class="arrow">→</span>
+<div class="step"><b>4 · Verifier</b>Qwen rereads each quote in its source window and drops non-definitions</div><span class="arrow">→</span>
+<div class="step"><b>5 · Relevance filter</b>a small trained classifier drops definitions outside media-bias scope</div>
+</div>
+<p><b>Pooling</b> repeats steps 1–5 in chat format (8,192 output tokens), JSON format (8,192) and JSON format (16,384), then merges the three final lists per paper. Why it works: even with fixed settings, the model's answers differ from run to run and more so across formats, so each pass finds some definitions the others miss. Why it costs: every unmatched prediction from each pass is kept too, so precision falls from 37% to 25%, about four predictions to review per correct one, and compute is about three times a single pass.</p>
+
+<h2 id="verifier">What the verifier and the filters do</h2>
+<h3>The verifier</h3>
+<p>The verifier is a second Qwen call that checks, never writes. It gets the paper title, one exact source window and up to 16 candidate term/quote pairs. For each it answers whether the quote actually states what the term means (yes, no, uncertain). An example, a mention or a study result alone is not a definition. A candidate survives if at least one window says yes ("strict" policy). It can only delete definitions; it cannot edit quotes or add anything. In the Qwen setups it rereads the windows that produced each candidate; for Opus and Gemma it uses shared 32,000-character windows of the same paper.</p>
+<h3>The three relevance filters</h3>
+<p>All three are small logistic-regression classifiers on top of a fixed text encoder (BGE-base). They were trained on 1,171 human-labelled records from the 80 training papers, and their cutoffs keep 95% of relevant training records. None was fitted on DEV or TEST. They differ only in what they read:</p>
+<ul>
+<li><b>Ordinary</b>: the term and its definition (cutoff 0.309). Used in R6e24b3d and in the Opus and Gemma "+ filter" setups.</li>
+<li><b>Title-aware</b>: the paper title on a line above the term and definition (cutoff 0.237). Used in R0bea6bc and in every pooled pass.</li>
+<li><b>Separate-title</b>: title and term/definition encoded separately, side by side (cutoff 0.249). Used in Ra1da1ae.</li>
+</ul>
+<h3>What each stage cost on TEST</h3>
+<div class="scroll"><table>
+<thead><tr><th>Setup</th><th class="n">Before verifier</th><th class="n">After verifier</th><th class="n">After filter</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td>Qwen single pass</td><td class="n">267 / 822</td><td class="n">259 / 734</td><td class="n">252 / 678 (title-aware)<br>246 / 602 (ordinary)<br>248 / 638 (separate-title)</td><td>Verifier: −8 matches, −88 predictions. Title-aware filter: −7 more, −56 predictions.</td></tr>
+<tr><td>Pooled Qwen</td><td class="n">302 / 1514</td><td class="n">298 / 1305</td><td class="n">291 / 1173</td><td>Above 80% until the filter removed 7 matches (see note below)</td></tr>
+<tr><td>Opus Bootstrap</td><td class="n">306 / 1103</td><td class="n">290 / 1002</td><td class="n">260 / 725 (ordinary)</td><td>Opus's own list reached 83.8%; the verifier cost 16 matches and the filter 30 more</td></tr>
+<tr><td>Gemma 12B MIPRO</td><td class="n">172 / 395</td><td class="n">169 / 348</td><td class="n">166 / 293 (ordinary)</td><td>Cheap filters on an already precise list</td></tr>
+</tbody></table></div>
+<p class="note">Two numbers above cross 80%: pooled Qwen before its filter (298, 81.6%) and Opus before its verifier (306, 83.8%). Neither was a frozen finalist. Adopting either now would be a choice made after seeing TEST, which is exactly how the DEV numbers became optimistic. They show where recall is lost; they are not a result.</p>
+
+<h2 id="contributions">How much each part adds</h2>
+<h3>The three passes</h3>
+<div class="chart"><div class="legend"><span><span class="key" style="background:var(--test)"></span>Final matches after verifier and title-aware filter (hover a bar for recall)</span></div>{{BARS}}</div>
+<ul>
+<li><b>203</b> definitions are found by all three passes; pooling adds the <b>88</b> that at least one pass misses.</li>
+<li>Found by only one pass: chat <b>22</b>, JSON 8k <b>8</b>, JSON 16k <b>7</b>. Dropping a pass costs exactly that many: 269 without chat, 283 without JSON 8k, 284 without JSON 16k.</li>
+<li>The second pass adds about 32 matches, the third about 7. The two JSON passes resemble each other most (together only 269), so the chat pass carries the most distinct coverage.</li>
+</ul>
+<h3>The two prompts inside each pass</h3>
+<p>Each definition is traced back to the prompt(s) that extracted it. "Prompt A records only" keeps just the definitions prompt A produced (alone or together with prompt B), with the same verifier and filter decisions.</p>
+<div class="scroll"><table>
+<thead><tr><th>Where</th><th class="n">Both prompts</th><th class="n">Prompt A (16k) records only</th><th class="n">Prompt B (32k) records only</th><th class="n">B adds</th><th class="n">A adds</th></tr></thead>
+<tbody>{{BRANCH_ROWS}}</tbody></table></div>
+<p>The 16k-window prompt carries most of the load. The 32k-window prompt still adds 18–28 matches that the 16k prompt never produced, so both are worth keeping.</p>
+
+<h2 id="optimizers">How the prompt optimizers are doing</h2>
+<p>Three optimizers wrote the prompts. <b>GEPA</b> repeatedly rewrites the instruction using feedback on its mistakes, producing long prompts (5,000–15,000 characters, no examples). <b>MIPRO</b> proposes and tests shorter rewritten instructions plus one example. <b>Bootstrap</b> keeps the hand-written starting instruction (1,215 characters) and adds one worked example from a training paper. GEPA and MIPRO chose their prompts by scoring candidates on the DEV papers; Bootstrap never scored prompts on DEV.</p>
+<div class="chart"><div class="legend"><span><span class="key" style="background:var(--dev)"></span>DEV recall (selected, optimistic)</span><span><span class="key" style="background:var(--test)"></span>TEST recall (held out)</span></div>{{DUMBBELL}}</div>
+<ul>
+<li><b>GEPA lost the most</b> from DEV to TEST: 12.6–14.5 points on all three Qwen rows, 9.5 for Kimi with a borrowed GEPA prompt.</li>
+<li><b>Bootstrap held up better</b>: Opus −7.5 (−10.5 with the filter), Gemma −6.4, SOOFI +4.2. <b>MIPRO</b> was mixed: Gemma −8.4, Sol +4.5 with a borrowed prompt.</li>
+<li>At high recall the plain Bootstrap prompt did at least as well as GEPA: Opus 79.5% and Gemma 12B 71.0%, against 69.0% for single-pass GEPA Qwen. On TEST, GEPA is not the clean winner it looked like on DEV.</li>
+<li>The GEPA prompts spell out concepts from the training papers they learned on, some of them quite specific ("fuzzy trace theory", "ratio bias"). None of the terms that occur only in DEV appear in any prompt. (A simple word check also turns up common words that happen to be TEST terms, such as "agenda", which the optimizer never saw; so these counts are rough.) The DEV inflation therefore came from picking the best of many noisy scores, not from DEV answers leaking into the prompts.</li>
+<li>Caution: model and optimizer are tangled together here, and each row is a single run, so differences under about 5 matches (1.4 points) are noise.</li>
+</ul>
+
+<h2 id="meaning">What this means</h2>
+<ul>
+<li><b>The original 83% did not replicate.</b> Single-pass Qwen lands at about 69% on unseen papers (about 75% on fresh DEV reruns).</li>
+<li><b>Pooled Qwen is the pick</b> by the frozen rule: 79.7% recall, 24.8% precision, self-hosted at $0. Treat it as "about 80%", not a guarantee: it is one run, and TEST also picked the winner among 12 rows, so it is slightly optimistic.</li>
+<li><b>Opus is not affordable at scale</b> (about $4,200 per 4,000 papers against about $47 left on the OpenRouter key), so it stays a comparison point.</li>
+<li><b>Two setups failed operationally</b> and could not be picked: Opus with the borrowed Qwen prompt (billing safeguard stop) and Sol (one paper with no output). Neither was near 80%.</li>
+<li><b>Next</b>: run pooled Qwen over the full paper set on ZIB, then collect the papers those definitions cite (one level of citations only), convert them to text and extract from them the same way.</li>
+</ul>
+
+<h2 id="glossary">Terms used</h2>
+<dl class="gloss">
+<dt>Reference definition</dt><dd>A definition annotated by people in a paper; TEST has 365 across 29 papers.</dd>
+<dt>Match</dt><dd>A predicted definition paired with one reference definition of the same paper by the frozen similarity matcher (score 0.50 or more). Each prediction can match at most one reference.</dd>
+<dt>Recall / precision / F1</dt><dd>Share of reference definitions found / share of predictions that match / their harmonic mean. Unmatched predictions are not necessarily wrong, only unannotated.</dd>
+<dt>DEV, TRAIN, TEST</dt><dd>21 development papers used to choose setups, 80 training papers used to write prompts and train filters, 29 held-out papers used only here.</dd>
+<dt>Window</dt><dd>A slice of a paper's text given to the model in one request; measured in characters, not tokens.</dd>
+<dt>Pass</dt><dd>One complete run of the pipeline over all papers.</dd>
+<dt>Combine / pool</dt><dd>Merge several lists of records, removing exact duplicates only (earlier reports called this the "union").</dd>
+</dl>
+<p class="meta">Sources: <code>results/test-eval-20260924/plan.json</code> (frozen plan), <code>artifacts/experiments/test-eval-20260924/collected/</code> (every setup's per-paper output, results.json, stage files). Stage and contribution numbers were re-scored offline with the same frozen matcher and reproduce the official table exactly. No TEST output was rerun.</p>
+</main>

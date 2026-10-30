@@ -1,0 +1,39 @@
+{
+ "authorization": "Owner in chat 2026-09-25: fair same-setup comparison of free models (Qwen vs Gemma 12B), minimalist Opus-like recipe, filters, multiple passes, 16k/2k+32k/4k inputs; evaluate on ZIB/KISSKI.",
+ "configs_note": "2 models x 3 arms x {1,2,3 formats} x stages; every config reported on DEV and TEST",
+ "cost": "self-hosted only; no paid API",
+ "created_utc": "2026-09-25T03:58:31.040235+00:00",
+ "decoding": "identical for both models: temperature 0, seed 9, thinking disabled, no response cache, no transport retries, no format fallback",
+ "downstream_stages": {
+  "combined": "all windows of the arm merged, no verification",
+  "filtered-ordinary": "verified + ordinary relevance filter (semantic-relevance-v1, cutoff 0.3087965279332379)",
+  "filtered-title": "verified + title-aware relevance filter (semantic-title-relevance-v2, cutoff 0.2371840437933272)",
+  "verified-qwen": "common strict Qwen verifier (same model/settings as the Qwen recipe), contexts = the windows that produced each candidate",
+  "verified-self": "Gemma cohorts only: the same verifier program run by Gemma itself"
+ },
+ "extraction_arms": {
+  "A-minimal-8k": "Opus Bootstrap program artifacts/experiments/model-native-wuerzburg-350/opus-bootstrap/program.json (hand-written instruction + its one worked example), 8,000/1,000-character windows",
+  "B-minimal-16k32k": "same program on 16,000/2,000 and 32,000/4,000-character windows, outputs combined with src.extractor.merge",
+  "C-gepa-16k32k": "artifacts/analysis/selection-finalists/0-program.json on 16k/2k + 1-program.json on 32k/4k, combined (the current Qwen recipe)"
+ },
+ "failure_policy": "as in results/test-eval-20260924/plan.json: failures recorded, never abort a cohort; missing verdict rejects that candidate; a config is eligible only if every paper has output and <=5% windows/batches failed",
+ "formats": {
+  "chat8192": "DSPy ChatAdapter, no JSON fallback, 8,192 output tokens",
+  "schema16384": "same, 16,384",
+  "schema8192": "ControlledJSONAdapter with the exact output JSON schema (vLLM json_schema), 8,192"
+ },
+ "models": {
+  "gemma12b": "google/gemma-4-12B-it-qat-w4a16-ct@1d2c2d7f2466070e69d6fb3fd5ce9a7d75f2f6ee, vLLM 0.28, 1xA100",
+  "qwen": "Qwen/Qwen3.6-35B-A3B@995ad96eacd98c81ed38be0c5b274b04031597b0, BF16, vLLM 0.28, TP2 on 2xA100"
+ },
+ "pick_rule": "Selection uses DEV only. Among eligible configs with DEV recall >= 80% (>= 92/115), pick the highest DEV precision, preferring the config with fewer model calls when within 2 DEV matches; if none reaches 80%, pick the highest DEV recall with DEV precision >= 15%. The pick's TEST result is its held-out estimate. TEST is reported for every config but never used to choose.",
+ "pooling": "offline, per model x arm x stage: chat only; chat+schema8192; all three formats (src.extractor.merge)",
+ "question": "With everything but the extraction model held fixed, how do self-hosted Qwen 3.6 35B and Gemma 4 12B compare, and does a minimal prompt (as used by the Opus row) match the GEPA prompts?",
+ "replicate_note": "Arm C x qwen x all formats x filtered-title is a fresh second TEST generation of the current pick (QWEN-POOL3), giving a direct run-to-run spread.",
+ "schema": "controlled-model-grid-plan-v1",
+ "splits": {
+  "dev": "21 DEV papers, 115 definitions (frozen DEV inputs and metadata titles)",
+  "test": "29 TEST papers, 365 definitions (results/test-eval-20260924/inputs)"
+ },
+ "test_use": "Second use of TEST (first: results/test-eval-20260924). Configs are pre-declared here; nothing is rerun after TEST results are seen."
+}

@@ -1,0 +1,152 @@
+{
+ "about": "A made-up corpus store for tests/test_postprocess_judge.py (synthetic text only).",
+ "papers": [
+  [
+   "s1",
+   "seeds"
+  ],
+  [
+   "s2",
+   "seeds"
+  ],
+  [
+   "c1",
+   "closure"
+  ],
+  [
+   "c2",
+   "closure"
+  ]
+ ],
+ "titles": {
+  "s1": "TRAIN PAPER 2: STEREOTYPES NEWS EDITORIAL STEREOTYPES.!",
+  "s2": "A seed paper.",
+  "c1": "A closure paper.",
+  "c2": ""
+ },
+ "mentions": [
+  [
+   "m01",
+   "s1",
+   "selection bias"
+  ],
+  [
+   "m02",
+   "s1",
+   "framing"
+  ],
+  [
+   "m03",
+   "s2",
+   "agenda setting"
+  ],
+  [
+   "m04",
+   "c1",
+   "hostile media effect"
+  ],
+  [
+   "m05",
+   "c2",
+   "outside the view"
+  ],
+  [
+   "m06",
+   "s2",
+   "news values"
+  ]
+ ],
+ "occurrences": [
+  [
+   "o01",
+   "m01",
+   "definitions",
+   "Model agenda persuasion exposure data partisan opinion partisan journalists.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o02",
+   "m01",
+   "definitions",
+   "Data audiences slant frames stereotypes agenda selective persuasion coverage.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o03",
+   "m02",
+   "definitions",
+   "News persuasion salience journalists choice exposure persuasion news sources.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o04",
+   "m02",
+   "definitions",
+   "Trust persuasion persuasion persuasion stereotypes sources news frames public.",
+   [
+    "seeds:P20",
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o05",
+   "m02",
+   "definitions",
+   "Partisan partisan persuasion sources public reporting exposure audiences data.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o06",
+   "m03",
+   "definitions",
+   "Exposure slant data slant reporting partisan bias bias salience.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o07",
+   "m04",
+   "definitions",
+   "News news news data coverage salience selective partisan news.",
+   [
+    "closure:P28"
+   ]
+  ],
+  [
+   "o08",
+   "m05",
+   "definitions",
+   "Salience agenda choice news data selective media selective selective.",
+   [
+    "closure:P28"
+   ]
+  ],
+  [
+   "o09",
+   "m06",
+   "definitions",
+   "Coverage slant reporting partisan trust data opinion sources stereotypes.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o10",
+   "m06",
+   "definitions",
+   "Only in P20.",
+   [
+    "seeds:P20"
+   ]
+  ]
+ ]
+}

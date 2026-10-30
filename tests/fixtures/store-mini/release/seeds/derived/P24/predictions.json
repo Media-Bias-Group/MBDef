@@ -1,0 +1,83 @@
+{
+ "missing_part_outputs": [],
+ "paper_count": 3,
+ "papers": [
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [
+        "Author A 2001",
+        "Author B 2003"
+       ],
+       "text": "A slant in news coverage."
+      },
+      {
+       "citation": [],
+       "text": "Bias in the selection of stories."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "media bias"
+    },
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "The perception that neutral news is biased against one's side."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "HME (hostile media effect)"
+    }
+   ],
+   "metadata": {
+    "doi": "10.0000/mini.1",
+    "title": "A synthetic seed paper"
+   },
+   "paper_id": "seed-1"
+  },
+  {
+   "definition_records": [
+    {
+     "definitions": [
+      {
+       "citation": [],
+       "text": "A closed  space where beliefs are amplified."
+      }
+     ],
+     "description": [],
+     "examples": [],
+     "related_terms": [],
+     "subtypes": [],
+     "supertypes": [],
+     "synonyms": [],
+     "term": "Echo Chamber"
+    }
+   ],
+   "metadata": {
+    "title": "Another synthetic seed paper"
+   },
+   "paper_id": "seed-2"
+  },
+  {
+   "definition_records": [],
+   "metadata": {},
+   "paper_id": "seed-3"
+  }
+ ],
+ "pick": {
+  "config": "mini/P24"
+ }
+}

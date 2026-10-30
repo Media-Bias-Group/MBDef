@@ -1,0 +1,652 @@
+[
+ {
+  "before_index": 643,
+  "paper_id": "hash_b5ab08df0ef02fe1__518e391bc74802c1",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/6e/work_9b03f8ab04b40b504e222ad88a1c0664f90430a6bd91764c3b88fcb90e6f086e.grobid.tei.xml",
+  "member": "doi_10.1145_3387166.grobid.tei.xml",
+  "method": "title_author_exact_arxiv_variant",
+  "cited_title": "A multidisciplinary survey and framework for design and evaluation of explainable AI systems",
+  "tei_title": "A Multidisciplinary Survey and Framework for Design and Evaluation of Explainable AI Systems",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 974,
+  "paper_id": "doi_10.18653_v1_w17-1101__2f841a94914f97e37f8787a39c046e2d01b33bd4__852222b541214e0e",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/73/work_de44037f91e3d0517b5ef889edb29a5c8c861c7e78c478f0f155493376dd5673.grobid.tei.xml",
+  "member": "doi_10.18653_v1_w17-1101.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "A survey on hate speech detection using natural language processing",
+  "tei_title": "A Survey on Hate Speech Detection using Natural Language Processing",
+  "citing_seed_papers": 8
+ },
+ {
+  "before_index": 1097,
+  "paper_id": "hash_fc398b2e2025a9ae__82f5a0277d187dd4",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/ac/work_93afe83085dc7d5a561c17dedf131061f1c1c0c223f9ed6118eacb7deebae1ac.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2024.starsem-1.30.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "A trip towards fairness: Bias and de-biasing in large language models",
+  "tei_title": "A Trip Towards Fairness: Bias and De-Biasing in Large Language Models",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 1113,
+  "paper_id": "hash_16c6a18f7dcd487d__13176d229f6e685d",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/fa/work_f39bc3b771f07564954c6c9ddccf2b5a1e87a5b49e14e5da9d8f82db3cb8a2fa.grobid.tei.xml",
+  "member": "doi_10.1145_3292522.3326028.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "A unified deep learning architecture for abuse detection",
+  "tei_title": "A Unified Deep Learning Architecture for Abuse Detection",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 1158,
+  "paper_id": "hash_03e5867a9cd7bd2b__35610adcba8f2ff3",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/f0/work_488ebdf88455fed3dd64fb310dd1ac842671d26b36847514d5cb0ae6c4ece3f0.grobid.tei.xml",
+  "member": "doi_10.18178_wcse.2021.02.011.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Abusive language and hate speech detection for javanese and sundanese languages in tweets: Dataset and preliminary study",
+  "tei_title": "Abusive Language and Hate Speech Detection for Javanese and Sundanese Languages in Tweets: Dataset and Preliminary Study",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 1667,
+  "paper_id": "hash_4e98fd8b721b9c80__e29a338e3fe43d3d",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/d7/work_bd144cd22dd5e8a35d1539863a40e840c3972cb11435f1998d60872112a37dd7.grobid.tei.xml",
+  "member": "doi_10.1145_3381750.grobid.tei.xml",
+  "method": "title_year_author_exact",
+  "cited_title": "An emotional analysis of false information in social media and news articles",
+  "tei_title": "An Emotional Analysis of False Information in Social Media and News Articles",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2151,
+  "paper_id": "hash_716885df3842a624__cb13ae79bab9fb93",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/68/work_7411d0aa1fe383b13f098c97abc2b9a29710377331d78eae1181d9934a8f9268.grobid.tei.xml",
+  "member": "doi_10.18653_v1_d19-1107.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Are we modeling the task or the annotator? an investigation of annotator bias in natural language understanding datasets",
+  "tei_title": "Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2215,
+  "paper_id": "hash_b110872c585fef27__1d809812df0c2e26",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/a4/work_bca2a7a547e610ec2bf06440d6378676c8d7df504c1f40c257436075c84589a4.grobid.tei.xml",
+  "member": "doi_10.24963_ijcai.2023_799.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Artificial intelligence, bias, and ethics",
+  "tei_title": "Artificial Intelligence, Bias, and Ethics",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2268,
+  "paper_id": "doi_10.24963_ijcai.2018_583__abbfb8ef109892e9f201dddd30b0384b8e71d4d4__3488a3f56b902f11",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/3e/work_ee9b7ae8e3dd0b0f6010341923d651ce5117083ea315967d139eaffbb5fdef3e.grobid.tei.xml",
+  "member": "doi_10.24963_ijcai.2018_583.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Aspect term extraction with history attention and selective transformation",
+  "tei_title": "Aspect Term Extraction with History Attention and Selective Transformation *",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2566,
+  "paper_id": "doi_10.18653_v1_2022.emnlp-main.779__111870e0335d055ec0e338ecc7773af9f159cbc5__de835b9d863b318e",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/45/work_b1e1e3c79c9d2dce73437a8bd924f3061a856d44497661394e201d834e4beb45.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2022.emnlp-main.779.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Balancing out Bias: Achieving Fairness Through Balanced Training",
+  "tei_title": "Balancing out Bias: Achieving Fairness Through Balanced Training",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2656,
+  "paper_id": "doi_10.18653_v1_2024.findings-acl.29__3642b7196cf0aa2b9679ea70fceb7451047fbf2f__b0ec661a382c7152",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/ed/work_ab4e2462b1ed9ced06686d7b9bc71e1cfc9ce6f5bd02adb907d2a84221181eed.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2024.findings-acl.29.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Benchmarking Cognitive Biases in Large Language Models as Evaluators",
+  "tei_title": "Benchmarking Cognitive Biases in Large Language Models as Evaluators",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2669,
+  "paper_id": "hash_cc0c99023c969505__99035275cee5c373",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/29/work_eb475067efd1ee65d0ee5ad7b3f1324aa81f41d612cb92c59b1e311a2dd1d129.grobid.tei.xml",
+  "member": "doi_10.14569_ijacsa.2022.01305109.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Bert-based approach to arabic hate speech and offensive language detection in twitter: Exploiting emojis and sentiment analysis",
+  "tei_title": "BERT-based Approach to Arabic Hate Speech and Offensive Language Detection in Twitter: Exploiting Emojis and Sentiment Analysis",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 2957,
+  "paper_id": "doi_10.1145_3442188.3445924__09def36c42a082d410794cd26fd4756eee26a305__3ae413d421b399b4",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/1f/work_0465528866c94bf61431d3250f2aee80eda483db8d24a3b1172fef3405c33a1f.grobid.tei.xml",
+  "member": "doi_10.1145_3442188.3445924.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Bold: Dataset and metrics for measuring biases in open-ended language generation",
+  "tei_title": "BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation",
+  "citing_seed_papers": 4
+ },
+ {
+  "before_index": 2959,
+  "paper_id": "doi_10.18653_v1_2023.acl-short.18__360b1df62c46bdc4f1940e90f0e4b3c5fe2a3b1f__fd40bd38f5e760b6",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/47/work_78bc2f031a412c361a7ce2107cbff5a96a8cde131fe7fa0b5ba91fa1dc9ade47.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.acl-short.18.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "BOLT: Fast energy-based controlled text generation with tunable biases",
+  "tei_title": "BOLT: Fast Energy-based Controlled Text Generation with Tunable Biases",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 3184,
+  "paper_id": "doi_10.3389_fpsyg.2016.00025__22a9f22f5482577204c803cbd202b955ef985758__814039391b4eb345",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/21/work_58f981af364fc061350c5a6bb55a4ce5b74bb85906b0ae45e79d561827d8fc21.grobid.tei.xml",
+  "member": "doi_10.3389_fpsyg.2016.00025.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Can Gender-Fair Language Reduce Gender Stereotyping and Discrimination",
+  "tei_title": "Can Gender-Fair Language Reduce Gender Stereotyping and Discrimination?",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 3328,
+  "paper_id": "doi_10.18653_v1_2021.eacl-main.274__6c6d536787ea5ba4a8e808da66c417032109ee2e__6fae42b265fc7fe0",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/d6/work_2ab399abdc2f3e1f7d65b7a203db098768d4614c5aec63d9f5e1a2c32cdef9d6.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.eacl-main.274.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Challenges in automated debiasing for toxic language detection",
+  "tei_title": "Challenges in Automated Debiasing for Toxic Language Detection",
+  "citing_seed_papers": 2
+ },
+ {
+  "before_index": 3635,
+  "paper_id": "doi_10.1109_tvcg.2011.179__cb0f32e0903216917d654bb19f42afe6ce2e7b4f__ab838b1591b3363c",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/55/work_56648028acbabef32bdea7dbdd0d1e408c82ae46972b248cfcb4663955c16c55.grobid.tei.xml",
+  "member": "doi_10.1109_tvcg.2011.179.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Cloudlines: compact display of event episodes in multiple time-series",
+  "tei_title": "CloudLines: Compact Display of Event Episodes in Multiple Time-Series",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 4720,
+  "paper_id": "doi_10.5771_2192-4007-2019-4-431__a14ef89c756994d7889a0a98dc0d5c351cd4534d__35d53efc1a28bd85",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/c9/work_e81505eb52ed7206ca1b36ba6a2e289c64769600aae8c2ce15e94e3971bb12c9.grobid.tei.xml",
+  "member": "doi_10.5771_2192-4007-2019-4-431.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Countering misinformation: Strategies, challenges, and uncertainties",
+  "tei_title": "Countering misinformation: Strategies, challenges, and uncertainties Fehlinformationen entgegenwirken: Strategien, Herausforderungen und Unsicherheiten",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 4787,
+  "paper_id": "doi_10.1371_journal.pone.0255615__ffc3b7e1b7a05d191387ee018fa98c82c53d5316__c68a8212b49b8dd1",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/5e/work_e9740eb4e0cc3e5252f687e58810738fa784c38d6da1e4ca8d8f3fa9d3b7f25e.grobid.tei.xml",
+  "member": "doi_10.1371_journal.pone.0255615.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "COVID-19 sentiment analysis via deep learning during the rise of novel cases",
+  "tei_title": "COVID-19 sentiment analysis via deep learning during the rise of novel cases",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 4920,
+  "paper_id": "doi_10.37016_mr-2020-76__ffa4a4f3be2d4b60ee4d64e2507db8e525705262__6a9ef0a55c0b1ea3",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/2f/work_44f55f2616ba986fb31056704b355fc4a1d5f89acfc575c7a74a6fafbe04b82f.grobid.tei.xml",
+  "member": "doi_10.37016_mr-2020-76.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Critical disinformation studies: History, power, and politics",
+  "tei_title": "",
+  "citing_seed_papers": 3
+ },
+ {
+  "before_index": 5043,
+  "paper_id": "doi_10.32870_cys.v2022.7841__5d245fb64fdd8f2ddd30d6fd168be2423ab22678__b8f957ac92ed2b07",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/c2/work_b83482b5c1861f32bdaf65263c2b544e064dd49c24a977a775b141b66ee48cc2.grobid.tei.xml",
+  "member": "doi_10.32870_cys.v2022.7841.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Cuando el debate se conecta con el ataque. Presencia del conflicto en el tratamiento informativo de las elecciones federales mexicanas de 2018 y 2021",
+  "tei_title": "",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 5081,
+  "paper_id": "doi_10.1080_17512786.2015.1051357__4b06373d9624b963afc3482a6d84363276de6282__f538d72242a9dcb3",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/95/work_cfd795b0a79aaf642f13b6a53ca0de3d29de867c3935293374783df8900cfe95.grobid.tei.xml",
+  "member": "doi_10.1080_17512786.2015.1051357.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Cultural journalism and cultural critique in a changing media landscape",
+  "tei_title": "Cultural Journalism and Cultural Critique in a changing Media Landscape",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 5096,
+  "paper_id": "hash_593b4b5ca4a2f39b__7d1a2c027b0e92fe",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/d8/work_dbb6f7692fbc71dffa09700cbfa1a0d067e419fd241a9502701d0637b9b3d4d8.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.findings-emnlp.509.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Culturally aware natural language inference",
+  "tei_title": "Culturally Aware Natural Language Inference",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 5758,
+  "paper_id": "doi_10.18653_v1_d19-1275__113173bbdd1adf54804af49af78284b678d6d214__720516609f142036",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/2d/work_6f0d46bde9b19d22f5606a1e6c1234570f3a66498b4c89673a93e96bb3116e2d.grobid.tei.xml",
+  "member": "doi_10.18653_v1_d19-1275.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Designing and interpreting probes with control tasks",
+  "tei_title": "Designing and Interpreting Probes with Control Tasks",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 5845,
+  "paper_id": "hash_9abee57235b7e362__e63c2bab8c15ea53",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/74/work_8b8a94c04d020366beb6963fe93cd17a8c047b389d48f2b95423c33e11bc3374.grobid.tei.xml",
+  "member": "doi_10.26615_978-954-452-049-6_062.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Detecting hate speech in social media",
+  "tei_title": "Detecting Hate Speech in Social Media",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 6563,
+  "paper_id": "doi_10.1016_j.futures.2018.05.003__991acd796f345cc26d8c184829cea42284798edd__4302b51431881072",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/70/work_419afa1aff7f269058a92e3641d42599ea224bcf045f279cb6079ce3cce85970.grobid.tei.xml",
+  "member": "doi_10.1016_j.futures.2018.05.003.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Do policy makers tell good stories? Towards a multi-layered framework for mapping and analysing policy narratives embracing futures",
+  "tei_title": "Do policy makers tell good stories? Towards a multi-layered framework for mapping and analysing policy narratives embracing futures",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 6570,
+  "paper_id": "doi_10.37016_mr-2020-026__1e8b603c42031a37727a7213a2a26d4ea4e73b7d__a6b08839e4822c60",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/f5/work_3061ed565094057b520628e18230ff95b0340c2b69c6fca14075a41578950cf5.grobid.tei.xml",
+  "member": "doi_10.37016_mr-2020-026.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Do the right thing: Tone may not affect correction of misinformation on social media",
+  "tei_title": "",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 7648,
+  "paper_id": "doi_10.3389_fpsyg.2022.848048__47069cac32c3b612c40dd6013d3f650fa3d7d7f0__5f17f51cb1d7cba8",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/f6/work_05fb3f78c764105809d7ad7ad65b6dbcd7d52b199abcd741be999c3dd2b3aef6.grobid.tei.xml",
+  "member": "doi_10.3389_fpsyg.2022.848048.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Evolutionary generation of Collective Intelligence in very large groups of students",
+  "tei_title": "EDITED BY",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 7822,
+  "paper_id": "doi_10.18653_v1_2024.naacl-long.236__1c3c325563f648cbe76ef8e58380ec7840fd6fb8__22735d26ebf98d62",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/1d/work_761f752129aa28a97f4550ec8686c6015527b1690835df8243f15c0b7b716c1d.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2024.naacl-long.236.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Exploring cross-cultural differences in English hate speech annotations: From dataset construction to analysis",
+  "tei_title": "Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 7841,
+  "paper_id": "doi_10.3389_fpsyg.2016.00878__94f00da86b700a7b549f30d4c4ad0af26cc62f77__cd241a1b2bd92006",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/0c/work_91d5028cee2a9d0d203710268d2161934fffe1731aefe192ac380800fa24c10c.grobid.tei.xml",
+  "member": "doi_10.3389_fpsyg.2016.00878.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Exploring selective exposure and confirmation bias as processes underlying employee work happiness: An intervention study",
+  "tei_title": "Exploring Selective Exposure and Confirmation Bias as Processes Underlying Employee Work Happiness: An Intervention Study",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 8529,
+  "paper_id": "hash_fe29bc870c3ffeed__5f09ed1bdbad7666",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/9d/work_04a1c485f35e9ee108def64308b85d550e63cf8ca8405b9825b5a26fec37099d.grobid.tei.xml",
+  "member": "doi_10.15195_v4.a9.grobid.tei.xml",
+  "method": "title_year_author_exact",
+  "cited_title": "Fast or Slow: Sociological Implications of Measuring Dual-Process Cognition",
+  "tei_title": "Fast or Slow: Sociological Implications of Measuring Dual-Process Cognition",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 9844,
+  "paper_id": "doi_10.1146_annurev-polisci-051517-012343__637ca3a196f11c258d423de31c0c9e799fe6e4c2__c983ea05c98f48eb",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/5b/work_64225b8a7a4f037461fdd2d8a6142f3c992b81da01110aa84de2fafdf2ef415b.grobid.tei.xml",
+  "member": "doi_10.1146_annurev-polisci-051517-012343.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Free speech and hate speech",
+  "tei_title": "Free Speech and Hate Speech Free Speech and Hate Speech",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 10040,
+  "paper_id": "doi_10.18653_v1_2023.emnlp-main.153__354f66e1b82e373e8530870393ec7c9b5980c439__c39563a73160d77a",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/80/work_ce76898a0e042f64c7e81fc37399b5bc8b36776d24611035af5e2bf9d1180380.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.emnlp-main.153.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "G-eval: NLG evaluation using gpt-4 with better human alignment",
+  "tei_title": "G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 10658,
+  "paper_id": "hash_25e4be6cd5cad236__7f192b7b5c998bc0",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/88/work_df7126081fe28855faa0fdc245b5c555e9ad42d953435a0550a335991e1ee288.grobid.tei.xml",
+  "member": "doi_10.5614_itbj.ict.res.appl.2021.14.3.2.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Hate speech classification in indonesian language tweets by using convolutional neural network",
+  "tei_title": "Hate Speech Classification in Indonesian Language Tweets by Using Convolutional Neural Network",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 10666,
+  "paper_id": "doi_10.1371_journal.pone.0221152__c7cacd2e2cfb8f959debfc809f8707f4d59ed707__008b2f66f4d796ed",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/27/work_134efac9f64900aa37802f937bf76790a1a4769cdf9edb01c0f36d34bd7a9427.grobid.tei.xml",
+  "member": "doi_10.1371_journal.pone.0221152.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Hate speech detection: Challenges and solutions",
+  "tei_title": "Hate speech detection: Challenges and solutions",
+  "citing_seed_papers": 2
+ },
+ {
+  "before_index": 10709,
+  "paper_id": "doi_10.18653_v1_2021.woah-1.3__e9b90e3e1be4b530a3c7fd7ec9946471eeb58e51__8f9d85fd96dbfa9b",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/f3/work_14163b64f82e3b1447f83bbad6a10fc078eea8197da082f06ec6be1cfbca93f3.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.woah-1.3.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "HateBERT: Retraining BERT for abusive language detection in English",
+  "tei_title": "HateBERT: Retraining BERT for Abusive Language Detection in English",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 11021,
+  "paper_id": "hash_31dd24b7a1422ca7__8da39860203c7da6",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/b8/work_866f6470c32edf65584ca9194317b42d01e117b9d4cd71949e71cd286e8c37b8.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.eacl-main.248.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "How Far Can It Go? On Intrinsic Gender Bias Mitigation for Text Classification",
+  "tei_title": "How Far Can It Go? On Intrinsic Gender Bias Mitigation for Text Classification",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 12701,
+  "paper_id": "hash_e5f571148a2ce399__bdc112ddb0960eba",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/13/work_9e3dcd9cb1c3408ca5052dc63c4f19a596e2c71f0f3e8ba89330a16841550613.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.emnlp-main.397.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Just say no: Analyzing the stance of neural dialogue generation in offensive contexts",
+  "tei_title": "Just Say No: Analyzing the Stance of Neural Dialogue Generation in Offensive Contexts",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 13012,
+  "paper_id": "doi_10.18653_v1_2023.acl-short.30__9ea16cd4150fdbc10b56d4691804d031fba95e7c__f2db41f9403324ab",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/b4/work_71e51b874897c7012994ed62d940464fd28693bf4481a263c4525e47616948b4.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.acl-short.30.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions",
+  "tei_title": "Language Models Get a Gender Makeover: Mitigating Gender Bias with Few-Shot Data Interventions",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 13199,
+  "paper_id": "hash_17060808dfb40a3e__3314e1b22b6b1d75",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/33/work_256539a4226605886f27dfcbb6ca7a16b88ade890e6042b95912ee2f169d3333.grobid.tei.xml",
+  "member": "doi_10.18653_v1_w16-1617.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Learning text similarity with siamese recurrent networks",
+  "tei_title": "Learning Text Similarity with Siamese Recurrent Networks",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 13235,
+  "paper_id": "doi_10.18653_v1_2023.findings-emnlp.730__ae5a8137691b464199e4ee2b978b2590954a5f70__225866bbc76f1b2e",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/68/work_e31e21f5eda631a2392433c512ce70cec642110d417672348ffdf35a381c5368.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.findings-emnlp.730.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Legally enforceable hate speech detection for public forums",
+  "tei_title": "Legally Enforceable Hate Speech Detection for Public Forums",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 13942,
+  "paper_id": "doi_10.18653_v1_2022.naacl-main.122__7f90f493895627a64e52c6cca750dc87ff02264c__9564a513b283482b",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/71/work_413b515e5e61c6ca4353388fb7b18ae2abfcce24ac5d65a7eaffe2ab6de87371.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2022.naacl-main.122.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Measuring fairness with biased rulers: A comparative study on bias metrics for pre-trained language models",
+  "tei_title": "Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 14019,
+  "paper_id": "doi_10.1017_9781108399647.006__cb066d0e66ec2a5a7414d2e70a2bc5fbfb41722b__4a44ccd7524e813a",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/27/work_51dfad2dac996e217315860228ede9e3af628e30f97d191e89202e294d18b827.grobid.tei.xml",
+  "member": "doi_10.1017_9781108399647.006.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "-Media and Communications",
+  "tei_title": "",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 14871,
+  "paper_id": "hash_866374486b5cd84e__8cc6aa70c4a263c0",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/a6/work_e097d602706ae6fa7896cf4c7f4279085207a973b9b528a069f7cdba9cb52da6.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.acl-long.783.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Mitigating label biases for in-context learning",
+  "tei_title": "Mitigating Label Biases for In-context Learning",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 14918,
+  "paper_id": "hash_a968269b065a1239__466a2011677b0458",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/9d/work_7584c48d3493da9462e506f568bbc62f2ede0c46edf0a77618387b84f4fa719d.grobid.tei.xml",
+  "member": "doi_10.1145_3287560.3287596.grobid.tei.xml",
+  "method": "title_year_author_exact",
+  "cited_title": "Model cards for model reporting",
+  "tei_title": "Model Cards for Model Reporting",
+  "citing_seed_papers": 2
+ },
+ {
+  "before_index": 16228,
+  "paper_id": "doi_10.18653_v1_2023.findings-acl.21__61e4bd59e84aa21b1a7cb87e11c932e490e67c6c__9d624bf6249c9d7a",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/fc/work_50bf6546334df221bca66047180fe063fd1826e4f01441b5e957579fc37a5efc.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.findings-acl.21.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "On evaluating and mitigating gender biases in multilingual settings",
+  "tei_title": "On Evaluating and Mitigating Gender Biases in Multilingual Settings",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 16309,
+  "paper_id": "doi_10.48550_arxiv.2203.13928__14e62f5587ba14600d90e56ca3af51ee04004fa8__70b59f983f16ea33",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/24/work_bf0f4d2b33b8bf65318c6587f5cfe8115c17fc1895109373135dd0c556980924.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2022.acl-short.62.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "On the intrinsic and extrinsic fairness evaluation metrics for contextualized language representations",
+  "tei_title": "On the Intrinsic and Extrinsic Fairness Evaluation Metrics for Contextualized Language Representations",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 17367,
+  "paper_id": "doi_10.2478_hsy-2023-0008__160133667019af35c86883e3d7f43948e8c7088b__829a5165c5e67441",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/ce/work_e7528d2a89ee0799f20bbc9114a971e0e3a27a23a14358791d58b928fc0723ce.grobid.tei.xml",
+  "member": "doi_10.2478_hsy-2023-0008.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Popular historical films as collective memory-work in eastern Europe: from polish KATYN to Romanian AFERIM! and Hungarian BET ON REVENGE",
+  "tei_title": "Popular historical films as collective memory-work in Eastern Europe: from Polish KATYN to Romanian AFERIM! and Hungarian BET ON REVENGE",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 17876,
+  "paper_id": "doi_10.1145_3539618.3591752__298649eea27d8c6b8f0cf48f5d9083392727e377__7ae65de2c860a2b4",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/76/work_57d898af18fc3050bd3ddefa497d87446704f546b80679f8eb4794823f1cb776.grobid.tei.xml",
+  "member": "doi_10.1145_3539618.3591752.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Prompt Learning for News Recommendation",
+  "tei_title": "Prompt Learning for News Recommendation",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 17969,
+  "paper_id": "doi_10.1177_0267323112441007__cba87f573c885130fc6b8730906903046a6fc422__b66681272864fba0",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/ee/work_d4c845e4cb7272f79c5b3b432778042d679f1fcf53907ffb4b9e66d8f18faaee.grobid.tei.xml",
+  "member": "doi_10.1177_0267323112441007.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "Protest Logics and the Mediation Opportunity Structure",
+  "tei_title": "Protest logics and the mediation opportunity structure",
+  "citing_seed_papers": 2
+ },
+ {
+  "before_index": 20341,
+  "paper_id": "hash_870cf09ce6a7963c__234fc5bf542effda",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/4a/work_ec29287991b6461a211ae825f7ca87bcdb47228efffe3281851608577b48f34a.grobid.tei.xml",
+  "member": "doi_10.1145_3534678.3539288.grobid.tei.xml",
+  "method": "title_year_author_exact",
+  "cited_title": "Source localization of graph diffusion via variational autoencoders for graph inverse problems",
+  "tei_title": "Source Localization of Graph Diffusion via Variational Autoencoders for Graph Inverse Problems",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 20385,
+  "paper_id": "hash_583cc549568b3de4__57d517a69ccee614",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/86/work_8433809413af0b7a47ac4fdbd255c97af0dff5f06b41d05971980d3cf7aed786.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.findings-acl.134.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Speaking multiple languages affects the moral bias of language models",
+  "tei_title": "Speaking Multiple Languages Affects the Moral Bias of Language Models",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 20454,
+  "paper_id": "doi_10.1145_3292522.3326034__2ae23c76f5866286d7be5b7f3c1a81b28201e0e9__f5c2857976aff46a",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/dd/work_a3122bb87f1e6c56664f64996cdaf12537e61f829fcc538416e7f61bd985c5dd.grobid.tei.xml",
+  "member": "doi_10.1145_3292522.3326034.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Spread of hate speech in online social media",
+  "tei_title": "Spread of hate speech in online social media",
+  "citing_seed_papers": 3
+ },
+ {
+  "before_index": 20561,
+  "paper_id": "doi_10.18653_v1_2021.acl-long.416__85924b33ce1c4e61d8ff4f770221327b8d82b33b__b8dba94427fe3b31",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/05/work_e8a30d98c5ae587f2828840772a49a09d6643374bfcc7c864d56acd66ce3a205.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.acl-long.416.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "StereoSet: Measuring stereotypical bias in pretrained language models",
+  "tei_title": "StereoSet: Measuring stereotypical bias in pretrained language models",
+  "citing_seed_papers": 7
+ },
+ {
+  "before_index": 20562,
+  "paper_id": "hash_e328e90834508f10__1dd99e23de4b5987",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/80/work_6018320ee52cdc871b6bef0ea7d6f4466ace61c1199cc24f48fa4d19002ddf80.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.eacl-main.190.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Stereotype and skew: Quantifying gender bias in pre-trained and fine-tuned language models",
+  "tei_title": "Stereotype and Skew: Quantifying Gender Bias in Pre-trained and Fine-tuned Language Models",
+  "citing_seed_papers": 2
+ },
+ {
+  "before_index": 20842,
+  "paper_id": "doi_10.18653_v1_2021.findings-emnlp.411__01ab64ce44ac681652b137b7e916f97c1f60164b__9a7e391b6974f33f",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/a0/work_fa8ab2bec8fcf0cd266187f824af8eaeed4425aac04b38af66730c94e30b73a0.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2021.findings-emnlp.411.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Sustainable modular debiasing of language models",
+  "tei_title": "Sustainable Modular Debiasing of Language Models",
+  "citing_seed_papers": 4
+ },
+ {
+  "before_index": 21196,
+  "paper_id": "hash_16addd021769184c__603562892dd4240e",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/83/work_2147adafc2ba890db8e2ec0df7a643977b2cdb1b8b7c22fdf4004d17bc03ef83.grobid.tei.xml",
+  "member": "doi_10.2478_topling-2015-0006.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Textual meaning and its place in a theory of language",
+  "tei_title": "Textual meaning and its place in a theory of language",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 22054,
+  "paper_id": "doi_10.22215_timreview_1282__2d5e66a35b5a35f57b256f774a0ccc75c3053bc2__0885bb118762227b",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/58/work_c64d9dd5a046a735cb965f0b6cd0fdc49c81e8438ae2f58f13cb1839e3e16658.grobid.tei.xml",
+  "member": "doi_10.22215_timreview_1282.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "The emergence of deepfake technology: A review",
+  "tei_title": "The Emergence of Deepfake Technology: A Review",
+  "citing_seed_papers": 9
+ },
+ {
+  "before_index": 22094,
+  "paper_id": "doi_10.3389_feduc.2023.1331607__82e06091ade5a4e576dfa7beda7296612b63aa6d__1207959d78f38b5e",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/a6/work_a549b9ea68d2c6fc6a667253f3ac2056b835ae5fd8cf53d41b7a134efc0540a6.grobid.tei.xml",
+  "member": "doi_10.3389_feduc.2023.1331607.grobid.tei.xml",
+  "method": "doi",
+  "cited_title": "The ethical implications of using generative chatbots in higher education",
+  "tei_title": "The ethical implications of using generative chatbots in higher education",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 24794,
+  "paper_id": "hash_2ce68d3a69d341e8__1ea7bcd1369181f0",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/8d/work_41c41012733400762ee90f3121afdf932d0dcd4faf2d673a5a0d0dbcf91c508d.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2024.emnlp-main.345.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "ToxiCloakCN: Evaluating Robustness of Offensive Language Detection in Chinese with Cloaking Perturbations",
+  "tei_title": "ToxiCloakCN: Evaluating Robustness of Offensive Language Detection in Chinese with Cloaking Perturbations",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 25372,
+  "paper_id": "hash_07f5a6b812cb2f6d__63e85bfc41c310c9",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/07/work_9214ba05ee6af0416061590d0bf1cbb80a3867d60b221e98dbfa617d88eae807.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2023.findings-acl.375.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Unlearning bias in language models by partitioning gradients",
+  "tei_title": "Unlearning Bias in Language Models by Partitioning Gradients",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 25381,
+  "paper_id": "hash_a40ddc378578c7bd__44a7086f3692ee75",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/d5/work_5301bf81353c0c953a655b027d9f44564e84f3f7c4ab8537f15e276353ea31d5.grobid.tei.xml",
+  "member": "doi_10.1609_aaai.v36i11.21453.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "Unmasking the mask-evaluating social biases in masked language models",
+  "tei_title": "Unmasking the Mask -Evaluating Social Biases in Masked Language Models",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 25993,
+  "paper_id": "hash_28f36a799157fc3a__80e7fc7ece717f18",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/6d/work_113afb810473e2b811db7a22782e99e7a348f36fe73a1d9de9defd3ecc8bcf6d.grobid.tei.xml",
+  "member": "doi_10.31620_jccc.06.20_02.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "What drives retail investors\" investment decisions? Evidence from no mobile phone phobia (Nomophobia) and investor fear of missing out (I-FoMo)",
+  "tei_title": "WHAT DRIVES RETAIL INVESTORS' INVESTMENT DECISIONS? EVIDENCE FROM NO MOBILE PHONE PHOBIA (NOMOPHOBIA) AND INVESTOR FEAR OF MISSING OUT (I -FOMO)",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 26645,
+  "paper_id": "doi_10.18653_v1_2020.emnlp-main.556__e3aae29269914f8662b1b234f683f8e69f6800db__8d16d32ca14b3de5",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/71/work_37cdae7c57d4cee21c68ebfa5068bcd0e003273f8963fb9efef49a2de0955a71.grobid.tei.xml",
+  "member": "doi_10.18653_v1_2020.emnlp-main.556.grobid.tei.xml",
+  "method": "title_author_exact",
+  "cited_title": "you are grounded!\": Latent name artifacts in pre-trained language models",
+  "tei_title": "\"You are grounded!\": Latent Name Artifacts in Pre-trained Language Models",
+  "citing_seed_papers": 1
+ },
+ {
+  "before_index": 26676,
+  "paper_id": "hash_0ba3cb966259265c__adfe763b76ee4458",
+  "tei": "/home/bitwise/taxonomy-closure-20260928/prod/closure/run/grobid/3a/work_ece7ebaed3123d186a943296b30527232ad4620b7effe51a64b1df9a4706ba3a.grobid.tei.xml",
+  "member": "doi_10.1145_3359307.grobid.tei.xml",
+  "method": "title_year_author_exact",
+  "cited_title": "Your stance is exposed! analysing possible factors for stance detection on social media",
+  "tei_title": "Your Stance is Exposed! Analysing Possible Factors for Stance Detection on Social Media",
+  "citing_seed_papers": 3
+ }
+]

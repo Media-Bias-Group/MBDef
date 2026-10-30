@@ -1,0 +1,3490 @@
+{
+  "definition_count": 115,
+  "paper_count": 21,
+  "papers": [
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "there is an assumption of shared values, where the state is organized to protect the common interests of society at large."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "conflict perspectives"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "consensus view"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "inferring individual-level relations based on aggregate data"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "ecological fallacy"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the insignificant direct effects of race on sentencing"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "race might have a cumulative effect on sentencing outcomes by operating indirectly through other variables that disadvantage minority group members."
+            },
+            {
+              "citation": [],
+              "text": "race may interact with other factors to influence decision making."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [
+                "Wilbanks (1987)"
+              ],
+              "text": "NDT"
+            }
+          ],
+          "term": "no discrimination thesis"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Zatz 1987, p. 75"
+              ],
+              "text": "the nonrandom selection of defendants into the system"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "selection bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Wilbanks 1987"
+              ],
+              "text": "widespread and consistent differentials in processing unaccounted for by relevant legal factors"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "discrimination"
+            }
+          ],
+          "synonyms": [],
+          "term": "systemic discrimination"
+        }
+      ],
+      "paper_id": "016f7a076ac272db106fbcea056752c7307f676a",
+      "split": "dev",
+      "title": "Racial and Ethnic Disparities in Crime and Criminal Justice in the United States"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "Bargainers possess private information about factors such as their alternatives to negotiated agreements and costs to delay, causing them to be mutually uncertain about the other side's reservation value."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Kennan and Wilson, 1989; Cramton, 1992)"
+              ],
+              "text": "Uncertainty produces impasse because bargainers use costly delays to signal to the other party information about their own reservation value"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "incomplete information"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the tendency for parties to arrive at judgments that reflect a self-serving bias-to conflate what is fair with what benefits oneself."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "The bias is also present when bargainers have incentives to evaluate the situation impartially, which implies that the bias does not appear to be deliberate or strategic."
+            },
+            {
+              "citation": [],
+              "text": "The self-serving bias affects not only individuals' evaluations of themselves, but also of groups they are affiliated with."
+            },
+            {
+              "citation": [
+                "(Dunning, Meyerowitz and Holzberg, 1989)",
+                "(Darley and Gross, 1983)"
+              ],
+              "text": "the bias results from selective information processing."
+            },
+            {
+              "citation": [],
+              "text": "the self-serving bias is an important determinant of bargaining impasse."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [
+                "(Ross and Sicoly, 1979)"
+              ],
+              "text": "when married couples estimate the fraction of various household tasks they are responsible for, their estimates typically add to more than 100 percent"
+            },
+            {
+              "citation": [
+                "(Zuckerman, 1979)"
+              ],
+              "text": "People also tend to attribute their successes to ability and skill, but their failures to bad luck"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "self-serving assessments of fairness"
+            },
+            {
+              "citation": [],
+              "text": "overconfidence"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "self-serving bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the set of agreements that both sides prefer to their reservation values"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "contract zone"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "people tend to arrive at judgments of what is fair or right that are biased in the direction of their own self-interests."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Schelling, 1960)"
+              ],
+              "text": "self-serving assessments of fairness are likely to occur in morally ambiguous settings in which there are competing \"focal points\""
+            }
+          ],
+          "examples": [
+            {
+              "citation": [
+                "Messick and Sentis (1979)"
+              ],
+              "text": "Seven-hour subjects, on average, thought the 10-hour subject should be paid $30.29. However, the 10-hour subjects thought they should be paid $35.24."
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "self-serving bias"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "self-serving assessments of fairness"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Schelling, 1960)"
+              ],
+              "text": "settlements that could plausibly be viewed as fair"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "to pay both parties equally, regardless of hours worked"
+            },
+            {
+              "citation": [],
+              "text": "to pay both an equal hourly wage"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "focal points"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Slovic and Fischhoff (1977)"
+              ],
+              "text": "the tendency to view the past as having been more predictable than it actually was"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "hindsight bias"
+        }
+      ],
+      "paper_id": "22170e94588cf3b970ff8855c946a130aaa065c2",
+      "split": "dev",
+      "title": "Explaining Bargaining Impasse: The Role of Self-Serving Biases"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "An abductive inference is to infer probable knowledge, as the best explanation (i.e. cause), for the given knowledge (i.e. phenomena)."
+            },
+            {
+              "citation": [],
+              "text": "Abduction is to predict the best explanation for the observations."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "inference"
+            },
+            {
+              "citation": [],
+              "text": "defeasible inference"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "Abduction"
+            },
+            {
+              "citation": [],
+              "text": "Abductive reasoning"
+            }
+          ],
+          "term": "abductive inference"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "Abduction is to predict the best explanation for the observations."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "Abductive reasoning"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "[3,9,14,123,155]"
+              ],
+              "text": "Reasoning is to infer conclusions from a set of premises, consisting of one or more inference steps, where premises and conclusions are assertions that claim something is true or false about the world"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "premises"
+            },
+            {
+              "citation": [],
+              "text": "conclusions"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "Reasoning"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "theoretical reasoning"
+            }
+          ],
+          "term": "assertion-based reasoning"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "backward causal reasoning asks \"what may cause this event?\""
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "querying the plausible previous or subsequent events respectively."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "forward causal reasoning"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "backward causal reasoning"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "backward reasoning, is a top-down procedure, which starts from the problem and repeatedly breaks down into sub-problems until all of them can be solved by the existing knowledge."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Backward reasoning repeatedly breaks down problems into sub-problems and solves them until reaching the answers."
+            },
+            {
+              "citation": [],
+              "text": "It faces a smaller search space and thus is more efficient than forward reasoning."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "forward reasoning"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "backward chaining"
+            },
+            {
+              "citation": [],
+              "text": "question decomposition"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "natural language reasoning"
+            }
+          ],
+          "synonyms": [],
+          "term": "backward reasoning"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "Classical deductive reasoning tasks are defined formally based on formal logic, such as propositional logic and first-order logic."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "formal logic"
+            },
+            {
+              "citation": [],
+              "text": "propositional logic"
+            },
+            {
+              "citation": [],
+              "text": "first-order logic"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [
+                "[6,100,160]"
+              ],
+              "text": "inference"
+            },
+            {
+              "citation": [
+                "[5,25,49,142]"
+              ],
+              "text": "theorem proving"
+            },
+            {
+              "citation": [
+                "[100]"
+              ],
+              "text": "reasoning path generation"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "classical reasoning types"
+            }
+          ],
+          "synonyms": [],
+          "term": "Classical deductive reasoning tasks"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "some problems that require considering another scenario in addition to the context, which can be seen as constrained causal reasoning."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "forward causal reasoning"
+            },
+            {
+              "citation": [],
+              "text": "backward causal reasoning"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "commonsense reasoning"
+            }
+          ],
+          "synonyms": [],
+          "term": "constrained causal reasoning"
+        }
+      ],
+      "paper_id": "2303.14725v2",
+      "split": "dev",
+      "title": "Natural Language Reasoning, A Survey"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Goffman 1974: 21)"
+              ],
+              "text": "schemata of interpretation that provides a context for understanding information and enables individuals to locate, perceive, identify and label"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "Frames"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Valkenburg et al. 1999)"
+              ],
+              "text": "the particular ways in which journalists compose news stories to optimize the accessibility and impact of a story on a particular audience"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(for reviews see McCombs and Ghanem 2001;McCombs et al. 1997;Scheufele 1999)"
+              ],
+              "text": "different frames can influence readers' or viewers' perceptions of public issues"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "Frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "Media frames"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Entman (1993)",
+                "(p. 52)"
+              ],
+              "text": "select some aspects of a perceived reality and make them more salient in a communicating text, in such a way as to promote a particular definition of a problem, causal interpretation, moral evaluation, and/or treatment recommendation for the item described"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "the purposeful selection (or omission) of information by editors and writers which encourages their audience to understand, perceive or interpret stories in particular ways."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "To frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "depicts public issues through the form of a case study or event-oriented report and creates a focus on concrete issues."
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [
+                "(p. 14)"
+              ],
+              "text": "the plight of a homeless person or a teenage drug user"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "thematic news frame"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "episodic news frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "places public issues in a more general and abstract context and focuses on general outcomes or conditions."
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [
+                "(p. 14)"
+              ],
+              "text": "reports on 'changes in government welfare expenditures … and the backlog in the criminal justice process'"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "episodic news frame"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Iyengar (1991)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "thematic news frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "emphasizes the conflicts between institutions, groups or peoples."
+            },
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "emphasizes winning and losing and winners and losers in a given news story."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "conflict frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(1999: 551)"
+              ],
+              "text": "brings an individual's story or an emotional angle to the presentation of an event, issue or problem"
+            },
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "places the emphasis on the personal and emotional side of an event, issue or problem."
+            },
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "the news is typically presented in a narrative format that focuses on how issues affect particular people."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "a human interest frame describes the news in terms that personalize, dramatize and emotionalize the news."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [
+                "(Semetko and Valkenburg 2000)"
+              ],
+              "text": "human interest stories"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "human interest frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "shows the economic impacts of an event, problem or issue for a particular group, institution, individual, region or country."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "economic consequences frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "adds a religious or moral dimension to an event, problem or subject."
+            },
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "The story may contain a moral message or offer specific codes of behaviour."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "morality frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "presents an issue or problem in such a way that the responsibility for causing or solving the problem lies with a particular government, individual or group."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "These articles help shape who ought to be praised or blamed for an issue or event."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Semetko and Valkenburg's (2000)"
+              ],
+              "text": "news frames"
+            }
+          ],
+          "synonyms": [],
+          "term": "responsibility frame"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Yin (2007)"
+              ],
+              "text": "the recurring elements of the news discourses."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Because they are repeated to the extent that they will leave an impression on the reader, themes can be identified through repeated close readings of the newspaper articles."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "themes"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "DeSantis (1998)",
+                "(p. 480)"
+              ],
+              "text": "a mythic story which posits that 'with effort, hard work, optimism, and egalitarian cooperation, anyone in America can morally achieve material success [emphasis original]'"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Ashton 2009a)"
+              ],
+              "text": "the freedom to get good jobs and obtain 'the basics of American life, such as buying car insurance'"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "American Dream"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "frame the news in a way that focuses on how issues affect particular people."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Semetko and Valkenburg 2000)"
+              ],
+              "text": "the goal of human interest stories is to personalize and emotionalize an event, issue or problem by helping the audience personally connect to an individual or individuals who represent the issue"
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [
+                "(Semetko and Valkenburg 2000)"
+              ],
+              "text": "human interest frame"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "human interest stories"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Kapur (2002)",
+                "(p. 2)"
+              ],
+              "text": "the more victimized subject; that is, the real or authentic victim subject"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(p. 2)"
+              ],
+              "text": "look of starvation, helplessness, and victimization"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "Kapur (2002)"
+              ],
+              "text": "victim subject"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [
+                "(p. 2)"
+              ],
+              "text": "real or authentic victim subject"
+            }
+          ],
+          "term": "Third World victim subject"
+        }
+      ],
+      "paper_id": "261a5f3b2fe61904107a2e80d4a9426532cd4b06",
+      "split": "dev",
+      "title": "Refugees as People: The Portrayal of Refugees in American Human Interest Stories"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(5)"
+              ],
+              "text": "the broad cover term for the expression of the speaker or writer's attitude or stance towards, viewpoint on, or feelings about the entities or propositions that he or she is talking about."
+            },
+            {
+              "citation": [
+                "(Labov and Waletzky 1997[1967], Labov 1972)"
+              ],
+              "text": "the features of a narrative whose function is to underscore the extraordinary quality of the represented events and hence the conversational value of the telling."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(6-13)"
+              ],
+              "text": "expressing the opinion of the speaker/writer vis à vis the propositions being expressed, manipulating the hearer/reader's attitude vis à vis these propositions (in part by constructing and maintaining relationships between speaker/writer and hearer/reader), and organizing the discourse, for example, by marking boundaries or highlighting significant parts"
+            },
+            {
+              "citation": [],
+              "text": "Because evaluating a proposition often involves comparing it against a norm, linguistic features associated with evaluation may include such things as comparative adjectives, negation, and adverbs of degree."
+            },
+            {
+              "citation": [
+                "(21)",
+                "(22)"
+              ],
+              "text": "The language of evaluation may also involve markers of subjectivity such as modals, sentence adverbs and conjunctions and structures that report and attribute speech, as well as markers of value, such as lexical items that are evaluative and indications of whether goals are achieved"
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "stance"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "evaluation"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "DuBois (forthcoming)"
+              ],
+              "text": "a public act by a social actor, achieved through overt means, of evaluating an object, positioning the self, and aligning with other subjects with respect to any salient dimension of the stance field"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Stance is generally understood to have to do with the methods, linguistic and other, by which interactants create and signal relationships with the propositions they utter and with the people they interact with."
+            },
+            {
+              "citation": [],
+              "text": "stancetaking inevitably has to do with both epistemic and interactional aspects of perspective-taking in discourse."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "evaluation"
+            },
+            {
+              "citation": [],
+              "text": "stance field"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [
+                "Ochs (1992)"
+              ],
+              "text": "evidential stances"
+            },
+            {
+              "citation": [
+                "Ochs (1992)"
+              ],
+              "text": "interpersonal stances"
+            }
+          ],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "stance"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "DuBois (forthcoming)"
+              ],
+              "text": "consists of two social actors and an object to which both are oriented."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "stance"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "stance field"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Bauman 2004)"
+              ],
+              "text": "Repeated sets of stancetaking moves can emerge as relatively stabilized repertoires"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Styles are (at least to some extent) repeatable."
+            },
+            {
+              "citation": [],
+              "text": "sets of stancetaking moves serving a common function are not always assembled de novo in each new situation."
+            },
+            {
+              "citation": [],
+              "text": "people can often draw on alreadymade generalizations about the stance features that instantiate a particular style."
+            },
+            {
+              "citation": [],
+              "text": "Styles are often identifiable, by analysts and/or by participants; some have names."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "stancetaking moves"
+            },
+            {
+              "citation": [],
+              "text": "registers"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "styles"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Biber and Finegan 1994, Finegan and Biber 2001)"
+              ],
+              "text": "Styles associated with a particular set of contextual factors that confront a speaker with a particular set of rhetorical exigencies"
+            },
+            {
+              "citation": [
+                "Agha (2003)"
+              ],
+              "text": "any way of speaking that comes to seem fixed and associated with stable social meaning through ideological/discursive processes of \"enregisterment.\""
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "For Biber and Finegan, situational \"registers\" and regional/social \"dialects\" or \"varieties\" are taxonomically distinct."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "Styles"
+            },
+            {
+              "citation": [],
+              "text": "dialects"
+            },
+            {
+              "citation": [],
+              "text": "varieties"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "register"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Goffman 1981)",
+                "(Tannen 1979(Tannen , 1993) )"
+              ],
+              "text": "Sets of stance-taking choices associated with participant roles or subject positions"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "Styles"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [
+                "(Tannen 1979(Tannen , 1993) )"
+              ],
+              "text": "framing"
+            }
+          ],
+          "term": "footing"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "A set of stance-taking choices associated with a socio-demographic identity category"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [
+                "(Kiesling 2005)"
+              ],
+              "text": "wogspeak"
+            },
+            {
+              "citation": [
+                "(Johnstone & Baumgardt 2004)"
+              ],
+              "text": "Pittsburghese"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "Styles"
+            },
+            {
+              "citation": [],
+              "text": "registers"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "variety"
+            }
+          ],
+          "term": "dialect"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "Kiesling (2005)"
+              ],
+              "text": "a face-saving epistemic and interactional stance"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "This stance, Kiesling claims, is particularly likely to be relevant for members of subordinate groups."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "stance"
+            }
+          ],
+          "synonyms": [],
+          "term": "authoritative connection"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Baumlin 1994, Cherry 1998)"
+              ],
+              "text": "the speaker's identity as it is constructed and/or deployed in discourse"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "a fundamental tool in persuasion."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "logos"
+            },
+            {
+              "citation": [],
+              "text": "pathos"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "ethos of self"
+            },
+            {
+              "citation": [],
+              "text": "ethos of persona"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "pisteis"
+            }
+          ],
+          "synonyms": [],
+          "term": "ethos"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "basic modes of persuasive appeal."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "ethos"
+            },
+            {
+              "citation": [],
+              "text": "logos"
+            },
+            {
+              "citation": [],
+              "text": "pathos"
+            }
+          ],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "pisteis"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "logical appeals to characteristics of the topic"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "ethos"
+            },
+            {
+              "citation": [],
+              "text": "pathos"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "pisteis"
+            }
+          ],
+          "synonyms": [],
+          "term": "logos"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "appeals to characteristics of the audience."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "ethos"
+            },
+            {
+              "citation": [],
+              "text": "logos"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "pisteis"
+            }
+          ],
+          "synonyms": [],
+          "term": "pathos"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Johnstone 1999)"
+              ],
+              "text": "the discursive enactment of epistemic and moral authority linked to a unique \"lingual biography\""
+            },
+            {
+              "citation": [],
+              "text": "the projection of knowledge and moral authority derived from one's life history, a history that is necessarily unique because no two individuals' experiences and memories are identical."
+            },
+            {
+              "citation": [],
+              "text": "the strategic discursive display of consistent personal identity, rooted in a speaker's unique personal biography"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "In this tradition, the speaker's character is understood as pre-existing discourse rather than being constructed in it."
+            },
+            {
+              "citation": [],
+              "text": "This requires stance-taking choices that project consistent personal identity rather than transient social identity."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "ethos of persona"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "ethos"
+            }
+          ],
+          "synonyms": [],
+          "term": "ethos of self"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the projection into discourse of social roles or less sedimented sets of social expectations."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "credibility is linked with skill in adapting to the situation at hand."
+            },
+            {
+              "citation": [],
+              "text": "An ethos of persona would require inconsistency, the ability to construct different identities to meet different rhetorical exigencies, and to flag this ability by means of metadiscursive and nondiscursive signals of strategic flexibility."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "ethos of self"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "ethos"
+            }
+          ],
+          "synonyms": [],
+          "term": "ethos of persona"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the degree to which speakers shape each other's utterances in real time"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Some genres are more interactive than others, and some conversations are more interactive than others."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "interactivity"
+        }
+      ],
+      "paper_id": "262153e94c3632ccf213dac45a93d8ff3cc3ff98",
+      "split": "dev",
+      "title": "Stance, Style, and the Linguistic Individual"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "The unique interplay of a number of factors, whose consequence is the denial of access, to an individual or group, to the opportunity to participate in the social and political life of the community, resulting not only in diminished material and non-material quality of life, but also in tempered life chances, choices and reduced citizenship."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Duffy, 1998)"
+              ],
+              "text": "social exclusion centres upon the processes of unequal access to participation in society"
+            },
+            {
+              "citation": [
+                "(Dibben, 2001;Judge, 1995;Room, 1995)"
+              ],
+              "text": "social exclusion is relational, with a focus upon resource and power relationships between individuals, groups and the state"
+            },
+            {
+              "citation": [],
+              "text": "It is a heterogeneous concept, with interrelated causes and components which can, however, be experienced independently of each other and at different times, to different extents, by different individuals and groups."
+            },
+            {
+              "citation": [
+                "(Duffy, 1998;Walker and Walker, 1997)"
+              ],
+              "text": "This definition, in highlighting the denial of access to opportunity, places emphasis upon structural constraints to participation, removing the individual culpability that is implied by definitions suggesting an inability to participate in society"
+            },
+            {
+              "citation": [
+                "(Bhalla and Lapeyre, 1997;Foley, 1999;PAT 18, nd)"
+              ],
+              "text": "Exclusion should not, therefore, be seen as a single, additive quality, in which characteristics are necessarily related, the sum of which is greater than each individual part"
+            },
+            {
+              "citation": [
+                "(Oppenheim, 1998)"
+              ],
+              "text": "In addition, many of the characteristics of exclusion are non-quantifiable (Oppenheim, 1998), for example, powerlessness, self-esteem, isolation and perceptions of choice."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "poverty"
+            },
+            {
+              "citation": [],
+              "text": "self-exclusion"
+            },
+            {
+              "citation": [],
+              "text": "mobility-related exclusion"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "social exclusion"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "a gap in access to ICTs that is determined by an individual's characteristics"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Graham and Marvin, 1999, PAT 15, 2000)"
+              ],
+              "text": "people who experience social exclusion are highly likely to also be excluded from access to the Internet and that, without access to the Internet, disadvantage and exclusion will be further reinforced"
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "social exclusion"
+            },
+            {
+              "citation": [],
+              "text": "Virtual mobility"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "digital divide"
+        }
+      ],
+      "paper_id": "3b50e1808471dd5a8d19a50ef227b03774b80cae",
+      "split": "dev",
+      "title": "Transport and social exclusion: investigating the possibility of promoting inclusion through virtual mobility"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "a type of deception that intentionally incorporates cues revealing its own deceptiveness"
+            },
+            {
+              "citation": [
+                "(Phiddian, 2013)"
+              ],
+              "text": "a rhetorical strategy (in any medium) that seeks wittily to provoke an emotional and intellectual reaction in an audience on a matter of public … significance"
+            },
+            {
+              "citation": [],
+              "text": "a type of deception, but one that is intended to be found out by at least some subset of the audience"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "deception"
+            }
+          ],
+          "synonyms": [],
+          "term": "Satire"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "a genre of satire that mimics the format and style of journalistic reporting"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "satire"
+            }
+          ],
+          "synonyms": [],
+          "term": "News satire"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Tsur, Davidov, & Rappoport, 2010)"
+              ],
+              "text": "verbal irony … the activity of saying or writing the opposite of what you mean"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "verbal irony"
+            }
+          ],
+          "term": "Sarcasm"
+        }
+      ],
+      "paper_id": "3dffde1e26f12b0f30abe8b5a046932fa6004ae0",
+      "split": "dev",
+      "title": "Fake News or Truth? Using Satirical Cues to Detect Potentially Misleading News"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "[1]"
+              ],
+              "text": "information hoaxes designed to deliberately mislead the reader in order to gain a financial or political advantage"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "fake news related to different fields of human activity such as politics, economy, goods and services, travels and tourism, etc."
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "Fake news"
+        }
+      ],
+      "paper_id": "4089-8457-1-PB",
+      "split": "dev",
+      "title": "Covid-19 Fake News Detection: A Survey"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "The factual information refers to the content of the message ( e g , the emission of an air pollutant is X mg per day) as well as the source of the message (e.g., EPA conducted the measurement)."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "message"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "factual information"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "The inferential message refers to the conclusions that can be drawn from the presented evidence (e.g., the emission poses a serious health threat)."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "message"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "inferential message"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the phenomenon by which information processes, institutional structures, social-group behavior, and individual responses shape the social experience of risk, thereby contributing to risk consequences"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "The social structures and processes of risk experience, the resulting repercussions on individual and group perceptions, and the effects of these responses on community, society, and economy compose a general phenomenon that we term the social amplifi- cation ofrisk."
+            },
+            {
+              "citation": [],
+              "text": "The concept of social amplification of risk is hence dynamic, takmg into account the learning and social interactions resulting from experience with risk."
+            },
+            {
+              "citation": [],
+              "text": "Social amplification of risk, in our current conceptualization, involves two major stages (or amplifiers)-the transfer of information about the risk or risk event, and the response mechanisms of society."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "social attenuation of risk"
+            },
+            {
+              "citation": [],
+              "text": "secondary impacts"
+            },
+            {
+              "citation": [],
+              "text": "ripple effect"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "phenomenon"
+            }
+          ],
+          "synonyms": [],
+          "term": "social amplification of risk"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the linkages that exist among friends, neighbors, and co-workers, and within social groups more generally."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "interpersonal networks will lead to divergent risk perceptions, management preferences, and levels of concern."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "news media"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "communication networks"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "informal personal networks"
+            }
+          ],
+          "term": "Informal communication networks"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(33)"
+              ],
+              "text": "the negative imagery associated with undesirable social groups or individuals."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "the typical response to stigmatized persons or environments is avoidance"
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Love Canal, the Valley of the Thousand Drums, Times Beach, and the Nevada Test Site evoke vivid images of waste and pollution."
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "risk-induced stigma"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "Stigma"
+        }
+      ],
+      "paper_id": "4b33419863b96c270d5875af9bd5af3ce5dbb1e2",
+      "split": "dev",
+      "title": "The Social Amplification of Risk A Conceptual Framework"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the tendency to evaluate otherwise identical information more favorably when it supports one's political beliefs or allegiances than when it challenges those beliefs or allegiances"
+            },
+            {
+              "citation": [],
+              "text": "the degree to which politically-congenial information was perceived as more valid than closely matched politically-uncongenial information."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "a general tendency for people to think or act in ways that unwittingly favor their own political group or cast their own ideologically-based beliefs in a favorable light"
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "applying different (and harsher) standards when evaluating the judgments and behavior of political opponents than when evaluating similar or identical judgments or behaviors displayed by political allies"
+            },
+            {
+              "citation": [
+                "Iyengar & Hahn, 2009;"
+              ],
+              "text": "selectively exposing oneself to information that supports one's own political group or views"
+            },
+            {
+              "citation": [],
+              "text": "selectively remembering information that supports one's own political group or views"
+            },
+            {
+              "citation": [],
+              "text": "selectively evaluating information in ways that support one's own political group or views"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "hypocrisy"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "partisan bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "information that is as identical as possible in every way except that in one case it favors the participant's political affinities"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "politically-uncongenial information"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "politically-congenial information"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the tendency to preferentially seek out information that supports rather than challenges political views"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "biased processing of political information"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "selective exposure"
+        }
+      ],
+      "paper_id": "5529d09545f03ad4fc611579cd8bae3d09aaa4b2",
+      "split": "dev",
+      "title": "Partisan Stereotypes and Policy Attitudes"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the unfair treatment of patients on the basis of race or ethnicity"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "racial disparity"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "disparity"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "results when physicians use race as an indicator of the underlying likelihood that a patient has a condition"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "prevalence hypothesis"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "a difference in treatment provided to members of different racial (or ethnic) groups not justified by the underlying health conditions or preferences about treatment of the patient"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "racial disparity"
+        }
+      ],
+      "paper_id": "5710917bcf01f63c64bc8980cbaa60e7348f5ab8",
+      "split": "dev",
+      "title": "Testing for Statistical Discrimination in Health Care"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "characterized by an immediate or automatic rejection of the black (or minority) candidate in favor of a white applicant."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "reflect a fairly rigid application of employers' racial preferences or beliefs"
+            },
+            {
+              "citation": [],
+              "text": "one form of discrimination in which racial considerations appear relatively fixed and unyielding"
+            },
+            {
+              "citation": [],
+              "text": "black (or minority) applicants are discouraged or dismissed at the outset of the employment process, leaving little opportunity for a more nuanced review"
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Zuri, one of our black testers, reported: \"The original woman who had herded us in told us that when we finished filling out the application we could leave because 'there's no interview today, guys!' … When I made it across the street to the bus stop … the woman who had collected our completed applications pointed in the direction of Simon, Josue, and myself [the three test partners] motioning for us to return. All three of us went over.… She looked at me and told me she 'needed to speak to these two' and that I could go back.\" Zuri returned to the bus stop, while his white and Latino test partners were both asked to come back at 5 p.m. that day to start work."
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "shifting standards"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "categorical exclusion"
+        }
+      ],
+      "paper_id": "641b12df54a3d853bad273bf5fed2c0965936f83",
+      "split": "dev",
+      "title": "Discrimination in a Low-Wage Labor Market: A Field Experiment"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "The choice to slant information in this way"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "selective omission, choice of words, and varying credibility ascribed to the primary source"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "distortion of the facts"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "slant"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "media slant"
+            }
+          ],
+          "term": "media bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "One of these firms has a \"scoop\" on the true state of the world-this means that the firm receives a possibly noisy signal of the true state s and reports it exactly as the monopoly firm did in the last section."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "scoop"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "A segmented equilibrium, in which one firm is read only by R-group consumers and biases its reports toward r and the other is read only by L-group consumers and biases its reports toward l."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "honest equilibrium"
+            },
+            {
+              "citation": [],
+              "text": "effective monopoly"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "segmented equilibrium"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "bias_i = (bush_i / (bush_i + gore_i) - 1/2)^2 where bush_i and gore_i denote the number of seconds given to each candidate by station i."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "bias"
+        }
+      ],
+      "paper_id": "6ce27e8ceb8e7aa4e40d99312b6c98ac3f5260fb",
+      "split": "dev",
+      "title": "Media Bias and Reputation"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "[5]",
+                "[6]",
+                "[7]",
+                "3,",
+                "4"
+              ],
+              "text": "the perils of misinformation phenomena during the management of disease outbreaks"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "speed up the epidemic process by influencing and fragmenting social response"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "misinformation"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "infodemic"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "a news outlet systematically showing one or more of the following characteristics: extreme bias, consistent promotion of propaganda/conspiracies, poor or no sourcing to credible information, information not supported by evidence or unverifiable, a complete lack of transparency and/or fake news."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "reliable information source"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "questionable information source"
+        }
+      ],
+      "paper_id": "79ddbeff892277592aa387045692e0a738ef9edf",
+      "split": "dev",
+      "title": "The COVID-19 social media infodemic"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Jacobs and Potter 2000;Walker 1994)"
+              ],
+              "text": "speech that targets disadvantaged social groups in a manner that is potentially harmful to them"
+            },
+            {
+              "citation": [],
+              "text": "speech that targets minority groups in a way that could promote violence or social disorder."
+            },
+            {
+              "citation": [],
+              "text": "language that is used to expresses hatred towards a targeted group or is intended to be derogatory, to humiliate, or to insult the members of the group."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "In extreme cases this may also be language that threatens or incites violence, but limiting our definition only to such cases would exclude a large proportion of hate speech."
+            },
+            {
+              "citation": [],
+              "text": "our definition does not include all instances of offensive language"
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "If some one isn't an Anglo-Saxon Protestant, they have no right to be alive in the US. None at all, they are foreign filth"
+            },
+            {
+              "citation": [],
+              "text": "Every slant in #LA should be deported. Those scum have no right to be here. Chinatown should be bulldozed"
+            },
+            {
+              "citation": [],
+              "text": "My advice of the day: If your a tranny...go f*ck your self!."
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "offensive language"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "hate speech"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "terms that are highly offensive to certain groups"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Wang et al. 2014)"
+              ],
+              "text": "Such language is prevalent on social media"
+            },
+            {
+              "citation": [],
+              "text": "A key flaw in much previous work is that offensive language is mislabeled as hate speech due to an overly broad definition."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [
+                "(Warner and Hirschberg 2012)"
+              ],
+              "text": "some African Americans often use the term n*gga in everyday language online"
+            },
+            {
+              "citation": [],
+              "text": "people use terms like h*e and b*tch when quoting rap lyrics"
+            },
+            {
+              "citation": [],
+              "text": "teenagers use homophobic slurs like f*g as they play video games"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "hate speech"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "offensive language"
+        }
+      ],
+      "paper_id": "8dd6a2c9c88c9b3465484228c93f4dcc11cfeab9",
+      "split": "dev",
+      "title": "Automated Hate Speech Detection and the Problem of Offensive Language"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "content, generated by an artificial intelligence, that is authentic in the eyes of a human being."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "primarily relates to content generated by an artificial neural network, a branch of machine learning."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [
+                "1"
+              ],
+              "text": "realistic video dubbing of foreign films"
+            },
+            {
+              "citation": [
+                "[90]"
+              ],
+              "text": "reanimation of historical figures"
+            },
+            {
+              "citation": [
+                "[90]"
+              ],
+              "text": "virtually trying on clothes while shopping"
+            },
+            {
+              "citation": [],
+              "text": "deepfake memes for entertainment"
+            },
+            {
+              "citation": [],
+              "text": "music videos portraying the face of actor Nicolas Cage"
+            },
+            {
+              "citation": [],
+              "text": "deepfake video of former president Barak Obama giving a talk"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "adversarial machine learning"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "reenactment"
+            },
+            {
+              "citation": [],
+              "text": "replacement"
+            },
+            {
+              "citation": [],
+              "text": "editing"
+            },
+            {
+              "citation": [],
+              "text": "synthesis"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "content"
+            }
+          ],
+          "synonyms": [],
+          "term": "deepfake"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "where x s is used to drive the expression, mouth, gaze, pose, or body of x t"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "face frontalization of individuals in security footage"
+            },
+            {
+              "citation": [
+                "[45]"
+              ],
+              "text": "automatically maintain eye contact during video interviews"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "Expression reenactment"
+            },
+            {
+              "citation": [],
+              "text": "Mouth reenactment"
+            },
+            {
+              "citation": [],
+              "text": "Gaze reenactment"
+            },
+            {
+              "citation": [],
+              "text": "Pose reenactment"
+            },
+            {
+              "citation": [],
+              "text": "Body reenactment"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "deepfake"
+            }
+          ],
+          "synonyms": [],
+          "term": "reenactment deepfake"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "where the content of x t is replaced with that of x s , preserving the identity of s."
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "visualize an individual in different outfits"
+            },
+            {
+              "citation": [],
+              "text": "generate memes or satirical content"
+            },
+            {
+              "citation": [],
+              "text": "anonymization of one's identity in public content"
+            },
+            {
+              "citation": [],
+              "text": "revenge porn"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "Transfer"
+            },
+            {
+              "citation": [],
+              "text": "facial transfer"
+            },
+            {
+              "citation": [],
+              "text": "Swap"
+            },
+            {
+              "citation": [],
+              "text": "face swap"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "deepfake"
+            }
+          ],
+          "synonyms": [],
+          "term": "replacement deepfake"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "where the attributes of x t are added, altered, or removed."
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "changing a target's clothes, facial hair, age, weight, beauty, and ethnicity"
+            },
+            {
+              "citation": [],
+              "text": "alter their appearance for entertainment"
+            },
+            {
+              "citation": [],
+              "text": "build a false persona for misleading others"
+            },
+            {
+              "citation": [],
+              "text": "change their age and gender to build dynamic profiles online"
+            },
+            {
+              "citation": [
+                "[134]"
+              ],
+              "text": "removal of a victim's clothes for humiliation or entertainment"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "editing deepfakes"
+            }
+          ],
+          "synonyms": [],
+          "term": "enchantment deepfake"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "Deepfakes often generate artifacts which may be subtle to humans, but can be easily detected using machine learning and forensic analysis."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Some works identify deepfakes by searching for specific artifacts."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "Blending (spatial)"
+            },
+            {
+              "citation": [],
+              "text": "Environment (spatial)"
+            },
+            {
+              "citation": [],
+              "text": "Forensics (spatial)"
+            },
+            {
+              "citation": [],
+              "text": "Behavior (temporal)"
+            },
+            {
+              "citation": [],
+              "text": "Physiology (temporal)"
+            },
+            {
+              "citation": [],
+              "text": "Synchronization (temporal)"
+            },
+            {
+              "citation": [],
+              "text": "Coherence (temporal)"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "Detection"
+            }
+          ],
+          "synonyms": [],
+          "term": "Artifact-Specific"
+        }
+      ],
+      "paper_id": "92b4c8deecee703569b9e909dfb88aa70e691219",
+      "split": "dev",
+      "title": "The Creation and Detection of Deepfakes: A Survey"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "Commission is often a euphemism for what is essentially a bribe."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "bribe"
+            }
+          ],
+          "term": "Commission"
+        }
+      ],
+      "paper_id": "95560085f16dfe9b556d0eea424ef4f7977fb647",
+      "split": "dev",
+      "title": "Corruption, Public Investment, and Growth"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "journalism as it is produced more or less exclusively for the world wide web (as the graphic interface of the internet)"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "can be functionally differentiated from other kinds of journalism by using its technological component as a determining factor in terms of a (operational) definition."
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "mainstream news sites"
+            },
+            {
+              "citation": [],
+              "text": "index and category sites"
+            },
+            {
+              "citation": [],
+              "text": "meta-and comment sites"
+            },
+            {
+              "citation": [],
+              "text": "Share and discussion sites"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [
+                "(Deuze, 1999)"
+              ],
+              "text": "journalism"
+            }
+          ],
+          "synonyms": [],
+          "term": "online journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "generally offering a selection of editorial content and a minimal, generally filtered or moderated form of participatory communication"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "CNN"
+            },
+            {
+              "citation": [],
+              "text": "BBC"
+            },
+            {
+              "citation": [],
+              "text": "MSNBC"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "online journalism"
+            }
+          ],
+          "synonyms": [],
+          "term": "mainstream news sites"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "online journalists offer (deep-) links to existing news sites elsewhere on the world wide web."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Those hyperlinks are sometimes categorized and even annotated by editorial teams, thus generally featuring more or less contextualized (or contextually presented), aggregated content"
+            },
+            {
+              "citation": [],
+              "text": "generally do not offer much 'original' editorial content (cf. content produced exclusively or specifically for web publication), but do at times offer areas for chat or exchanging news, tips and links by the general public -for example by maintaining some kind of bulletin board system (BBS)."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Yahoo"
+            },
+            {
+              "citation": [],
+              "text": "Newsindex"
+            },
+            {
+              "citation": [],
+              "text": "Paperboy"
+            },
+            {
+              "citation": [],
+              "text": "Australian Arts and Letters Daily"
+            },
+            {
+              "citation": [],
+              "text": "Cyberspace Station"
+            },
+            {
+              "citation": [],
+              "text": "Drudge Report"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "weblog or 'blog'"
+            },
+            {
+              "citation": [],
+              "text": "usergenerated content sites"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "individual journalism"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "online journalism"
+            }
+          ],
+          "synonyms": [],
+          "term": "index and category sites"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "facilitates platforms for the exchange of ideas, stories and so forth, often centred around a specific theme"
+            }
+          ],
+          "description": [],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Indymedia"
+            },
+            {
+              "citation": [],
+              "text": "Slashdot"
+            },
+            {
+              "citation": [],
+              "text": "Plastic"
+            },
+            {
+              "citation": [],
+              "text": "kuroshin"
+            }
+          ],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "online journalism"
+            }
+          ],
+          "synonyms": [
+            {
+              "citation": [],
+              "text": "group weblogs"
+            }
+          ],
+          "term": "Share and discussion sites"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the combination of information offered in different formats, produced in different sections of one or more media organizations."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "all parts of the site are developed from a multimedial starting point, offering the end-user several ways into, and through, the site's contents."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "BBC"
+            },
+            {
+              "citation": [],
+              "text": "Rockstargames.com"
+            },
+            {
+              "citation": [],
+              "text": "Tampa Bay Tribune's multimedia facility (TBO.com)"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "media convergence"
+            },
+            {
+              "citation": [],
+              "text": "convergent perspective"
+            },
+            {
+              "citation": [],
+              "text": "divergent paradigm"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "multimediality"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Kopper et al., 2000: 509)"
+              ],
+              "text": "the characteristic of the internet which facilitates association, enabling people not only to receive information -remember the 'passive' audience -but also to disseminate it"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "participatory communication and control over content between users"
+            },
+            {
+              "citation": [],
+              "text": "an indicator of a more or less elaborate feedback mechanism of two-way or multiple way communication"
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Next Page"
+            },
+            {
+              "citation": [],
+              "text": "Back to Top"
+            },
+            {
+              "citation": [],
+              "text": "scrolling menu bars"
+            },
+            {
+              "citation": [],
+              "text": "mailto: links"
+            },
+            {
+              "citation": [],
+              "text": "bulletin board systems (BBS)"
+            },
+            {
+              "citation": [],
+              "text": "moderated discussion lists"
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "prosumers"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "navigational interactivity"
+            },
+            {
+              "citation": [],
+              "text": "functional interactivity"
+            },
+            {
+              "citation": [],
+              "text": "adaptive interactivity"
+            },
+            {
+              "citation": [],
+              "text": "third-person interactivity"
+            }
+          ],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "interactivity"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "where the contents of a news medium -for example, a (part of a) website -are fully maintained by journalists interacting with citizens."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "In other words, a strict division no longer necessarily remains between producers and consumers of news content, as all become 'prosumers'."
+            }
+          ],
+          "examples": [
+            {
+              "citation": [],
+              "text": "Share and discussion sites can be seen as dialogical by definition, as their main function is to be a platform for (real-time) communal uploading, filtering, exchanging and discussion of content."
+            }
+          ],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "monitorial journalism"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "dialogical journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "offers functional, specialized information to interested audiences or customers"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "orientating journalism"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "instrumental journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "where online editors and reporters answer the demands of their publics by posting stories, backgrounds and annotated links in a FAQ-capacity"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "Journalism still professionally feels the pulse of society, and it does not function as sole provider of content."
+            },
+            {
+              "citation": [],
+              "text": "One could imagine that a website is a specific, useful platform for allowing citizens to voice their opinions and questions regarding the issues about which they care."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "dialogical journalism"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "monitorial journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "draft versions of news stories are pre-published online and rewritten with the input of site users"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "open source journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "provides a general public with general orientation (background, commentary, explanation)"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "instrumental journalism"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "orientating journalism"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "any and all combinations of editorial content in terms of written text, still and moving images, sounds, data and graphics."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Kennedy, 2002: 6)"
+              ],
+              "text": "integration of all kinds of information and/or technologies and/or forms of communication"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "multimedia"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the particular institutionally structured features of a medium, the ensemble of technical and organizational attributes which have an impact on what is represented in the medium and how it gets done."
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "online media logic"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "people's tendency to believe that the effects of the media will be stronger or more prevalent to others than themselves"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "third-person effect"
+        }
+      ],
+      "paper_id": "a0f390307705585eae44a74d28eb6d3819979e6d",
+      "split": "dev",
+      "title": "The web and its journalisms: considering the consequences of different types of newsmedia online"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the fundamental imbalance in the information possessed by the potential acquirer and target firms, as opposed to the simple insufficiency of knowledge about the potential target held by the potential acquirer"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Akerlof 1970)"
+              ],
+              "text": "information asymmetry between the acquiring and the target firm creates uncertainty about the quality and value of the target firm's assets, leading to problems of adverse selection"
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [
+                "(Akerlof 1970)"
+              ],
+              "text": "adverse selection"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "information asymmetry"
+        }
+      ],
+      "paper_id": "bff1326ea0f792e3557fc8ad0731733ba7f8b091",
+      "split": "dev",
+      "title": "PRIOR ALLIANCES WITH TARGETS AND ACQUISITION PERFORMANCE IN KNOWLEDGE-INTENSIVE INDUSTRIES"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(34)",
+                "(35)"
+              ],
+              "text": "information is perceived to be more credible when it matches the recipient's worldview"
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(35)",
+                "(36)"
+              ],
+              "text": "individuals hear the same information from different sources, even if that information ultimately came from one original source"
+            },
+            {
+              "citation": [
+                "(37)",
+                "(38)",
+                "(39)",
+                "(40)"
+              ],
+              "text": "hearing repeated messages has been found to intensify viewpoints further and push some to extreme opinions"
+            }
+          ],
+          "examples": [],
+          "related_terms": [],
+          "subtypes": [],
+          "supertypes": [],
+          "synonyms": [],
+          "term": "confirmation bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(18)",
+                "(19)",
+                "(20)",
+                "(21)",
+                "(22)"
+              ],
+              "text": "social network formations that transform the ways in which information is transmitted and interpreted by actors"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "We conceive of the echo chamber as being comprised of two distinct processes."
+            },
+            {
+              "citation": [],
+              "text": "echo chambers may also amplify divergence from the consensus position."
+            },
+            {
+              "citation": [],
+              "text": "an echo chamber also has the potential to amplify convergence."
+            },
+            {
+              "citation": [],
+              "text": "Echo chambers themselves are value-free; their impact on political discussion and debate are an effect of context and content."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "echo"
+            },
+            {
+              "citation": [],
+              "text": "chambers"
+            },
+            {
+              "citation": [],
+              "text": "homophily"
+            },
+            {
+              "citation": [
+                "(19)"
+              ],
+              "text": "cohesive triads"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "social network formations"
+            }
+          ],
+          "synonyms": [],
+          "term": "echo chambers"
+        }
+      ],
+      "paper_id": "c1e92f1be2387d14dcfaa5e1640a9939724a312a",
+      "split": "dev",
+      "title": "An empirical examination of echo chambers in US climate policy networks"
+    },
+    {
+      "definition_records": [
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Recasens et al., 2013)"
+              ],
+              "text": "slanted news coverage or internal news article bias"
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "bias embodies a complex structure"
+            },
+            {
+              "citation": [],
+              "text": "bias is a highly sensitive topic, and some forms of bias especially rely on other factors than the content itself, such as a different perception of any text related to the individual background of a reader."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "sentence level bias"
+            },
+            {
+              "citation": [],
+              "text": "word level bias"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [],
+              "text": "bias by word choice"
+            },
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "lexical bias"
+            },
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "informational bias"
+            }
+          ],
+          "supertypes": [],
+          "synonyms": [
+            {
+              "citation": [
+                "(Recasens et al., 2013)"
+              ],
+              "text": "slanted news coverage"
+            },
+            {
+              "citation": [
+                "(Recasens et al., 2013)"
+              ],
+              "text": "internal news article bias"
+            }
+          ],
+          "term": "media bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "different words refer to the same concept."
+            }
+          ],
+          "description": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "media bias by word choice rarely depends on context outside the sentences"
+            },
+            {
+              "citation": [],
+              "text": "One way to bias news articles is by altering the word choice."
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "word level bias"
+            }
+          ],
+          "subtypes": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "lexical bias"
+            }
+          ],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "media bias"
+            }
+          ],
+          "synonyms": [],
+          "term": "bias by word choice"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "bias stemming from specific word choice"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "word choice"
+            },
+            {
+              "citation": [],
+              "text": "media bias"
+            },
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "informational bias"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "bias"
+            }
+          ],
+          "synonyms": [],
+          "term": "lexical bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "sentences conveying information tangential or speculative to sway readers' opinions towards entities"
+            }
+          ],
+          "description": [],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "lexical bias"
+            },
+            {
+              "citation": [],
+              "text": "media bias"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [
+                "(Fan et al., 2019)"
+              ],
+              "text": "bias"
+            }
+          ],
+          "synonyms": [],
+          "term": "informational bias"
+        },
+        {
+          "definitions": [
+            {
+              "citation": [],
+              "text": "the lowest meaningful level that can be aggregated to higher levels, like the document level."
+            }
+          ],
+          "description": [
+            {
+              "citation": [],
+              "text": "sentence level bias detection, which is the current standard in related work"
+            }
+          ],
+          "examples": [],
+          "related_terms": [
+            {
+              "citation": [],
+              "text": "word level bias"
+            },
+            {
+              "citation": [],
+              "text": "document level"
+            }
+          ],
+          "subtypes": [],
+          "supertypes": [
+            {
+              "citation": [],
+              "text": "media bias"
+            }
+          ],
+          "synonyms": [],
+          "term": "sentence level bias"
+        }
+      ],
+      "paper_id": "https://aclanthology.org/2021.findings-emnlp.101",
+      "split": "dev",
+      "title": "Neural Media Bias Detection Using Distant Supervision With BABE -Bias Annotations By Experts"
+    }
+  ],
+  "schema": "selected-qwen-dev-reference-v1",
+  "source": "results/unmatched-provenance-inputs-v1.zip!gold.json",
+  "source_sha256": "d34b5771dec5a97f65b8ca51ede4f72e7eb95dca0563f642e4965c21fb48bf20"
+}

@@ -1,0 +1,148 @@
+paperid,template,model,system_prompt,prompt,response,prompt_tokens,completion_tokens,total_tokens,cached,cache_key,clean_label
+doi_10.1000_agree,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Framing of migration in national newspapers
+Abstract: We compare how four newspapers frame migration and find a consistent slant.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",relevant,100,10,110,False,,relevant
+hash_shared,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Soil chemistry of alpine meadows
+Abstract: We measure nitrogen in alpine soils over three summers.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",not relevant,100,10,110,False,,not relevant
+doi_10.1000_tie,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Spreading false stories online
+Abstract: A review of how false information travels between platforms.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",relevant,100,10,110,False,,relevant
+doi_10.1000_unsure,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Audience trust after corrections
+Abstract: Survey of readers after a newspaper printed a correction.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",not sure,100,10,110,False,,can't determine
+hash_shared,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Partisan slant in evening television news
+Abstract: Coding of two networks' evening news for partisan tone.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",relevant,100,10,110,False,,relevant
+doi_10.1000_neither,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: A faster sorting network
+Abstract: We give a sorting network of smaller depth.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",not relevant,100,10,110,False,,not relevant
+doi_10.1000_unasked,zero_shot,gemma_4_12b_it,"You are an expert in media bias research.
+
+Media Bias can be defined in the following ways:
+
+1. Media Bias describes slanted news coverage or other biased media content, which can be intentional, i.e., purposefully express a tendency towards a perspective, ideology, or result, or unintentional.
+2. In addition to the fact that media bias always has a journalistic format, the most repeated characteristics in the definitions of media bias that we can find in the literature are: (1) that is slanted, that is, it has the intention of influencing the opinion of the receiver in a particular direction; (2) that the same bias is frequent and/or consistent for each media/journalist; and (3) that journalists may add bias in their attempt to create memorable stories.
+3. Media bias is the tendency to, consciously or unconsciously, report a news story in a way that supports a pre-existing narrative instead of providing unprejudiced coverage of an issue.
+
+Determine whether an academic article is relevant to media bias research based only on its title and abstract.
+- Classify as ""relevant"" if the article studies media bias directly or investigates concepts that help explain, measure, detect, produce, perceive, or mitigate media bias.
+- Classify as ""not relevant"" only if no meaningful connection to media, journalism, news, communication, information dissemination, or media bias can be inferred from the title and abstract.
+- If you are unsure classify as ""not sure"".","Article to classify:
+Title: Headline wording and clicks
+Abstract: An experiment with two headline wordings for the same story.
+
+Return exactly one label and no explanation:
+relevant
+not relevant
+not sure
+
+Answer:",relevant,100,10,110,False,,relevant

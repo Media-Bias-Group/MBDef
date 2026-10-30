@@ -1,0 +1,8 @@
+{
+  "model": "qwen3_6_35b_a3b",
+  "templates": [
+    "templates/relevance/zero_shot.j2"
+  ],
+  "max_tokens": 2048,
+  "temperature": null
+}

@@ -1,0 +1,561 @@
+{
+ "utc": "2026-09-28T06:25:05Z",
+ "queue": {
+  "rows_in_queue_file": 26316,
+  "by_queue_status": {
+   "review": 2166,
+   "missing": 24150
+  },
+  "distinct_lookups": 22929,
+  "with_doi": 9114,
+  "without_doi": 13815
+ },
+ "crossref": {
+  "no_match": 7892,
+  "matched": 5211,
+  "ambiguous": 196,
+  "insufficient_evidence": 321
+ },
+ "semantic_scholar": {
+  "no_match": 1764,
+  "matched": 690,
+  "error": 10
+ },
+ "s2_matched_with": {
+  "doi_kept": 27,
+  "arxiv": 152,
+  "oa_pdf": 66,
+  "doi_dropped": 211
+ },
+ "dois_found_for_doiless": {
+  "crossref": 5211,
+  "s2": 27
+ },
+ "doiless_crossref_pending": 195,
+ "openalex": {
+  "not_open_access": 7865,
+  "has_pdf": 4701,
+  "not_found": 367,
+  "open_access_but_no_pdf": 1477,
+  "ambiguous": 101,
+  "error": 153
+ },
+ "openalex_matched_by": {
+  "doi": 8804,
+  "title": 200,
+  "": 153,
+  "crossref_doi": 5174,
+  "doi_not_in_openalex": 303,
+  "s2_doi_not_in_openalex": 1,
+  "s2_doi": 25,
+  "crossref_doi_not_in_openalex": 4
+ },
+ "unpaywall": {
+  "not_open_access": 7884,
+  "has_pdf": 313,
+  "open_access_but_no_pdf": 1450,
+  "not_found": 342
+ },
+ "pdf_candidates": {
+  "works": 4849,
+  "by_source": {
+   "semantic_scholar": 156,
+   "unpaywall": 14,
+   "openalex": 4679
+  },
+  "duplicate_rows_not_downloaded": 26
+ },
+ "downloads": {
+  "downloaded": 3322,
+  "failed": 1526,
+  "not_attempted_yet": 1
+ },
+ "download_failures": {
+  "http_403": 779,
+  "html_not_pdf": 485,
+  "http_202": 78,
+  "network": 31,
+  "http_429": 1,
+  "http_404": 51,
+  "other": 11,
+  "tls_certificate": 18,
+  "http_5xx": 13,
+  "http_405": 17,
+  "timeout": 35,
+  "http_418": 5,
+  "http_409": 1,
+  "http_203": 1
+ },
+ "grobid_tei": 0,
+ "audit": {
+  "unique_cited_papers_reported": 26836,
+  "distinct_works_after_strong_merges": 26658,
+  "merges_by_rule": {
+   "M1 same DOI after strong normalization": 2,
+   "M2 same normalized title + year + first-author surname": 56,
+   "M3 provider resolved to the same OpenAlex work / DOI": 120
+  },
+  "papers_absorbed": 178,
+  "review_candidates": {
+   "title+year+first author, but conflicting DOIs": 72,
+   "same normalized title + year, different or missing authors (not merged)": 148
+  },
+  "present_in_corpus": 519,
+  "acquisition_status": {
+   "review_not_auto_acquired": 2164,
+   "resolved_no_oa_pdf": 10087,
+   "downloaded": 3354,
+   "not_found": 362,
+   "ambiguous": 102,
+   "oa_pdf_found_download_failed": 1503,
+   "present_in_corpus": 519,
+   "error": 148,
+   "unattempted": 8419
+  },
+  "works_cited_by_output": {
+   "P20": 23217,
+   "P24": 19852,
+   "P28": 16649,
+   "P28-single-model": 18093
+  },
+  "histogram_citing_papers": {
+   "all": {
+    "1": 23718,
+    "2": 1797,
+    "3-5": 852,
+    "6-10": 210,
+    "11+": 81
+   },
+   "P20": {
+    "1": 20389,
+    "2": 1706,
+    "3-5": 833,
+    "6-10": 208,
+    "11+": 81
+   },
+   "P24": {
+    "1": 17064,
+    "2": 1656,
+    "3-5": 841,
+    "6-10": 210,
+    "11+": 81
+   },
+   "P28": {
+    "1": 14058,
+    "2": 1503,
+    "3-5": 802,
+    "6-10": 206,
+    "11+": 80
+   },
+   "P28-single-model": {
+    "1": 15402,
+    "2": 1589,
+    "3-5": 815,
+    "6-10": 207,
+    "11+": 80
+   }
+  }
+ },
+ "top_cited": [
+  {
+   "title": "Framing: Towards clarification of a fractured paradigm",
+   "year": "",
+   "doi": "10.1111/j.1460-2466.1993.tb01304.x",
+   "n_citing_seed_papers": "131",
+   "n_citing_definitions": "348",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Social media and fake news in the 2016 election",
+   "year": "2017",
+   "doi": "10.1257/jep.31.2.211",
+   "n_citing_seed_papers": "79",
+   "n_citing_definitions": "155",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Defining \"fake news\" A typology of scholarly definitions",
+   "year": "",
+   "doi": "10.1080/21670811.2017.1360143",
+   "n_citing_seed_papers": "51",
+   "n_citing_definitions": "98",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Information disorder: Toward an interdisciplinary framework for research and policymaking",
+   "year": "",
+   "doi": "10.31893/jabb.21001",
+   "n_citing_seed_papers": "51",
+   "n_citing_definitions": "182",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "oa_pdf_found_download_failed"
+  },
+  {
+   "title": "The spread of true and false news online",
+   "year": "",
+   "doi": "10.1126/science.aap9559",
+   "n_citing_seed_papers": "50",
+   "n_citing_definitions": "36",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "The science of fake news",
+   "year": "2018",
+   "doi": "10.1126/science.aao2998",
+   "n_citing_seed_papers": "40",
+   "n_citing_definitions": "102",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "True",
+   "acquisition_status": "present_in_corpus"
+  },
+  {
+   "title": "The filter bubble: What the Internet is hiding from you",
+   "year": "",
+   "doi": "10.3139/9783446431164",
+   "n_citing_seed_papers": "34",
+   "n_citing_definitions": "72",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "The changing culture of affirmative action",
+   "year": "",
+   "doi": "10.30958/ajmmc.7-1-3",
+   "n_citing_seed_papers": "31",
+   "n_citing_definitions": "73",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "not_found"
+  },
+  {
+   "title": "Framing analysis: An Approach to News Discourse",
+   "year": "1993",
+   "doi": "10.1080/10584609.1993.9962963",
+   "n_citing_seed_papers": "30",
+   "n_citing_definitions": "58",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Information disorder: Toward an interdisciplinary framework for research and policy making",
+   "year": "2017",
+   "doi": "",
+   "n_citing_seed_papers": "30",
+   "n_citing_definitions": "118",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "unattempted"
+  },
+  {
+   "title": "Framing European politics: A content analysis of press and television news",
+   "year": "2000",
+   "doi": "10.1111/j.1460-2466.2000.tb02843.x",
+   "n_citing_seed_papers": "29",
+   "n_citing_definitions": "109",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Misinformation and its correction: Continued influence and successful debiasing",
+   "year": "2012",
+   "doi": "10.1177/1529100612451018",
+   "n_citing_seed_papers": "25",
+   "n_citing_definitions": "35",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "A Theory of Cognitive Dissonance",
+   "year": "1957",
+   "doi": "10.1515/9781503620766",
+   "n_citing_seed_papers": "24",
+   "n_citing_definitions": "43",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Attention Is all you Need",
+   "year": "",
+   "doi": "10.48550/arxiv.1706.03762",
+   "n_citing_seed_papers": "24",
+   "n_citing_definitions": "33",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "not_found"
+  },
+  {
+   "title": "Comparing media systems",
+   "year": "2004",
+   "doi": "10.1017/cbo9780511790867",
+   "n_citing_seed_papers": "23",
+   "n_citing_definitions": "47",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Is Anyone Responsible?",
+   "year": "1991",
+   "doi": "10.7208/chicago/9780226388533.001.0001",
+   "n_citing_seed_papers": "22",
+   "n_citing_definitions": "41",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Lazy, not biased: susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning",
+   "year": "",
+   "doi": "10.1016/j.cognition.2018.06.011",
+   "n_citing_seed_papers": "21",
+   "n_citing_definitions": "41",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "The Case for Motivated Reasoning",
+   "year": "1990",
+   "doi": "10.1037/0033-2909.108.3.480",
+   "n_citing_seed_papers": "21",
+   "n_citing_definitions": "56",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Fake news detection on social media: A data mining perspective",
+   "year": "2017",
+   "doi": "10.1145/3137597.3137600",
+   "n_citing_seed_papers": "21",
+   "n_citing_definitions": "43",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "A survey of fake news: Fundamental theories, detection methods, and opportunities",
+   "year": "2020",
+   "doi": "10.1145/3395046",
+   "n_citing_seed_papers": "21",
+   "n_citing_definitions": "52",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Gatekeeping Theory",
+   "year": "2009",
+   "doi": "10.4324/9780203931653",
+   "n_citing_seed_papers": "21",
+   "n_citing_definitions": "53",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Framing as a theory of media effects",
+   "year": "",
+   "doi": "10.1111/j.1460-2466.1999.tb02784.x",
+   "n_citing_seed_papers": "20",
+   "n_citing_definitions": "47",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "The Structure of Foreign News the Presentation of the Congo, Cuba and Cyprus Crises in four Norwegian Newspapers",
+   "year": "1965",
+   "doi": "10.1177/002234336500200104",
+   "n_citing_seed_papers": "20",
+   "n_citing_definitions": "44",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Fake news and the economy of emotions: Problems, causes, solutions",
+   "year": "",
+   "doi": "10.1080/21670811.2017.1345645",
+   "n_citing_seed_papers": "19",
+   "n_citing_definitions": "32",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Semantics derived automatically from language corpora contain human-like biases",
+   "year": "2017",
+   "doi": "10.1126/science.aal4230",
+   "n_citing_seed_papers": "19",
+   "n_citing_definitions": "28",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "downloaded"
+  },
+  {
+   "title": "Fake News. It's Complicated",
+   "year": "2017",
+   "doi": "",
+   "n_citing_seed_papers": "19",
+   "n_citing_definitions": "66",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "unattempted"
+  },
+  {
+   "title": "When corrections fail: The persistence of political misperceptions",
+   "year": "2010",
+   "doi": "10.1007/s11109-010-9112-2",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "40",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "The Populist Zeitgeist",
+   "year": "2004",
+   "doi": "10.1111/j.1477-7053.2004.00135.x",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "46",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "downloaded"
+  },
+  {
+   "title": "Motivated Skepticism in the Evaluation of Political Beliefs",
+   "year": "2006",
+   "doi": "10.1111/j.1540-5907.2006.00214.x",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "38",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Framign theory",
+   "year": "2007",
+   "doi": "10.1146/annurev.polisci.10.072805.103054",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "47",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Birds of a feather: Homophily in social networks",
+   "year": "2001",
+   "doi": "10.1146/annurev.soc.27.1.415",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "27",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Language (technology) is power: A critical survey of \"bias\" in NLP",
+   "year": "2020",
+   "doi": "10.18653/v1/2020.acl-main.485",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "36",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "downloaded"
+  },
+  {
+   "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+   "year": "",
+   "doi": "10.18653/v1/n19-1423",
+   "n_citing_seed_papers": "18",
+   "n_citing_definitions": "17",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Fake news as a two-dimensional phenomenon: A framework and research agenda",
+   "year": "2019",
+   "doi": "10.1080/23808985.2019.1602782",
+   "n_citing_seed_papers": "17",
+   "n_citing_definitions": "33",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "oa_pdf_found_download_failed"
+  },
+  {
+   "title": "The rise of social bots",
+   "year": "2016",
+   "doi": "10.1145/2818717",
+   "n_citing_seed_papers": "17",
+   "n_citing_definitions": "29",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "downloaded"
+  },
+  {
+   "title": "Framing processes and social movements: An overview and assessment",
+   "year": "2000",
+   "doi": "10.1146/annurev.soc.26.1.611",
+   "n_citing_seed_papers": "17",
+   "n_citing_definitions": "59",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Projections of Power: Framing news, public opinion, and U.S. foreign policy",
+   "year": "2004",
+   "doi": "10.7208/chicago/9780226210735.001.0001",
+   "n_citing_seed_papers": "17",
+   "n_citing_definitions": "30",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "Countering Misinformation and Fake News Through Inoculation and Prebunking",
+   "year": "2021",
+   "doi": "10.1080/10463283.2021.1876983",
+   "n_citing_seed_papers": "16",
+   "n_citing_definitions": "23",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "oa_pdf_found_download_failed"
+  },
+  {
+   "title": "The Disinformation Order: Disruptive Communication and the Decline of Democratic Institutions",
+   "year": "2018",
+   "doi": "10.1177/0267323118760317",
+   "n_citing_seed_papers": "16",
+   "n_citing_definitions": "39",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "resolved_no_oa_pdf"
+  },
+  {
+   "title": "SemEval-2016 task 6: Detecting stance in tweets",
+   "year": "2016",
+   "doi": "10.18653/v1/s16-1003",
+   "n_citing_seed_papers": "16",
+   "n_citing_definitions": "27",
+   "outputs_citing": "P20; P24; P28; P28-single-model",
+   "present_in_corpus": "False",
+   "acquisition_status": "downloaded"
+  }
+ ]
+}

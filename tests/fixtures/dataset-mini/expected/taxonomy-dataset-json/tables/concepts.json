@@ -1,0 +1,618 @@
+[
+  {
+    "concept_id": "gf8d45d620d38",
+    "label": "fake news",
+    "labels": [
+      "fake news",
+      "Fake News"
+    ],
+    "match_key": "fake news",
+    "n_instances": 7,
+    "n_strict": 7,
+    "n_papers": 6,
+    "n_definitions": 12,
+    "merge_flags": [],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "fakenews",
+        "labels": [
+          "Fake News",
+          "fake news"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "fake news",
+        "labels": [
+          "Fake News",
+          "fake news"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0000",
+      "m0001",
+      "m0002",
+      "m0003",
+      "m0004",
+      "m0005",
+      "m0006"
+    ]
+  },
+  {
+    "concept_id": "g7f2fbf4abd1a",
+    "label": "disinformation",
+    "labels": [
+      "disinformation"
+    ],
+    "match_key": "disinformation",
+    "n_instances": 5,
+    "n_strict": 4,
+    "n_papers": 5,
+    "n_definitions": 9,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0027",
+      "m0028",
+      "m0029",
+      "m0030",
+      "m0031"
+    ]
+  },
+  {
+    "concept_id": "g1b8640b47938",
+    "label": "media bias",
+    "labels": [
+      "media bias",
+      "bias in the media",
+      "Media Biases"
+    ],
+    "match_key": "bias media",
+    "n_instances": 4,
+    "n_strict": 1,
+    "n_papers": 4,
+    "n_definitions": 8,
+    "merge_flags": [
+      "joined by the same words in a different order",
+      "likely different meanings: same words in a different order (merge audit)"
+    ],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "mediabias",
+        "labels": [
+          "Media Biases",
+          "media bias"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "bias media",
+        "labels": [
+          "Media Biases",
+          "bias in the media",
+          "media bias"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0008",
+      "m0009",
+      "m0011",
+      "m0013"
+    ]
+  },
+  {
+    "concept_id": "g871183362fa6",
+    "label": "Deep Learning",
+    "labels": [
+      "Deep Learning",
+      "deep learning"
+    ],
+    "match_key": "deep learning",
+    "n_instances": 4,
+    "n_strict": 2,
+    "n_papers": 4,
+    "n_definitions": 8,
+    "merge_flags": [],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "deeplearning",
+        "labels": [
+          "Deep Learning",
+          "deep learning"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "deep learning",
+        "labels": [
+          "Deep Learning",
+          "deep learning"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0068",
+      "m0070",
+      "m0072",
+      "m0074"
+    ]
+  },
+  {
+    "concept_id": "g250d8c26ae4a",
+    "label": "refugee",
+    "labels": [
+      "refugee",
+      "refugees"
+    ],
+    "match_key": "refugee",
+    "n_instances": 4,
+    "n_strict": 4,
+    "n_papers": 4,
+    "n_definitions": 7,
+    "merge_flags": [],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "refugee",
+        "labels": [
+          "refugee",
+          "refugees"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "refugee",
+        "labels": [
+          "refugee",
+          "refugees"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0051",
+      "m0052",
+      "m0053",
+      "m0054"
+    ]
+  },
+  {
+    "concept_id": "g3c624a736736",
+    "label": "Sentiment Analysis (SA)",
+    "labels": [
+      "Sentiment Analysis (SA)",
+      "sentiment analysis"
+    ],
+    "match_key": "analysis sentiment",
+    "n_instances": 4,
+    "n_strict": 3,
+    "n_papers": 4,
+    "n_definitions": 7,
+    "merge_flags": [
+      "a bracket or acronym dropped"
+    ],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "sentimentanalysis",
+        "labels": [
+          "Sentiment Analysis (SA)",
+          "sentiment analysis"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "analysis sentiment",
+        "labels": [
+          "Sentiment Analysis (SA)",
+          "sentiment analysis"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0075",
+      "m0076",
+      "m0077",
+      "m0078"
+    ]
+  },
+  {
+    "concept_id": "g58076e4127e6",
+    "label": "crises",
+    "labels": [
+      "crises"
+    ],
+    "match_key": "crisis",
+    "n_instances": 3,
+    "n_strict": 1,
+    "n_papers": 3,
+    "n_definitions": 7,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0085",
+      "m0086",
+      "m0087"
+    ]
+  },
+  {
+    "concept_id": "gdf00962407a0",
+    "label": "detection bias",
+    "labels": [
+      "detection bias"
+    ],
+    "match_key": "bias detection",
+    "n_instances": 3,
+    "n_strict": 2,
+    "n_papers": 3,
+    "n_definitions": 7,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0064",
+      "m0065",
+      "m0066"
+    ]
+  },
+  {
+    "concept_id": "ge7d679448a72",
+    "label": "frames",
+    "labels": [
+      "frames"
+    ],
+    "match_key": "frames",
+    "n_instances": 3,
+    "n_strict": 2,
+    "n_papers": 3,
+    "n_definitions": 7,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0017",
+      "m0019",
+      "m0020"
+    ]
+  },
+  {
+    "concept_id": "g11b80efb2595",
+    "label": "hostile media effect",
+    "labels": [
+      "hostile media effect"
+    ],
+    "match_key": "effect hostile media",
+    "n_instances": 3,
+    "n_strict": 2,
+    "n_papers": 3,
+    "n_definitions": 6,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0107",
+      "m0109",
+      "m0110"
+    ]
+  },
+  {
+    "concept_id": "g744d749f645a",
+    "label": "election campaign",
+    "labels": [
+      "election campaign"
+    ],
+    "match_key": "campaign election",
+    "n_instances": 2,
+    "n_strict": 2,
+    "n_papers": 2,
+    "n_definitions": 6,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0112",
+      "m0113"
+    ]
+  },
+  {
+    "concept_id": "g3edc682a1ecb",
+    "label": "click-bait",
+    "labels": [
+      "click-bait"
+    ],
+    "match_key": "bait click",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 5,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0021",
+      "m0022"
+    ]
+  },
+  {
+    "concept_id": "g4d48fd163227",
+    "label": "judgement",
+    "labels": [
+      "judgement"
+    ],
+    "match_key": "judgment",
+    "n_instances": 3,
+    "n_strict": 0,
+    "n_papers": 3,
+    "n_definitions": 5,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0081",
+      "m0082",
+      "m0083"
+    ]
+  },
+  {
+    "concept_id": "g99fa4b83eaa0",
+    "label": "news values",
+    "labels": [
+      "news values"
+    ],
+    "match_key": "news values",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 5,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0056",
+      "m0057"
+    ]
+  },
+  {
+    "concept_id": "g9f907a13ae69",
+    "label": "polarization",
+    "labels": [
+      "polarization",
+      "polarisation"
+    ],
+    "match_key": "polarization",
+    "n_instances": 3,
+    "n_strict": 2,
+    "n_papers": 3,
+    "n_definitions": 5,
+    "merge_flags": [
+      "British spelling"
+    ],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "polarization",
+        "labels": [
+          "polarisation",
+          "polarization"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "polarization",
+        "labels": [
+          "polarisation",
+          "polarization"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0046",
+      "m0048",
+      "m0050"
+    ]
+  },
+  {
+    "concept_id": "ga7a418dbd54b",
+    "label": "agenda setting",
+    "labels": [
+      "agenda setting",
+      "agenda-setting"
+    ],
+    "match_key": "agenda setting",
+    "n_instances": 3,
+    "n_strict": 2,
+    "n_papers": 3,
+    "n_definitions": 5,
+    "merge_flags": [],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "agendasetting",
+        "labels": [
+          "agenda setting",
+          "agenda-setting"
+        ]
+      },
+      {
+        "key_type": "word-set",
+        "key": "agenda setting",
+        "labels": [
+          "agenda setting",
+          "agenda-setting"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0034",
+      "m0036",
+      "m0038"
+    ]
+  },
+  {
+    "concept_id": "gaf53a0db3d3e",
+    "label": "gatekeeping",
+    "labels": [
+      "gatekeeping",
+      "gate keeping"
+    ],
+    "match_key": "gatekeeping",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 5,
+    "merge_flags": [
+      "joined by spacing (compound written apart or together)"
+    ],
+    "joined_by": [
+      {
+        "key_type": "spacing",
+        "key": "gatekeeping",
+        "labels": [
+          "gate keeping",
+          "gatekeeping"
+        ]
+      }
+    ],
+    "mention_ids": [
+      "m0040",
+      "m0043"
+    ]
+  },
+  {
+    "concept_id": "g5acd2a8f2727",
+    "label": "coverage bias",
+    "labels": [
+      "coverage bias"
+    ],
+    "match_key": "bias coverage",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 4,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0098",
+      "m0101"
+    ]
+  },
+  {
+    "concept_id": "g814af3172d4c",
+    "label": "rumor",
+    "labels": [
+      "rumor"
+    ],
+    "match_key": "rumor",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 4,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0115",
+      "m0116"
+    ]
+  },
+  {
+    "concept_id": "g8441e3f7413a",
+    "label": "slant",
+    "labels": [
+      "slant"
+    ],
+    "match_key": "slant",
+    "n_instances": 2,
+    "n_strict": 1,
+    "n_papers": 2,
+    "n_definitions": 3,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0094",
+      "m0095"
+    ]
+  },
+  {
+    "concept_id": "gb68cd4c008d2",
+    "label": "selection bias",
+    "labels": [
+      "selection bias"
+    ],
+    "match_key": "bias selection",
+    "n_instances": 1,
+    "n_strict": 1,
+    "n_papers": 1,
+    "n_definitions": 3,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0061"
+    ]
+  },
+  {
+    "concept_id": "g4b0149fcebb5",
+    "label": "misinformation",
+    "labels": [
+      "misinformation"
+    ],
+    "match_key": "misinformation",
+    "n_instances": 2,
+    "n_strict": 2,
+    "n_papers": 2,
+    "n_definitions": 2,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0025",
+      "m0026"
+    ]
+  },
+  {
+    "concept_id": "g5f910decd4d6",
+    "label": "hoax",
+    "labels": [
+      "hoax"
+    ],
+    "match_key": "hoax",
+    "n_instances": 1,
+    "n_strict": 0,
+    "n_papers": 1,
+    "n_definitions": 2,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0119"
+    ]
+  },
+  {
+    "concept_id": "g4429f68570da",
+    "label": "tone",
+    "labels": [
+      "tone"
+    ],
+    "match_key": "tone",
+    "n_instances": 1,
+    "n_strict": 1,
+    "n_papers": 1,
+    "n_definitions": 1,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0102"
+    ]
+  },
+  {
+    "concept_id": "ga67b95a680c9",
+    "label": "framing",
+    "labels": [
+      "framing"
+    ],
+    "match_key": "framing",
+    "n_instances": 1,
+    "n_strict": 1,
+    "n_papers": 1,
+    "n_definitions": 1,
+    "merge_flags": [],
+    "joined_by": [],
+    "mention_ids": [
+      "m0015"
+    ]
+  }
+]

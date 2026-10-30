@@ -1,0 +1,81 @@
+{
+ "about": "Step 5 numbers that the dataset card quotes and that no other input of `taxonomy_pipeline dataset build` holds, copied from three result files of the development history (not public), listed under `sources` with their sha256, and from the TEST read log (data/frozen/step5-post-processing/20261015/test-evaluation/test-reads.json). docs/dataset.md, Inputs, says which key each number comes from.",
+ "sources": {
+  "test": {
+   "file": "results/step5-post-processing/20261021/final-comparison/results.json",
+   "sha256": "b7847292b5743165d031396265ff87d8f1098490131c351cc91626e3bc23d47a"
+  },
+  "train_dev": {
+   "file": "results/step5-post-processing/20261020/ensembles/reference-scale/basal-h200/reference-scale.json",
+   "sha256": "71ac5ddeafefd2a68dd42bb24f4deaa3ec08be692a2f7d30edba0658a7b86e2e"
+  },
+  "merge_audit": {
+   "file": "results/step5-post-processing/20261021/merge-audit/summary.json",
+   "sha256": "154892e2367873f3ded6f27c12fb6bb2dafb3529a3e7f5e63ea5a8421b290eb5"
+  }
+ },
+ "test": {
+  "records": 628,
+  "relevant": 310,
+  "papers": 32,
+  "comparisons": 12,
+  "reads": 21,
+  "ensemble": {
+   "auc": 0.9334347737877866,
+   "auc_ci95": [
+    0.8973424609196484,
+    0.9645976254663675
+   ],
+   "kept": 351,
+   "precision": 0.811965811965812,
+   "recall": 0.9193548387096774,
+   "f1": 0.8623298033282905,
+   "mcc": 0.7167432751309128
+  },
+  "classifier": {
+   "auc": 0.9227632379793062,
+   "auc_ci95": [
+    0.8778670542578799,
+    0.9587839611540263
+   ],
+   "kept": 425,
+   "precision": 0.7105882352941176,
+   "recall": 0.9741935483870968,
+   "f1": 0.8217687074829932,
+   "mcc": 0.6278944945244
+  },
+  "difference": {
+   "auc": 0.010671535808480459,
+   "auc_ci95": [
+    0.0007462158376674941,
+    0.023953090958080858
+   ],
+   "precision": 0.10137757667169434,
+   "precision_ci95": [
+    0.040865329389432964,
+    0.1578891295471297
+   ]
+  }
+ },
+ "train_dev": {
+  "cut_95": 0.41500412441215667,
+  "best_f1_cut": 0.5849553369198143,
+  "reference_ranks_auc": 0.9272136888820106,
+  "within_batch_auc": 0.9333267416683504,
+  "at_cut_95": {
+   "recall": 0.950937950937951,
+   "precision": 0.6663296258847321,
+   "kept_share": 0.581764705882353
+  },
+  "at_best_f1": {
+   "recall": 0.810966810966811,
+   "precision": 0.810966810966811,
+   "kept_share": 0.4076470588235294
+  }
+ },
+ "merge_audit": {
+  "missed_pairs": 26,
+  "missed_kept_terms": 168,
+  "word_order_heads_differ": 76
+ }
+}

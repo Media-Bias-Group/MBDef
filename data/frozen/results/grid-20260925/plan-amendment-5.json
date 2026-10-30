@@ -1,0 +1,16 @@
+{
+ "amends": {
+  "plan-amendment-1.json": "31fd6c999bd577f75699c62eff32a06cc0b23352433b94c53967a2670d812b6d",
+  "plan-amendment-2.json": "8a297def8e45fce12900a2c3545e4b0967bd7a01470e37cb7f19dce391b947c9",
+  "plan-amendment-3.json": "24182d648469bddc14dda1b20c47df58d3f6a476755ea00071e1cb9ca517ac0b",
+  "plan-amendment-4.json": "a4eb5480444c0c238b0a18b18d4933bdcf55d0bd508ab2b00ff695995bd11004",
+  "plan.json": "5604ef104203d3bb3e41a1b498c69399291e710df592d462e74d6d8045910322"
+ },
+ "created_utc": "2026-09-25T06:32:10.427811+00:00",
+ "final_pick_rule": "Across all eligible configs (grid, thinking, and trained-program configs from training-20260925): among configs with TEST matches >= 290 of 365 (matches or beats Opus Rdb54680 at 290/1002), pick the fewest LLM calls (extraction + verifier, including fallbacks); configs within 10% of the fewest are tied and the tie goes to higher TEST precision. If none reaches 290, pick the highest TEST recall with TEST precision >= 15%. DEV results are reported next to every config.",
+ "owner_decision": "Owner in chat 2026-09-25: pick on TEST, accepting that TEST then becomes a selection set and the pick's TEST number is optimistic.",
+ "reporting_note": "Because the pick is made on TEST, its TEST result is an optimistic estimate; the report must say so and show the DEV result beside it.",
+ "schema": "controlled-model-grid-amendment-v5",
+ "status": "No DEV or TEST score of any grid cohort has been computed; scoring job 9518742 has not started.",
+ "unchanged": "formats, stages, pools, quality gate and audit, failure policy, compute reporting"
+}

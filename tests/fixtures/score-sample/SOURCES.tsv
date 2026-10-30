@@ -1,0 +1,7 @@
+member	sha256	source
+reference.json		the papers 4243aa9bacd51bc02d4240378e7528912962b53e, 73bfad11b96a69cb882028ead115751adb55252d of data/frozen/results/test-eval-20260924/inputs/test-reference.json
+rows/Rdb54680/papers/4243aa9bacd51bc02d4240378e7528912962b53e.json	fe27d1e1c8fac7823c0a29a6fefeaa98015999037ed5d577e5ef2b66d90f8d6c	$DATA_ROOT/frozen/artifacts/experiments/test-eval-20260924/collected/rows/Rdb54680/papers/4243aa9bacd51bc02d4240378e7528912962b53e.json
+rows/Rdb54680/papers/73bfad11b96a69cb882028ead115751adb55252d.json	7c74d6126679cd5f55030c1e4667e0e3c2830aa5a8da81c6543197fb86a4b5f9	$DATA_ROOT/frozen/artifacts/experiments/test-eval-20260924/collected/rows/Rdb54680/papers/73bfad11b96a69cb882028ead115751adb55252d.json
+rows/QWEN-POOL3/papers/4243aa9bacd51bc02d4240378e7528912962b53e.json	4b3282b794c5b79ffacf131dbd8b3a49ec4d492c31142d1f536a3bfc771bd0f9	$DATA_ROOT/frozen/artifacts/experiments/test-eval-20260924/collected/rows/QWEN-POOL3/papers/4243aa9bacd51bc02d4240378e7528912962b53e.json
+rows/QWEN-POOL3/papers/73bfad11b96a69cb882028ead115751adb55252d.json	faaebff8eb9aae541cf81756021a09301fd0bc5f8f89652e044b96ea947efd8d	$DATA_ROOT/frozen/artifacts/experiments/test-eval-20260924/collected/rows/QWEN-POOL3/papers/73bfad11b96a69cb882028ead115751adb55252d.json
+pair-scores.json		evaluate score --record-scores (real models)

@@ -1,0 +1,6912 @@
+[
+  {
+    "concept_id": "gf8d45d620d38",
+    "term": "fake news",
+    "spellings": [
+      {
+        "text": "fake news",
+        "papers": 4
+      },
+      {
+        "text": "Fake News",
+        "papers": 3
+      }
+    ],
+    "papers": 6,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Fake news is the deliberate publication of fabricated stories that imitate the form of news reports.",
+        "papers": 6,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "def_id": "o00000",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "def_id": "o00008",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "def_id": "o00014",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "def_id": "o00021",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "def_id": "o00028",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "def_id": "o00036",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "def_id": "o00045",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Fake News is the way that readers distort the facts of political events and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "def_id": "o00029",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Fake News is the way that social media platforms emphasise the facts of minority groups and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "def_id": "o00046",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Fake News is the way that social media platforms repeat the facts of election campaigns and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "def_id": "o00030",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Fake news is the way that social media platforms present the facts of minority groups and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "def_id": "o00015",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Fake news is the way that social media platforms present the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "def_id": "o00016",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "Fake stories spread faster than true ones.",
+            "papers": 1
+          },
+          {
+            "text": "fake stories spread faster than true ones",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "as_written": "fake stories spread faster than true ones",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "variants": [
+          {
+            "text": "hoax",
+            "papers": 1
+          },
+          {
+            "text": "hoaxes",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "as_written": "hoaxes",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "variants": [
+          {
+            "text": "hoax",
+            "papers": 1
+          },
+          {
+            "text": "hoaxes",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "as_written": "hoaxes",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 6,
+        "variants": [
+          {
+            "text": "disinformation campaign",
+            "papers": 4
+          },
+          {
+            "text": "disinformation campaigns",
+            "papers": 3
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "as_written": "disinformation campaigns",
+            "citations": []
+          },
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "as_written": "disinformation campaigns",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "as_written": "disinformation campaigns",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 6,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": []
+          },
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "citations": []
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "papers": 5,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "variants": [
+          {
+            "text": "misinformation",
+            "papers": 3
+          },
+          {
+            "text": "Misinformation",
+            "papers": 2
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "as_written": "Misinformation",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper18",
+            "mention_id": "m0002",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0006",
+            "as_written": "Misinformation",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 4,
+        "variants": [
+          {
+            "text": "A fabricated quote attributed to a minister.",
+            "papers": 3
+          },
+          {
+            "text": "a fabricated quote attributed to a minister",
+            "papers": 2
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0000",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper13",
+            "mention_id": "m0001",
+            "citations": []
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0003",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0004",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0005",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g7f2fbf4abd1a",
+    "term": "disinformation",
+    "spellings": [
+      {
+        "text": "disinformation",
+        "papers": 5
+      }
+    ],
+    "papers": 5,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Disinformation is the way that editors select the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0030",
+            "def_id": "o00217",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that journalists distort the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper15",
+            "mention_id": "m0028",
+            "def_id": "o00206",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that journalists emphasise the facts of election campaigns and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "def_id": "o00225",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that journalists omit the facts of public issues and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper15",
+            "mention_id": "m0028",
+            "def_id": "o00207",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that journalists present the facts of election campaigns and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "def_id": "o00210",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that political actors select the facts of election campaigns and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0027",
+            "def_id": "o00201",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that readers emphasise the facts of political events and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "def_id": "o00224",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that social media platforms emphasise the facts of election campaigns and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "def_id": "o00223",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Disinformation is the way that social media platforms omit the facts of political events and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0030",
+            "def_id": "o00218",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0030",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0027",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0027",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "false news",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0027",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper15",
+            "mention_id": "m0028",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0031",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0027",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0030",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0030",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper15",
+            "mention_id": "m0028",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper23",
+            "mention_id": "m0029",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "concept_id": "g1b8640b47938",
+    "term": "media bias",
+    "spellings": [
+      {
+        "text": "media bias",
+        "papers": 2
+      },
+      {
+        "text": "Media Biases",
+        "papers": 1
+      },
+      {
+        "text": "bias in the media",
+        "papers": 1
+      }
+    ],
+    "papers": 4,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Bias in the media is the way that readers select the facts of public issues and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0011",
+            "def_id": "o00087",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Media Biases is the way that political actors repeat the facts of political events and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "def_id": "o00097",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that editors present the facts of scientific findings and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "def_id": "o00066",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that journalists select the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "def_id": "o00073",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that political actors distort the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "def_id": "o00072",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that readers emphasise the facts of minority groups and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "def_id": "o00064",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that social media platforms present the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "def_id": "o00074",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Media bias is the way that social media platforms repeat the facts of election campaigns and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "def_id": "o00065",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0009",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0011",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0011",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0011",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper05",
+            "mention_id": "m0013",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0008",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0011",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g871183362fa6",
+    "term": "Deep Learning",
+    "spellings": [
+      {
+        "text": "Deep Learning",
+        "papers": 3
+      },
+      {
+        "text": "deep learning",
+        "papers": 1
+      }
+    ],
+    "papers": 4,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Deep Learning is the way that editors present the facts of political events and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "def_id": "o00511",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep Learning is the way that journalists distort the facts of public issues and of political events in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0074",
+            "def_id": "o00526",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep Learning is the way that journalists select the facts of political events and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "def_id": "o00502",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep Learning is the way that readers emphasise the facts of election campaigns and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "def_id": "o00512",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep Learning is the way that readers omit the facts of minority groups and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "def_id": "o00503",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Deep Learning is the way that social media platforms present the facts of election campaigns and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0074",
+            "def_id": "o00525",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep learning is the way that editors emphasise the facts of election campaigns and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "def_id": "o00487",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Deep learning is the way that journalists distort the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "def_id": "o00486",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0074",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0074",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0074",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0068",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper26",
+            "mention_id": "m0072",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0070",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g250d8c26ae4a",
+    "term": "refugee",
+    "spellings": [
+      {
+        "text": "refugee",
+        "papers": 3
+      },
+      {
+        "text": "refugees",
+        "papers": 1
+      }
+    ],
+    "papers": 4,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Refugee is the way that journalists omit the facts of political events and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "def_id": "o00388",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugee is the way that news outlets omit the facts of political events and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "def_id": "o00380",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugee is the way that news outlets omit the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "def_id": "o00387",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugee is the way that news outlets select the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "def_id": "o00373",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugee is the way that social media platforms repeat the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "def_id": "o00372",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugees is the way that journalists emphasise the facts of political events and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "def_id": "o00363",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Refugees is the way that readers select the facts of political events and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "def_id": "o00362",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "media bias",
+        "papers": 2,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": []
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "slant",
+        "papers": 2,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 3,
+        "variants": [
+          {
+            "text": "A fabricated quote attributed to a minister.",
+            "papers": 2
+          },
+          {
+            "text": "a fabricated quote attributed to a minister",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0052",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0053",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0051",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper37",
+            "mention_id": "m0054",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g3c624a736736",
+    "term": "Sentiment Analysis (SA)",
+    "spellings": [
+      {
+        "text": "Sentiment Analysis (SA)",
+        "papers": 3
+      },
+      {
+        "text": "sentiment analysis",
+        "papers": 1
+      }
+    ],
+    "papers": 4,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Sentiment Analysis (SA) is the way that editors select the facts of political events and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "def_id": "o00537",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Sentiment Analysis (SA) is the way that journalists repeat the facts of public issues and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "def_id": "o00552",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Sentiment Analysis (SA) is the way that news outlets distort the facts of public issues and of political events in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "def_id": "o00550",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Sentiment Analysis (SA) is the way that political actors distort the facts of public issues and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper21",
+            "mention_id": "m0077",
+            "def_id": "o00544",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Sentiment Analysis (SA) is the way that political actors select the facts of political events and of political events in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "def_id": "o00551",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Sentiment analysis is the way that editors select the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "def_id": "o00530",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Sentiment analysis is the way that news outlets omit the facts of election campaigns and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "def_id": "o00531",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "citations": []
+          },
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "false news",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper21",
+            "mention_id": "m0077",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0075",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0078",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper21",
+            "mention_id": "m0077",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper21",
+            "mention_id": "m0077",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "slant",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0076",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper21",
+            "mention_id": "m0077",
+            "citations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g58076e4127e6",
+    "term": "crises",
+    "spellings": [
+      {
+        "text": "crises",
+        "papers": 3
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Crises is the way that journalists distort the facts of scientific findings and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "def_id": "o00603",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that journalists present the facts of political events and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "def_id": "o00602",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that news outlets present the facts of public issues and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "def_id": "o00612",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that news outlets repeat the facts of scientific findings and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "def_id": "o00610",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that political actors repeat the facts of political events and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "def_id": "o00622",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that readers omit the facts of minority groups and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "def_id": "o00621",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Crises is the way that social media platforms select the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "def_id": "o00611",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "slant",
+        "papers": 2,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          },
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "A fabricated quote attributed to a minister.",
+            "papers": 1
+          },
+          {
+            "text": "a fabricated quote attributed to a minister",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0085",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          },
+          {
+            "paper_id": "paper12",
+            "mention_id": "m0086",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0087",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "gdf00962407a0",
+    "term": "detection bias",
+    "spellings": [
+      {
+        "text": "detection bias",
+        "papers": 3
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Detection bias is the way that journalists distort the facts of election campaigns and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "def_id": "o00464",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that journalists present the facts of scientific findings and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper24",
+            "mention_id": "m0065",
+            "def_id": "o00470",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that journalists repeat the facts of public issues and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "def_id": "o00463",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that political actors repeat the facts of public issues and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper24",
+            "mention_id": "m0065",
+            "def_id": "o00469",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that readers repeat the facts of minority groups and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "def_id": "o00462",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that social media platforms distort the facts of election campaigns and of political events in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper24",
+            "mention_id": "m0065",
+            "def_id": "o00471",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Detection bias is the way that social media platforms present the facts of minority groups and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0066",
+            "def_id": "o00473",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0066",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0066",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0066",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper10",
+            "mention_id": "m0064",
+            "citations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "ge7d679448a72",
+    "term": "frames",
+    "spellings": [
+      {
+        "text": "frames",
+        "papers": 3
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports",
+            "papers": 1
+          },
+          {
+            "text": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports.",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "def_id": "o00140",
+            "as_written": "Frames is the way that journalists distort the facts of election campaigns and of political events in their reports.",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "def_id": "o00149",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Frames is the way that journalists repeat the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "def_id": "o00151",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Frames is the way that political actors emphasise the facts of minority groups and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "def_id": "o00142",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Frames is the way that readers emphasise the facts of minority groups and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "def_id": "o00141",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Frames is the way that readers emphasise the facts of political events and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "def_id": "o00123",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Frames is the way that social media platforms distort the facts of political events and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "def_id": "o00122",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "disinformation campaign",
+            "papers": 1
+          },
+          {
+            "text": "disinformation campaigns",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "citations": []
+          },
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "as_written": "disinformation campaigns",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper30",
+            "mention_id": "m0020",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0019",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0017",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g11b80efb2595",
+    "term": "hostile media effect",
+    "spellings": [
+      {
+        "text": "hostile media effect",
+        "papers": 3
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Hostile media effect is the way that journalists present the facts of minority groups and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0110",
+            "def_id": "o00787",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Hostile media effect is the way that journalists present the facts of minority groups and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0110",
+            "def_id": "o00788",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hostile media effect is the way that journalists repeat the facts of minority groups and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0109",
+            "def_id": "o00781",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hostile media effect is the way that news outlets present the facts of public issues and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "def_id": "o00765",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hostile media effect is the way that social media platforms distort the facts of political events and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0109",
+            "def_id": "o00782",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hostile media effect is the way that social media platforms present the facts of scientific findings and of public issues in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "def_id": "o00764",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0110",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0109",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0109",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0110",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "satire",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper06",
+            "mention_id": "m0107",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "concept_id": "g744d749f645a",
+    "term": "election campaign",
+    "spellings": [
+      {
+        "text": "election campaign",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Election campaign is the way that journalists select the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "def_id": "o00800",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Election campaign is the way that news outlets emphasise the facts of scientific findings and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "def_id": "o00799",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Election campaign is the way that political actors select the facts of election campaigns and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "def_id": "o00801",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Election campaign is the way that readers select the facts of election campaigns and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0113",
+            "def_id": "o00810",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Election campaign is the way that social media platforms distort the facts of election campaigns and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0113",
+            "def_id": "o00811",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Election campaign is the way that social media platforms emphasise the facts of political events and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0113",
+            "def_id": "o00809",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0113",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0113",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0112",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g3edc682a1ecb",
+    "term": "click-bait",
+    "spellings": [
+      {
+        "text": "click-bait",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Click-bait is the way that editors emphasise the facts of minority groups and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "def_id": "o00164",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Click-bait is the way that editors omit the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "def_id": "o00165",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Click-bait is the way that editors select the facts of political events and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "def_id": "o00158",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Click-bait is the way that political actors distort the facts of election campaigns and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "def_id": "o00157",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Click-bait is the way that political actors distort the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "def_id": "o00159",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "Fake stories spread faster than true ones.",
+            "papers": 1
+          },
+          {
+            "text": "fake stories spread faster than true ones",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "as_written": "fake stories spread faster than true ones",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "coverage bias",
+        "papers": 2,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0021",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper29",
+            "mention_id": "m0022",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g4d48fd163227",
+    "term": "judgement",
+    "spellings": [
+      {
+        "text": "judgement",
+        "papers": 3
+      }
+    ],
+    "papers": 3,
+    "strict": false,
+    "definitions": [
+      {
+        "text": "Judgement is the way that political actors emphasise the facts of election campaigns and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper09",
+            "mention_id": "m0081",
+            "def_id": "o00576",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Judgement is the way that readers distort the facts of public issues and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "def_id": "o00580",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Judgement is the way that readers emphasise the facts of scientific findings and of political events in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "def_id": "o00591",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Judgement is the way that social media platforms emphasise the facts of political events and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "def_id": "o00582",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Judgement is the way that social media platforms repeat the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "def_id": "o00590",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "Fake stories spread faster than true ones.",
+            "papers": 1
+          },
+          {
+            "text": "fake stories spread faster than true ones",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "as_written": "fake stories spread faster than true ones",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper09",
+            "mention_id": "m0081",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "slant",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "variants": [
+          {
+            "text": "hoax",
+            "papers": 1
+          },
+          {
+            "text": "hoaxes",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "as_written": "hoaxes",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0083",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "A fabricated quote attributed to a minister.",
+            "papers": 1
+          },
+          {
+            "text": "a fabricated quote attributed to a minister",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper09",
+            "mention_id": "m0081",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          },
+          {
+            "paper_id": "paper34",
+            "mention_id": "m0082",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g99fa4b83eaa0",
+    "term": "news values",
+    "spellings": [
+      {
+        "text": "news values",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "News values is the way that editors present the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "def_id": "o00403",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "News values is the way that journalists omit the facts of election campaigns and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "def_id": "o00413",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "News values is the way that journalists repeat the facts of scientific findings and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "def_id": "o00415",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "News values is the way that news outlets omit the facts of public issues and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "def_id": "o00414",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "News values is the way that social media platforms distort the facts of public issues and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "def_id": "o00404",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0056",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0057",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g9f907a13ae69",
+    "term": "polarization",
+    "spellings": [
+      {
+        "text": "polarization",
+        "papers": 2
+      },
+      {
+        "text": "polarisation",
+        "papers": 1
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Polarisation is the way that editors omit the facts of scientific findings and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "def_id": "o00321",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Polarisation is the way that political actors repeat the facts of public issues and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "def_id": "o00322",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Polarization is the way that news outlets omit the facts of scientific findings and of public issues in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "def_id": "o00338",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Polarization is the way that political actors present the facts of public issues and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "def_id": "o00355",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Polarization is the way that readers repeat the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "def_id": "o00339",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "The effect is strongest on social media.",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          },
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "variants": [
+          {
+            "text": "disinformation campaign",
+            "papers": 1
+          },
+          {
+            "text": "disinformation campaigns",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "as_written": "disinformation campaigns",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoaxes",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "disinformation campaign",
+            "papers": 1
+          },
+          {
+            "text": "disinformation campaigns",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "as_written": "disinformation campaigns",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0048",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 2,
+        "variants": [
+          {
+            "text": "A fabricated quote attributed to a minister.",
+            "papers": 1
+          },
+          {
+            "text": "a fabricated quote attributed to a minister",
+            "papers": 1
+          }
+        ],
+        "sources": [
+          {
+            "paper_id": "paper20",
+            "mention_id": "m0050",
+            "as_written": "a fabricated quote attributed to a minister",
+            "citations": [
+              "[12]"
+            ]
+          },
+          {
+            "paper_id": "paper32",
+            "mention_id": "m0046",
+            "citations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "ga7a418dbd54b",
+    "term": "agenda setting",
+    "spellings": [
+      {
+        "text": "agenda setting",
+        "papers": 2
+      },
+      {
+        "text": "agenda-setting",
+        "papers": 1
+      }
+    ],
+    "papers": 3,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Agenda setting is the way that journalists omit the facts of minority groups and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "def_id": "o00241",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Agenda setting is the way that journalists repeat the facts of political events and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0036",
+            "def_id": "o00256",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Agenda setting is the way that journalists select the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0036",
+            "def_id": "o00255",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Agenda setting is the way that political actors present the facts of political events and of public issues in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "def_id": "o00240",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Agenda-setting is the way that political actors emphasise the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "def_id": "o00264",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "Fake stories spread faster than true ones.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "junk news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "citations": [
+              "[12]",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "propaganda",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper36",
+            "mention_id": "m0038",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0034",
+            "citations": [
+              "Entman, 1993"
+            ]
+          },
+          {
+            "paper_id": "paper31",
+            "mention_id": "m0036",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "gaf53a0db3d3e",
+    "term": "gatekeeping",
+    "spellings": [
+      {
+        "text": "gate keeping",
+        "papers": 1
+      },
+      {
+        "text": "gatekeeping",
+        "papers": 1
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Gate keeping is the way that editors present the facts of scientific findings and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "def_id": "o00300",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Gate keeping is the way that journalists distort the facts of scientific findings and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "def_id": "o00301",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Gate keeping is the way that social media platforms omit the facts of public issues and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "def_id": "o00299",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Gatekeeping is the way that news outlets emphasise the facts of minority groups and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "def_id": "o00284",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Gatekeeping is the way that readers select the facts of scientific findings and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "def_id": "o00283",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "coverage bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5acd2a8f2727",
+          "term": "coverage bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "frames",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ge7d679448a72",
+          "term": "frames"
+        },
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper39",
+            "mention_id": "m0043",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper28",
+            "mention_id": "m0040",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g5acd2a8f2727",
+    "term": "coverage bias",
+    "spellings": [
+      {
+        "text": "coverage bias",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Coverage bias is the way that journalists present the facts of minority groups and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "def_id": "o00724",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Coverage bias is the way that news outlets distort the facts of election campaigns and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "def_id": "o00723",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Coverage bias is the way that news outlets select the facts of scientific findings and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "def_id": "o00722",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Coverage bias is the way that social media platforms present the facts of scientific findings and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0098",
+            "def_id": "o00700",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "It is measured with content analysis.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0098",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0098",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "rumour",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g814af3172d4c",
+          "term": "rumor"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0098",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper11",
+            "mention_id": "m0098",
+            "citations": []
+          },
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0101",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g814af3172d4c",
+    "term": "rumor",
+    "spellings": [
+      {
+        "text": "rumor",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Rumor is the way that editors repeat the facts of public issues and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "def_id": "o00827",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Rumor is the way that news outlets select the facts of election campaigns and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "def_id": "o00818",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Rumor is the way that social media platforms emphasise the facts of minority groups and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "def_id": "o00825",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Rumor is the way that social media platforms repeat the facts of scientific findings and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "def_id": "o00826",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "hoax",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g5f910decd4d6",
+          "term": "hoax"
+        },
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "slant",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper38",
+            "mention_id": "m0116",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A fabricated quote attributed to a minister.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper17",
+            "mention_id": "m0115",
+            "citations": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g8441e3f7413a",
+    "term": "slant",
+    "spellings": [
+      {
+        "text": "slant",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Slant is the way that news outlets distort the facts of public issues and of election campaigns in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0094",
+            "def_id": "o00674",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Slant is the way that political actors distort the facts of political events and of scientific findings in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0095",
+            "def_id": "o00680",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "Slant is the way that social media platforms distort the facts of scientific findings and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0095",
+            "def_id": "o00679",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0094",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0094",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 2,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0094",
+            "citations": []
+          },
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0095",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper16",
+            "mention_id": "m0095",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "A headline that exaggerates a study.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper03",
+            "mention_id": "m0094",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "gb68cd4c008d2",
+    "term": "selection bias",
+    "spellings": [
+      {
+        "text": "selection bias",
+        "papers": 1
+      }
+    ],
+    "papers": 1,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Selection bias is the way that political actors distort the facts of political events and of minority groups in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "def_id": "o00443",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Selection bias is the way that political actors emphasise the facts of election campaigns and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "def_id": "o00444",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Selection bias is the way that political actors emphasise the facts of minority groups and of public issues in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "def_id": "o00442",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [],
+    "synonyms": [],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "text": "a fabricated quote attributed to a minister",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper25",
+            "mention_id": "m0061",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept_id": "g4b0149fcebb5",
+    "term": "misinformation",
+    "spellings": [
+      {
+        "text": "misinformation",
+        "papers": 2
+      }
+    ],
+    "papers": 2,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Misinformation is the way that journalists distort the facts of political events and of minority groups in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "def_id": "o00194",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Misinformation is the way that journalists emphasise the facts of election campaigns and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper09",
+            "mention_id": "m0025",
+            "def_id": "o00188",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "agenda setting",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga7a418dbd54b",
+          "term": "agenda setting"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "Misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "citations": [
+              "Entman, 1993",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "disinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g7f2fbf4abd1a",
+          "term": "disinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper35",
+            "mention_id": "m0026",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper09",
+            "mention_id": "m0025",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "concept_id": "g5f910decd4d6",
+    "term": "hoax",
+    "spellings": [
+      {
+        "text": "hoax",
+        "papers": 1
+      }
+    ],
+    "papers": 1,
+    "strict": false,
+    "definitions": [
+      {
+        "text": "Hoax is the way that journalists repeat the facts of scientific findings and of election campaigns in their reports",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "def_id": "o00848",
+            "citations": [
+              "[12]"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hoax is the way that political actors omit the facts of political events and of scientific findings in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "def_id": "o00849",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": []
+          }
+        ]
+      },
+      {
+        "text": "slant",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "disinformation campaign",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "media bias",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g1b8640b47938",
+          "term": "media bias"
+        },
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "slant",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g8441e3f7413a",
+          "term": "slant"
+        },
+        "sources": [
+          {
+            "paper_id": "paper01",
+            "mention_id": "m0119",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "concept_id": "g4429f68570da",
+    "term": "tone",
+    "spellings": [
+      {
+        "text": "tone",
+        "papers": 1
+      }
+    ],
+    "papers": 1,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Tone is the way that journalists emphasise the facts of political events and of public issues in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0102",
+            "def_id": "o00729",
+            "citations": [
+              "Entman, 1993"
+            ]
+          }
+        ]
+      }
+    ],
+    "description": [
+      {
+        "text": "fake stories spread faster than true ones",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0102",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "text": "partisan media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0102",
+            "citations": [
+              "McCombs and Shaw, 1972",
+              "[3]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [
+      {
+        "text": "disinformation campaigns",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0102",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "subtypes": [],
+    "supertypes": [
+      {
+        "text": "false news",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper07",
+            "mention_id": "m0102",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "examples": []
+  },
+  {
+    "concept_id": "ga67b95a680c9",
+    "term": "framing",
+    "spellings": [
+      {
+        "text": "framing",
+        "papers": 1
+      }
+    ],
+    "papers": 1,
+    "strict": true,
+    "definitions": [
+      {
+        "text": "Framing is the way that social media platforms omit the facts of election campaigns and of political events in their reports.",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0015",
+            "def_id": "o00109",
+            "citations": []
+          }
+        ]
+      }
+    ],
+    "description": [],
+    "synonyms": [
+      {
+        "text": "Partisan Media",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0015",
+            "citations": [
+              "Allcott and Gentzkow, 2017",
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "related_terms": [],
+    "subtypes": [
+      {
+        "text": "framing",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "ga67b95a680c9",
+          "term": "framing"
+        },
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0015",
+            "citations": [
+              "[99]"
+            ]
+          }
+        ]
+      }
+    ],
+    "supertypes": [
+      {
+        "text": "misinformation",
+        "papers": 1,
+        "links_to": {
+          "concept_id": "g4b0149fcebb5",
+          "term": "misinformation"
+        },
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0015",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "news bias",
+        "papers": 1,
+        "sources": [
+          {
+            "paper_id": "paper08",
+            "mention_id": "m0015",
+            "citations": [
+              "Allcott and Gentzkow, 2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": []
+  }
+]

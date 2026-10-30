@@ -1,0 +1,55 @@
+{
+ "decisions": {
+  "path": "results/step5-post-processing/20261021/decisions/ensemble.csv",
+  "sha256": "84f86c30f4f47b8a45de779519a6997ee5ff082bb20e8323c4a1798f621b934a"
+ },
+ "label_groups": {
+  "path": "/home/bitwise/Documents/Media_Bias_Group/step5-relevance-worktree/results/step5-post-processing/20261021/label-groups",
+  "rule": {
+   "name": "Label Match rule C",
+   "version": "C-20261021",
+   "source_sha256": "a5ba4756086f97388b56b687c2cf861cbcb8492cd35e3483bc0d4bf4bd1f7d52"
+  },
+  "groups_sha256": "a6f471d9a5342bb0b0413d79d5a75cf9e40b368c902d890d3e6708a349ce3076",
+  "labels_sha256": "9517cf73648b0920175e0d52fec722cbcd41f9c3b31f0c36b4bb00b24b08c1c3"
+ },
+ "before": {
+  "terms": 67394,
+  "groups": 38407,
+  "definitions": 110399
+ },
+ "kept": {
+  "terms": 62066,
+  "definitions": 103476,
+  "papers": 6115
+ },
+ "after": {
+  "concepts": 34916,
+  "single_term_concepts": 28210
+ },
+ "merge_flags": {
+  "a bracket or acronym dropped": 403,
+  "joined by the same words in a different order": 277,
+  "joined by spacing (compound written apart or together)": 254,
+  "British spelling": 142,
+  "irregular or -ics plural": 36,
+  "plural with two possible singulars": 11
+ },
+ "split_groups": 766,
+ "majority": {
+  "keeps_group": 345,
+  "drops_group": 95,
+  "tie": 326,
+  "instances_that_would_change": 691
+ },
+ "check_rule_c_on_kept_only": {
+  "groups": 34916,
+  "kept_instances_in_a_different_grouping": 1
+ },
+ "rule": "concept = Label Group (Label Match rule C C-20261021 over all corpus terms, label-groups in 20261021) restricted to kept instances (S5-Q99, S5-Q102)",
+ "provenance": {
+  "commit": "4d600d6e3b979ed493a0f639bb685c37282f9a98",
+  "src_step5_dirty": true,
+  "run_at": "2026-10-21T09:16:07+00:00"
+ }
+}

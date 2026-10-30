@@ -1,0 +1,10 @@
+{"id": "m03", "p": {"core": 0.38717588782310486, "satellite": 0.5573556423187256, "irrelevant": 0.055468495935201645}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m07", "p": {"core": 0.006399192847311497, "satellite": 0.8237208127975464, "irrelevant": 0.1698799878358841}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m02", "p": {"core": 0.021509984508156776, "satellite": 0.05033032223582268, "irrelevant": 0.9281597137451172}, "choice": "irrelevant", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m09", "p": {"core": 0.022338682785630226, "satellite": 0.9639179706573486, "irrelevant": 0.013743337243795395}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m04", "error": "bad answer: ValueError: probabilities {'core': 0.5, 'satellite': 0.3, 'irrelevant': 0.1}", "repeat": 1}
+{"id": "m01", "p": {"core": 0.9281597137451172, "satellite": 0.05033032223582268, "irrelevant": 0.021509984508156776}, "choice": "core", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m06", "p": {"core": 0.01105598732829094, "satellite": 0.9886173605918884, "irrelevant": 0.0003266613348387182}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m08", "p": {"core": 0.18455368280410767, "satellite": 0.7019041180610657, "irrelevant": 0.11354218423366547}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m10", "p": {"core": 0.040177181363105774, "satellite": 0.9446156024932861, "irrelevant": 0.01520717516541481}, "choice": "satellite", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}
+{"id": "m04", "p": {"core": 0.9324848651885986, "satellite": 0.05056485906243324, "irrelevant": 0.016950268298387527}, "choice": "core", "model": "748350981416ebad4edf3cd1eb22354fde788e6f", "repeat": 1}

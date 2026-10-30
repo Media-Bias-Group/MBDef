@@ -1,0 +1,213 @@
+{
+ "about": "A made-up corpus store for tests/test_postprocess_basal.py (synthetic text only).",
+ "papers": [
+  [
+   "s1",
+   "seeds"
+  ],
+  [
+   "s2",
+   "seeds"
+  ],
+  [
+   "c1",
+   "closure"
+  ],
+  [
+   "c2",
+   "closure"
+  ]
+ ],
+ "mentions": [
+  [
+   "m01",
+   "s1",
+   "Selection  bias"
+  ],
+  [
+   "m02",
+   "s1",
+   "framing"
+  ],
+  [
+   "m03",
+   "s2",
+   "Café effect"
+  ],
+  [
+   "m04",
+   "c1",
+   "gatekeeping"
+  ],
+  [
+   "m05",
+   "c2",
+   "outside term"
+  ],
+  [
+   "m06",
+   "s2",
+   "stance detection"
+  ],
+  [
+   "m07",
+   "s2",
+   "tokenization"
+  ],
+  [
+   "m08",
+   "c1",
+   "hostile media effect"
+  ],
+  [
+   "m09",
+   "s1",
+   "deep learning"
+  ],
+  [
+   "m10",
+   "s1",
+   "�propaganda"
+  ]
+ ],
+ "occurrences": [
+  [
+   "o01",
+   "m01",
+   "definitions",
+   "Selection bias is   the choice of\nwhich events to report.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o02",
+   "m01",
+   "definitions",
+   "slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that agree with it slanted coverage favours one side of a story by choosing sources quotes and images that ",
+   [
+    "seeds:P20",
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o03",
+   "m01",
+   "definitions",
+   "Coverage� bias follows from the selection of stories.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o04",
+   "m01",
+   "definitions",
+   "A fourth definition, never shown to the model.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o05",
+   "m01",
+   "definitions",
+   "Only in the P20 extraction.",
+   [
+    "seeds:P20"
+   ]
+  ],
+  [
+   "o06",
+   "m02",
+   "definitions",
+   "Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing makes some aspects of a perceived reality more salient in a text. Framing ",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o07",
+   "m03",
+   "definitions",
+   "The café effect: naïve readers trust the first source they meet.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o08",
+   "m04",
+   "definitions",
+   "Gatekeeping decides which items become news.",
+   [
+    "closure:P28"
+   ]
+  ],
+  [
+   "o09",
+   "m05",
+   "definitions",
+   "A closure paper outside the view.",
+   [
+    "closure:P28"
+   ]
+  ],
+  [
+   "o10",
+   "m06",
+   "definitions",
+   "Stance detection labels a text as for, against or neutral.",
+   [
+    "seeds:P20",
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o11",
+   "m07",
+   "definitions",
+   "Tokenization splits text into units.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o12",
+   "m08",
+   "definitions",
+   "Partisans see neutral coverage as biased against their side.",
+   [
+    "closure:P28",
+    "closure:P28-single-model"
+   ]
+  ],
+  [
+   "o13",
+   "m09",
+   "definitions",
+   "Deep learning trains networks of many layers.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o14",
+   "m10",
+   "definitions",
+   "Propaganda\tspreads a message to sway opinion.",
+   [
+    "seeds:P28"
+   ]
+  ],
+  [
+   "o15",
+   "m09",
+   "description",
+   "Not a definition.",
+   [
+    "seeds:P28"
+   ]
+  ]
+ ]
+}

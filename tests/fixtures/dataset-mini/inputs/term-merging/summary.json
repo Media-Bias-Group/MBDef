@@ -1,0 +1,46 @@
+{
+ "decisions": {
+  "sha256": "387d9ef6061b4b35d0ea30469fd6e68ee1888d35ead411096599c4d0aafab47b"
+ },
+ "label_groups": {
+  "rule": {
+   "name": "Label Match",
+   "version": "C-20261021",
+   "source_sha256": "a5ba4756086f97388b56b687c2cf861cbcb8492cd35e3483bc0d4bf4bd1f7d52"
+  },
+  "groups_sha256": "ebd5e579e5fa89032625e08220ec8cbafce1a40024e1f0a3dd04f7144155cf54",
+  "labels_sha256": "f3dec1081a176388e547b058b653c49969b87119d4808982539530c1d7bcff9d"
+ },
+ "before": {
+  "terms": 97,
+  "groups": 26,
+  "definitions": 188
+ },
+ "kept": {
+  "terms": 69,
+  "definitions": 134,
+  "papers": 32
+ },
+ "after": {
+  "concepts": 25,
+  "single_term_concepts": 4
+ },
+ "merge_flags": {
+  "joined by the same words in a different order": 1,
+  "a bracket or acronym dropped": 1,
+  "British spelling": 1,
+  "joined by spacing (compound written apart or together)": 1
+ },
+ "split_groups": 18,
+ "majority": {
+  "keeps_group": 14,
+  "drops_group": 3,
+  "tie": 1,
+  "instances_that_would_change": 21
+ },
+ "check_rule_c_on_kept_only": {
+  "groups": 25,
+  "kept_instances_in_a_different_grouping": 0
+ },
+ "rule": "concept = a Label Group of the Label Match rule (C-20261021, over all corpus terms), restricted to its kept instances"
+}

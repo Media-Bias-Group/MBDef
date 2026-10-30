@@ -1,0 +1,97 @@
+{"mention_id": "m0000", "paper_id": "paper01", "corpus": "seeds", "term": "fake news", "group_id": "gf8d45d620d38", "n_definitions": 1}
+{"mention_id": "m0001", "paper_id": "paper13", "corpus": "seeds", "term": "fake news", "group_id": "gf8d45d620d38", "n_definitions": 1}
+{"mention_id": "m0002", "paper_id": "paper18", "corpus": "seeds", "term": "fake news", "group_id": "gf8d45d620d38", "n_definitions": 3}
+{"mention_id": "m0003", "paper_id": "paper26", "corpus": "closure", "term": "fake news", "group_id": "gf8d45d620d38", "n_definitions": 1}
+{"mention_id": "m0004", "paper_id": "paper26", "corpus": "closure", "term": "Fake News", "group_id": "gf8d45d620d38", "n_definitions": 3}
+{"mention_id": "m0005", "paper_id": "paper34", "corpus": "closure", "term": "Fake News", "group_id": "gf8d45d620d38", "n_definitions": 1}
+{"mention_id": "m0006", "paper_id": "paper36", "corpus": "closure", "term": "Fake News", "group_id": "gf8d45d620d38", "n_definitions": 2}
+{"mention_id": "m0008", "paper_id": "paper25", "corpus": "closure", "term": "media bias", "group_id": "g1b8640b47938", "n_definitions": 3}
+{"mention_id": "m0009", "paper_id": "paper36", "corpus": "closure", "term": "media bias", "group_id": "g1b8640b47938", "n_definitions": 3}
+{"mention_id": "m0011", "paper_id": "paper29", "corpus": "closure", "term": "bias in the media", "group_id": "g1b8640b47938", "n_definitions": 1}
+{"mention_id": "m0013", "paper_id": "paper05", "corpus": "seeds", "term": "Media Biases", "group_id": "g1b8640b47938", "n_definitions": 1}
+{"mention_id": "m0014", "paper_id": "paper16", "corpus": "seeds", "term": "Media Biases", "group_id": "g1b8640b47938", "n_definitions": 1}
+{"mention_id": "m0015", "paper_id": "paper08", "corpus": "seeds", "term": "framing", "group_id": "ga67b95a680c9", "n_definitions": 1}
+{"mention_id": "m0017", "paper_id": "paper03", "corpus": "seeds", "term": "frames", "group_id": "ge7d679448a72", "n_definitions": 2}
+{"mention_id": "m0018", "paper_id": "paper04", "corpus": "seeds", "term": "frames", "group_id": "ge7d679448a72", "n_definitions": 3}
+{"mention_id": "m0019", "paper_id": "paper20", "corpus": "closure", "term": "frames", "group_id": "ge7d679448a72", "n_definitions": 3}
+{"mention_id": "m0020", "paper_id": "paper30", "corpus": "closure", "term": "frames", "group_id": "ge7d679448a72", "n_definitions": 2}
+{"mention_id": "m0021", "paper_id": "paper20", "corpus": "closure", "term": "click-bait", "group_id": "g3edc682a1ecb", "n_definitions": 3}
+{"mention_id": "m0022", "paper_id": "paper29", "corpus": "closure", "term": "click-bait", "group_id": "g3edc682a1ecb", "n_definitions": 2}
+{"mention_id": "m0023", "paper_id": "paper33", "corpus": "closure", "term": "click-bait", "group_id": "g3edc682a1ecb", "n_definitions": 3}
+{"mention_id": "m0025", "paper_id": "paper09", "corpus": "seeds", "term": "misinformation", "group_id": "g4b0149fcebb5", "n_definitions": 1}
+{"mention_id": "m0026", "paper_id": "paper35", "corpus": "closure", "term": "misinformation", "group_id": "g4b0149fcebb5", "n_definitions": 1}
+{"mention_id": "m0027", "paper_id": "paper10", "corpus": "seeds", "term": "disinformation", "group_id": "g7f2fbf4abd1a", "n_definitions": 1}
+{"mention_id": "m0028", "paper_id": "paper15", "corpus": "seeds", "term": "disinformation", "group_id": "g7f2fbf4abd1a", "n_definitions": 2}
+{"mention_id": "m0029", "paper_id": "paper23", "corpus": "closure", "term": "disinformation", "group_id": "g7f2fbf4abd1a", "n_definitions": 1}
+{"mention_id": "m0030", "paper_id": "paper29", "corpus": "closure", "term": "disinformation", "group_id": "g7f2fbf4abd1a", "n_definitions": 2}
+{"mention_id": "m0031", "paper_id": "paper35", "corpus": "closure", "term": "disinformation", "group_id": "g7f2fbf4abd1a", "n_definitions": 3}
+{"mention_id": "m0034", "paper_id": "paper07", "corpus": "seeds", "term": "agenda setting", "group_id": "ga7a418dbd54b", "n_definitions": 2}
+{"mention_id": "m0035", "paper_id": "paper23", "corpus": "closure", "term": "agenda setting", "group_id": "ga7a418dbd54b", "n_definitions": 3}
+{"mention_id": "m0036", "paper_id": "paper31", "corpus": "closure", "term": "agenda setting", "group_id": "ga7a418dbd54b", "n_definitions": 2}
+{"mention_id": "m0038", "paper_id": "paper36", "corpus": "closure", "term": "agenda-setting", "group_id": "ga7a418dbd54b", "n_definitions": 1}
+{"mention_id": "m0039", "paper_id": "paper38", "corpus": "closure", "term": "agenda-setting", "group_id": "ga7a418dbd54b", "n_definitions": 2}
+{"mention_id": "m0040", "paper_id": "paper28", "corpus": "closure", "term": "gatekeeping", "group_id": "gaf53a0db3d3e", "n_definitions": 2}
+{"mention_id": "m0041", "paper_id": "paper11", "corpus": "seeds", "term": "gate keeping", "group_id": "gaf53a0db3d3e", "n_definitions": 1}
+{"mention_id": "m0042", "paper_id": "paper26", "corpus": "closure", "term": "gate keeping", "group_id": "gaf53a0db3d3e", "n_definitions": 1}
+{"mention_id": "m0043", "paper_id": "paper39", "corpus": "closure", "term": "gate keeping", "group_id": "gaf53a0db3d3e", "n_definitions": 3}
+{"mention_id": "m0044", "paper_id": "paper17", "corpus": "seeds", "term": "polarisation", "group_id": "g9f907a13ae69", "n_definitions": 1}
+{"mention_id": "m0046", "paper_id": "paper32", "corpus": "closure", "term": "polarisation", "group_id": "g9f907a13ae69", "n_definitions": 2}
+{"mention_id": "m0048", "paper_id": "paper11", "corpus": "seeds", "term": "polarization", "group_id": "g9f907a13ae69", "n_definitions": 2}
+{"mention_id": "m0050", "paper_id": "paper20", "corpus": "closure", "term": "polarization", "group_id": "g9f907a13ae69", "n_definitions": 1}
+{"mention_id": "m0051", "paper_id": "paper39", "corpus": "closure", "term": "refugees", "group_id": "g250d8c26ae4a", "n_definitions": 2}
+{"mention_id": "m0052", "paper_id": "paper16", "corpus": "seeds", "term": "refugee", "group_id": "g250d8c26ae4a", "n_definitions": 2}
+{"mention_id": "m0053", "paper_id": "paper31", "corpus": "closure", "term": "refugee", "group_id": "g250d8c26ae4a", "n_definitions": 1}
+{"mention_id": "m0054", "paper_id": "paper37", "corpus": "closure", "term": "refugee", "group_id": "g250d8c26ae4a", "n_definitions": 2}
+{"mention_id": "m0055", "paper_id": "paper07", "corpus": "seeds", "term": "news values", "group_id": "g99fa4b83eaa0", "n_definitions": 2}
+{"mention_id": "m0056", "paper_id": "paper25", "corpus": "closure", "term": "news values", "group_id": "g99fa4b83eaa0", "n_definitions": 2}
+{"mention_id": "m0057", "paper_id": "paper35", "corpus": "closure", "term": "news values", "group_id": "g99fa4b83eaa0", "n_definitions": 3}
+{"mention_id": "m0061", "paper_id": "paper25", "corpus": "closure", "term": "selection bias", "group_id": "gb68cd4c008d2", "n_definitions": 3}
+{"mention_id": "m0062", "paper_id": "paper14", "corpus": "seeds", "term": "bias detection", "group_id": "gdf00962407a0", "n_definitions": 3}
+{"mention_id": "m0064", "paper_id": "paper10", "corpus": "seeds", "term": "detection bias", "group_id": "gdf00962407a0", "n_definitions": 3}
+{"mention_id": "m0065", "paper_id": "paper24", "corpus": "closure", "term": "detection bias", "group_id": "gdf00962407a0", "n_definitions": 3}
+{"mention_id": "m0066", "paper_id": "paper30", "corpus": "closure", "term": "detection bias", "group_id": "gdf00962407a0", "n_definitions": 1}
+{"mention_id": "m0068", "paper_id": "paper08", "corpus": "seeds", "term": "deep learning", "group_id": "g871183362fa6", "n_definitions": 2}
+{"mention_id": "m0070", "paper_id": "paper10", "corpus": "seeds", "term": "Deep Learning", "group_id": "g871183362fa6", "n_definitions": 2}
+{"mention_id": "m0071", "paper_id": "paper24", "corpus": "closure", "term": "Deep Learning", "group_id": "g871183362fa6", "n_definitions": 1}
+{"mention_id": "m0072", "paper_id": "paper26", "corpus": "closure", "term": "Deep Learning", "group_id": "g871183362fa6", "n_definitions": 2}
+{"mention_id": "m0073", "paper_id": "paper34", "corpus": "closure", "term": "Deep Learning", "group_id": "g871183362fa6", "n_definitions": 1}
+{"mention_id": "m0074", "paper_id": "paper35", "corpus": "closure", "term": "Deep Learning", "group_id": "g871183362fa6", "n_definitions": 2}
+{"mention_id": "m0075", "paper_id": "paper11", "corpus": "seeds", "term": "sentiment analysis", "group_id": "g3c624a736736", "n_definitions": 2}
+{"mention_id": "m0076", "paper_id": "paper01", "corpus": "seeds", "term": "Sentiment Analysis (SA)", "group_id": "g3c624a736736", "n_definitions": 1}
+{"mention_id": "m0077", "paper_id": "paper21", "corpus": "closure", "term": "Sentiment Analysis (SA)", "group_id": "g3c624a736736", "n_definitions": 1}
+{"mention_id": "m0078", "paper_id": "paper30", "corpus": "closure", "term": "Sentiment Analysis (SA)", "group_id": "g3c624a736736", "n_definitions": 3}
+{"mention_id": "m0079", "paper_id": "paper35", "corpus": "closure", "term": "Sentiment Analysis (SA)", "group_id": "g3c624a736736", "n_definitions": 2}
+{"mention_id": "m0081", "paper_id": "paper09", "corpus": "seeds", "term": "judgement", "group_id": "g4d48fd163227", "n_definitions": 1}
+{"mention_id": "m0082", "paper_id": "paper34", "corpus": "closure", "term": "judgement", "group_id": "g4d48fd163227", "n_definitions": 2}
+{"mention_id": "m0083", "paper_id": "paper39", "corpus": "closure", "term": "judgement", "group_id": "g4d48fd163227", "n_definitions": 2}
+{"mention_id": "m0084", "paper_id": "paper28", "corpus": "closure", "term": "judgment", "group_id": "g4d48fd163227", "n_definitions": 2}
+{"mention_id": "m0085", "paper_id": "paper07", "corpus": "seeds", "term": "crises", "group_id": "g58076e4127e6", "n_definitions": 2}
+{"mention_id": "m0086", "paper_id": "paper12", "corpus": "seeds", "term": "crises", "group_id": "g58076e4127e6", "n_definitions": 3}
+{"mention_id": "m0087", "paper_id": "paper16", "corpus": "seeds", "term": "crises", "group_id": "g58076e4127e6", "n_definitions": 2}
+{"mention_id": "m0088", "paper_id": "paper33", "corpus": "closure", "term": "crises", "group_id": "g58076e4127e6", "n_definitions": 1}
+{"mention_id": "m0090", "paper_id": "paper00", "corpus": "seeds", "term": "crisis", "group_id": "g58076e4127e6", "n_definitions": 3}
+{"mention_id": "m0091", "paper_id": "paper04", "corpus": "seeds", "term": "crisis", "group_id": "g58076e4127e6", "n_definitions": 1}
+{"mention_id": "m0092", "paper_id": "paper24", "corpus": "closure", "term": "crisis", "group_id": "g58076e4127e6", "n_definitions": 1}
+{"mention_id": "m0093", "paper_id": "paper35", "corpus": "closure", "term": "crisis", "group_id": "g58076e4127e6", "n_definitions": 3}
+{"mention_id": "m0094", "paper_id": "paper03", "corpus": "seeds", "term": "slant", "group_id": "g8441e3f7413a", "n_definitions": 1}
+{"mention_id": "m0095", "paper_id": "paper16", "corpus": "seeds", "term": "slant", "group_id": "g8441e3f7413a", "n_definitions": 2}
+{"mention_id": "m0097", "paper_id": "paper28", "corpus": "closure", "term": "slant", "group_id": "g8441e3f7413a", "n_definitions": 2}
+{"mention_id": "m0098", "paper_id": "paper11", "corpus": "seeds", "term": "coverage bias", "group_id": "g5acd2a8f2727", "n_definitions": 1}
+{"mention_id": "m0100", "paper_id": "paper27", "corpus": "closure", "term": "coverage bias", "group_id": "g5acd2a8f2727", "n_definitions": 2}
+{"mention_id": "m0101", "paper_id": "paper35", "corpus": "closure", "term": "coverage bias", "group_id": "g5acd2a8f2727", "n_definitions": 3}
+{"mention_id": "m0102", "paper_id": "paper07", "corpus": "seeds", "term": "tone", "group_id": "g4429f68570da", "n_definitions": 1}
+{"mention_id": "m0103", "paper_id": "paper13", "corpus": "seeds", "term": "tone", "group_id": "g4429f68570da", "n_definitions": 3}
+{"mention_id": "m0104", "paper_id": "paper28", "corpus": "closure", "term": "tone", "group_id": "g4429f68570da", "n_definitions": 3}
+{"mention_id": "m0106", "paper_id": "paper20", "corpus": "closure", "term": "objectivity", "group_id": "ge93d4e41f1ef", "n_definitions": 1}
+{"mention_id": "m0107", "paper_id": "paper06", "corpus": "seeds", "term": "hostile media effect", "group_id": "g11b80efb2595", "n_definitions": 2}
+{"mention_id": "m0108", "paper_id": "paper15", "corpus": "seeds", "term": "hostile media effect", "group_id": "g11b80efb2595", "n_definitions": 3}
+{"mention_id": "m0109", "paper_id": "paper28", "corpus": "closure", "term": "hostile media effect", "group_id": "g11b80efb2595", "n_definitions": 2}
+{"mention_id": "m0110", "paper_id": "paper38", "corpus": "closure", "term": "hostile media effect", "group_id": "g11b80efb2595", "n_definitions": 2}
+{"mention_id": "m0112", "paper_id": "paper25", "corpus": "closure", "term": "election campaign", "group_id": "g744d749f645a", "n_definitions": 3}
+{"mention_id": "m0113", "paper_id": "paper36", "corpus": "closure", "term": "election campaign", "group_id": "g744d749f645a", "n_definitions": 3}
+{"mention_id": "m0114", "paper_id": "paper01", "corpus": "seeds", "term": "rumor", "group_id": "g814af3172d4c", "n_definitions": 1}
+{"mention_id": "m0115", "paper_id": "paper17", "corpus": "seeds", "term": "rumor", "group_id": "g814af3172d4c", "n_definitions": 1}
+{"mention_id": "m0116", "paper_id": "paper38", "corpus": "closure", "term": "rumor", "group_id": "g814af3172d4c", "n_definitions": 3}
+{"mention_id": "m0119", "paper_id": "paper01", "corpus": "seeds", "term": "hoax", "group_id": "g5f910decd4d6", "n_definitions": 2}
+{"mention_id": "m0120", "paper_id": "paper33", "corpus": "closure", "term": "hoax", "group_id": "g5f910decd4d6", "n_definitions": 3}
+{"mention_id": "m0121", "paper_id": "paper39", "corpus": "closure", "term": "hoax", "group_id": "g5f910decd4d6", "n_definitions": 1}
