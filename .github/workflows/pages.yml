@@ -27,9 +27,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    env:
-      DATA_ROOT: ${{ runner.temp }}/data-root
     steps:
+      - name: Keep the data outside the checkout
+        run: echo "DATA_ROOT=$RUNNER_TEMP/data-root" >> "$GITHUB_ENV"  # job-level env cannot use the runner context
       - uses: actions/checkout@v7.0.1
       - uses: astral-sh/setup-uv@v10.3.2
       - name: Install the package
